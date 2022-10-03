@@ -10,6 +10,7 @@
   "name": "Guide Name",
   "publishStatus": "Live",
   "showIncorrectOnCompletion": true,
+  "socialShareImage": null,
   "steps": [
     {
       "content": "\nIntroduction Comments \n        ",
