@@ -207,18 +207,18 @@ steps:
           - content: Not Bullish
             key : D
       - uuid: a38784cd-f61e-406c-86b7-6a8632b0ad89
-        content: If you buy a call option on 100, and at expiration the market price is 115,
+        content: If you buy a call option on $100, and at expiration the market price is $115,
         answerKeys:
           - A
         type: SingleChoice
         choices:
-          - content: The call will be exercised
+          - content: The call will be executed and trader earns a profit of $15 per share.
             key: A
-          - content: The put will be exercised
+          - content: The put will be exercised and trader earns a profit of $15 per share.
             key: B
-          - content: The call will not be exercised
+          - content: The call will not be executed
             key: C
-          - content: The put will not be exercised
+          - content: The put will not be executed
             key : D
   
   - uuid: 6f0fc5b8-a0f3-4a16-bcf0-26834b939d83
@@ -276,13 +276,13 @@ steps:
           - B
         type: SingleChoice
         choices:
-          - content: The call will be exercised
+          - content: The call will be executed and trader earns a profit of $15 per share.
             key: A
-          - content: The put will be exercised
+          - content: The put will be executed and trader earns a profit of $15 per share.
             key: B
-          - content: The call will not be exercised
+          - content: The call will not be executed.
             key: C
-          - content: The put will not be exercised
+          - content: The put will not be executed.
             key : D
   
   - uuid: a585b6d4-1da8-4f87-8fd7-88233ea1b330
