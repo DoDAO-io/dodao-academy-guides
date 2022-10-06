@@ -1,0 +1,22 @@
+categories:
+  - introduction
+content: This guides explains the basics of Options
+created: '2022-10-06T00:02:21.733Z'
+guideIntegrations:
+  discordRoleIds: []
+guideType: onboarding
+key: intro-to-options-dodao-academy
+name: Intro to Options
+publishStatus: Live
+showIncorrectOnCompletion: true
+steps:
+  - content: |-
+
+      Introduction Comments 
+              
+    name: Introduction to Options
+    stepItems: []
+    uuid: e160af6e-24f8-4380-9692-4b1aa395a6b5
+thumbnail: >-
+  https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
+uuid: 09db9049-b2d7-4453-9d67-db41ef92f3ac
