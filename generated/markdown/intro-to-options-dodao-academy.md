@@ -191,8 +191,19 @@ In the view of a long call or call buying the trader has his/her losses limited 
 
 - [x]  The call will be executed and trader earns a profit of $15 per share.
 - [ ]  The put will be exercised and trader earns a profit of $15 per share.
-- [ ]  The call will not be executed
-- [ ]  The put will not be executed
+- [ ]  The call will not be executed and trader losses the premium.
+- [ ]  The put will not be executed and trader losses the premium.
+
+
+
+
+
+##### If you buy a call option on $115, and at expiration the market price is $100,  
+
+- [ ]  The call will be executed and trader earns a profit of $15 per share.
+- [ ]  The put will be exercised and trader earns a profit of $15 per share.
+- [x]  The call will not be executed and trader losses the premium.
+- [ ]  The put will not be executed and trader losses the premium.
 
     
 
@@ -244,12 +255,23 @@ A long put's potential loss is capped at the premium for the options because the
 
 
 
-##### If you buy a put option on 115, and at expiration the market price is 100,  
+##### If you buy a put option on $115, and at expiration the market price is $100,  
 
 - [ ]  The call will be executed and trader earns a profit of $15 per share.
 - [x]  The put will be executed and trader earns a profit of $15 per share.
-- [ ]  The call will not be executed.
-- [ ]  The put will not be executed.
+- [ ]  The call will not be executed and trader losses the premium..
+- [ ]  The put will not be executed and trader losses the premium..
+
+
+
+
+
+##### If you buy a put option on $100, and at expiration the market price is $115,  
+
+- [ ]  The call will be executed and trader earns a profit of $15 per share.
+- [ ]  The put will be executed and trader earns a profit of $15 per share.
+- [ ]  The call will not be executed and trader losses the premium.
+- [x]  The put will not be executed and trader losses the premium..
 
     
 
