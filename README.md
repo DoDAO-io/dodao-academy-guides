@@ -7,7 +7,7 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
 
 | S.No        | Title       |  Details  |  Link  |
 | ----------- | ----------- |----------- | ----------- |
-| 1      | Guide Name eee | New Guide |  [Link](generated/markdown/guide-name-eee-dodao-academy.md) |
+| 1      | Intro to Options | This guides explains the basics of Options |  [Link](generated/markdown/intro-to-options-dodao-academy.md) |
 
 ---
 ## Footer
