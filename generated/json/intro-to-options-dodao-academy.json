@@ -232,26 +232,52 @@
         },
         {
           "uuid": "a38784cd-f61e-406c-86b7-6a8632b0ad89",
-          "content": "If you buy a call option on 100, and at expiration the market price is 115,",
+          "content": "If you buy a call option on $100, and at expiration the market price is $115,",
           "answerKeys": [
             "A"
           ],
           "type": "SingleChoice",
           "choices": [
             {
-              "content": "The call will be exercised",
+              "content": "The call will be executed and trader earns a profit of $15 per share.",
               "key": "A"
             },
             {
-              "content": "The put will be exercised",
+              "content": "The put will be exercised and trader earns a profit of $15 per share.",
               "key": "B"
             },
             {
-              "content": "The call will not be exercised",
+              "content": "The call will not be executed and trader losses the premium.",
               "key": "C"
             },
             {
-              "content": "The put will not be exercised",
+              "content": "The put will not be executed and trader losses the premium.",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "34dbb4f4-118b-44fe-a9c9-28f45ad48a4a",
+          "content": "If you buy a call option on $115, and at expiration the market price is $100,",
+          "answerKeys": [
+            "C"
+          ],
+          "type": "SingleChoice",
+          "choices": [
+            {
+              "content": "The call will be executed and trader earns a profit of $15 per share.",
+              "key": "A"
+            },
+            {
+              "content": "The put will be exercised and trader earns a profit of $15 per share.",
+              "key": "B"
+            },
+            {
+              "content": "The call will not be executed and trader losses the premium.",
+              "key": "C"
+            },
+            {
+              "content": "The put will not be executed and trader losses the premium.",
               "key": "D"
             }
           ]
@@ -323,26 +349,52 @@
         },
         {
           "uuid": "bc71fde8-8201-4537-ac7e-0a77ce8aa274",
-          "content": "If you buy a put option on 115, and at expiration the market price is 100,",
+          "content": "If you buy a put option on $115, and at expiration the market price is $100,",
           "answerKeys": [
             "B"
           ],
           "type": "SingleChoice",
           "choices": [
             {
-              "content": "The call will be exercised",
+              "content": "The call will be executed and trader earns a profit of $15 per share.",
               "key": "A"
             },
             {
-              "content": "The put will be exercised",
+              "content": "The put will be executed and trader earns a profit of $15 per share.",
               "key": "B"
             },
             {
-              "content": "The call will not be exercised",
+              "content": "The call will not be executed and trader losses the premium..",
               "key": "C"
             },
             {
-              "content": "The put will not be exercised",
+              "content": "The put will not be executed and trader losses the premium..",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "642438b5-f063-4c18-94bf-dd1052c54497",
+          "content": "If you buy a put option on $100, and at expiration the market price is $115,",
+          "answerKeys": [
+            "D"
+          ],
+          "type": "SingleChoice",
+          "choices": [
+            {
+              "content": "The call will be executed and trader earns a profit of $15 per share.",
+              "key": "A"
+            },
+            {
+              "content": "The put will be executed and trader earns a profit of $15 per share.",
+              "key": "B"
+            },
+            {
+              "content": "The call will not be executed and trader losses the premium.",
+              "key": "C"
+            },
+            {
+              "content": "The put will not be executed and trader losses the premium..",
               "key": "D"
             }
           ]
