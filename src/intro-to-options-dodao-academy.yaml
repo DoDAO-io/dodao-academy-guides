@@ -15,7 +15,7 @@ steps:
   - uuid: 6582f081-3523-4249-849c-1b6cd640eca3
     name: Intro to Options and Its Use Cases
     content: | 
-      ##What are options ?
+      ## What are options ?
       A derivative, or contract, is an option that grants the buyer the right , but not the obligation, to purchase or sell the underlying asset by a particular date (expiration date) at a particular price (strike price). Options can be classified in two types which are Call and Put Options.
 
       ##Use Cases
