@@ -12,7 +12,7 @@ showIncorrectOnCompletion: true
 steps:
   - content: >-
 
-      ## Curve Intro {#curve-intro}
+      ## Curve Intro
 
 
       Curve is a popular decentralized automated market maker focused on
@@ -39,7 +39,7 @@ steps:
 
 
 
-      ## Curve Pools {#curve-pools}
+      ## Curve Pools
 
 
       Curve pools are designed to allow the exchange of two or more tokens while
@@ -69,7 +69,7 @@ steps:
 
 
 
-      ## Liquidity Providers {#liquidity-providers}
+      ## Liquidity Providers
 
 
       Liquidity providers are people who deposit tokens in liquidity pools.
@@ -129,7 +129,7 @@ steps:
         uuid: 9c2caf96-a5ef-43bb-9d60-bce194e8c348
     uuid: 38b8af58-725a-44b2-b6a8-64a1f79da95e
   - content: >-
-      ## Liquidity Gauge {#liquidity-gauge}
+      ## Liquidity Gauge
 
 
       Inflation in the CRV protocol is directed to users who provide liquidity
