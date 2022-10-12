@@ -8,6 +8,7 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
 | S.No        | Title       |  Details  |  Link  |
 | ----------- | ----------- |----------- | ----------- |
 | 1      | Intro to Options | This guides explains the basics of Options |  [Link](generated/markdown/intro-to-options-dodao-academy.md) |
+ | 2      | Into to Curve | Talks about veCRV, gauged pools, rewards and bribes |  [Link](generated/markdown/into-to-curve-dodao-academy.md) |
 
 ---
 ## Footer
