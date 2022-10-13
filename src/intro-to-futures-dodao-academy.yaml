@@ -1,7 +1,7 @@
 categories:
   - overview
 content: Explains what is a Future Contract and how is it traded
-created: '2022-10-13T12:20:50.906Z'
+created: '2022-10-13T12:21:08.833Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -33,7 +33,7 @@ steps:
       month. For example, November futures will expire in the month of November.
 
 
-      ## **Types of futures **
+      ## **Types of futures**
 
       The term futures is used to signify a large class of assets that they
       represent. These include :
@@ -352,4 +352,4 @@ steps:
     uuid: 7d98487d-70e6-42f6-90a9-ad1b57b7ddaa
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
-uuid: d9910087-3b1a-4086-8f38-4c0f81af4ddb
+uuid: intro-to-futures-dodao-academy
