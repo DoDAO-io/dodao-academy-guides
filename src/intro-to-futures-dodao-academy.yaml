@@ -1,7 +1,7 @@
 categories:
   - overview
 content: Explains what is a Future Contract and how is it traded
-created: '2022-10-13T12:21:08.833Z'
+created: '2022-10-13T12:25:28.314Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -11,9 +11,7 @@ publishStatus: Live
 showIncorrectOnCompletion: true
 steps:
   - content: >-
-
       ## **Define futures**
-
 
       Futures are financial derivative contracts that bind parties to buy or
       sell an asset at a specified future date and price. Regardless of the
@@ -22,10 +20,9 @@ steps:
 
 
       Physical commodities and financial instruments are examples of underlying
-      assets. Futures contracts are standardised to make trading on a futures
+      assets. Futures contracts are standardized to make trading on a futures
       market easier and specify the quantity of the underlying asset. Futures
-      can be utilised for trade speculation or hedging.
-
+      can be utilized for trade speculation or hedging.
 
 
       Futures or Futures contracts have an expiration date and their price is
@@ -45,31 +42,31 @@ steps:
 
       ## **Important Terms**
 
-      1. **Future Contract:** Futures Contracts are a type of financial
+      1. **Future Contract**: Futures Contracts are a type of financial
       instrument through which a buyer can wager on the future price of a
       commodity or other security.
 
-      2. **Futures price: **Futures price is the price of a futures contract at
+      2. **Futures price**: Futures price is the price of a futures contract at
       which the buyer and seller have agreed upon the sale and delivery of an
       asset at a later time. It is equal to the price of the underlying asset.
 
-      3. **Spot Price: **The current price or the market price of an asset is
+      3. **Spot Price**: The current price or the market price of an asset is
       known as the spot price.
 
-      4. **Long Position: **Traders are said to obtain a long position when they
+      4. **Long Position**: Traders are said to obtain a long position when they
       buy a stock or own particular ones.
 
-      5. **Short Position: **Traders are said to obtain a short position when
+      5. **Short Position**: Traders are said to obtain a short position when
       they sell a stock or do not own them.
 
-      6. **Bid: **The price at which the buyer is ready to buy an asset.
+      6. **Bid**: The price at which the buyer is ready to buy an asset.
 
-      7. **Ask: **The price at which the seller is ready to sell an asset.
+      7. **Ask**: The price at which the seller is ready to sell an asset.
 
-      8. **Points (Future value): **A point in futures trading represents the
+      8. **Points (Future value)**: A point in futures trading represents the
       smallest whole number price increment in the value of a futures contract.
 
-      9. **Tick: **A tick is a smaller fraction of a point in a futures price
+      9. **Tick**: A tick is a smaller fraction of a point in a futures price
       change.
     name: Futures and Important Terms
     stepItems: []
