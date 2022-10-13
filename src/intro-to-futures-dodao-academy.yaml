@@ -1,7 +1,7 @@
 categories:
   - overview
 content: Explains what is a Future Contract and how is it traded
-created: '2022-10-13T12:25:28.314Z'
+created: '2022-10-13T12:27:41.301Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -34,11 +34,19 @@ steps:
 
       The term futures is used to signify a large class of assets that they
       represent. These include :
-              **i)   Commodity Futures** which consist of crude oil, wheat, natural gas etc.
-              **ii)  Stock index futures** with underlying assets such as the S&P 500 Index
-              **iii) Currency futures** which represent British Pound and Euro
-              **iv) Precious Metals** such as gold or silver
-              **v)  U.S. treasury futures** with underlying bond and financial securities
+
+      1. **Commodity Futures** which consist of crude oil, wheat, natural gas
+      etc.
+
+      2. **Stock index futures** with underlying assets such as the S&P 500
+      Index
+
+      3. **Currency futures** which represent British Pound and Euro
+
+      4. **Precious Metals** such as gold or silver
+
+      5. **U.S. treasury futures** with underlying bond and financial securities
+
 
       ## **Important Terms**
 
