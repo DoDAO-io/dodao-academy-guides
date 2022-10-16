@@ -3,7 +3,7 @@
     "overview"
   ],
   "content": "Explains what is a Future Contract and how is it traded",
-  "created": "2022-10-13T12:20:50.906Z",
+  "created": "2022-10-13T12:27:41.301Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -14,7 +14,7 @@
   "showIncorrectOnCompletion": true,
   "steps": [
     {
-      "content": "\n## **Define futures**\n\nFutures are financial derivative contracts that bind parties to buy or sell an asset at a specified future date and price. Regardless of the market price at the date of expiration, the buyer or seller must buy or sell the underlying asset at the agreed-upon price.\n\nPhysical commodities and financial instruments are examples of underlying assets. Futures contracts are standardised to make trading on a futures market easier and specify the quantity of the underlying asset. Futures can be utilised for trade speculation or hedging.\n\n\nFutures or Futures contracts have an expiration date and their price is known beforehand. These contracts are identified by their expiration month. For example, November futures will expire in the month of November.\n\n## **Types of futures **\nThe term futures is used to signify a large class of assets that they represent. These include :\n        **i)   Commodity Futures** which consist of crude oil, wheat, natural gas etc.\n        **ii)  Stock index futures** with underlying assets such as the S&P 500 Index\n        **iii) Currency futures** which represent British Pound and Euro\n        **iv) Precious Metals** such as gold or silver\n        **v)  U.S. treasury futures** with underlying bond and financial securities\n\n## **Important Terms**\n1. **Future Contract:** Futures Contracts are a type of financial instrument through which a buyer can wager on the future price of a commodity or other security.\n2. **Futures price: **Futures price is the price of a futures contract at which the buyer and seller have agreed upon the sale and delivery of an asset at a later time. It is equal to the price of the underlying asset.\n3. **Spot Price: **The current price or the market price of an asset is known as the spot price.\n4. **Long Position: **Traders are said to obtain a long position when they buy a stock or own particular ones.\n5. **Short Position: **Traders are said to obtain a short position when they sell a stock or do not own them.\n6. **Bid: **The price at which the buyer is ready to buy an asset.\n7. **Ask: **The price at which the seller is ready to sell an asset.\n8. **Points (Future value): **A point in futures trading represents the smallest whole number price increment in the value of a futures contract.\n9. **Tick: **A tick is a smaller fraction of a point in a futures price change.",
+      "content": "## **Define futures**\nFutures are financial derivative contracts that bind parties to buy or sell an asset at a specified future date and price. Regardless of the market price at the date of expiration, the buyer or seller must buy or sell the underlying asset at the agreed-upon price.\n\nPhysical commodities and financial instruments are examples of underlying assets. Futures contracts are standardized to make trading on a futures market easier and specify the quantity of the underlying asset. Futures can be utilized for trade speculation or hedging.\n\nFutures or Futures contracts have an expiration date and their price is known beforehand. These contracts are identified by their expiration month. For example, November futures will expire in the month of November.\n\n## **Types of futures**\nThe term futures is used to signify a large class of assets that they represent. These include :\n1. **Commodity Futures** which consist of crude oil, wheat, natural gas etc.\n2. **Stock index futures** with underlying assets such as the S&P 500 Index\n3. **Currency futures** which represent British Pound and Euro\n4. **Precious Metals** such as gold or silver\n5. **U.S. treasury futures** with underlying bond and financial securities\n\n## **Important Terms**\n1. **Future Contract**: Futures Contracts are a type of financial instrument through which a buyer can wager on the future price of a commodity or other security.\n2. **Futures price**: Futures price is the price of a futures contract at which the buyer and seller have agreed upon the sale and delivery of an asset at a later time. It is equal to the price of the underlying asset.\n3. **Spot Price**: The current price or the market price of an asset is known as the spot price.\n4. **Long Position**: Traders are said to obtain a long position when they buy a stock or own particular ones.\n5. **Short Position**: Traders are said to obtain a short position when they sell a stock or do not own them.\n6. **Bid**: The price at which the buyer is ready to buy an asset.\n7. **Ask**: The price at which the seller is ready to sell an asset.\n8. **Points (Future value)**: A point in futures trading represents the smallest whole number price increment in the value of a futures contract.\n9. **Tick**: A tick is a smaller fraction of a point in a futures price change.",
       "name": "Futures and Important Terms",
       "stepItems": [],
       "uuid": "c363c1af-cbf4-46fa-bb11-711db8f2eb9d"
@@ -24,28 +24,62 @@
       "name": "Evaluation",
       "stepItems": [
         {
+          "uuid": "c50383b0-fce2-4193-83be-b8b5a3a6bcc7",
+          "content": "Futures market has shown a rapid growth in recent times because-",
           "answerKeys": [
-            "ecd814a4"
+            "D"
           ],
+          "type": "SingleChoice",
           "choices": [
             {
-              "content": "Option1",
-              "key": "ecd814a4"
+              "content": "They are standardised",
+              "key": "A"
             },
             {
-              "content": "Option2",
-              "key": "9d39ba15"
+              "content": "They have lower default risk",
+              "key": "B"
+            },
+            {
+              "content": "They are liquid",
+              "key": "C"
+            },
+            {
+              "content": "All of the above",
+              "key": "D"
             }
+          ]
+        },
+        {
+          "uuid": "e14bb764-3a7d-4c1b-ad7d-3b7d4e0a3434",
+          "content": "Traders who have bought futures contract and thus agreed to _____ (receive products) the bonds are addresed to have _____ position",
+          "answerKeys": [
+            "D"
           ],
-          "content": "Question",
           "type": "SingleChoice",
-          "uuid": "8d7e2079-bae3-4ba0-af36-4fcde37a7708"
+          "choices": [
+            {
+              "content": "Sell , short",
+              "key": "A"
+            },
+            {
+              "content": "Buy , short",
+              "key": "B"
+            },
+            {
+              "content": "Sell , long",
+              "key": "C"
+            },
+            {
+              "content": "Buy , long",
+              "key": "D"
+            }
+          ]
         }
       ],
       "uuid": "bdb0b227-51d2-46c1-8b45-dfcb492bfaf1"
     },
     {
-      "content": "## Explain the various details under the futures contract\n\nFutures contracts can be bought and sold over exchanges. These contracts are standardized. Each futures contract consists of various parameters known as contract parameters. These are:\n\n\n\nFutures contracts are traded on an exchange. In DeFi, most popular derivatives exchange is FTX. In the above capture we can se ETH-1230 December futures being traded on the platform. The blue line represents (Index Price) the average of ETH prices across major exchanges and the candlesticks below represents the Mark price. In the right panel parameters such as minimum order size, expiration date and volume traded in last 24 hours have also been mentioned.\n\n## Explain who creates these contracts\nFutures contracts are created and regulated by exchanges. These exchanges are responsible for the standardization of various parameters in these contracts. The Commodity Futures Trading Commission oversees futures markets (CFTC). In order to protect the integrity of futures market pricing, including prohibiting fraudulent activity and abusive trading methods, the CFTC is a government organization that was established by Congress in 1974.\n",
+      "content": "## Explain the various details under the futures contract\n\nFutures contracts can be bought and sold over exchanges. These contracts are standardized. Each futures contract consists of various parameters known as contract parameters. These are:\n1. The unit of measurement.\n2. How the trade will be settled – through physical delivery or cash settlement\n3. The number of goods to be delivered or covered under the contract. \n4. The currency unit in which the contract is denominated\n5. The currency in which the futures contract is quoted.\n6. Grade and quality standards, when appropriate.\nFutures contracts are traded on an exchange. In DeFi, most popular derivatives exchange is FTX. In the above capture we can se ETH-1230 December futures being traded on the platform. The blue line represents (Index Price) the average of ETH prices across major exchanges and the candlesticks below represents the Mark price. In the right panel parameters such as minimum order size, expiration date and volume traded in last 24 hours have also been mentioned.\n\n## Explain who creates these contracts\nFutures contracts are created and regulated by exchanges. These exchanges are responsible for the standardization of various parameters in these contracts. The Commodity Futures Trading Commission oversees futures markets (CFTC). In order to protect the integrity of futures market pricing, including prohibiting fraudulent activity and abusive trading methods, the CFTC is a government organization that was established by Congress in 1974.\n",
       "name": " Understanding a Future Contract",
       "stepItems": [],
       "uuid": "151f2e40-acaf-4262-9f51-0f60751dc44f"
@@ -55,22 +89,56 @@
       "name": "Evaluation",
       "stepItems": [
         {
+          "uuid": "117b55ab-1610-4d5d-93e6-575feb972bf9",
+          "content": "The number of futures contracts outstanding?",
           "answerKeys": [
-            "b2810fdb"
+            "B"
           ],
+          "type": "SingleChoice",
           "choices": [
             {
-              "content": "Option1",
-              "key": "b2810fdb"
+              "content": "Liquidity",
+              "key": "A"
             },
             {
-              "content": "Option2",
-              "key": "77dd8dff"
+              "content": "Open interest",
+              "key": "B"
+            },
+            {
+              "content": "Turnover",
+              "key": "C"
+            },
+            {
+              "content": "Volume",
+              "key": "D"
             }
+          ]
+        },
+        {
+          "uuid": "8a107d21-d5c1-4822-8e01-c13f40e2d2be",
+          "content": "What aspect of futures contracts was not intended to promote liquidity?",
+          "answerKeys": [
+            "B"
           ],
-          "content": "Question",
-          "type": "MultipleChoice",
-          "uuid": "e86ee88c-c841-4f23-b206-b5e3adf241b7"
+          "type": "SingleChoice",
+          "choices": [
+            {
+              "content": "Standardized contracts",
+              "key": "A"
+            },
+            {
+              "content": "Marked to market daily",
+              "key": "B"
+            },
+            {
+              "content": "Traded up until maturity",
+              "key": "C"
+            },
+            {
+              "content": "Not tied to one specific type of bond",
+              "key": "D"
+            }
+          ]
         }
       ],
       "uuid": "d27e471e-5ea9-4624-918b-857001b0b145"
@@ -86,22 +154,56 @@
       "name": "Evaluation",
       "stepItems": [
         {
+          "uuid": "6c20cb83-cbb7-4598-8cf3-00ea6b9fe2a1",
+          "content": "What is the reason to hedge a portfolio?",
           "answerKeys": [
-            "1ce83dca"
+            "A"
           ],
+          "type": "SingleChoice",
           "choices": [
             {
-              "content": "Option 1",
-              "key": "1ce83dca"
+              "content": "To limit exposure to risk",
+              "key": "A"
             },
             {
-              "content": "Option 2",
-              "key": "ee853c12"
+              "content": "To increase the chances of gains",
+              "key": "B"
+            },
+            {
+              "content": "Gain from falling market",
+              "key": "C"
+            },
+            {
+              "content": "All of the above",
+              "key": "D"
             }
+          ]
+        },
+        {
+          "uuid": "94bb9bbf-cb17-4155-81a7-04f6782252fb",
+          "content": "Hedging risk in long position can be made by?",
+          "answerKeys": [
+            "B"
           ],
-          "content": "Question",
           "type": "SingleChoice",
-          "uuid": "69be54f4-d69a-46c6-b4a2-e59aeede6079"
+          "choices": [
+            {
+              "content": "Taking another long position",
+              "key": "A"
+            },
+            {
+              "content": "Taking short position",
+              "key": "B"
+            },
+            {
+              "content": "Taking a neutral position",
+              "key": "C"
+            },
+            {
+              "content": "None of the above",
+              "key": "D"
+            }
+          ]
         }
       ],
       "uuid": "f7c028fd-648d-4de5-a230-f885ecdb84a1"
@@ -117,22 +219,52 @@
       "name": "Evaluation",
       "stepItems": [
         {
+          "uuid": "049f6280-0721-494c-a2cb-a55aeed94081",
+          "content": "Removing riskless profit opportunities in futures market is known as-",
           "answerKeys": [
-            "b771ddfb"
+            "C"
           ],
+          "type": "SingleChoice",
           "choices": [
             {
-              "content": "Option1",
-              "key": "b771ddfb"
+              "content": "Hedging",
+              "key": "A"
             },
             {
-              "content": "Option 2",
-              "key": "61eb19a5"
+              "content": "Speculation",
+              "key": "B"
+            },
+            {
+              "content": "Arbitrage",
+              "key": "C"
+            },
+            {
+              "content": "None of the above",
+              "key": "D"
             }
+          ]
+        },
+        {
+          "uuid": "10f5e7f9-26ed-493a-96de-56b3903e2315",
+          "content": "Hedgers are ....... and Speculators are .......?",
+          "answerKeys": [
+            "A"
           ],
-          "content": "Question",
           "type": "SingleChoice",
-          "uuid": "1bd4e31e-5750-4e3d-94af-35ef1ddff336"
+          "choices": [
+            {
+              "content": "Risk Averse, Risk Lovers",
+              "key": "A"
+            },
+            {
+              "content": "Risk Lovers, Risk Averse",
+              "key": "B"
+            },
+            {
+              "content": "Both are Risk Mitigators",
+              "key": "C"
+            }
+          ]
         }
       ],
       "uuid": "11e8da38-a1b8-42c2-a3f1-ec00ef81aa2c"
@@ -148,22 +280,56 @@
       "name": "Evaluation",
       "stepItems": [
         {
+          "uuid": "922e6623-a99a-4f25-bc3d-e2494992c4d5",
+          "content": "If you buy a long contract at $100,000 (lot size - 1000) for 110  and the price on expiration day is 106  -",
           "answerKeys": [
-            "13991d8a"
+            "B"
           ],
+          "type": "SingleChoice",
           "choices": [
             {
-              "content": "Option1",
-              "key": "13991d8a"
+              "content": "Your profit is $4000.",
+              "key": "A"
             },
             {
-              "content": "OPtion2",
-              "key": "86142c6d"
+              "content": "Your loss is $4000",
+              "key": "B"
+            },
+            {
+              "content": "Your profit is $6000.",
+              "key": "C"
+            },
+            {
+              "content": "Your loss is $6000",
+              "key": "D"
             }
+          ]
+        },
+        {
+          "uuid": "c7fa4359-9dcf-44d1-864b-701de00413bd",
+          "content": "If you buy a long contract at $100,000 (lot size - 1000) for 110  and the price on expiration day is 115  -",
+          "answerKeys": [
+            "A"
           ],
-          "content": "Question",
           "type": "SingleChoice",
-          "uuid": "d99a7016-acec-439e-823f-3b03f8d1f494"
+          "choices": [
+            {
+              "content": "Your profit is $5000.",
+              "key": "A"
+            },
+            {
+              "content": "Your loss is $5000",
+              "key": "B"
+            },
+            {
+              "content": "Your profit is $15,000.",
+              "key": "C"
+            },
+            {
+              "content": "Your loss is $15,000",
+              "key": "D"
+            }
+          ]
         }
       ],
       "uuid": "a95da396-f7fe-4e98-9883-1a594bbe4c64"
@@ -179,22 +345,56 @@
       "name": "Evaluation",
       "stepItems": [
         {
+          "uuid": "17d6c5f8-c6c4-45fb-86ec-1178c4f9d332",
+          "content": "If you buy a short contract at $100,000 (lot size - 1000) for 110  and the price on expiration      day is 106  -",
           "answerKeys": [
-            "0ed766de"
+            "A"
           ],
+          "type": "SingleChoice",
           "choices": [
             {
-              "content": "Option 1",
-              "key": "0ed766de"
+              "content": "Your profit is $4000.",
+              "key": "A"
             },
             {
-              "content": "Option 2",
-              "key": "9f3af86f"
+              "content": "Your loss is $4000",
+              "key": "B"
+            },
+            {
+              "content": "Your profit is $6000.",
+              "key": "C"
+            },
+            {
+              "content": "Your loss is $6000",
+              "key": "D"
             }
+          ]
+        },
+        {
+          "uuid": "0fd2b89b-aba0-4d3f-bfbf-5a35899de67c",
+          "content": "If you buy a short contract at $100,000 (lot size - 1000) for 110  and the price on expiration      day is 115  -",
+          "answerKeys": [
+            "C"
           ],
-          "content": "Question 1",
           "type": "SingleChoice",
-          "uuid": "704df892-5efc-4988-942a-e21a1e759cc3"
+          "choices": [
+            {
+              "content": "Your profit is $5000",
+              "key": "A"
+            },
+            {
+              "content": "Your profit is $15,000.",
+              "key": "B"
+            },
+            {
+              "content": "Your loss is $5000",
+              "key": "C"
+            },
+            {
+              "content": "Your loss is $15,000",
+              "key": "D"
+            }
+          ]
         }
       ],
       "uuid": "05780715-c35e-48eb-ae5a-535393f0596d"
@@ -207,5 +407,5 @@
     }
   ],
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi",
-  "uuid": "d9910087-3b1a-4086-8f38-4c0f81af4ddb"
+  "uuid": "intro-to-futures-dodao-academy"
 }
