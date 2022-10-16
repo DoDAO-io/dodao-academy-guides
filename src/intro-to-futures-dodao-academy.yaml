@@ -130,6 +130,7 @@ steps:
       5. The currency in which the futures contract is quoted.
 
       6. Grade and quality standards, when appropriate.
+      
 
       Futures contracts are traded on an exchange. In DeFi, most popular
       derivatives exchange is FTX. In the above capture we can se ETH-1230
@@ -200,11 +201,7 @@ steps:
       Now suppose three months pass and the delivery time arrives and the spot
       price of maize is $900 / ton i.e. the prices fell. In this scenario, the
       farmer benefited because he had already hedged his position through the
-      futures contract at 
-
-      $1000 / ton of maize. In this case, the mill owner is at a loss because he
-      agreed to the fixed price of $1000/ton when the current market price is
-      $900/ton.
+      futures contract at $1000 / ton of maize. In this case, the mill owner is at a loss because he agreed to the fixed price of $1000/ton when the current market price is $900/ton.
 
 
       Whereas if the sport price of maise is $1200 / ton i.e. the prices of

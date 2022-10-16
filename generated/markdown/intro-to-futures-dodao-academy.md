@@ -77,6 +77,7 @@ Futures contracts can be bought and sold over exchanges. These contracts are sta
 4. The currency unit in which the contract is denominated
 5. The currency in which the futures contract is quoted.
 6. Grade and quality standards, when appropriate.
+
 Futures contracts are traded on an exchange. In DeFi, most popular derivatives exchange is FTX. In the above capture we can se ETH-1230 December futures being traded on the platform. The blue line represents (Index Price) the average of ETH prices across major exchanges and the candlesticks below represents the Mark price. In the right panel parameters such as minimum order size, expiration date and volume traded in last 24 hours have also been mentioned.
 
 ## Explain who creates these contracts
@@ -121,8 +122,7 @@ Futures can be used to hedge against price fluctuations in the underlying asset.
 
 Futures, for instance, can be used by maize producers to set a fixed price for selling their harvest. Suppose the farmer agrees to come up with a futures contract with a maize mill at $1000 / ton for three months to deliver maize. 
 
-Now suppose three months pass and the delivery time arrives and the spot price of maize is $900 / ton i.e. the prices fell. In this scenario, the farmer benefited because he had already hedged his position through the futures contract at 
-$1000 / ton of maize. In this case, the mill owner is at a loss because he agreed to the fixed price of $1000/ton when the current market price is $900/ton.
+Now suppose three months pass and the delivery time arrives and the spot price of maize is $900 / ton i.e. the prices fell. In this scenario, the farmer benefited because he had already hedged his position through the futures contract at $1000 / ton of maize. In this case, the mill owner is at a loss because he agreed to the fixed price of $1000/ton when the current market price is $900/ton.
 
 Whereas if the sport price of maise is $1200 / ton i.e. the prices of maise rose. In this case, as the farmer has hedged his position so he will get the fixed price of the futures contract which is $1000 / ton but he would have sold maize to the market he would get $1200/ton. Hence the farmer is at a loss and the mill owner is at profit.
 
