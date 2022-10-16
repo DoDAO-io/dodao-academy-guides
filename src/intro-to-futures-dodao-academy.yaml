@@ -82,16 +82,34 @@ steps:
   - content: ''
     name: Evaluation
     stepItems:
-      - answerKeys:
-          - ecd814a4
-        choices:
-          - content: Option1
-            key: ecd814a4
-          - content: Option2
-            key: 9d39ba15
-        content: Question
+      - uuid: c50383b0-fce2-4193-83be-b8b5a3a6bcc7
+        content: Futures market has shown a rapid growth in recent times because-
+        answerKeys:
+          - D
         type: SingleChoice
-        uuid: 8d7e2079-bae3-4ba0-af36-4fcde37a7708
+        choices:
+          - content: They are standardised
+            key: A
+          - content: They have lower default risk
+            key: B
+          - content: They are liquid
+            key: C
+          - content: All of the above
+            key: D
+      - uuid: e14bb764-3a7d-4c1b-ad7d-3b7d4e0a3434
+        content: Traders who have bought futures contract and thus agreed to _____ (receive products) the bonds are addresed to have _____ position
+        answerKeys:
+          - D
+        type: SingleChoice
+        choices:
+          - content: Sell , short 
+            key: A
+          - content: Buy , short
+            key: B
+          - content: Sell , long
+            key: C
+          - content: Buy , long
+            key: D
     uuid: bdb0b227-51d2-46c1-8b45-dfcb492bfaf1
   - content: >
       ## Explain the various details under the futures contract
@@ -101,8 +119,18 @@ steps:
       are standardized. Each futures contract consists of various parameters
       known as contract parameters. These are:
 
+      1. The unit of measurement.
 
+      2. How the trade will be settled – through physical delivery or cash settlement
 
+      3. The number of goods to be delivered or covered under the contract. 
+
+      4. The currency unit in which the contract is denominated
+
+      5. The currency in which the futures contract is quoted.
+
+      6. Grade and quality standards, when appropriate.
+      
 
       Futures contracts are traded on an exchange. In DeFi, most popular
       derivatives exchange is FTX. In the above capture we can se ETH-1230
@@ -128,16 +156,34 @@ steps:
   - content: ''
     name: Evaluation
     stepItems:
-      - answerKeys:
-          - b2810fdb
+      - uuid: 117b55ab-1610-4d5d-93e6-575feb972bf9
+        content: The number of futures contracts outstanding?
+        answerKeys:
+          - B
+        type: SingleChoice
         choices:
-          - content: Option1
-            key: b2810fdb
-          - content: Option2
-            key: 77dd8dff
-        content: Question
-        type: MultipleChoice
-        uuid: e86ee88c-c841-4f23-b206-b5e3adf241b7
+          - content: Liquidity
+            key: A
+          - content: Open interest
+            key: B
+          - content: Turnover
+            key: C
+          - content: Volume
+            key: D
+      - uuid: 8a107d21-d5c1-4822-8e01-c13f40e2d2be
+        content: What aspect of futures contracts was not intended to promote liquidity?
+        answerKeys:
+          - B
+        type: SingleChoice
+        choices:
+          - content: Standardized contracts
+            key: A
+          - content: Marked to market daily
+            key: B
+          - content: Traded up until maturity
+            key: C
+          - content: Not tied to one specific type of bond
+            key: D
     uuid: d27e471e-5ea9-4624-918b-857001b0b145
   - content: >
       Futures can be used to hedge against price fluctuations in the underlying
@@ -155,11 +201,7 @@ steps:
       Now suppose three months pass and the delivery time arrives and the spot
       price of maize is $900 / ton i.e. the prices fell. In this scenario, the
       farmer benefited because he had already hedged his position through the
-      futures contract at 
-
-      $1000 / ton of maize. In this case, the mill owner is at a loss because he
-      agreed to the fixed price of $1000/ton when the current market price is
-      $900/ton.
+      futures contract at $1000 / ton of maize. In this case, the mill owner is at a loss because he agreed to the fixed price of $1000/ton when the current market price is $900/ton.
 
 
       Whereas if the sport price of maise is $1200 / ton i.e. the prices of
@@ -178,16 +220,34 @@ steps:
   - content: ''
     name: Evaluation
     stepItems:
-      - answerKeys:
-          - 1ce83dca
-        choices:
-          - content: Option 1
-            key: 1ce83dca
-          - content: Option 2
-            key: ee853c12
-        content: Question
+      - uuid: 6c20cb83-cbb7-4598-8cf3-00ea6b9fe2a1
+        content: What is the reason to hedge a portfolio? 
+        answerKeys:
+          - A
         type: SingleChoice
-        uuid: 69be54f4-d69a-46c6-b4a2-e59aeede6079
+        choices:
+          - content: To limit exposure to risk
+            key: A
+          - content: To increase the chances of gains
+            key: B
+          - content: Gain from falling market
+            key: C
+          - content: All of the above
+            key: D
+      - uuid: 94bb9bbf-cb17-4155-81a7-04f6782252fb
+        content: Hedging risk in long position can be made by?
+        answerKeys:
+          - B
+        type: SingleChoice
+        choices:
+          - content: Taking another long position
+            key: A
+          - content: Taking short position
+            key: B
+          - content: Taking a neutral position
+            key: C
+          - content: None of the above
+            key: D
     uuid: f7c028fd-648d-4de5-a230-f885ecdb84a1
   - content: >
       A trader can make predictions (speculate) about the course of a
@@ -231,16 +291,32 @@ steps:
   - content: ''
     name: Evaluation
     stepItems:
-      - answerKeys:
-          - b771ddfb
-        choices:
-          - content: Option1
-            key: b771ddfb
-          - content: Option 2
-            key: 61eb19a5
-        content: Question
+      - uuid: 049f6280-0721-494c-a2cb-a55aeed94081
+        content: Removing riskless profit opportunities in futures market is known as-
+        answerKeys:
+          - C
         type: SingleChoice
-        uuid: 1bd4e31e-5750-4e3d-94af-35ef1ddff336
+        choices:
+          - content: Hedging
+            key: A
+          - content: Speculation
+            key: B
+          - content: Arbitrage
+            key: C
+          - content: None of the above
+            key: D
+      - uuid: 10f5e7f9-26ed-493a-96de-56b3903e2315
+        content: Hedgers are ....... and Speculators are .......?
+        answerKeys:
+          - A
+        type: SingleChoice
+        choices:
+          - content: Risk Averse, Risk Lovers
+            key: A
+          - content: Risk Lovers, Risk Averse
+            key: B
+          - content: Both are Risk Mitigators
+            key: C          
     uuid: 11e8da38-a1b8-42c2-a3f1-ec00ef81aa2c
   - content: >-
       ## Explain buyer and seller in case of a long contract
@@ -280,16 +356,34 @@ steps:
   - content: ''
     name: Evaluation
     stepItems:
-      - answerKeys:
-          - 13991d8a
-        choices:
-          - content: Option1
-            key: 13991d8a
-          - content: OPtion2
-            key: 86142c6d
-        content: Question
+      - uuid: 922e6623-a99a-4f25-bc3d-e2494992c4d5
+        content: If you buy a long contract at $100,000 (lot size - 1000) for 110  and the price on expiration day is 106  -
+        answerKeys:
+          - B
         type: SingleChoice
-        uuid: d99a7016-acec-439e-823f-3b03f8d1f494
+        choices:
+          - content: Your profit is $4000.
+            key: A
+          - content: Your loss is $4000
+            key: B
+          - content: Your profit is $6000.
+            key: C
+          - content: Your loss is $6000
+            key: D
+      - uuid: c7fa4359-9dcf-44d1-864b-701de00413bd
+        content: If you buy a long contract at $100,000 (lot size - 1000) for 110  and the price on expiration day is 115  -
+        answerKeys:
+          - A
+        type: SingleChoice
+        choices:
+          - content: Your profit is $5000.
+            key: A
+          - content: Your loss is $5000
+            key: B
+          - content: Your profit is $15,000.
+            key: C
+          - content: Your loss is $15,000
+            key: D
     uuid: a95da396-f7fe-4e98-9883-1a594bbe4c64
   - content: >-
       ## Explain buyer and seller in case of a short contract
@@ -330,16 +424,34 @@ steps:
   - content: ''
     name: Evaluation
     stepItems:
-      - answerKeys:
-          - 0ed766de
-        choices:
-          - content: Option 1
-            key: 0ed766de
-          - content: Option 2
-            key: 9f3af86f
-        content: Question 1
+      - uuid: 17d6c5f8-c6c4-45fb-86ec-1178c4f9d332
+        content: If you buy a short contract at $100,000 (lot size - 1000) for 110  and the price on expiration      day is 106  -
+        answerKeys:
+          - A
         type: SingleChoice
-        uuid: 704df892-5efc-4988-942a-e21a1e759cc3
+        choices:
+          - content: Your profit is $4000.
+            key: A
+          - content: Your loss is $4000
+            key: B
+          - content: Your profit is $6000.
+            key: C
+          - content: Your loss is $6000
+            key: D
+      - uuid: 0fd2b89b-aba0-4d3f-bfbf-5a35899de67c
+        content: If you buy a short contract at $100,000 (lot size - 1000) for 110  and the price on expiration      day is 115  -
+        answerKeys:
+          - C
+        type: SingleChoice
+        choices:
+          - content: Your profit is $5000
+            key: A
+          - content: Your profit is $15,000.
+            key: B
+          - content: Your loss is $5000
+            key: C
+          - content: Your loss is $15,000
+            key: D
     uuid: 05780715-c35e-48eb-ae5a-535393f0596d
   - content: >-
       * In futures, the buyer is obligated to honour the contract and in
