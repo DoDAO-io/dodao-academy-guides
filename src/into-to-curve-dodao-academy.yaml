@@ -1,7 +1,7 @@
 categories:
   - general
 content: Talks about veCRV, gauged pools, rewards and bribes
-created: '2022-10-29T08:29:29.747Z'
+created: '2022-10-29T08:30:58.533Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -39,33 +39,6 @@ steps:
 
 
 
-      ## Curve Pools
-
-
-      Curve pools are designed to allow the exchange of two or more tokens while
-      maintaining the StableSwap invariant. There are three main types of Curve
-      pools:
-
-
-      **Plain pools**: these pools pair two or more stablecoins against each
-      other.
-
-
-      **Lending pools**: these pools pair two or more wrapped tokens (e.g.,
-      cDAI) against each other, while the underlying is lent out on some other
-      protocol.
-
-
-      **Metapools**: these pools pair a stablecoin against the LP token from
-      another pool.
-
-
-      Depositing coins into a Curve pool allows liquidity providers to receive
-      pool-specific LP tokens, which are ERC20 contracts. These tokens are
-      transferable, so holders of the LP tokens can stake them into a pool's
-      liquidity gauge to receive CRV token rewards. If the LP token is supported
-      by a metapool, it can be deposited into the metapool in exchange for the
-      metapool's LP token.
 
 
           
