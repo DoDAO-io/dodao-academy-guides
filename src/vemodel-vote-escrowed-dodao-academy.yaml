@@ -1,7 +1,7 @@
 categories:
   - governance
 content: Explains the reasoning behind Vote Escrowed Tokenomics
-created: '2022-10-30T11:03:59.774Z'
+created: '2022-10-30T11:04:20.509Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: onboarding
@@ -10,10 +10,13 @@ name: 'VeModel - Vote Escrowed '
 publishStatus: Live
 showIncorrectOnCompletion: true
 steps:
-  - content: |-
+  - content: >-
 
       Introduction Comments 
-              
+
+
+      Take contents from -
+      https://medium.com/balancer-protocol/unlocking-the-vemodel-f363d2d7bd91        
     name: Introduction
     stepItems: []
     uuid: 863bbca5-7c01-484d-b115-7568a6998eb6
@@ -43,4 +46,4 @@ steps:
     uuid: 4413ceb3-1179-4db0-b742-88f0cf9960ea
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
-uuid: 9cfbf37b-cba7-4479-b62a-f0f95084557a
+uuid: vemodel-vote-escrowed-dodao-academy
