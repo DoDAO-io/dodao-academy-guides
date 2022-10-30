@@ -1,12 +1,12 @@
 categories:
   - governance
 content: Explains the reasoning behind Vote Escrowed Tokenomics
-created: '2022-10-30T11:04:20.509Z'
+created: '2022-10-30T11:05:28.723Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: onboarding
 key: vemodel-vote-escrowed-dodao-academy
-name: 'VeModel - Vote Escrowed '
+name: 'Vote Escrowed(ve) Tokenomics '
 publishStatus: Live
 showIncorrectOnCompletion: true
 steps:
