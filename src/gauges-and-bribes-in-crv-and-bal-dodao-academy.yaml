@@ -1,11 +1,11 @@
 categories: []
 content: New Guide
-created: '2022-10-31T08:27:38.739Z'
+created: '2022-10-31T08:27:56.169Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
 key: gauges-and-bribes-in-crv-and-bal-dodao-academy
-name: Gauges and Bribes in CRV and BAL
+name: Gauges System in CRV and BAL
 publishStatus: Live
 showIncorrectOnCompletion: true
 steps:
@@ -46,4 +46,4 @@ steps:
     uuid: 88b58694-3b03-42fa-b061-3e3e7a873c4c
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
-uuid: 7a1c8add-a8d2-4e27-95f7-c17913fc4d7a
+uuid: gauges-and-bribes-in-crv-and-bal-dodao-academy
