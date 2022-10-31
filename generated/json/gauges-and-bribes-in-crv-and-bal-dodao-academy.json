@@ -1,27 +1,20 @@
 {
   "categories": [],
   "content": "New Guide",
-  "created": "2022-10-31T08:27:56.169Z",
+  "created": "2022-10-31T08:29:19.754Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
   "guideType": "course",
   "key": "gauges-and-bribes-in-crv-and-bal-dodao-academy",
-  "name": "Gauges System in CRV and BAL",
+  "name": "Gauges System(CRV and BAL)",
   "publishStatus": "Live",
   "showIncorrectOnCompletion": true,
   "steps": [
     {
-      "content": "\nIntroduction Comments \n        ",
+      "content": "veBAL — How to Increase your Benefits\n - https://medium.com/balancer-protocol/vebal-how-to-increase-your-benefits-b51daf6458a8\n\nveBAL Pt.2 — Bribing and BIP19’s Free Bribes\n - https://medium.com/balancer-protocol/vebal-pt-2-bribing-and-bip19s-free-bribes-b2f8334eba14        ",
       "name": "Introduction",
-      "stepItems": [
-        {
-          "label": "Full Name",
-          "required": false,
-          "type": "PublicShortInput",
-          "uuid": "65bba11d-83fb-44d1-8183-dd6d69ec3259"
-        }
-      ],
+      "stepItems": [],
       "uuid": "0b3b70bc-add9-411d-9f84-66e9970c7a9f"
     },
     {
