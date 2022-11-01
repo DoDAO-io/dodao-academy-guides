@@ -86,7 +86,7 @@ steps:
     name: Evaluation
     stepItems:
       - answerKeys:
-          - c3022c38
+          - 56617246
         choices:
           - content: Through bribes
             key: d057203a
@@ -96,7 +96,7 @@ steps:
             key: c3022c38
           - content: 'By creating tripool '
             key: 9f74db07
-        content: How does curve finance overcome the problem of slippage
+        content: How does curve finance overcome the problem of slippage that occurs due to volatality, while order being executed ?
         type: SingleChoice
         uuid: 72c81038-e7bc-414f-97c9-bc586b20dfb7
       - answerKeys:
@@ -109,7 +109,7 @@ steps:
             key: 2089a196
           - content: Through buy and sell pressure
             key: 273e81a1
-          - content: By creating pools
+          - content: Through gauge weight of that particular pool of token. 
             key: f3e5a954
         content: How is the price of token in liquidity pool decided?
         type: MultipleChoice
@@ -145,13 +145,13 @@ steps:
           - 52c4c10a
           - 31cbd68f
         choices:
-          - content: To earn rewards through bribing
+          - content: To earn new tokens for veCRV wotes in bribing
             key: ad0cd11f
           - content: To get voting power in gauge weight
             key: c38ae3e6
           - content: Participate in Curve DAO governance
             key: 52c4c10a
-          - content: Gain more rewards by investing veCRV in Convex Finance
+          - content: To earn new tokens for veCRV wotes in bribing
             key: 31cbd68f
         content: 'Advantages of owning veCRV:'
         type: MultipleChoice
@@ -159,17 +159,17 @@ steps:
       - answerKeys:
           - '016e3941'
           - 4eb52fb4
-          - 057f3dd6
+  
         choices:
-          - content: You are given veCRV for locking CRV token
+          - content: They get more governance power over other
             key: 057f3dd6
-          - content: You can withdraw staked CRV any time
+          - content: They get o.1 USDC for every dollar locked
             key: 4d7c14bc
           - content: 'Earn a boost of up to 2.5 times '
             key: '016e3941'
-          - content: Voting power to participate in the DAO voting
+          - content: They earn a cut of trading fees
             key: 4eb52fb4
-        content: What rewards does curve finance offers?
+        content:  What rewards does curve finance offers to liquidity provider? 
         type: MultipleChoice
         uuid: bd40ea8c-4f77-4a15-98b5-0b17f98aa4f6
     uuid: 90b8b356-55a2-4767-96fe-743cc86995a5
@@ -250,23 +250,23 @@ steps:
             key: c2ebbc60
           - content: Gauge weight
             key: 3862dce1
-          - content: VeCRV votes
+          - content: veCRV votes
             key: ef3ef46e
-        content: On what basis are newly minted veCRV distributed to various gauges
+        content: On what basis are newly minted CRV distributed to various gauges
         type: MultipleChoice
         uuid: 02502c1d-f77b-43c3-bfd8-5b89d0d03ef9
       - answerKeys:
           - a2e59bb3
         choices:
-          - content: They get additional veCRV
+          - content:   You get additional veCRV
             key: 5a79c680
-          - content: They are given different token
+          - content:   You get additional veCRV
             key: a2e59bb3
-          - content: They are get more boost in their rewards
+          - content: You get more boost in your rewards
             key: 47b3410d
-          - content: Rewarded with CRV token
+          - content:You get more boost in your rewards
             key: 3c0b0d84
-        content: what do people participating in Bribes get ?
+        content: Benifits of participating in bribes ? 
         type: SingleChoice
         uuid: ae8e1fcf-54c1-4a78-a627-9d25dd6a099d
     uuid: c3a84331-a4c9-4d86-a8ba-a472cae19be5
@@ -314,15 +314,15 @@ steps:
           - cc268588
           - 075edcf0
         choices:
-          - content: Non user friendly interface
+          - content: Complicated steps involved,which makes staking difficult for new user
             key: 59fc15ea
           - content: Gauge votes are influenced by bribes
             key: cc268588
           - content: Uncontrollable slippage
             key: ec62345e
-          - content: veCRV tokens cannot be moved to different wallets
+          - content: veCRV tokens dont remain liquid once locked
             key: 075edcf0
-        content: 'Loopholes in curve finance:'
+        content: 'Pain points in curve finance:'
         type: MultipleChoice
         uuid: f4564d07-9c25-4104-b205-911e082e7612
       - answerKeys:
@@ -331,13 +331,13 @@ steps:
           - 321fbe71
           - 9b2e12b4
         choices:
-          - content: Extra benefits for st aking LP tokens
+          - content: Extra benefits for staking  LP tokens
             key: 4338d473
-          - content: User friendly interface
+          - content: No complicated steps involved, that makes staking easier
             key: 93a09a97
           - content: Automatically get boosted rewards
             key: 321fbe71
-          - content: ' Keep your locked CRV tokens unlocked through the cvxCRV tokens'
+          - content: 'Keep your locked CRV tokens unlocked through the cvxCRV tokens'
             key: 9b2e12b4
         content: Advantage of investing in convex finance over curve finance
         type: MultipleChoice
