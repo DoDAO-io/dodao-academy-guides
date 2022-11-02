@@ -140,9 +140,6 @@ steps:
     name: Evaluation
     stepItems:
       - answerKeys:
-          - ad0cd11f
-          - c38ae3e6
-          - 52c4c10a
           - 31cbd68f
         choices:
           - content: To earn new tokens for veCRV wotes in bribing
@@ -151,15 +148,15 @@ steps:
             key: c38ae3e6
           - content: Participate in Curve DAO governance
             key: 52c4c10a
-          - content: To earn new tokens for veCRV wotes in bribing
+          - content:All of the above
             key: 31cbd68f
         content: 'Advantages of owning veCRV:'
-        type: MultipleChoice
+        type: SingleChoice
         uuid: 6f7478f3-c3d7-43fc-98f6-61a661c87f31
       - answerKeys:
           - '016e3941'
           - 4eb52fb4
-  
+          - 057f3dd6
         choices:
           - content: They get more governance power over other
             key: 057f3dd6
@@ -258,13 +255,13 @@ steps:
       - answerKeys:
           - a2e59bb3
         choices:
-          - content:   You get additional veCRV
+          - content: You get additional veCRV
             key: 5a79c680
-          - content:   You get additional veCRV
+          - content:   You are rewarded with different tokens
             key: a2e59bb3
           - content: You get more boost in your rewards
             key: 47b3410d
-          - content:You get more boost in your rewards
+          - content: You are rewarded with additional CRV tokens
             key: 3c0b0d84
         content: Benifits of participating in bribes ? 
         type: SingleChoice
