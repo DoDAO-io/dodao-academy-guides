@@ -1,7 +1,7 @@
 categories:
   - governance
 content: Explains the reasoning behind Vote Escrowed Tokenomics
-created: '2022-10-31T08:26:18.121Z'
+created: '2022-11-02T10:58:41.040Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: onboarding
@@ -10,7 +10,92 @@ name: 'VeModel - Vote Escrowed '
 publishStatus: Live
 showIncorrectOnCompletion: true
 steps:
-  - content: |-
+  - content: >-
+      Vote Escrow Model
+
+      Vote Escrow is a system that allows users to lock up their tokens for a
+      set period of time. The main goal of this system is to align users'
+      incentives and focus on long-term Protocol performance.
+
+
+      In essence, Vote Escrow Tokens, or veTokens, give token holders the
+      ability to choose a lock-up period for their tokens. The belief is that
+      users who timelock tokens for the longest period of time believe in the
+      Protocol the most and should therefore have the greatest influence on the
+      direction of the Protocol.
+
+
+      The longer you elect to lock up your tokens, the more weight your tokens
+      may get in:
+
+      1. Governance voting
+
+      2. Earning staking rewards
+
+      3. Voting on boosts to certain Pools
+
+
+      This system is quickly becoming popular as a replacement for the current
+      liquidity mining system in DeFi. Time-locked tokenomics could be the
+      answer to the current liquidity mining system and a positive step for
+      DeFi.
+
+              
+    name: Introduction
+    stepItems: []
+    uuid: 863bbca5-7c01-484d-b115-7568a6998eb6
+  - content: >-
+      The Curve team decided to introduce the veCRV model to provide an
+      incentive for users to hold CRV tokens long-term. With this model, when
+      you provide liquidity to a Pool on Curve, you earn a share of all the fees
+      on that Pool and CRV tokens as a bonus incentive.
+
+
+      This means that users are more likely to hold onto their CRV tokens,
+      rather than selling them off, which in turn drives up the token price.
+      Many believe that this is the reason why Curve’s token price continues to
+      grow.
+
+
+      veCRV explained in simple terms:
+
+      1. veCRV stands for Vote Escrowed CRV.
+
+      2. The only way to obtain veCRV is by locking CRV tokens.
+
+      3. Users can lock CRV tokens for one to four years to receive a certain
+      amount of veCRV in return.
+
+      4. The longer CRV is locked, the greater voting power the holder has
+
+
+      There are at least three relevant reasons users lock CRV for veCRV:
+      earning a passive income on transactions conducted through Curve Pools,
+      the ability to boost rewards in different CRV Pools, and voting rights.
+
+
+      Vote weights and shares of rewards are proportional to Curve’s timelock.
+      Users that lock veCRV for more time will accrue greater rewards. For a
+      project that launched a token on Curve, liquidity voting rights present a
+      massive opportunity. By locking your CRV for veCRV, you're not only
+      earning rewards passively, but you're also gaining voting power that could
+      be used to make decisions about the future of the project.
+
+
+      A Protocol can deposit stablecoins into a Curve Pool to make it liquid or
+      acquire enough veCRV to vote for that Pool to get more CRV rewards. In
+      doing so, they are competing with other Protocols that issue stablecoins
+      to get voting power within Curve's ecosystem - giving rise to the "Curve
+      Wars."
+    name: Curve Finance
+    stepItems: []
+    uuid: f2ac9753-76b7-48e9-8056-ff2fb6fcc8dd
+  - content: ''
+    name: Curve Wars
+    stepItems: []
+    uuid: 9f575374-d771-4888-b9f9-3f520b1f05b3
+  - content: |+
+
 
       URLs
 
@@ -25,10 +110,9 @@ steps:
        - https://medium.com/balancer-protocol/vebal-how-to-increase-your-benefits-b51daf6458a8
 
 
-              
-    name: Introduction
+    name: References
     stepItems: []
-    uuid: 863bbca5-7c01-484d-b115-7568a6998eb6
+    uuid: 0d35b3e3-a4ea-453b-8d09-99e48dd703f1
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
 uuid: vemodel-vote-escrowed-dodao-academy
