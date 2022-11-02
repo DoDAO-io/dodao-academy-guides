@@ -3,7 +3,7 @@
     "governance"
   ],
   "content": "What is Vote Escrowed Tokenomics and its benefits",
-  "created": "2022-11-02T14:22:06.079Z",
+  "created": "2022-11-02T14:38:16.441Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -20,22 +20,39 @@
       "uuid": "863bbca5-7c01-484d-b115-7568a6998eb6"
     },
     {
-      "content": "The Curve team decided to introduce the veCRV model to provide an incentive for users to hold CRV tokens long-term. With this model, when you provide liquidity to a Pool on Curve, you earn a share of all the fees on that Pool and CRV tokens as a bonus incentive.\n\nThis means that users are more likely to hold onto their CRV tokens, rather than selling them off, which in turn drives up the token price. Many believe that this is the reason why Curve’s token price continues to grow.\n\nveCRV explained in simple terms:\n1. veCRV stands for Vote Escrowed CRV.\n2. The only way to obtain veCRV is by locking CRV tokens.\n3. Users can lock CRV tokens for one to four years to receive a certain amount of veCRV in return.\n4. The longer CRV is locked, the greater voting power the holder has\n\nThere are at least three relevant reasons users lock CRV for veCRV: earning a passive income on transactions conducted through Curve Pools, the ability to boost rewards in different CRV Pools, and voting rights.\n\nVote weights and shares of rewards are proportional to Curve’s timelock. Users that lock veCRV for more time will accrue greater rewards. For a project that launched a token on Curve, liquidity voting rights present a massive opportunity. By locking your CRV for veCRV, you're not only earning rewards passively, but you're also gaining voting power that could be used to make decisions about the future of the project.\n\nA Protocol can deposit stablecoins into a Curve Pool to make it liquid or acquire enough veCRV to vote for that Pool to get more CRV rewards. In doing so, they are competing with other Protocols that issue stablecoins to get voting power within Curve's ecosystem - giving rise to the \"Curve Wars.\"",
+      "content": "The Curve team decided to introduce the veCRV model to provide an incentive for users to hold CRV tokens long-term. With this model, when you provide liquidity to a Pool on Curve, you earn a share of all the fees on that Pool and CRV tokens as a bonus incentive.\n\nIf you lock up your CRV tokens for one to four years within the Curve UI, you'll receive a certain amount of veCRV in return. The best reward rate comes from locking up your CRV for four years. This passive income accrues to you from all the pools on Curve, and you can claim it anytime.\n\nThe passive income is just one bonus though. As a veCRV holder, you also get to “boost” your rewards in the different CRV pools.\n\nThis means that users are more likely to hold onto their CRV tokens, rather than selling them off, which in turn drives up the token price. Many believe that this is the reason why Curve’s token price continues to grow.\n\nveCRV explained in simple terms:\n1. veCRV stands for Vote Escrowed CRV.\n2. The only way to obtain veCRV is by locking CRV tokens.\n3. Users can lock CRV tokens for one to four years to receive a certain amount of veCRV in return.\n4. The longer CRV is locked, the greater voting power the holder has\n\nThere are at least three relevant reasons users lock CRV for veCRV: earning a passive income on transactions conducted through Curve Pools, the ability to boost rewards in different CRV Pools, and voting rights.\n\nVote weights and shares of rewards are proportional to Curve’s timelock. Users that lock veCRV for more time will accrue greater rewards. For a project that launched a token on Curve, liquidity voting rights present a massive opportunity. By locking your CRV for veCRV, you're not only earning rewards passively, but you're also gaining voting power that could be used to make decisions about the future of the project.\n\nThe \"vote\" part of CRV is important because it helps to determine which pools will receive more CRV LP tokens. The more votes a pool gets, the more CRV LP stakers will receive, which means that more people will be likely to stake their funds in that pool.\n\nAs an individual, you may not have a lot of power when it comes to voting, since you'll probably just vote for the pools that you have your own funds invested in. But as a protocol with a token on Curve, this voting power is massive.\n\nIf I launch a new stablecoin, I want people to be able to trade large amounts of it on Curve. One option is to deposit millions of dollars of stablecoins in the pool to make it more liquid. But if I can acquire enough veCRV, I can just vote for that pool to get more CRV rewards. This will incentivize other people to put their own millions of dollars of stablecoins into that pool.\n\nSo, a Protocol can deposit stablecoins into a Curve Pool to make it liquid or acquire enough veCRV to vote for that Pool to get more CRV rewards. In doing so, they are competing with other Protocols that issue stablecoins to get voting power within Curve's ecosystem - giving rise to the \"Curve Wars.\"",
       "name": "Curve Finance",
       "stepItems": [],
       "uuid": "f2ac9753-76b7-48e9-8056-ff2fb6fcc8dd"
     },
     {
-      "content": "The Curve war is a race between different protocols that are all trying to make sure that their preferred pools offer the highest $CRV rewards (‘bribes’). This increased competition is leading to increased buying pressure for $CRV.\n\n",
+      "content": "The Curve war is a race between different protocols that are all trying to make sure that their preferred pools offer the highest $CRV rewards (‘bribes’). This increased competition is leading to increased buying pressure for $CRV.\n\nLeaders in the Curve Wars\n* Convex Finance\n* Yearn Finance\n* Stake DAO\n* Abracadabra\n\nConvex Finance is the leading player in the veCRV market, holding the maximum of the total supply. Initially, Convex offered an APY of 48% on staked CRV, which is nearly ten times greater than APYs offered by various Pools across DeFi.\n\nFor the average investor, Curve’s tokenomics presents a Catch-22. The more veCRV one has, the greater rewards earned from the staking Pools they deposit tokens into. However, the more one deposits into those Pools, the more veCRV is needed to get the maximum 2.5x earnings boost.\n\nConvex is a solution that aggregates everyone's veCRV and deposits to get the maximum yield rate without requiring any one user to lock funds in the form of veCRV.\n\nIn addition, Convex has launched a liquid version of locked Curve tokens, called cvxCRV. This allows users to trade their cvxCRV on exchanges without having to lock their tokens.\n",
       "name": "Curve Wars",
       "stepItems": [],
       "uuid": "9f575374-d771-4888-b9f9-3f520b1f05b3"
     },
     {
-      "content": "\n\n### URLs\n\n[Unlocking the veModel](https://medium.com/balancer-protocol/unlocking-the-vemodel-f363d2d7bd91)\n\n[veBAL Is Live!](https://medium.com/balancer-protocol/vebal-is-live-aeda1ae13e20)\n\n\n[veBAL — How to Increase your Benefits](https://medium.com/balancer-protocol/vebal-how-to-increase-your-benefits-b51daf6458a8)\n\n[Curve Wars: The Future of DeFi Dependent on a Windows 98 Application] (https://medium.com/momentum6/the-great-curve-war-is-heating-up-dont-miss-the-alpha-9b70d99cf694)\n\n[Field Guide to the Curve Wars: DeFi’s Fight for Liquidity](https://every.to/almanack/curve-wars)\n",
+      "content": "\n\n### URLs\n\n[Unlocking the veModel](https://medium.com/balancer-protocol/unlocking-the-vemodel-f363d2d7bd91)\n\n[veBAL Is Live!](https://medium.com/balancer-protocol/vebal-is-live-aeda1ae13e20)\n\n[veBAL — How to Increase your Benefits](https://medium.com/balancer-protocol/vebal-how-to-increase-your-benefits-b51daf6458a8)\n\n[Curve Wars: The Future of DeFi Dependent on a Windows 98 Application](https://medium.com/momentum6/the-great-curve-war-is-heating-up-dont-miss-the-alpha-9b70d99cf694)\n\n[Field Guide to the Curve Wars: DeFi’s Fight for Liquidity](https://every.to/almanack/curve-wars)\n",
       "name": "References",
       "stepItems": [],
       "uuid": "0d35b3e3-a4ea-453b-8d09-99e48dd703f1"
+    },
+    {
+      "content": "",
+      "name": "Your Info",
+      "stepItems": [
+        {
+          "label": "Name",
+          "required": true,
+          "type": "PublicShortInput",
+          "uuid": "0e640138-2a89-482a-b978-cf92ebb1dcea"
+        },
+        {
+          "type": "UserDiscordConnect",
+          "uuid": "d5da8729-eef1-49e9-aab9-ebfea4d0996b"
+        }
+      ],
+      "uuid": "f80e348f-de84-4527-a096-9898af701a61"
     }
   ],
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi",

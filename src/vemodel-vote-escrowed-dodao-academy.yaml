@@ -1,7 +1,7 @@
 categories:
   - governance
 content: What is Vote Escrowed Tokenomics and its benefits
-created: '2022-11-02T14:22:06.079Z'
+created: '2022-11-02T14:38:16.441Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: onboarding
@@ -51,6 +51,16 @@ steps:
       on that Pool and CRV tokens as a bonus incentive.
 
 
+      If you lock up your CRV tokens for one to four years within the Curve UI,
+      you'll receive a certain amount of veCRV in return. The best reward rate
+      comes from locking up your CRV for four years. This passive income accrues
+      to you from all the pools on Curve, and you can claim it anytime.
+
+
+      The passive income is just one bonus though. As a veCRV holder, you also
+      get to “boost” your rewards in the different CRV pools.
+
+
       This means that users are more likely to hold onto their CRV tokens,
       rather than selling them off, which in turn drives up the token price.
       Many believe that this is the reason why Curve’s token price continues to
@@ -82,20 +92,72 @@ steps:
       be used to make decisions about the future of the project.
 
 
-      A Protocol can deposit stablecoins into a Curve Pool to make it liquid or
-      acquire enough veCRV to vote for that Pool to get more CRV rewards. In
+      The "vote" part of CRV is important because it helps to determine which
+      pools will receive more CRV LP tokens. The more votes a pool gets, the
+      more CRV LP stakers will receive, which means that more people will be
+      likely to stake their funds in that pool.
+
+
+      As an individual, you may not have a lot of power when it comes to voting,
+      since you'll probably just vote for the pools that you have your own funds
+      invested in. But as a protocol with a token on Curve, this voting power is
+      massive.
+
+
+      If I launch a new stablecoin, I want people to be able to trade large
+      amounts of it on Curve. One option is to deposit millions of dollars of
+      stablecoins in the pool to make it more liquid. But if I can acquire
+      enough veCRV, I can just vote for that pool to get more CRV rewards. This
+      will incentivize other people to put their own millions of dollars of
+      stablecoins into that pool.
+
+
+      So, a Protocol can deposit stablecoins into a Curve Pool to make it liquid
+      or acquire enough veCRV to vote for that Pool to get more CRV rewards. In
       doing so, they are competing with other Protocols that issue stablecoins
       to get voting power within Curve's ecosystem - giving rise to the "Curve
       Wars."
     name: Curve Finance
     stepItems: []
     uuid: f2ac9753-76b7-48e9-8056-ff2fb6fcc8dd
-  - content: >+
+  - content: >
       The Curve war is a race between different protocols that are all trying to
       make sure that their preferred pools offer the highest $CRV rewards
       (‘bribes’). This increased competition is leading to increased buying
       pressure for $CRV.
 
+
+      Leaders in the Curve Wars
+
+      * Convex Finance
+
+      * Yearn Finance
+
+      * Stake DAO
+
+      * Abracadabra
+
+
+      Convex Finance is the leading player in the veCRV market, holding the
+      maximum of the total supply. Initially, Convex offered an APY of 48% on
+      staked CRV, which is nearly ten times greater than APYs offered by various
+      Pools across DeFi.
+
+
+      For the average investor, Curve’s tokenomics presents a Catch-22. The more
+      veCRV one has, the greater rewards earned from the staking Pools they
+      deposit tokens into. However, the more one deposits into those Pools, the
+      more veCRV is needed to get the maximum 2.5x earnings boost.
+
+
+      Convex is a solution that aggregates everyone's veCRV and deposits to get
+      the maximum yield rate without requiring any one user to lock funds in the
+      form of veCRV.
+
+
+      In addition, Convex has launched a liquid version of locked Curve tokens,
+      called cvxCRV. This allows users to trade their cvxCRV on exchanges
+      without having to lock their tokens.
     name: Curve Wars
     stepItems: []
     uuid: 9f575374-d771-4888-b9f9-3f520b1f05b3
@@ -113,13 +175,12 @@ steps:
       Live!](https://medium.com/balancer-protocol/vebal-is-live-aeda1ae13e20)
 
 
-
       [veBAL — How to Increase your
       Benefits](https://medium.com/balancer-protocol/vebal-how-to-increase-your-benefits-b51daf6458a8)
 
 
-      [Curve Wars: The Future of DeFi Dependent on a Windows 98 Application]
-      (https://medium.com/momentum6/the-great-curve-war-is-heating-up-dont-miss-the-alpha-9b70d99cf694)
+      [Curve Wars: The Future of DeFi Dependent on a Windows 98
+      Application](https://medium.com/momentum6/the-great-curve-war-is-heating-up-dont-miss-the-alpha-9b70d99cf694)
 
 
       [Field Guide to the Curve Wars: DeFi’s Fight for
@@ -127,6 +188,16 @@ steps:
     name: References
     stepItems: []
     uuid: 0d35b3e3-a4ea-453b-8d09-99e48dd703f1
+  - content: ''
+    name: Your Info
+    stepItems:
+      - label: Name
+        required: true
+        type: PublicShortInput
+        uuid: 0e640138-2a89-482a-b978-cf92ebb1dcea
+      - type: UserDiscordConnect
+        uuid: d5da8729-eef1-49e9-aab9-ebfea4d0996b
+    uuid: f80e348f-de84-4527-a096-9898af701a61
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
 uuid: vemodel-vote-escrowed-dodao-academy
