@@ -142,7 +142,7 @@ steps:
       - answerKeys:
           - 31cbd68f
         choices:
-          - content: To earn new tokens for veCRV wotes in bribing
+          - content: To earn new tokens for veCRV votes in bribing
             key: ad0cd11f
           - content: To get voting power in gauge weight
             key: c38ae3e6
@@ -160,7 +160,7 @@ steps:
         choices:
           - content: They get more governance power over other
             key: 057f3dd6
-          - content: They get o.1 USDC for every dollar locked
+          - content: They get 0.1 USDC for every dollar locked
             key: 4d7c14bc
           - content: 'Earn a boost of up to 2.5 times '
             key: '016e3941'
@@ -317,7 +317,7 @@ steps:
             key: cc268588
           - content: Uncontrollable slippage
             key: ec62345e
-          - content: veCRV tokens dont remain liquid once locked
+          - content: veCRV tokens don't remain liquid as they are locked for a time period
             key: 075edcf0
         content: 'Pain points in curve finance:'
         type: MultipleChoice
