@@ -3,13 +3,13 @@
     "governance"
   ],
   "content": "Explains the reasoning behind Vote Escrowed Tokenomics",
-  "created": "2022-11-02T10:58:41.040Z",
+  "created": "2022-11-02T11:11:41.369Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
   "guideType": "onboarding",
   "key": "vemodel-vote-escrowed-dodao-academy",
-  "name": "VeModel - Vote Escrowed ",
+  "name": "Vote Escrowed Model (Curve Fi)",
   "publishStatus": "Live",
   "showIncorrectOnCompletion": true,
   "steps": [
