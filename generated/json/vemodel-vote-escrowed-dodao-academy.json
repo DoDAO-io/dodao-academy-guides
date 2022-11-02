@@ -3,7 +3,7 @@
     "governance"
   ],
   "content": "What is Vote Escrowed Tokenomics and its benefits",
-  "created": "2022-11-02T11:12:39.983Z",
+  "created": "2022-11-02T14:22:06.079Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -26,13 +26,13 @@
       "uuid": "f2ac9753-76b7-48e9-8056-ff2fb6fcc8dd"
     },
     {
-      "content": "",
+      "content": "The Curve war is a race between different protocols that are all trying to make sure that their preferred pools offer the highest $CRV rewards (‘bribes’). This increased competition is leading to increased buying pressure for $CRV.\n\n",
       "name": "Curve Wars",
       "stepItems": [],
       "uuid": "9f575374-d771-4888-b9f9-3f520b1f05b3"
     },
     {
-      "content": "\n\nURLs\n\nUnlocking the veModel\n - https://medium.com/balancer-protocol/unlocking-the-vemodel-f363d2d7bd91\n\nveBAL Is Live!\n - https://medium.com/balancer-protocol/vebal-is-live-aeda1ae13e20\n\n\nveBAL — How to Increase your Benefits\n - https://medium.com/balancer-protocol/vebal-how-to-increase-your-benefits-b51daf6458a8\n\n\n",
+      "content": "\n\n### URLs\n\n[Unlocking the veModel](https://medium.com/balancer-protocol/unlocking-the-vemodel-f363d2d7bd91)\n\n[veBAL Is Live!](https://medium.com/balancer-protocol/vebal-is-live-aeda1ae13e20)\n\n\n[veBAL — How to Increase your Benefits](https://medium.com/balancer-protocol/vebal-how-to-increase-your-benefits-b51daf6458a8)\n\n[Curve Wars: The Future of DeFi Dependent on a Windows 98 Application] (https://medium.com/momentum6/the-great-curve-war-is-heating-up-dont-miss-the-alpha-9b70d99cf694)\n\n[Field Guide to the Curve Wars: DeFi’s Fight for Liquidity](https://every.to/almanack/curve-wars)\n",
       "name": "References",
       "stepItems": [],
       "uuid": "0d35b3e3-a4ea-453b-8d09-99e48dd703f1"
