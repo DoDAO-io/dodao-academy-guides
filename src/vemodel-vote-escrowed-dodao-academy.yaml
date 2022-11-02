@@ -1,7 +1,7 @@
 categories:
   - governance
 content: What is Vote Escrowed Tokenomics and its benefits
-created: '2022-11-02T14:38:16.441Z'
+created: '2022-11-02T14:39:02.722Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: onboarding
@@ -161,6 +161,16 @@ steps:
     name: Curve Wars
     stepItems: []
     uuid: 9f575374-d771-4888-b9f9-3f520b1f05b3
+  - content: ''
+    name: Your Info
+    stepItems:
+      - label: Name
+        required: true
+        type: PublicShortInput
+        uuid: 0e640138-2a89-482a-b978-cf92ebb1dcea
+      - type: UserDiscordConnect
+        uuid: d5da8729-eef1-49e9-aab9-ebfea4d0996b
+    uuid: f80e348f-de84-4527-a096-9898af701a61
   - content: >
 
 
@@ -188,16 +198,6 @@ steps:
     name: References
     stepItems: []
     uuid: 0d35b3e3-a4ea-453b-8d09-99e48dd703f1
-  - content: ''
-    name: Your Info
-    stepItems:
-      - label: Name
-        required: true
-        type: PublicShortInput
-        uuid: 0e640138-2a89-482a-b978-cf92ebb1dcea
-      - type: UserDiscordConnect
-        uuid: d5da8729-eef1-49e9-aab9-ebfea4d0996b
-    uuid: f80e348f-de84-4527-a096-9898af701a61
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
 uuid: vemodel-vote-escrowed-dodao-academy
