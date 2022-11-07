@@ -1,12 +1,12 @@
 categories:
   - governance
 content: What is Vote Escrowed Tokenomics and its benefits
-created: '2022-11-02T14:39:02.722Z'
+created: '2022-11-07T21:20:49.520Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: onboarding
 key: vemodel-vote-escrowed-dodao-academy
-name: Vote Escrowed (Curve Fi)
+name: Vote Escrowed - veModel
 publishStatus: Live
 showIncorrectOnCompletion: true
 steps:
