@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "New Guide",
-  "created": "2022-11-07T15:46:44.807Z",
+  "created": "2022-11-07T15:48:06.412Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -12,60 +12,12 @@
   "showIncorrectOnCompletion": true,
   "steps": [
     {
-      "content": "\nIntroduction Comments \n        ",
+      "content": "\nIntroduction Comments \n \n\nhttps://www.youtube.com/watch?v=XDCqMIk7xVA\n\nhttps://www.xdefi.io/article/yield-bearing-assets\n\nhttps://thedefiant.io/new-standard-promises-to-clean-up-mess-in-yield-bearing-tokens\n\nhttps://academy.stakedao.org/what-are-yield-bearing-tokens/\n",
       "name": "Introduction",
-      "stepItems": [
-        {
-          "label": "Full Name",
-          "required": false,
-          "type": "PublicShortInput",
-          "uuid": "737ab40b-fea1-4321-8c8b-620757854c2d"
-        }
-      ],
+      "stepItems": [],
       "uuid": "7c381ceb-d5b5-4616-9b24-bf7f5891592c"
-    },
-    {
-      "content": "",
-      "name": "Introduction Evaluation",
-      "stepItems": [
-        {
-          "label": "Full Name",
-          "required": false,
-          "type": "PublicShortInput",
-          "uuid": "b9336a63-829c-4fc9-9729-7fb3a52a3487"
-        },
-        {
-          "answerKeys": [
-            "dog_or_cat",
-            "only_dog",
-            "only_cat"
-          ],
-          "choices": [
-            {
-              "content": "Dog And Cat",
-              "key": "dog_and_cat"
-            },
-            {
-              "content": "Dog Or Cat",
-              "key": "dog_or_cat"
-            },
-            {
-              "content": "Only Dog",
-              "key": "only_dog"
-            },
-            {
-              "content": "Only Cat",
-              "key": "only_cat"
-            }
-          ],
-          "content": "Dog or a Cat, Do or a Cat, Dog or a Cat",
-          "type": "MultipleChoice",
-          "uuid": "afb41367-b8c0-4a10-8370-32f6475b7007"
-        }
-      ],
-      "uuid": "518a5dc2-abbc-415e-83a8-b60dc09e20bb"
     }
   ],
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi",
-  "uuid": "f81d96be-a9c3-432b-a972-f73233fe0e59"
+  "uuid": "yieldinterest-bearing-tokens-dodao-academy"
 }
