@@ -1,0 +1,25 @@
+{
+  "categories": [
+    "governance"
+  ],
+  "content": "How to manage funds within a DAO",
+  "created": "2022-11-08T23:45:09.054Z",
+  "guideIntegrations": {
+    "discordRoleIds": []
+  },
+  "guideType": "onboarding",
+  "key": "dao-treasury-dodao-academy",
+  "name": "DAO Treasury",
+  "publishStatus": "Live",
+  "showIncorrectOnCompletion": true,
+  "steps": [
+    {
+      "content": "# Coming Soon        ",
+      "name": "Introduction",
+      "stepItems": [],
+      "uuid": "de8a0e03-c728-484d-974d-cfc18ab56364"
+    }
+  ],
+  "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi",
+  "uuid": "edf61f54-92df-45b0-bfa6-973ad6fd8a9d"
+}
