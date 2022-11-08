@@ -1,0 +1,19 @@
+categories:
+  - governance
+content: Various strategies that DAOs can use for voting on proposals
+created: '2022-11-08T23:44:17.784Z'
+guideIntegrations:
+  discordRoleIds: []
+guideType: onboarding
+key: voting-strategies-dodao-academy
+name: Voting Strategies
+publishStatus: Live
+showIncorrectOnCompletion: true
+steps:
+  - content: '# Coming Soon        '
+    name: Introduction
+    stepItems: []
+    uuid: 1888d42c-98fe-4b3d-a425-26b258ef8cb9
+thumbnail: >-
+  https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
+uuid: 871bdd53-54c0-4719-bfe5-4dcca90fc30a
