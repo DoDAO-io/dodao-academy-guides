@@ -1,0 +1,131 @@
+categories:
+  - introduction
+content: What is Uniswap AMM and about Uniswap V1, V2 and V3 versions
+created: '2022-11-09T11:07:02.726Z'
+guideIntegrations:
+  discordRoleIds: []
+guideType: onboarding
+key: intro-to-uniswap-dodao-academy
+name: Intro to Uniswap
+publishStatus: Live
+showIncorrectOnCompletion: true
+steps:
+  - content: Step 1
+    name: About Uniswap
+    stepItems: []
+    uuid: 3e5a0652-300f-4296-b766-3664f4761f76
+  - content: ''
+    name: Evaluation
+    stepItems:
+      - answerKeys:
+          - 80cb4f16
+        choices:
+          - content: A1
+            key: 80cb4f16
+          - content: A2
+            key: 7dc9ddc6
+          - content: A3
+            key: '5457e158'
+          - content: A4
+            key: ef56b34b
+        content: Q1
+        type: SingleChoice
+        uuid: 89d7e867-3a04-4462-94e2-55874106458b
+      - answerKeys:
+          - 8c2148e9
+        choices:
+          - content: A1
+            key: 8c2148e9
+          - content: A2
+            key: 688e380b
+          - content: A3
+            key: 39ca8d6d
+          - content: A4
+            key: 939f953c
+        content: Q2
+        type: SingleChoice
+        uuid: 05444a41-f94c-46e3-a7f0-1ac4b95cd5ac
+    uuid: 86f76aad-d826-4a90-b3e5-a31fec317887
+  - content: Step 2
+    name: Uniswap - V1, V2 & V3
+    stepItems: []
+    uuid: beba9b17-d4a2-4b0a-aa47-b0aabfd4cfd4
+  - content: ''
+    name: Evaluation
+    stepItems:
+      - answerKeys:
+          - 27ee15bb
+        choices:
+          - content: A1
+            key: 27ee15bb
+          - content: A2
+            key: 67f6b6c1
+          - content: A3
+            key: dee7196e
+          - content: A4
+            key: f42dc5fa
+        content: Q1
+        type: SingleChoice
+        uuid: e32777f8-c749-47c2-b016-627e66776ca6
+      - answerKeys:
+          - 5178c12e
+        choices:
+          - content: A1
+            key: 5178c12e
+          - content: A2
+            key: 2c774297
+          - content: A3
+            key: 8cc2b4d5
+          - content: A4
+            key: 0928304d
+        content: Q2
+        type: SingleChoice
+        uuid: 847d8d95-68ff-4365-9c5b-7c253e899992
+    uuid: 1bfece10-a162-4fe7-9429-3dff7f29726d
+  - content: ''
+    name: Uniswap for Liquidity Providers
+    stepItems: []
+    uuid: f917388a-e485-44fd-85f3-36d7b63acd8d
+  - content: ''
+    name: Evaluation
+    stepItems:
+      - answerKeys:
+          - 6194db75
+        choices:
+          - content: A1
+            key: 6194db75
+          - content: A2
+            key: 67acb397
+          - content: A3
+            key: 443c009c
+          - content: A4
+            key: 7486496c
+        content: Q1
+        type: SingleChoice
+        uuid: 8fe952c8-2f48-4c9c-9a94-b87baa0d3782
+      - answerKeys:
+          - 19fbfc6f
+        choices:
+          - content: A1
+            key: 19fbfc6f
+          - content: A2
+            key: c8dd4978
+          - content: A3
+            key: 68b4bd16
+          - content: A4
+            key: 8ee071f6
+        content: Q2
+        type: SingleChoice
+        uuid: ba79d3ff-8b69-4dca-b564-638e0cedf9a4
+    uuid: 0ea53370-0571-47ba-9db3-4a05fa5138b0
+  - content: ''
+    name: Your Info
+    stepItems:
+      - label: Name
+        required: true
+        type: PublicShortInput
+        uuid: c41af85d-7665-4ba9-b276-a37deaf23601
+    uuid: 109e3a2a-e4de-43e6-9428-74741d491316
+thumbnail: >-
+  https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
+uuid: 73d97eea-b6e9-4749-a166-a27831beafb0
