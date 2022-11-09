@@ -1,6 +1,6 @@
 categories: []
 content: New Guide
-created: '2022-11-07T18:38:11.699Z'
+created: '2022-11-09T12:52:52.422Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -10,6 +10,9 @@ publishStatus: Live
 showIncorrectOnCompletion: true
 steps:
   - content: |-
+      # Coming soon
+
+      # References
       veBAL — How to Increase your Benefits
        - https://medium.com/balancer-protocol/vebal-how-to-increase-your-benefits-b51daf6458a8
 
