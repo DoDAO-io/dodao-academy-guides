@@ -15,6 +15,7 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
  | 6      | Yield Bearing Tokens | New Guide |  [Link](generated/markdown/yieldinterest-bearing-tokens-dodao-academy.md) |
  | 7      | Voting Strategies | Various strategies that DAOs can use for voting on proposals |  [Link](generated/markdown/voting-strategies-dodao-academy.md) |
  | 8      | DAO Treasury | How to manage funds within a DAO |  [Link](generated/markdown/dao-treasury-dodao-academy.md) |
+ | 9      | Intro to Uniswap | What is Uniswap AMM and about Uniswap V1, V2 and V3 versions |  [Link](generated/markdown/intro-to-uniswap-dodao-academy.md) |
 
 ---
 ## Footer
