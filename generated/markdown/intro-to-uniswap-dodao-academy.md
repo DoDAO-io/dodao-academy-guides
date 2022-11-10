@@ -145,7 +145,7 @@ In fact, trades are not only guaranteed to happen when the price in the larger m
 
 
 
-##### Uniswap LPs are facing huge losses primarily due to -  
+##### Uniswap LPs can face significant losses primarily due to -  
 
 - [x]  Impermanent Loss
 - [ ]  Arbitrage
