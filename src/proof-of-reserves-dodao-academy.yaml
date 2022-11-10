@@ -1,0 +1,18 @@
+categories: []
+content: What is POR and how various exchanges can implement it
+created: '2022-11-10T14:31:02.613Z'
+guideIntegrations:
+  discordRoleIds: []
+guideType: onboarding
+key: proof-of-reserves-dodao-academy
+name: Proof of Reserves
+publishStatus: Live
+showIncorrectOnCompletion: true
+steps:
+  - content: '# Proof of Reserves        '
+    name: Introduction
+    stepItems: []
+    uuid: b4cf1a30-95e2-40a2-978a-79a66c411a60
+thumbnail: >-
+  https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
+uuid: b2687340-c5ab-4603-8542-47e4c2dc9691
