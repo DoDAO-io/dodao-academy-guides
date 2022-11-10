@@ -8,6 +8,9 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
 
 ## Introduction
 
+# Coming soon
+
+# References
 veBAL — How to Increase your Benefits
  - https://medium.com/balancer-protocol/vebal-how-to-increase-your-benefits-b51daf6458a8
 
