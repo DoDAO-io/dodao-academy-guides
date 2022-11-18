@@ -1,10 +1,9 @@
 {
-  "uuid": "09db9049-b2d7-4453-9d67-db41ef92f3ac",
   "categories": [
     "introduction"
   ],
   "content": "This guides explains the basics of Options",
-  "created": "2022-10-06T00:02:21.733Z",
+  "created": "2022-11-18T19:19:29.394Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -13,26 +12,21 @@
   "name": "Intro to Options",
   "publishStatus": "Live",
   "showIncorrectOnCompletion": true,
-  "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/academy/dodao/guides/intro_to_options.png",
   "steps": [
     {
-      "uuid": "6582f081-3523-4249-849c-1b6cd640eca3",
-      "name": "Intro to Options and Its Use Cases",
       "content": "### What are options ?\nA derivative, or contract, is an option that grants the buyer the right , but not the obligation, to purchase or sell the underlying asset by a particular date (expiration date) at a particular price (strike price). Options can be classified in two types which are Call and Put Options.\n\n### Use Cases\nOptions being as derivative are mostly used for hedging and speculations. It is very frequent that an investor who owns stocks buys or sells options on the exchange to hedge his investments in the underlying asset. Moreover options may be used as speculative investments.\n\n  #### Hedging\n  An investor can purchase put options on a stock if they anticipate that specific equities in heir portfolio will lose value but do not want to permanently exit the trade. Profits from the put options will offset losses from the shares itself if the price of the stock does decrease.\n\n  During uncertain times, such as the earnings season, investors frequently employ this tactic. To safeguard a well-diversified portfolio, they may purchase puts on certain stocks in it or index puts. Puts are frequently used by mutual fund managers to reduce the downside risk exposure of the fund.\n\n  #### Speculation\n  An investor can buy calls or sell puts to profit from a gain in price if they anticipate the price of a security will increase. The investor's overall risk while purchasing call options is capped at the option premium. The amount of money they could make is theoretically limitless. It depends on how much the market price is higher than the option's strike price as well as the number of options the investor has.\n  \n  The situation is the opposite for the put option seller. Their potential gain is capped at the premium they were paid to write the put. Their maximum loss is determined by multiplying the number of sold options by the amount by which the market price is below the option strike price.\n\n  #### Leverage\n  Options are essentially leveraged instruments since they enable investors to increase the possible upside profit by investing less money than would otherwise be necessary to trade the underlying asset. Therefore, you could theoretically spend $2,000 on a call contract with a strike price 10% higher than the current market price instead of spending $10,000 to acquire 100 shares of a $100 stock.\n\n  #### Benefit from downside\n  In options market, a trader can benefit from the downside of the market by betting on “Put options” where the trader gets the right to sell (not obligation) the underlying asset.    \n",
-      "stepItems": []
+      "name": "Options Intro & Use Cases",
+      "stepItems": [],
+      "uuid": "6582f081-3523-4249-849c-1b6cd640eca3"
     },
     {
-      "uuid": "d6fc6079-887a-48f7-8ff9-8c25a97f4f9a",
-      "name": "Evaluation",
       "content": "",
+      "name": "Evaluation",
       "stepItems": [
         {
-          "uuid": "6623ef84-22fb-4b62-adbc-1974768c701d",
-          "content": "An option is a-",
           "answerKeys": [
             "B"
           ],
-          "type": "SingleChoice",
           "choices": [
             {
               "content": "Financial Asset without expiration date",
@@ -50,15 +44,15 @@
               "content": "Financial Derivative without expiration date",
               "key": "D"
             }
-          ]
+          ],
+          "content": "An option is a-",
+          "type": "SingleChoice",
+          "uuid": "6623ef84-22fb-4b62-adbc-1974768c701d"
         },
         {
-          "uuid": "f633ea16-0afc-47fa-99d3-e5557b362cf2",
-          "content": "A trader hedges his/her portfolio to",
           "answerKeys": [
             "A"
           ],
-          "type": "SingleChoice",
           "choices": [
             {
               "content": "Reduce the interest rate risk.",
@@ -76,15 +70,15 @@
               "content": "Increases the probability of gains.",
               "key": "D"
             }
-          ]
+          ],
+          "content": "A trader hedges his/her portfolio to",
+          "type": "SingleChoice",
+          "uuid": "f633ea16-0afc-47fa-99d3-e5557b362cf2"
         },
         {
-          "uuid": "43324018-402b-40b7-89f5-2dd98186cdee",
-          "content": "Hedgers are ....... and Speculators are ......?",
           "answerKeys": [
             "A"
           ],
-          "type": "SingleChoice",
           "choices": [
             {
               "content": "Risk Averse, Risk Lovers",
@@ -98,28 +92,28 @@
               "content": "Both are Risk Mitigators",
               "key": "C"
             }
-          ]
+          ],
+          "content": "Hedgers are ....... and Speculators are ......?",
+          "type": "SingleChoice",
+          "uuid": "43324018-402b-40b7-89f5-2dd98186cdee"
         }
-      ]
+      ],
+      "uuid": "d6fc6079-887a-48f7-8ff9-8c25a97f4f9a"
     },
     {
-      "uuid": "8a716a6e-c66f-4997-a81e-13e51adf6f6f",
-      "name": "Important Terms",
       "content": "\n1. `Options`: An option is a contract that you can purchase that gives you the right to buy or sell stock at an agreed price on or before a particular date. You can also sell an option contract where you would be selling this right to someone and collecting a premium for it.\n\n2. `Call Options`:  Calls grant the buyer the option—but not the obligation—to purchase the underlying asset at the option contract's designated strike price. Investors purchase calls when they anticipate a gain in the price of the underlying asset and sell calls when they anticipate a decrease\n\n3. `Put Options`: The buyer of a put has the option, but not the responsibility, to sell the underlying asset at the contract's designated strike price. If the put buyer exercises their option, the writer (seller) of the put option is compelled to purchase the asset. Investors purchase puts when they anticipate a decline in the underlying asset's price and sell puts when they anticipate a gain. \n\n4. `Strike Price`: It is the pre-determined Price at which an asset can be bought or sold.\n\n5. `Option Writer`: The seller of an option is known as a option writer. Other terms such as granter or seller can also be used for an option writer.\n\n6. `Option Buyer`:  An options trader who has the right (not an obligation) to buy or sell an option is known as option buyer.\n\n7. `Premium`: The  advance payment done by the buyer to the seller to enjoy the benefits of an options contract.\n\n8. `Options Chain`: Options chain refers to the list of options for a particular underlying asset. This chain shows all list calls, puts, strike price and expiration of a single underlying asset\n\n9. `Option Expiration Date`: American Options can be exercised any time before their expiration whereas European options can be only exercised upon expiration date.\n\n10. `Moneyness of options` :\n      a) In the Money : Trader will be profited by exercising the option.\n      b) At the Money : Trader has no-loss,no-profit if he/she exercises the option.\n      c) Out the Money : Trader is not benefitted by exercsing the option.\n    \n",
-      "stepItems": []
+      "name": "Important Terms",
+      "stepItems": [],
+      "uuid": "8a716a6e-c66f-4997-a81e-13e51adf6f6f"
     },
     {
-      "uuid": "f8ef6c46-687f-4a6a-aedd-562e3ee312ab",
-      "name": "Evaluation",
       "content": "",
+      "name": "Evaluation",
       "stepItems": [
         {
-          "uuid": "0ca8b204-59e0-4bbe-a96e-d464dd2266b9",
-          "content": "The particular price on an option at which the trader can buy or sell the underlying asset is-",
           "answerKeys": [
             "C"
           ],
-          "type": "SingleChoice",
           "choices": [
             {
               "content": "Premium",
@@ -137,15 +131,15 @@
               "content": "Put",
               "key": "D"
             }
-          ]
+          ],
+          "content": "The particular price on an option at which the trader can buy or sell the underlying asset is-",
+          "type": "SingleChoice",
+          "uuid": "0ca8b204-59e0-4bbe-a96e-d464dd2266b9"
         },
         {
-          "uuid": "571e61d9-117f-496b-b19a-b0afed5aa5d1",
-          "content": "The amount paid in advance for an option is-",
           "answerKeys": [
             "D"
           ],
-          "type": "SingleChoice",
           "choices": [
             {
               "content": "Strike Price",
@@ -163,28 +157,28 @@
               "content": "Premium",
               "key": "D"
             }
-          ]
+          ],
+          "content": "The amount paid in advance for an option is-",
+          "type": "SingleChoice",
+          "uuid": "571e61d9-117f-496b-b19a-b0afed5aa5d1"
         }
-      ]
+      ],
+      "uuid": "f8ef6c46-687f-4a6a-aedd-562e3ee312ab"
     },
     {
-      "uuid": "bf98712e-3054-4ed3-a5c0-cd9536204840",
-      "name": "Trading Options- Call Options",
       "content": "Option contracts are prepared by option writer known as granter or seller. An option writer is the one who sells an option and receives premium from the buyer in exchange, by opening a position. Options are of two types - “calls” and “puts”. With a “call” option the buyer gets the right to buy the underlying asset whereas from the “put” option the buyer gets the right to sell the underlying asset at a pre-decided price and on or before a pre-decided date.\n\n### Buying Calls (Long Calls)\nYou can purchase a “call” option with less capital than the underlying asset if you believe the price of an asset will increase. In contrast, your losses are capped to the premium paid for the options and nothing more if the price instead declines. This strategy is adopted by traders who are bullish and confident about a particular stock, Exchange Traded Fund and want to minimise their risks.\n\nA general equity option stock manages 100 shares of the underlying asset.\n\nExample\n\nWhen using stocks(without options)\nConsider a trader who wishes to put $5,000 into Apple (AAPL), which is now trading at about $165 per share. He/She can spend this money on 30 shares for a total of $4,950. So let's say that during the course of the following month, the stock's price rises by 10% to $181.50. The trader's portfolio will increase to $5,445 after deducting any brokerage commissions or transaction costs, giving him a net dollar return of $495, or 10% on his initial investment.\n\nSame example with Options\nConsider a trader who paid $5.50 per share, or $550 per contract, to purchase a call option on the stock with a strike price of $165 that expires in about a month. The trader can purchase nine options for $4,950 using their allotted investment budget. The trader is actually executing a deal on 900 shares because the option contract controls 100 shares. The option is said to be expire “In the money (ITM)” and be worth of $16.50 for each share (for a $181.50 to $165 strike), or $14,850 for 900 shares, if the stock price rises 10% to $181.50 at expiration. When compared to trading the underlying asset directly, this represents a far higher return of $9,990 in net dollars, or 200%, on the capital invested.\n\n### Risk/ Reward Analysis\nIn the view of a long call or call buying the trader has his/her losses limited only to the premium paid to the call seller. Whereas considering the profits , which can be unlimited because the underlying asset can rise upto any extent.      \n    \n",
-      "stepItems": []
+      "name": "Trading Options- Call Options",
+      "stepItems": [],
+      "uuid": "bf98712e-3054-4ed3-a5c0-cd9536204840"
     },
     {
-      "uuid": "83bef150-f3bb-444d-8924-dcaeab5da283",
-      "name": "Evaluation",
       "content": "",
+      "name": "Evaluation",
       "stepItems": [
         {
-          "uuid": "05940825-d144-4ba9-a5dc-8939f100cd96",
-          "content": "A call options gives the buyer-",
           "answerKeys": [
             "D"
           ],
-          "type": "SingleChoice",
           "choices": [
             {
               "content": "Limited Profit, Unlimited Loss",
@@ -202,15 +196,15 @@
               "content": "Unlimited Profit, Limited Loss",
               "key": "D"
             }
-          ]
+          ],
+          "content": "A call options gives the buyer-",
+          "type": "SingleChoice",
+          "uuid": "05940825-d144-4ba9-a5dc-8939f100cd96"
         },
         {
-          "uuid": "3b669e22-868d-4ba7-b7f4-067e292b3d3b",
-          "content": "A long call represents _____ nature of trader-",
           "answerKeys": [
             "B"
           ],
-          "type": "SingleChoice",
           "choices": [
             {
               "content": "Bearish",
@@ -228,15 +222,15 @@
               "content": "Not Bullish",
               "key": "D"
             }
-          ]
+          ],
+          "content": "A long call represents _____ nature of trader-",
+          "type": "SingleChoice",
+          "uuid": "3b669e22-868d-4ba7-b7f4-067e292b3d3b"
         },
         {
-          "uuid": "a38784cd-f61e-406c-86b7-6a8632b0ad89",
-          "content": "If you buy a call option on $100, and at expiration the market price is $115,",
           "answerKeys": [
             "A"
           ],
-          "type": "SingleChoice",
           "choices": [
             {
               "content": "The call will be executed and trader earns a profit of $15 per share.",
@@ -254,15 +248,15 @@
               "content": "The put will not be executed and trader losses the premium.",
               "key": "D"
             }
-          ]
+          ],
+          "content": "If you buy a call option on $100, and at expiration the market price is $115,",
+          "type": "SingleChoice",
+          "uuid": "a38784cd-f61e-406c-86b7-6a8632b0ad89"
         },
         {
-          "uuid": "34dbb4f4-118b-44fe-a9c9-28f45ad48a4a",
-          "content": "If you buy a call option on $115, and at expiration the market price is $100,",
           "answerKeys": [
             "C"
           ],
-          "type": "SingleChoice",
           "choices": [
             {
               "content": "The call will be executed and trader earns a profit of $15 per share.",
@@ -280,28 +274,28 @@
               "content": "The put will not be executed and trader losses the premium.",
               "key": "D"
             }
-          ]
+          ],
+          "content": "If you buy a call option on $115, and at expiration the market price is $100,",
+          "type": "SingleChoice",
+          "uuid": "34dbb4f4-118b-44fe-a9c9-28f45ad48a4a"
         }
-      ]
+      ],
+      "uuid": "83bef150-f3bb-444d-8924-dcaeab5da283"
     },
     {
-      "uuid": "6f0fc5b8-a0f3-4a16-bcf0-26834b939d83",
-      "name": "Trading Options- Put Options",
       "content": "### Buying Puts\nA put option gives the buyer the right to sell an underlying asset at a set price. This strategy is adopted by a trader who is bearish in nature and want to take less risk compared to short-selling.\n\nConsider the scenario where you believe that a stock's price will drop from $60 to $50 or lower as a result of poor earnings, but you don't want to take the chance of selling the stock short in case you are mistaken. Instead, you can pay a $2.00 premium to purchase the $50 put. The maximum you will lose is the $2.00 premium if the price does not drop below $50 instead climbs instead.\n\nHowever, you would profit $3 ($50 minus $45. less the $2 premium) if you are correct and the stock falls all the way to $45.\n\n### Risk/Reward Analysis\nA long put's potential loss is capped at the premium for the options because the underlying price cannot go below zero, the position's potential profit is limited, but the put option amplifies the trader's return similarly to a long call option.\n    \n",
-      "stepItems": []
+      "name": "Trading Options- Put Options",
+      "stepItems": [],
+      "uuid": "6f0fc5b8-a0f3-4a16-bcf0-26834b939d83"
     },
     {
-      "uuid": "f8cd850d-396e-4d6f-8a22-3531965d4664",
-      "name": "Evaluation",
       "content": "",
+      "name": "Evaluation",
       "stepItems": [
         {
-          "uuid": "18be934d-aaa1-4408-908e-5237be44c9c8",
-          "content": "A put options gives the buyer-",
           "answerKeys": [
             "D"
           ],
-          "type": "SingleChoice",
           "choices": [
             {
               "content": "Limited Profit, Unlimited Loss",
@@ -319,15 +313,15 @@
               "content": "Unlimited Profit, unlimited Loss",
               "key": "D"
             }
-          ]
+          ],
+          "content": "A put options gives the buyer-",
+          "type": "SingleChoice",
+          "uuid": "18be934d-aaa1-4408-908e-5237be44c9c8"
         },
         {
-          "uuid": "38a5c33d-8446-4be0-a070-2bc6bbc6df17",
-          "content": "A long put represents _____ nature of trader-",
           "answerKeys": [
             "A"
           ],
-          "type": "SingleChoice",
           "choices": [
             {
               "content": "Bearish",
@@ -345,15 +339,15 @@
               "content": "Not Bullish",
               "key": "D"
             }
-          ]
+          ],
+          "content": "A long put represents _____ nature of trader-",
+          "type": "SingleChoice",
+          "uuid": "38a5c33d-8446-4be0-a070-2bc6bbc6df17"
         },
         {
-          "uuid": "bc71fde8-8201-4537-ac7e-0a77ce8aa274",
-          "content": "If you buy a put option on $115, and at expiration the market price is $100,",
           "answerKeys": [
             "B"
           ],
-          "type": "SingleChoice",
           "choices": [
             {
               "content": "The call will be executed and trader earns a profit of $15 per share.",
@@ -371,15 +365,15 @@
               "content": "The put will not be executed and trader losses the premium..",
               "key": "D"
             }
-          ]
+          ],
+          "content": "If you buy a put option on $115, and at expiration the market price is $100,",
+          "type": "SingleChoice",
+          "uuid": "bc71fde8-8201-4537-ac7e-0a77ce8aa274"
         },
         {
-          "uuid": "642438b5-f063-4c18-94bf-dd1052c54497",
-          "content": "If you buy a put option on $100, and at expiration the market price is $115,",
           "answerKeys": [
             "D"
           ],
-          "type": "SingleChoice",
           "choices": [
             {
               "content": "The call will be executed and trader earns a profit of $15 per share.",
@@ -397,54 +391,54 @@
               "content": "The put will not be executed and trader losses the premium..",
               "key": "D"
             }
-          ]
+          ],
+          "content": "If you buy a put option on $100, and at expiration the market price is $115,",
+          "type": "SingleChoice",
+          "uuid": "642438b5-f063-4c18-94bf-dd1052c54497"
         }
-      ]
+      ],
+      "uuid": "f8cd850d-396e-4d6f-8a22-3531965d4664"
     },
     {
-      "uuid": "a585b6d4-1da8-4f87-8fd7-88233ea1b330",
-      "name": "Trading Options- Seller Side",
       "content": "### Call Seller\nA call seller is a person who executes the selling of a call option. This seller gets the premium paid by the call buyer during the betting on the contract. Call Seller receives this premium which is a fraction of the total lot size of the contract known as the token amount. The view of a call seller towards the market is not bullish i.e. they predict that the market stay stagnant or go bearish which means falls down the current level. For a call seller the profits are limited to the premium amount they received whereas the losses they might suffer are unlimited if the market rises above the exercise price. Moreover, they are obligated to sell the derivative in case the call buyer is willing to execute the option.\n\n### Put Seller\nA put seller is an individual who executes the buying of a put option. This seller , similar to previous , gets the premium by the put buyer during the betting of the contract. The view of a put seller towards the market is not bearish i.e. he/she wants that the market stays stagnant or go bullish which means rises above the current level. For a put seller the profits are limited to the premium amount they received from put buyer and the losses can maximise as the market prices soar above the exercise price. A put seller is obligated to buy when the put buyer wants to sell the derivative.\n    \n",
-      "stepItems": []
+      "name": "Trading Options- Seller Side",
+      "stepItems": [],
+      "uuid": "a585b6d4-1da8-4f87-8fd7-88233ea1b330"
     },
     {
-      "uuid": "547af8f3-d25e-4be0-93c5-5a4d7751118b",
-      "name": "Evaluation",
       "content": "",
+      "name": "Evaluation",
       "stepItems": [
         {
-          "uuid": "f9629c68-daec-40cb-9371-91c5c0064e9f",
+          "answerKeys": [
+            "B"
+          ],
+          "choices": [
+            {
+              "content": "Right to buy or sell the underlying asset",
+              "key": "A"
+            },
+            {
+              "content": "Obligation to buy or sell the underlying asset",
+              "key": "B"
+            },
+            {
+              "content": "Ability to reduce risk",
+              "key": "C"
+            },
+            {
+              "content": "Ability to maximise profit",
+              "key": "D"
+            }
+          ],
           "content": "An options seller has the -",
-          "answerKeys": [
-            "B"
-          ],
           "type": "SingleChoice",
-          "choices": [
-            {
-              "content": "Right to buy or sell the underlying asset",
-              "key": "A"
-            },
-            {
-              "content": "Obligation to buy or sell the underlying asset",
-              "key": "B"
-            },
-            {
-              "content": "Ability to reduce risk",
-              "key": "C"
-            },
-            {
-              "content": "Ability to maximise profit",
-              "key": "D"
-            }
-          ]
+          "uuid": "f9629c68-daec-40cb-9371-91c5c0064e9f"
         },
         {
-          "uuid": "1fd93a69-81c7-4b9a-be26-624423643c6d",
-          "content": "An options seller -",
           "answerKeys": [
             "B"
           ],
-          "type": "SingleChoice",
           "choices": [
             {
               "content": "Pays the premium",
@@ -458,28 +452,28 @@
               "content": "No premium transaction takes place",
               "key": "C"
             }
-          ]
+          ],
+          "content": "An options seller -",
+          "type": "SingleChoice",
+          "uuid": "1fd93a69-81c7-4b9a-be26-624423643c6d"
         }
-      ]
+      ],
+      "uuid": "547af8f3-d25e-4be0-93c5-5a4d7751118b"
     },
     {
-      "uuid": "aadeb797-fe33-4281-a99f-e5b6998c7aea",
-      "name": "Trading Options- Buyer Side",
       "content": "### Call Buyer\nA call buyer is a person who executes the buying of a call option. This buyer has to pay the premium during the buying of a call contract.The motive behind buying a call option is that the buyer is bullish in nature i.e. he/she predicts that the market will rise in the upcoming time and his portfolio will gain profits. For a call buyer the profits are unlimited if the market keeps on rising above the exercise price whereas the losses only include the premium amount he paid to the call seller. A call buyer has the right to execute the buying but he/she is not obligated to do so.\n\n### Put Buyer\nA put buyer is the one who buys a put option to have the right to sell. This buyer pays a premium to the put seller during the buying of the contract. He/She buys a put option due to the bearish behaviour i.e. he/she predicts that the market wil fall in the upcoming times. For a put buyer the profits are unlimited because the rates may fall more than the exercise price but on the other hand the losses are limited to the premium he/she paid to the put seller for placing the contract. A put buyer has the right to sell the option but he/she is not obligated to do so.\n    \n",
-      "stepItems": []
+      "name": "Trading Options- Buyer Side",
+      "stepItems": [],
+      "uuid": "aadeb797-fe33-4281-a99f-e5b6998c7aea"
     },
     {
-      "uuid": "f6c333eb-3467-4fc3-acf3-276b4947fcfb",
-      "name": "Evaluation",
       "content": "",
+      "name": "Evaluation",
       "stepItems": [
         {
-          "uuid": "01c19903-ba33-4555-ab14-59d59013d3c0",
-          "content": "An options buyer has the -",
           "answerKeys": [
             "A"
           ],
-          "type": "SingleChoice",
           "choices": [
             {
               "content": "Right to buy or sell the underlying asset",
@@ -497,15 +491,15 @@
               "content": "Ability to maximise profit",
               "key": "D"
             }
-          ]
+          ],
+          "content": "An options buyer has the -",
+          "type": "SingleChoice",
+          "uuid": "01c19903-ba33-4555-ab14-59d59013d3c0"
         },
         {
-          "uuid": "df4408a0-ac81-4e34-9ad2-b5202b7d7131",
-          "content": "An options buyer -",
           "answerKeys": [
             "A"
           ],
-          "type": "SingleChoice",
           "choices": [
             {
               "content": "Pays the premium",
@@ -519,9 +513,32 @@
               "content": "No premium transaction takes place",
               "key": "C"
             }
-          ]
+          ],
+          "content": "An options buyer -",
+          "type": "SingleChoice",
+          "uuid": "df4408a0-ac81-4e34-9ad2-b5202b7d7131"
         }
-      ]
+      ],
+      "uuid": "f6c333eb-3467-4fc3-acf3-276b4947fcfb"
+    },
+    {
+      "content": "",
+      "name": "Your Info",
+      "stepItems": [
+        {
+          "label": "You Name",
+          "required": true,
+          "type": "PublicShortInput",
+          "uuid": "e413d4f8-c404-4dc9-89a9-e9a41d6f85af"
+        },
+        {
+          "type": "UserDiscordConnect",
+          "uuid": "9d328894-0b1a-4d95-9a9f-9c5f3a2a9e31"
+        }
+      ],
+      "uuid": "f2fdaa84-ff60-44f9-aff0-b98bed33c6cc"
     }
-  ]
+  ],
+  "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/academy/dodao/guides/intro_to_options.png",
+  "uuid": "intro-to-options-dodao-academy"
 }
