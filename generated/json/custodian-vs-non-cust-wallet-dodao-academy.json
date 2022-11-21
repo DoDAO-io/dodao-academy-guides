@@ -1,0 +1,71 @@
+{
+  "categories": [],
+  "content": "New Guide",
+  "created": "2022-11-21T19:28:57.119Z",
+  "guideIntegrations": {
+    "discordRoleIds": []
+  },
+  "guideType": "course",
+  "key": "custodian-vs-non-cust-wallet-dodao-academy",
+  "name": "Custodian vs Non Cust. Wallet",
+  "publishStatus": "Live",
+  "showIncorrectOnCompletion": true,
+  "steps": [
+    {
+      "content": "\nIntroduction Comments \n        ",
+      "name": "Introduction",
+      "stepItems": [
+        {
+          "label": "Full Name",
+          "required": false,
+          "type": "PublicShortInput",
+          "uuid": "69737c07-c03f-4ad1-a023-a8d3230910ae"
+        }
+      ],
+      "uuid": "a1ce30e7-539b-4e12-b861-96509995c650"
+    },
+    {
+      "content": "",
+      "name": "Introduction Evaluation",
+      "stepItems": [
+        {
+          "label": "Full Name",
+          "required": false,
+          "type": "PublicShortInput",
+          "uuid": "abdbd1f1-907d-45c1-a8cf-209ab8b6fe83"
+        },
+        {
+          "answerKeys": [
+            "dog_or_cat",
+            "only_dog",
+            "only_cat"
+          ],
+          "choices": [
+            {
+              "content": "Dog And Cat",
+              "key": "dog_and_cat"
+            },
+            {
+              "content": "Dog Or Cat",
+              "key": "dog_or_cat"
+            },
+            {
+              "content": "Only Dog",
+              "key": "only_dog"
+            },
+            {
+              "content": "Only Cat",
+              "key": "only_cat"
+            }
+          ],
+          "content": "Dog or a Cat, Do or a Cat, Dog or a Cat",
+          "type": "MultipleChoice",
+          "uuid": "55596024-6de2-4ffa-9ac9-cbcc99182c39"
+        }
+      ],
+      "uuid": "58dd8e44-0ba1-4ede-8666-c62f4a142a62"
+    }
+  ],
+  "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi",
+  "uuid": "fa070649-65f4-4607-b297-b55829ccde8a"
+}
