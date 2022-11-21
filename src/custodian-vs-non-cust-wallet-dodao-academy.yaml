@@ -1,7 +1,7 @@
 categories:
   - general
 content: Educates about the difference and talks about pros and cons
-created: '2022-11-21T19:35:43.933Z'
+created: '2022-11-21T19:54:25.295Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: onboarding
@@ -70,29 +70,89 @@ steps:
     name: Introduction
     stepItems: []
     uuid: a1ce30e7-539b-4e12-b861-96509995c650
-  - content: ''
-    name: Introduction Evaluation
-    stepItems:
-      - label: Full Name
-        required: false
-        type: PublicShortInput
-        uuid: abdbd1f1-907d-45c1-a8cf-209ab8b6fe83
-      - answerKeys:
-          - dog_or_cat
-          - only_dog
-          - only_cat
-        choices:
-          - content: Dog And Cat
-            key: dog_and_cat
-          - content: Dog Or Cat
-            key: dog_or_cat
-          - content: Only Dog
-            key: only_dog
-          - content: Only Cat
-            key: only_cat
-        content: Dog or a Cat, Do or a Cat, Dog or a Cat
-        type: MultipleChoice
-        uuid: 55596024-6de2-4ffa-9ac9-cbcc99182c39
+  - content: >-
+      ## Custodial Wallets
+
+      If you're just getting started with cryptocurrency, you might be already
+      using a custodian wallet. With this type of wallet, your private keys are
+      held by a centralized organization - usually an exchange. These exchanges
+      allow you to convert fiat currency to cryptocurrency (and vice versa).
+
+
+      Many people worry that if they don't hold onto their private keys,
+      somebody else might cheat them. And they're right to be worried - we've
+      seen countless examples of billions of dollars being lost by customers
+      because of the poor business decisions of centralized
+      organizations/exchanges.
+
+
+      Not all centralized crypto organizations are created equal - much like
+      banks. Most banks are regulated and individuals' money is insured by the
+      government in most cases. However, many centralized crypto organizations
+      are not regulated and have been known to make bad business decisions that
+      result in customers losing their funds. Some crypto exchanges are
+      regulated and audited by the government, though. Coinbase is one such
+      exchange that is both regulated and audited by the government.
+
+
+      Since many cryptocurrency exchanges are not regulated, meaning they don't
+      have to hold customers' funds in a 1:1 ratio. This means they can use
+      customer crypto to buy other assets and engage in high-risk bets. If these
+      bets pay off, the customer is happy and the exchange makes a lot of money.
+      But when these highly leveraged bets go against the exchanges and cause
+      billions of dollars in losses, the exchanges become insolvent and are
+      unable to return users' funds.
+
+
+      When using a custodian wallet from an exchange, make sure to take the
+      following into consideration:
+
+
+      1.  The security standards of the exchange. Your funds are only as safe as
+      the exchange is, so make sure it follows high security standards.
+      Unfortunately, many exchanges have been hacked in the past and lost
+      millions of dollars.
+
+      2. That your funds are backed 1:1. Take a look at the wallet addresses of
+      the exchange and make sure there is the same amount of cryptocurrency
+      present as the exchange claims.
+
+      3. Diversify your account holdings among multiple exchanges. This way, if
+      one exchange goes under, you won't lose all your funds.
+
+
+      Beware of keeping your cryptocurrency on exchanges or with third-party
+      custodians. Many companies in the past have gone bankrupt after making
+      risky bets with their customers' funds, including FTX, BlockFi, Celsius,
+      and Voyager.
+
+
+      There is a saying in the cryptocurrency world: "Not your keys, not your
+      coins." This means that if you don't own the private keys to your
+      cryptocurrency, you don't really own it. Therefore, it's important to
+      store your crypto in a safe place where only you have access to it.
+
+
+      Custodian wallets have certain advantages, such as:
+
+
+      1. They're beginner-friendly, and users can stick to their old way of
+      using email/password to login.
+
+      2. They offer an easy way to exchange fiat currency for cryptocurrency,
+      and vice versa.
+
+      3. They have customer service departments that you can call if you
+      experience any technical issues.
+
+      4. They're easy to reset or gain access to if you forget your password.
+
+
+      We've mentioned all the risks and also the benefits of these exchanges. We
+      hope you'll be able to make an educated decision now about whether or not
+      you need to use a custodian wallet.
+    name: Custodial Wallets
+    stepItems: []
     uuid: 58dd8e44-0ba1-4ede-8666-c62f4a142a62
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
