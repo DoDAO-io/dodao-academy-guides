@@ -1,7 +1,7 @@
 categories:
   - general
 content: Educates about the difference and talks about pros and cons
-created: '2022-11-21T20:01:55.812Z'
+created: '2022-11-21T20:12:01.516Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: onboarding
@@ -260,6 +260,357 @@ steps:
     name: Non Custodial Wallets
     stepItems: []
     uuid: 48d8f905-34fd-447e-9131-6c3549fcf281
+  - content: >
+      With over 150 wallets
+      ([https://explorer.walletconnect.com/?type=wallet](https://explorer.walletconnect.com/?type=wallet))
+      currently available on the market, it can be difficult to decide which one
+      is best for you. That's why we've created a comparison of some of the most
+      popular wallets, to help you make an informed decision about which one
+      will work best for you and your needs. 
+
+
+      Please keep in mind that this is just a general overview of a few wallets
+      and that you should always do your own research before selecting one.
+
+
+
+      <table>
+        <tr>
+         <td>
+         </td>
+         <td>Ease of use
+         </td>
+         <td>Security
+         </td>
+         <td>Special features
+         </td>
+         <td>Drawbacks
+         </td>
+        </tr>
+        <tr>
+         <td>Coinbase
+         </td>
+         <td>Very beginner friendly, works out of the box
+      <p>
+
+      Deposit, withdraw and exchange functions are available built-in
+         </td>
+         <td>Offers 2 Factor authentication 
+      <p>
+
+      Does not support multi signature wallets
+
+      <p>
+
+      Supports hardware wallets
+         </td>
+         <td>Integrated with ENS protocol, allowing users to have human readable addresses
+         </td>
+         <td>Large transactions   sometimes do not go through
+      <p>
+
+      Lacks developer oriented features like metamask
+         </td>
+        </tr>
+        <tr>
+         <td>Metamask
+         </td>
+         <td>Easy to set-up and use
+      <p>
+       \
+      Well documented and lots of tutorials available on the internet
+
+      <p>
+
+      Most preferred wallet to buy and sell NFTs in marketplaces like OpenSea
+         </td>
+         <td>Does not support 2 Factor Authentication
+      <p>
+
+      Supports multi signature wallets
+
+      <p>
+
+      Good support for hardware wallets
+         </td>
+         <td>Developer oriented features like mock transactions, connect to testnet etc.
+      <p>
+
+      Custom gas fee can be set
+
+      <p>
+
+      High level of security, built on the ethereum network
+         </td>
+         <td>The lack of 2FA is a concern
+      <p>
+
+      No support for safari
+
+      <p>
+
+      Transactions can sometimes take upto 15s
+         </td>
+        </tr>
+        <tr>
+         <td>Exodus 
+         </td>
+         <td>Excellent UI/UX (or) graphic design
+      <p>
+
+      Ease of buying, selling and inbuilt exchange 
+         </td>
+         <td>Does not support multi signature wallets and 2 Factor authentication
+      <p>
+
+      Supports hardware wallets
+         </td>
+         <td>Staking feature in partnership with Everstake
+      <p>
+
+      In-built decentralized exchange 
+         </td>
+         <td>Lacks in security in comparison to other alternatives
+      <p>
+
+      Relatively high transaction fees
+         </td>
+        </tr>
+        <tr>
+         <td>Argent 
+         </td>
+         <td>Easy to use mobile app
+         </td>
+         <td>Supports 2 factor authentication, multi signature wallet and hardware wallets
+      <p>
+
+      Prompts the user when funds are being sent to an unknown (not whitelisted)
+      app or address
+         </td>
+         <td>Can set daily transaction limit
+      <p>
+
+      The “guardian” concept:
+
+      <p>
+
+      No seed phrases/ recovery phrases, instead user must be authenticated by
+      their “guardians” who must authenticate the user to be able to recover the
+      wallet
+
+      <p>
+
+      Guardians also receive prompts when funds from the user’s wallet are being
+      moved to an unknown address
+         </td>
+         <td>Only available on mobile
+      <p>
+
+      Relatively new, and lack of customer service
+         </td>
+        </tr>
+        <tr>
+         <td>Zerion
+         </td>
+         <td>Available across most platforms (Mobile, web app)
+      <p>
+
+      Plethora of DeFi functionality built-in, making it easy to access but not
+      beginner friendly
+         </td>
+         <td>Supports hardware wallets and 2 factor authentication
+         </td>
+         <td>Lets user connect their non-zerion wallets and manage their portfolios with Zerion
+      <p>
+
+      Zerion allows users to follow other addresses, ENS handles and NFT
+      collections and keep track of NFT drops etc.,
+
+      <p>
+
+      Zerion hosts built-in exchange, token deposit, loans etc., essentially
+      allowing the user to do DeFi operations via the wallet itself
+
+      <p>
+       
+         </td>
+         <td>Feature heavy, daunting for new users
+      <p>
+
+      The exchange is not regulated 
+         </td>
+        </tr>
+        <tr>
+         <td>ZenGo
+         </td>
+         <td>Simple and straightforward UI
+         </td>
+         <td>Offers 3 Factor security (email, recovery file and face scan)
+      <p>
+
+      Not compatible with hardware wallets
+         </td>
+         <td>Provides ability to recover wallet using face-id
+      <p>
+
+      Provides user with the ability to buy crypto and earn interest on crypto
+      holdings
+         </td>
+         <td>Does not provide ability to buy and store Solana and Cardano
+         </td>
+        </tr>
+        <tr>
+         <td>Coinomi
+         </td>
+         <td>Very user friendly UI
+         </td>
+         <td>Compatible with hardware wallets 
+      <p>
+
+      Does not support 2 factor authentication
+         </td>
+         <td>No fees on incoming and outgoing transactions
+      <p>
+
+      Has built-in exchange though the fees are a little high
+
+      <p>
+
+      Ability to sweep other wallets to collect hard forked coins from it
+
+      <p>
+
+      Ability to customize fees paid on transactions
+
+      <p>
+
+      Supports ERC20 tokens (example, NFTs)
+         </td>
+         <td>Does not support fiat currencies and so direct purchase of crypto is not possible
+         </td>
+        </tr>
+        <tr>
+         <td>Ambire wallet
+         </td>
+         <td>Good user interface, easy to understand and navigate
+         </td>
+         <td>It is not compatible with hardware wallets 
+         </td>
+         <td>Transaction bundle allows users to bundle a lot of transactions and execute them all at once
+      <p>
+
+      Every account is a smart contract
+
+      <p>
+
+      Register and recover account using email address and password 
+
+      <p>
+
+      Automatic gas management makes sure that the user does not incur errors in
+      custom gas prices
+
+      <p>
+
+      Eliminates ERC20 approvals, coupled with transaction bundling provides low
+      transaction fees
+
+      <p>
+
+      Swapping with Sushiswap
+         </td>
+         <td>Lack of networks
+         </td>
+        </tr>
+        <tr>
+         <td>Trust Wallet
+         </td>
+         <td>Simple, To-the-point UI
+         </td>
+         <td>Incompatible with hardware wallets
+      <p>
+
+      2 Factor authentication is possible
+         </td>
+         <td>Wallet can be locked with biometrics
+      <p>
+
+      Easy to stake and earn interest on holdings 
+         </td>
+         <td>Performance issues with certain devices sometimes 
+      <p>
+
+      Vulnerable to social engineering and phishing attacks
+         </td>
+        </tr>
+        <tr>
+         <td>Unstoppable wallet
+         </td>
+         <td>Easy to use, clean UI
+         </td>
+         <td>Compatible with hardware wallet
+      <p>
+
+      2 Factor authentication is not possible
+         </td>
+         <td>Allows user to monitor balances, transaction history etc in real time
+      <p>
+
+      FaceId, touchId and pins can be used to safeguard the wallet 
+
+      <p>
+
+      Supports both ETH and BTC 
+
+      <p>
+
+      Provides the ability to set custom transaction fees
+
+      <p>
+
+      Ability to send bitcoin that cannot be spent until a certain date
+
+      <p>
+
+      Exceptionally high anonymity
+         </td>
+         <td>Cannot create EOS wallets, but can add existing ones
+         </td>
+        </tr>
+        <tr>
+         <td>Gnosis Safe
+         </td>
+         <td>Ethereum wallet allowing interaction with DApps, still has UI/UX hurdles but it is on the right path
+         </td>
+         <td>Multi-sig functionality available
+      <p>
+
+      2 factor authentication is available 
+
+      <p>
+
+      Compatible with hardware wallets
+         </td>
+         <td>It is smart contract based wallet
+      <p>
+
+      Multi-sig wallet functionality is available
+
+      <p>
+
+      Gnosis Safe also allows you to use any wallet of your choice to sign
+      transactions
+         </td>
+         <td>It is not free to use
+      <p>
+
+      Hides gas fees
+         </td>
+        </tr>
+      </table>
+    name: Comparing Non-Custodial Wallets
+    stepItems: []
+    uuid: 74bef816-2f4b-4a4b-b4e4-8bd740967e97
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
 uuid: custodian-vs-non-cust-wallet-dodao-academy
