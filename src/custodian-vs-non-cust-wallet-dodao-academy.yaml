@@ -1,7 +1,7 @@
 categories:
   - general
 content: Educates about the difference and talks about pros and cons
-created: '2022-11-21T20:12:01.516Z'
+created: '2022-11-21T20:14:02.347Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: onboarding
@@ -260,6 +260,80 @@ steps:
     name: Non Custodial Wallets
     stepItems: []
     uuid: 48d8f905-34fd-447e-9131-6c3549fcf281
+  - content: |-
+      # Custodial vs Non-Custodial Wallets
+
+      <table>
+        <tr>
+         <td>
+         </td>
+         <td>Non-Custodial wallets
+         </td>
+         <td>Custodial wallets
+         </td>
+        </tr>
+        <tr>
+         <td>Custody of funds
+         </td>
+         <td>The private keys are with the user
+         </td>
+         <td>The private keys are with a third-party
+         </td>
+        </tr>
+        <tr>
+         <td>Responsibility of funds
+         </td>
+         <td>The user is responsible for the safety of their funds
+         </td>
+         <td>The third-part and the user are responsible for the safety of the user’s funds
+         </td>
+        </tr>
+        <tr>
+         <td>Account recovery options
+         </td>
+         <td>If lost, private keys cannot be recovered
+         </td>
+         <td>In case the account credentials are lost, they can be recovered
+         </td>
+        </tr>
+        <tr>
+         <td>User friendliness
+         </td>
+         <td>Better suited for experienced users, developers and people with a little more technical knowledge
+         </td>
+         <td>More user friendly as it typically uses email/password to login
+         </td>
+        </tr>
+        <tr>
+         <td>Transaction fees
+         </td>
+         <td>Transaction on blockchains (for example, ethereum) costs the user gas fees
+         </td>
+         <td>Transaction within the ecosystem (for example, binance) is free
+         </td>
+        </tr>
+        <tr>
+         <td>Flexibility of usage
+      <p>
+       
+         </td>
+         <td>Allows the user to interact with Dapps on blockchains like ethereum
+         </td>
+         <td>The user cannot interact with Dapps using their wallet
+         </td>
+        </tr>
+        <tr>
+         <td>Account creation
+         </td>
+         <td>Fast account creating process
+         </td>
+         <td>Time consuming KYC and AML procedures during account creation 
+         </td>
+        </tr>
+      </table>
+    name: Custodial vs Non-Custodial
+    stepItems: []
+    uuid: a1366141-af9b-4244-9906-9a9ec299c7f4
   - content: >
       With over 150 wallets
       ([https://explorer.walletconnect.com/?type=wallet](https://explorer.walletconnect.com/?type=wallet))
