@@ -1,27 +1,22 @@
 {
-  "categories": [],
-  "content": "New Guide",
-  "created": "2022-11-21T19:28:57.119Z",
+  "categories": [
+    "general"
+  ],
+  "content": "Educates about the difference and talks about pros and cons",
+  "created": "2022-11-21T19:31:34.337Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
-  "guideType": "course",
+  "guideType": "onboarding",
   "key": "custodian-vs-non-cust-wallet-dodao-academy",
   "name": "Custodian vs Non Cust. Wallet",
   "publishStatus": "Live",
   "showIncorrectOnCompletion": true,
   "steps": [
     {
-      "content": "\nIntroduction Comments \n        ",
+      "content": "To get started with financial transactions, one needs to have a bank account. Similarly, to get started with cryptocurrency, one needs to have a crypto wallet.\n\n\n## Crypto Wallets\n\nA crypto wallet is made up of two parts - the public key and the private key. The public key is like your account number at a bank, and is used by other crypto users to send funds into your account. The private key is like your netbanking PIN, and is necessary to send funds out of your account. If someone gets hold of your private keys, they can move funds from your address to anywhere else. So, it's really important to store your private keys safely!\n\nFor non-technical users, this may sound daunting and even for tech-savvy users, the idea of losing a private key is scary. We're all used to using an email/username password for our accounts and it's okay to forget those occasionally. If we lose every detail of our bank account, we can usually go to a physical bank branch and have someone help us reset our access. But this type of setup isn't possible with blockchain/cryptocurrency, and that's what keeps a lot of users away.\n\nThere are many websites that allow you to easily buy cryptocurrency, and many of these use the traditional email/password approach. But since blockchain technology doesn't allow for this, how are these sites able to provide such an easy way to access and buy crypto? Are there any risks from using these websites? We will answer all of these questions in this guide/article.\n\nAs mentioned earlier, the gateway to accessing the financial world is a bank account. In the same way, the gateway to accessing the crypto world is a wallet. Crypto wallets can be divided into two categories: \n\n1. Custodial Wallets - Custodial wallets are a type of cryptocurrency wallet where the private keys are held by a third party. This third party can be an exchange, a custodian, or another type of organization. Custodial wallets are often seen as an easy way for new users to get started with cryptocurrency, but there are several risks that come with using this type of wallet. We will be looking at these risks in detail in the next section\n2. Non-Custodial Wallets - With this type of wallet, you are in control of the tokens or cryptocurrency you purchase. This approach appears to be more promising, but also has many complexities that come with it.\n\nIn this article, we will outline the advantages and disadvantages of custodial and non-custodial wallets without attempting to compare them with one another.",
       "name": "Introduction",
-      "stepItems": [
-        {
-          "label": "Full Name",
-          "required": false,
-          "type": "PublicShortInput",
-          "uuid": "69737c07-c03f-4ad1-a023-a8d3230910ae"
-        }
-      ],
+      "stepItems": [],
       "uuid": "a1ce30e7-539b-4e12-b861-96509995c650"
     },
     {
@@ -67,5 +62,5 @@
     }
   ],
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi",
-  "uuid": "fa070649-65f4-4607-b297-b55829ccde8a"
+  "uuid": "custodian-vs-non-cust-wallet-dodao-academy"
 }
