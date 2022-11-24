@@ -18,6 +18,7 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
  | 9      | Intro to Uniswap | What is Uniswap AMM and about Uniswap V1, V2 and V3 versions |  [Link](generated/markdown/intro-to-uniswap-dodao-academy.md) |
  | 10      | Proof of Reserves | What is POR and how various exchanges can implement it |  [Link](generated/markdown/proof-of-reserves-dodao-academy.md) |
  | 11      | Keeping your Crypto Safe | How to keep your Crypto Safe |  [Link](generated/markdown/keeping-your-crypto-safe-dodao-academy.md) |
+ | 12      | Custodian vs Non Cust. Wallet | Educates about the difference and talks about pros and cons |  [Link](generated/markdown/custodian-vs-non-cust-wallet-dodao-academy.md) |
 
 ---
 ## Footer
