@@ -67,9 +67,44 @@ steps:
       In this article, we will outline the advantages and disadvantages of
       custodial and non-custodial wallets without attempting to compare them
       with one another.
-    name: Introduction
+    name: Crypto wallets
     stepItems: []
-    uuid: a1ce30e7-539b-4e12-b861-96509995c650
+    uuid: 4642a24e-1fbe-4c26-896d-a055087fdb08
+
+  - content: ''
+    name: Evaluation
+    stepItems:
+      - answerKeys:
+          - B
+        choices:
+          - content: The custody of public keys
+            key: A
+          - content: The custody of private keys 
+            key: B
+          - content: The customer service
+            key: C
+          - content: The number of users
+            key: D
+        content: What is the key differentiating factor between custodial and non-custodial wallets?
+        type: SingleChoice
+        uuid: c53e1473-ac12-4224-b59d-d2e485f2aa1d
+      - answerKeys:
+          - C
+        choices:
+          - content: Valid till date
+            key: A
+          - content: Account number in banking
+            key: B
+          - content: Account pin/password in banking
+            key: C
+          - content: It is not comparable to any of these
+            key: D
+        content: Private key in crypto wallets is comparable to?
+        type: SingleChoice
+        uuid: 0a3238fc-0d77-4f7d-8d21-c0cc3d681d5e
+    uuid: ff07c12f-adad-4431-9ced-951acad63b87
+
+  
   - content: >-
       ## Custodial Wallets
 
@@ -154,6 +189,44 @@ steps:
     name: Custodial Wallets
     stepItems: []
     uuid: 58dd8e44-0ba1-4ede-8666-c62f4a142a62
+ 
+  - content: ''
+    name: Evaluation
+    stepItems:
+      - answerKeys:
+          - B
+          - C
+          - D
+        choices:
+          - content: Your funds could get converted into another currency unannounced 
+            key: A
+          - content: As many of the exchanges are not regulated, the funds might not be backed in a 1:1 ratio and are possible to be misused by the exchange
+            key: B
+          - content: They usually don't give the proofs of their reserves, i.e. all the assets held by them in custody
+            key: C
+          - content: The security of your funds is as safe as the security of the exchange
+            key: D
+        content: Why is it risky to use a custodial wallet?
+        type: MultipleChoice
+        uuid: 5cd3998f-ee0d-422a-b84c-b567abee859e
+      - answerKeys:
+          - B
+        choices:
+          - content: Very safe
+            key: A
+          - content: Beginner friendly and very less to no fees on exchanges
+            key: B
+          - content: Well regulated and trustworthy
+            key: C
+          - content: Provides the ability to seemlessly interact with Dapps
+            key: D
+        content: What is the best advantage of custodial wallets?
+        type: SingleChoice
+        uuid: a3ac43df-1711-45c0-801c-6d46e8275185
+    uuid: 0e277d18-3e45-4d07-b902-b68e987ad28f
+
+
+ 
   - content: >-
       ## Non Custodial Wallets
 
@@ -260,6 +333,72 @@ steps:
     name: Non Custodial Wallets
     stepItems: []
     uuid: 48d8f905-34fd-447e-9131-6c3549fcf281
+ 
+  - content: ''
+    name: Evaluation
+    stepItems:
+      - answerKeys:
+          - A
+          - B
+        choices:
+          - content: There is the possibility of the private key getting stolen or lost
+            key: A
+          - content: Inheritance of funds is tricky, given that all access to the funds lies with the holder of the private keys
+            key: B
+          - content: The private key is held by a third party, which could be troublesome
+            key: C
+          - content: Funds are not secure compared to a custodial wallet
+            key: D
+        content: What could be some drawbacks of holding your own private keys?
+        type: MultipleChoice
+        uuid: ac0a9b9a-5af6-4071-bb1d-74fcc2bd6984
+      - answerKeys:
+          - B
+          - C
+        choices:
+          - content: IOA (Internally Owned Account) 
+            key: A
+          - content: EOA (Externally Owned Account) 
+            key: B
+          - content: Smart contract account
+            key: C
+          - content: Hardware account
+            key: D
+        content: What are two types of accounts available in Ethereum?
+        type: MultipleChoice
+        uuid: 763e6ac7-29e4-41e5-8507-02bfdb61a211
+      - answerKeys:
+          - A
+          - D
+        choices:
+          - content: Custom logic for spending and ability to set limitations on spending based on complex logic
+            key: A
+          - content: Smart contract wallets provide a safe way of storing private keys
+            key: B
+          - content: It is free to deploy and use
+            key: C
+          - content: Multi-sig contracts which need the signature of more than one user (M-of-N) can be deployed, improving the security aspect of the wallet 
+            key: D
+        content: What are the advantages of smart contract wallets?
+        type: MultipleChoice
+        uuid: 14955b87-ef2c-4bcf-9cfd-4730f76b5d42
+      - answerKeys:
+          - C
+        choices:
+          - content: Multi-Party Computation wallets are cold wallets stored in a user's pc, capable of complex computations
+            key: A
+          - content: It is an alias of multiple signature wallet
+            key: B
+          - content: The private key is split into parts, each user has to sign the transaction with their respective part of the private key to authorize a transaction
+            key: C
+          - content: Multi-Party Computation wallets are hot wallets stored in a user's pc, capable of complex computations
+            key: D
+        content: Which of these is true about Multi-Party Computation wallets?
+        type: SingleChoice
+        uuid: 61896398-9d4d-44bc-8deb-08cc087eddb4
+    uuid: c4ab0bba-ba4d-436e-a034-3232e8cf6daa
+
+
   - content: |-
       # Custodial vs Non-Custodial Wallets
 
@@ -334,6 +473,37 @@ steps:
     name: Custodial vs Non-Custodial
     stepItems: []
     uuid: a1366141-af9b-4244-9906-9a9ec299c7f4
+
+  - content: ''
+    name: Evaluation
+    stepItems:
+      - answerKeys:
+          - A
+        choices:
+          - content: "False"
+            key: A
+          - content: "True"
+            key: B
+        content: KYC verification is needed in non-custodial wallets
+        type: SingleChoice
+        uuid: 8a897002-07af-45b0-872c-6c691ab8c01e
+      - answerKeys:
+          - A
+          - C
+        choices:
+          - content: All private keys are stored in one place and hence are more susceptible to being hacked
+            key: A
+          - content: The private keys of an account could be changed 
+            key: B
+          - content: User could lose their assets in case company makes bad business decisions
+            key: C
+          - content: No issues, they have very high security
+            key: D
+        content: What are the main security risks in custodial wallets?
+        type: MultipleChoice
+        uuid: 2ea27c9d-f87b-4448-b14b-a7c496475508
+    uuid: ff60ca24-a125-49af-b4a9-d64ccefc6327
+
   - content: >
       With over 150 wallets
       ([https://explorer.walletconnect.com/?type=wallet](https://explorer.walletconnect.com/?type=wallet))
