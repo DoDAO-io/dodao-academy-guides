@@ -1,0 +1,27 @@
+categories: []
+content: New Guide
+created: '2022-11-27T00:13:52.165Z'
+guideIntegrations:
+  discordRoleIds: []
+guideType: course
+key: ethereum-token-standards-dodao-academy
+name: Ethereum Token Standards
+publishStatus: Draft
+showIncorrectOnCompletion: true
+steps:
+  - content: |-
+
+      # Coming Soon        
+    name: Introduction
+    stepItems: []
+    uuid: 83c6b8f3-feaa-43e5-aa1c-e150c85cc504
+  - content: |
+      References
+
+      https://www.developcoins.com/ethereum-token-development
+    name: Introduction
+    stepItems: []
+    uuid: 32be5757-083f-4c4e-a4c9-f5f82d3c75c7
+thumbnail: >-
+  https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
+uuid: 9148960c-9bd8-4027-9aed-da7e72181801
