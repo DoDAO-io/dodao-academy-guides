@@ -1,7 +1,7 @@
 categories:
   - engineering
 content: What are optimistic rollups and the different proof mechanisms
-created: '2022-11-30T15:03:03.829Z'
+created: '2022-11-30T15:08:05.848Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -24,6 +24,70 @@ postSubmissionStepContent: >
 publishStatus: Live
 showIncorrectOnCompletion: true
 steps:
+  - content: >-
+      The unprecedented demand for Ethereum network, led to extraordinarily high
+      gas fees, that made it expensive for regular users to pay for their
+      transactions.
+
+
+      The Ethereum network currently has a transaction speed of around 30 (in
+      year 2022) transactions per second. The network frequently becomes
+      overcrowded as a result, which occasionally causes gas prices to reach
+      extremely high levels and constant delay in transactions. This major
+      problem of scalability can be overcomed using layers2 frameworks. Layer 2
+      refers to a framework or protocol of off-chain solutions  built on top of
+      layer 1s to solve the problem of transaction speed and scaling
+      difficulties faced by almost all cryptocurrency networks. It plays a
+      significant part in enhancing scaling. Layer 2 solutions provide a
+      mechanism to scale and speed up transactions while retaining the main
+      chain's security. They have the capacity to execute thousands of
+      transactions per second, which is essential if Ethereum is to gain main
+      stream adoption. One of the key benefits of employing off-chain solutions
+      is that no structural changes  are necessary in the main chain, because
+      the second layer is simply introduced as an extra layer.
+
+
+      Layer-2 networks are composed of two parts: 
+
+
+      1. A network that processes transactions 
+
+      2. A smart contract on the underlying blockchain that settles disputes and
+      achieves consensus on the state of the layer-2 network. The smart contract
+      "cements" the layer-2 network to the underlying blockchain.
+
+
+      There are two main functions of the smart contract are:
+
+
+      1. Holding and releasing funds that are transferred to the layer
+
+      2. Receiving proofs from the layer 2, validating them, resolving disputes,
+      and finalizing transactions
+
+
+      **The most famous type of layer 2 implementations is Rollups**
+    name: Why Layer 2
+    stepItems: []
+    uuid: 34aa5b1d-9bc0-4a16-90a3-d4c8a79321a3
+  - content: ''
+    name: Evaluation
+    stepItems:
+      - answerKeys:
+          - 9228635b
+        choices:
+          - content: A
+            key: 1b719307
+          - content: B
+            key: 9228635b
+          - content: C
+            key: 09206bad
+          - content: D
+            key: 0be114b4
+        content: Q
+        type: SingleChoice
+        uuid: 3ad04dfa-fe73-4a56-99c1-ba0b65cb8205
+    uuid: 92a00d69-a9ff-436c-99aa-f6a9b7abd50b
   - content: >-
       Rollup is a type of layer two solution  to solve the Ethereum scalability
       problem Roll ups works by executing transactions outside the main
