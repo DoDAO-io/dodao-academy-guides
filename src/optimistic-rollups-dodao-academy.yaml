@@ -1,7 +1,7 @@
 categories:
   - engineering
 content: What are optimistic rollups and the different proof mechanisms
-created: '2022-11-30T13:21:41.841Z'
+created: '2022-11-30T15:03:03.829Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -208,14 +208,7 @@ steps:
       transition itself, and the executor's asserted post-state after it is
       executed. This allows for quick and easy fraud detection in commitments. 
        
-      In Optimism, all state commitments are sent to the bridge contract,
-      allowing a challenger to identify which state transition should be
-      executed by the bridge contract. No cooperation with the executor is
-      necessary, and a valid commitment cannot be evaluated as invalid by a
-      fraud proof. If a commitment is proven to be invalid, it can be discarded,
-      along with slashing the executor who proposed it. However, for V2 they’re
-      moving towards using interactive proofs. \
-
+        In Optimism, all state commitments are sent to the bridge contract, allowing a challenger to identify which state transition should be executed by the bridge contract. No cooperation with the executor is necessary, and a valid commitment cannot be evaluated as invalid by a fraud proof. If a commitment is proven to be invalid, it can be discarded, along with slashing the executor who proposed it. However, for V2 they’re moving towards using interactive proofs. 
 
       2. **Multi-round fraud proof** - is a method used to make it harder for
       fraud to happen. In this system, the list of intermediary state
@@ -226,9 +219,7 @@ steps:
       then perform a binary search until they pinpoint the disputed
       instruction. 
        
-      Arbitrum's multi-round fraud proof system is a binary search between two
-      parties to find the first opcode of a whole block that they disagree on.
-      Once found, only this particular opcode is executed on-chain.
+        Arbitrum's multi-round fraud proof system is a binary search between two parties to find the first opcode of a whole block that they disagree on. Once found, only this particular opcode is executed on-chain.
     name: Disputes in Optimistic
     stepItems: []
     uuid: a5873128-7fce-4bfc-95a7-a99887a7f987
