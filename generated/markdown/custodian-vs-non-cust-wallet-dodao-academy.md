@@ -51,7 +51,7 @@ In this article, we will outline the advantages and disadvantages of custodial a
 
 - [ ]  Valid till date
 - [ ]  Account number in banking
-- [x]  Account pin in banking
+- [x]  Account pin/password in banking
 - [ ]  It is not comparable to any of these
 
     
@@ -101,8 +101,8 @@ We've mentioned all the risks and also the benefits of these exchanges. We hope 
 ##### Why is it risky to use a custodial wallet?  
 
 - [ ]  Your funds could get converted into another currency unannounced
-- [x]  The funds are not backed in a 1:1 ratio and are possible to be misused by the exchange
-- [x]  They are usually not well regulated
+- [x]  As many of the exchanges are not regulated, the funds might not be backed in a 1:1 ratio and are possible to be misused by the exchange
+- [x]  They usually don't give the proofs of their reserves, i.e. all the assets held by them in custody
 - [x]  The security of your funds is as safe as the security of the exchange
 
 
@@ -184,8 +184,8 @@ There is another type of cryptographic wallet called a Multi-Party Computation (
 
 ##### What are two types of accounts available in Ethereum?  
 
-- [ ]  IOA
-- [x]  EOA
+- [ ]  IOA (Internally Owned Account)
+- [x]  EOA (Externally Owned Account)
 - [x]  Smart contract account
 - [ ]  Hardware account
 
@@ -298,12 +298,10 @@ There is another type of cryptographic wallet called a Multi-Party Computation (
 
 
 
-##### Why is it risky to use a custodial wallet?  
+##### KYC verification is needed in non-custodial wallets  
 
-- [ ]  Your funds could get converted into another currency unannounced
-- [x]  The funds are not backed in a 1:1 ratio and are possible to be misused by the exchange
-- [x]  They are usually not well regulated
-- [x]  The security of your funds is as safe as the security of the exchange
+- [x]  False
+- [ ]  True
 
 
 
@@ -312,7 +310,7 @@ There is another type of cryptographic wallet called a Multi-Party Computation (
 ##### What are the main security risks in custodial wallets?  
 
 - [x]  All private keys are stored in one place and hence are more susceptible to being hacked
-- [ ]  The private keys could be lost
+- [ ]  The private keys of an account could be changed
 - [x]  User could lose their assets in case company makes bad business decisions
 - [ ]  No issues, they have very high security
 

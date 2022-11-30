@@ -63,7 +63,7 @@
               "key": "B"
             },
             {
-              "content": "Account pin in banking",
+              "content": "Account pin/password in banking",
               "key": "C"
             },
             {
@@ -100,11 +100,11 @@
               "key": "A"
             },
             {
-              "content": "The funds are not backed in a 1:1 ratio and are possible to be misused by the exchange",
+              "content": "As many of the exchanges are not regulated, the funds might not be backed in a 1:1 ratio and are possible to be misused by the exchange",
               "key": "B"
             },
             {
-              "content": "They are usually not well regulated",
+              "content": "They usually don't give the proofs of their reserves, i.e. all the assets held by them in custody",
               "key": "C"
             },
             {
@@ -189,11 +189,11 @@
           ],
           "choices": [
             {
-              "content": "IOA",
+              "content": "IOA (Internally Owned Account)",
               "key": "A"
             },
             {
-              "content": "EOA",
+              "content": "EOA (Externally Owned Account)",
               "key": "B"
             },
             {
@@ -277,30 +277,20 @@
       "stepItems": [
         {
           "answerKeys": [
-            "B",
-            "C",
-            "D"
+            "A"
           ],
           "choices": [
             {
-              "content": "Your funds could get converted into another currency unannounced",
+              "content": "False",
               "key": "A"
             },
             {
-              "content": "The funds are not backed in a 1:1 ratio and are possible to be misused by the exchange",
+              "content": "True",
               "key": "B"
-            },
-            {
-              "content": "They are usually not well regulated",
-              "key": "C"
-            },
-            {
-              "content": "The security of your funds is as safe as the security of the exchange",
-              "key": "D"
             }
           ],
-          "content": "Why is it risky to use a custodial wallet?",
-          "type": "MultipleChoice",
+          "content": "KYC verification is needed in non-custodial wallets",
+          "type": "SingleChoice",
           "uuid": "8a897002-07af-45b0-872c-6c691ab8c01e"
         },
         {
@@ -314,7 +304,7 @@
               "key": "A"
             },
             {
-              "content": "The private keys could be lost",
+              "content": "The private keys of an account could be changed",
               "key": "B"
             },
             {
