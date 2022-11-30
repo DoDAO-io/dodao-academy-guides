@@ -1,7 +1,7 @@
 categories:
   - engineering
 content: What are optimistic rollups and the different proof mechanisms
-created: '2022-11-30T13:04:56.370Z'
+created: '2022-11-30T13:08:17.735Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -25,7 +25,68 @@ publishStatus: Live
 showIncorrectOnCompletion: true
 steps:
   - content: >-
-      ## Bridges/Rollups
+      Roll up is a type of layer two solution  to solve the Ethereum scalability
+      problem Roll ups works by executing transactions outside the main
+      ethereum  chain, while submitting data to the base chain.This means that
+      layer-2 networks can handle the processing of transactions much faster
+      than the base blockchain, since there is a smaller validator set with
+      better hardware. In addition, the base blockchain only needs to execute
+      proofs submitted to the rollup smart contract to verify the activity on
+      the layer-2 network, rather than store raw, unexecuted transaction data.
+
+
+      Optimistic and zero-knowledge rollups provide higher scalability by
+      executing smart contract state changes off-chain and proving them
+      on-chain. Rollups improve scalability in two ways: 
+
+      1. **Off-Chain Execution** - Rollups move transaction execution off-chain,
+      so that the underlying base blockchain only needs to verify network
+      activity with small proofs and store raw transaction data. 
+
+      2. **Batch Transactions** - Rollups group multiple transactions together
+      when submitted to a blockchain, so that the on-chain gas cost is spread
+      out over many transactions.
+
+      3. **Fewer Validators** - Rollups require a minimum of one honest
+      validator to prove the validity of transactions to the base layer
+      blockchain. This allows for smaller validator sets and increased hardware
+      requirements without compromising security.
+
+
+      Rollups shift computation (and state storage) off-chain, but still require
+      some data per transaction to remain on-chain. For example, an Ethereum
+      base-layer ERC20 token transfer costs approximately 45,000 gas. In
+      contrast, an ERC20 transfer in a rollup only takes up 16 bytes of on-chain
+      space and costs less than 300 gas.
+
+
+      Since data resides on-chain and there is consensus around this fact,
+      anyone can locally process all the operations in the rollup if they choose
+      to do so. This allows them to detect fraud, initiate withdrawals, or start
+      producing transaction batches themselves.
+    name: Rollups
+    stepItems: []
+    uuid: dcffe63c-aa67-4340-98cc-025be2ce48c3
+  - content: ''
+    name: Evaluation
+    stepItems:
+      - answerKeys:
+          - 07092eb0
+        choices:
+          - content: A
+            key: '05e83682'
+          - content: B
+            key: 07092eb0
+          - content: C
+            key: '97301532'
+          - content: D
+            key: d1b708e1
+        content: Q1
+        type: SingleChoice
+        uuid: 248af849-bc63-4f90-bccb-346c4d800bbe
+    uuid: b5b08910-ba5e-440c-80de-30552bf4f645
+  - content: >-
+      ## Bridges
 
 
       Bridges are responsible for holding assets on a layer-1 blockchain while
@@ -54,7 +115,7 @@ steps:
       ordering and execution of transactions to ensure users can always unwind
       their positions and withdraw their funds.
               
-    name: Background
+    name: Rollup Bridges
     stepItems: []
     uuid: 25c6efd4-8cbb-4501-a5d8-09a4e9c2f8b2
   - content: ''
