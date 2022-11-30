@@ -3,7 +3,7 @@
     "engineering"
   ],
   "content": "What are optimistic rollups and the different proof mechanisms",
-  "created": "2022-11-30T00:38:03.157Z",
+  "created": "2022-11-30T13:04:56.370Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -54,7 +54,7 @@
       "uuid": "5d642a3f-5f46-4690-ab86-1854c75155e4"
     },
     {
-      "content": "\nThe validating bridge contract is tasked with protecting the integrity of the database and ensuring that proposed state updates are eventually applied to the database. This ensures that the database remains live and accessible to all users.\n\nThere are two ways in which the commitments can be verified:\n\n### Fraud-proof approach(Optimistic) \nChallengers are responsible for validating commitments posted to the bridge contract. There is a challenge time window to provide time for a challenger to send indisputable evidence (proof of fraud) about the commitment’s validity. If there is no evidence of fraud by the time the challenge expires, then the commitment is accepted as valid.\n\n### Validity-proof approach (Zero-knowledge). The executor must present evidence alongside the commitment to prove that all state transitions are valid. There is no challenge period and the bridge contract can accept the commitment immediately.\n\nZero-knowledge proofs allow the prover to show that a commitment is valid without revealing any information about the inputs. This proof can be verified quickly and easily, making it a valuable tool for ensuring computational integrity. However, the downside of zero-knowledge proofs is that they can be computationally intensive for the prover, especially for generic computations. Engineers are actively working to improve this technology so that it is more efficient and easier to use.",
+      "content": "\nThe validating bridge contract is tasked with protecting the integrity of the database and ensuring that proposed state updates are eventually applied to the database. This ensures that the database remains live and accessible to all users.\n\nThere are two ways in which the commitments can be verified:\n\n### Fraud-proof approach(Optimistic) \nChallengers are responsible for validating commitments posted to the bridge contract. There is a challenge time window to provide time for a challenger to send indisputable evidence (proof of fraud) about the commitment’s validity. If there is no evidence of fraud by the time the challenge expires, then the commitment is accepted as valid.\n\n### Validity-proof approach (Zero-knowledge)\nThe executor must present evidence alongside the commitment to prove that all state transitions are valid. There is no challenge period and the bridge contract can accept the commitment immediately.\n\nZero-knowledge proofs allow the prover to show that a commitment is valid without revealing any information about the inputs. This proof can be verified quickly and easily, making it a valuable tool for ensuring computational integrity. However, the downside of zero-knowledge proofs is that they can be computationally intensive for the prover, especially for generic computations. Engineers are actively working to improve this technology so that it is more efficient and easier to use.",
       "name": "Validators",
       "stepItems": [],
       "uuid": "2fc6f67d-37d0-4b5e-a5f7-e716e3dbf2f1"

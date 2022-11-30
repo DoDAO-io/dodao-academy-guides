@@ -1,7 +1,7 @@
 categories:
   - engineering
 content: What are optimistic rollups and the different proof mechanisms
-created: '2022-11-30T00:38:03.157Z'
+created: '2022-11-30T13:04:56.370Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -95,10 +95,11 @@ steps:
       challenge expires, then the commitment is accepted as valid.
 
 
-      ### Validity-proof approach (Zero-knowledge). The executor must present
-      evidence alongside the commitment to prove that all state transitions are
-      valid. There is no challenge period and the bridge contract can accept the
-      commitment immediately.
+      ### Validity-proof approach (Zero-knowledge)
+
+      The executor must present evidence alongside the commitment to prove that
+      all state transitions are valid. There is no challenge period and the
+      bridge contract can accept the commitment immediately.
 
 
       Zero-knowledge proofs allow the prover to show that a commitment is valid
