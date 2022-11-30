@@ -1,7 +1,7 @@
 categories:
   - engineering
 content: Explains the need for Layer2 solutions and Two types of Rollups
-created: '2022-11-30T13:23:18.579Z'
+created: '2022-11-30T13:24:58.074Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: onboarding
@@ -33,7 +33,7 @@ postSubmissionStepContent: >+
 publishStatus: Live
 showIncorrectOnCompletion: true
 steps:
-  - content: >-
+  - content: >
       The unprecedented demand for Ethereum network, led to extraordinarily high
       gas fees, that made it expensive for regular users to pay for their
       transactions.
@@ -78,6 +78,16 @@ steps:
 
 
       **The most famous type of layer 2 implementations is Rollups**
+
+
+      #### Also Read
+
+      [Optimistic
+      Rollups](https://dodao.academy/guide/view/optimistic-rollups-dodao-academy/0)
+
+
+      [Bridges - Deep
+      Dive](https://dodao.academy/guide/view/bridges-deep-dive-dodao-academy/0)
     name: Why Need for Layer2
     stepItems: []
     uuid: 222e92fa-077a-4dce-bb0d-57185b19b29d
