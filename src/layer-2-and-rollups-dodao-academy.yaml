@@ -1,7 +1,7 @@
 categories:
   - engineering
 content: Explains the need for Layer2 solutions and Two types of Rollups
-created: '2022-11-30T13:25:18.935Z'
+created: '2022-11-30T15:08:25.726Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: onboarding
@@ -30,7 +30,7 @@ postSubmissionStepContent: >+
 
   https://stonecoldpat.github.io/images/validatingbridges.pdf
 
-publishStatus: Live
+publishStatus: Draft
 showIncorrectOnCompletion: true
 steps:
   - content: >-
