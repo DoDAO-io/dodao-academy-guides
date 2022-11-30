@@ -3,13 +3,14 @@
     "engineering"
   ],
   "content": "Explains the need for Layer2 solutions and Two types of Rollups",
-  "created": "2022-11-30T00:27:14.221Z",
+  "created": "2022-11-30T00:37:24.157Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
   "guideType": "onboarding",
   "key": "layer-2-and-rollups-dodao-academy",
   "name": "Layer 2 and Rollups",
+  "postSubmissionStepContent": "### References\nhttps://blog.chain.link/what-is-a-layer-2\n\nhttps://www.youtube.com/watch?v=OJT_fR7wexw\n\nhttps://medium.com/plasma-group/introducing-the-ovm-db253287af50 \n\nhttps://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/optimistic_rollups/ \n\nhttps://medium.com/@cpbuckland88/fraud-proofs-and-virtual-machines-2826a3412099 \n\nhttps://blog.infura.io/post/validating-bridges-scaling-blockchains \n\nhttps://stonecoldpat.github.io/images/validatingbridges.pdf\n\n",
   "publishStatus": "Live",
   "showIncorrectOnCompletion": true,
   "steps": [
@@ -132,5 +133,5 @@
     }
   ],
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi",
-  "uuid": "a3e2c57c-c210-4b22-ab40-b0d5ae75730f"
+  "uuid": "layer-2-and-rollups-dodao-academy"
 }
