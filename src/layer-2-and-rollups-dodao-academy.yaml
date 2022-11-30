@@ -1,7 +1,7 @@
 categories:
   - engineering
 content: Explains the need for Layer2 solutions and Two types of Rollups
-created: '2022-11-30T00:37:24.157Z'
+created: '2022-11-30T13:23:18.579Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: onboarding
@@ -108,6 +108,10 @@ steps:
       better hardware. In addition, the base blockchain only needs to execute
       proofs submitted to the rollup smart contract to verify the activity on
       the layer-2 network, rather than store raw, unexecuted transaction data.
+
+
+      In a rollup, all data is posted to the Layer-1 blockchain. This is because
+      “computation is expensive but data is cheap on Ethereum”.
 
 
       Optimistic and zero-knowledge rollups provide higher scalability by
