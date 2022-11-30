@@ -1,7 +1,7 @@
 categories:
   - engineering
 content: What are optimistic rollups and the different proof mechanisms
-created: '2022-11-30T13:08:17.735Z'
+created: '2022-11-30T13:21:41.841Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -25,7 +25,7 @@ publishStatus: Live
 showIncorrectOnCompletion: true
 steps:
   - content: >-
-      Roll up is a type of layer two solution  to solve the Ethereum scalability
+      Rollup is a type of layer two solution  to solve the Ethereum scalability
       problem Roll ups works by executing transactions outside the main
       ethereum  chain, while submitting data to the base chain.This means that
       layer-2 networks can handle the processing of transactions much faster
@@ -33,6 +33,10 @@ steps:
       better hardware. In addition, the base blockchain only needs to execute
       proofs submitted to the rollup smart contract to verify the activity on
       the layer-2 network, rather than store raw, unexecuted transaction data.
+
+
+      In a rollup, all data is posted to the Layer-1 blockchain. This is because
+      “computation is expensive but data is cheap on Ethereum”.
 
 
       Optimistic and zero-knowledge rollups provide higher scalability by
