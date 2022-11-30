@@ -1,0 +1,267 @@
+categories:
+  - engineering
+content: What are optimistic rollups and the different proof mechanisms
+created: '2022-11-30T15:16:56.623Z'
+guideIntegrations:
+  discordRoleIds: []
+guideType: course
+key: optimistic-rollups-dodao-academy
+name: Optimistic Rollups
+postSubmissionStepContent: >
+  #### References
+  https://blog.infura.io/post/validating-bridges-scaling-blockchains 
+  https://stonecoldpat.github.io/images/validatingbridges.pdf
+  https://medium.com/@cpbuckland88/fraud-proofs-and-virtual-machines-2826a3412099
+  https://twitter.com/krzkaczor/status/1395812319494557702?lang=en
+publishStatus: Live
+showIncorrectOnCompletion: true
+steps:
+  - content: >-
+      The unprecedented demand for Ethereum network, led to extraordinarily high
+      gas fees, that made it expensive for regular users to pay for their
+      transactions.
+      The Ethereum network currently has a transaction speed of around 30 (in
+      year 2022) transactions per second. The network frequently becomes
+      overcrowded as a result, which occasionally causes gas prices to reach
+      extremely high levels and constant delay in transactions. This major
+      problem of scalability can be overcomed using layers2 frameworks. Layer 2
+      refers to a framework or protocol of off-chain solutions  built on top of
+      layer 1s to solve the problem of transaction speed and scaling
+      difficulties faced by almost all cryptocurrency networks. It plays a
+      significant part in enhancing scaling. Layer 2 solutions provide a
+      mechanism to scale and speed up transactions while retaining the main
+      chain's security. They have the capacity to execute thousands of
+      transactions per second, which is essential if Ethereum is to gain main
+      stream adoption. One of the key benefits of employing off-chain solutions
+      is that no structural changes  are necessary in the main chain, because
+      the second layer is simply introduced as an extra layer.
+      Layer-2 networks are composed of two parts: 
+      1. A network that processes transactions 
+      2. A smart contract on the underlying blockchain that settles disputes and
+      achieves consensus on the state of the layer-2 network. The smart contract
+      "cements" the layer-2 network to the underlying blockchain.
+      There are two main functions of the smart contract are:
+      1. Holding and releasing funds that are transferred to the layer
+      2. Receiving proofs from the layer 2, validating them, resolving disputes,
+      and finalizing transactions
+      **The most famous type of layer 2 implementations is Rollups**
+    name: Why Layer 2
+    stepItems: []
+    uuid: 34aa5b1d-9bc0-4a16-90a3-d4c8a79321a3
+  - content: ''
+    name: Evaluation
+    stepItems:
+      - answerKeys:
+          - 9228635b
+          - 09206bad
+          - 0be114b4
+        choices:
+          - content: More security
+            key: 1b719307
+          - content: provide higher scalability
+            key: 9228635b
+          - content: Instant transactions
+            key: 09206bad
+          - content: Less gas fees
+            key: 0be114b4
+        content: How did layer 1 benefit from the introduction of layer 2 frameworks?
+        type: MultipleChoice
+        uuid: 3ad04dfa-fe73-4a56-99c1-ba0b65cb8205
+    uuid: 92a00d69-a9ff-436c-99aa-f6a9b7abd50b
+  - content: >-
+      Rollup is a type of layer two solution  to solve the Ethereum scalability
+      problem Roll ups works by executing transactions outside the main
+      ethereum  chain, while submitting data to the base chain.This means that
+      layer-2 networks can handle the processing of transactions much faster
+      than the base blockchain, since there is a smaller validator set with
+      better hardware. In addition, the base blockchain only needs to execute
+      proofs submitted to the rollup smart contract to verify the activity on
+      the layer-2 network, rather than store raw, unexecuted transaction data.
+      In a rollup, all data is posted to the Layer-1 blockchain. This is because
+      “computation is expensive but data is cheap on Ethereum”.
+      Optimistic and zero-knowledge rollups provide higher scalability by
+      executing smart contract state changes off-chain and proving them
+      on-chain. Rollups improve scalability in two ways: 
+      1. **Off-Chain Execution** - Rollups move transaction execution off-chain,
+      so that the underlying base blockchain only needs to verify network
+      activity with small proofs and store raw transaction data. 
+      2. **Batch Transactions** - Rollups group multiple transactions together
+      when submitted to a blockchain, so that the on-chain gas cost is spread
+      out over many transactions.
+      3. **Fewer Validators** - Rollups require a minimum of one honest
+      validator to prove the validity of transactions to the base layer
+      blockchain. This allows for smaller validator sets and increased hardware
+      requirements without compromising security.
+      Rollups shift computation (and state storage) off-chain, but still require
+      some data per transaction to remain on-chain. For example, an Ethereum
+      base-layer ERC20 token transfer costs approximately 45,000 gas. In
+      contrast, an ERC20 transfer in a rollup only takes up 16 bytes of on-chain
+      space and costs less than 300 gas.
+      Since data resides on-chain and there is consensus around this fact,
+      anyone can locally process all the operations in the rollup if they choose
+      to do so. This allows them to detect fraud, initiate withdrawals, or start
+      producing transaction batches themselves.
+    name: Rollups
+    stepItems: []
+    uuid: dcffe63c-aa67-4340-98cc-025be2ce48c3
+  - content: ''
+    name: Evaluation
+    stepItems:
+      - answerKeys:
+          - 07092eb0
+        choices:
+          - content: By paying more to validators
+            key: '05e83682'
+          - content: By grouping multiple transactions together.
+            key: 07092eb0
+          - content: By executing transactions outside the main ethereum chain, while submitting data to the base chain
+            key: '97301532'
+          - content: By increasing the number of active validators
+            key: d1b708e1
+        content: How do roll-ups improve the layer1 scalability?
+        type: MultipleChoice
+        uuid: 248af849-bc63-4f90-bccb-346c4d800bbe
+    uuid: b5b08910-ba5e-440c-80de-30552bf4f645
+  - content: >-
+      ## Bridges
+      Bridges are responsible for holding assets on a layer-1 blockchain while
+      those same assets are released on another service. This defines who has
+      custody of the funds and the conditions that must be met before the assets
+      can be unlocked. The withdrawal request destroys coins on the off-chain
+      system and updates the bridge contract about the user’s entitlement to
+      withdraw their coins back to the Layer 1 blockchain. This allows users to
+      move their coins back and forth between the two systems without having to
+      worry about losing any of their value.
+      Bridges carryout functions similar to the below:
+      1. Deposit. A user can deposit funds into the bridge, and then
+      corresponding assets are set up on the other system.
+      2. Update account balance. The bridge is told about new account balances,
+      which can help the withdrawal process.
+      3. Withdrawal. A user can withdraw their assets from the bridge according
+      to their balance on the other system, and the tokens issued on the other
+      system are destroyed.
+      4. Censorship resistance. The bridge contract can enforce the eventual
+      ordering and execution of transactions to ensure users can always unwind
+      their positions and withdraw their funds.
+              
+    name: Rollup Bridges
+    stepItems: []
+    uuid: 25c6efd4-8cbb-4501-a5d8-09a4e9c2f8b2
+  - content: ''
+    name: Evaluation
+    stepItems:
+      - answerKeys:
+          - 96fc53b4
+        choices:
+          - content: Deposit
+            key: e14833e1
+          - content: Censorship resistance
+            key: 96fc53b4
+          - content: Update account balance.
+            key: e6908d80
+          - content: Withdrawal
+            key: e5f3ea4c
+        content: The bridge contract to ensure positions and withdraw of users funds through eventual ordering and execution of transactions is ?
+        type: SingleChoice
+        uuid: af0b2a47-8fe5-468e-b7a9-f3a90570320e
+    uuid: 5d642a3f-5f46-4690-ab86-1854c75155e4
+  - content: >-
+      The validating bridge contract is tasked with protecting the integrity of
+      the database and ensuring that proposed state updates are eventually
+      applied to the database. This ensures that the database remains live and
+      accessible to all users.
+      There are two ways in which the commitments can be verified:
+      ### Fraud-proof approach(Optimistic) 
+      Challengers are responsible for validating commitments posted to the
+      bridge contract. There is a challenge time window to provide time for a
+      challenger to send indisputable evidence (proof of fraud) about the
+      commitment’s validity. If there is no evidence of fraud by the time the
+      challenge expires, then the commitment is accepted as valid.
+      ### Validity-proof approach (Zero-knowledge)
+      The executor must present evidence alongside the commitment to prove that
+      all state transitions are valid. There is no challenge period and the
+      bridge contract can accept the commitment immediately.
+      Zero-knowledge proofs allow the prover to show that a commitment is valid
+      without revealing any information about the inputs. This proof can be
+      verified quickly and easily, making it a valuable tool for ensuring
+      computational integrity. However, the downside of zero-knowledge proofs is
+      that they can be computationally intensive for the prover, especially for
+      generic computations. Engineers are actively working to improve this
+      technology so that it is more efficient and easier to use.
+    name: Validators
+    stepItems: []
+    uuid: 2fc6f67d-37d0-4b5e-a5f7-e716e3dbf2f1
+  - content: ''
+    name: Evaluation
+    stepItems:
+      - answerKeys:
+          - 0449fcb9
+        choices:
+          - content:  By validating the evidences through proof of work mechanism.
+            key: 7bee6fff
+          - content: By validating the evidence provided during challenge time window.
+            key: 0449fcb9
+          - content: By validating the evidence provided by the executor alongside the commitment
+            key: ccc850ac
+          - content:  By validating the evidences through proof of stake mechanism.
+            key: cf067c4a
+        content: How are transactions validated in Fraud-proof approach?
+        type: SingleChoice
+        uuid: 17f2f4e1-21cf-42f2-a9a2-159989e3fbc5
+    uuid: f484ce80-234b-4202-8aa9-041caeee003d
+  - content: >-
+      There are currently two approaches for pinpointing a disputed state
+      transition in Optimistic Rollups:
+      ### 1. One-round fraud proof 
+      This means that the challenger has a list of intermediary state
+      transitions for the commitment being asserted, which can be used to
+      pinpoint the disputed state transition. The challenger then submits the
+      disputed intermediary state transitions along with a list of inclusion
+      proofs about the state transition's pre-state, the state transition
+      itself, and the executor's asserted post-state after it is executed. This
+      allows for quick and easy fraud detection in commitments. 
+       
+      In Optimism, all state commitments are sent to the bridge contract,
+      allowing a challenger to identify which state transition should be
+      executed by the bridge contract. No cooperation with the executor is
+      necessary, and a valid commitment cannot be evaluated as invalid by a
+      fraud proof. If a commitment is proven to be invalid, it can be discarded,
+      along with slashing the executor who proposed it. However, for V2 they’re
+      moving towards using interactive proofs. 
+      ### 2. Multi-round fraud proof
+      This is a method used to make it harder for fraud to happen. In this
+      system, the list of intermediary state transitions for an asserted
+      commitment is not sent to the bridge contract. This makes it more
+      difficult to pinpoint an individual state transition in a single-round.
+      Instead, the challenger and executor must agree upon the total number of
+      instructions executed within the commitment. They will then perform a
+      binary search until they pinpoint the disputed instruction. 
+       
+      Arbitrum's multi-round fraud proof system is a binary search between two
+      parties to find the first opcode of a whole block that they disagree on.
+      Once found, only this particular opcode is executed on-chain.
+    name: Disputes in Optimistic
+    stepItems: []
+    uuid: a5873128-7fce-4bfc-95a7-a99887a7f987
+  - content: ''
+    name: Evaluation
+    stepItems:
+      - answerKeys:
+          - 9b0493fa
+        choices:
+          - content: State transition's pre-state
+            key: 1a95824f
+          - content:  The state transition itself
+            key: c038a5a7
+          - content: Executor's asserted post-state
+            key: f00d64fb
+          - content: All of the above
+            key: 9b0493fa
+        content: The list of inclusion proofs in One-round fraud proof for quick and easy fraud detection are?
+
+        type: SingleChoice
+        uuid: 73ab252e-af32-43ee-9e7b-158a95e20d19
+    uuid: f49142fc-eddd-4116-9c25-01f365813d05
+thumbnail: >-
+  https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
+uuid: optimistic-rollups-dodao-academy
