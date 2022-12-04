@@ -31,12 +31,12 @@ Trust assumptions for bridge contracts can be classified into three types:
 
 
 
-##### Q1  
+##### what are the usecases of Bridge?  
 
-- [ ]  A
-- [x]  B
-- [ ]  C
-- [ ]  D
+- [ ]  To solve the security issue of rollups
+- [x]  To transfer tokens between different layers
+- [ ]  To help quickly validate transactions
+- [x]  To enable interoperability
 
     
 
@@ -59,12 +59,12 @@ There are three types of workers involved in assessing the security of a validat
 
 
 
-##### Q1  
+##### What type of workers are involved in assessing the security of a validating bridge?  
 
-- [ ]  A
-- [x]  B
-- [ ]  C
-- [ ]  D
+- [x]  Sequencers
+- [x]  Challengers
+- [x]  Executors
+- [x]  Validators
 
     
 
@@ -93,12 +93,12 @@ Now, the executor can periodically assert a cryptographic commitment to the brid
 
 
 
-##### Q2  
+##### The most popular way of solving the data availability problem is through?  
 
-- [ ]  A
-- [x]  B
-- [ ]  C
-- [ ]  D
+- [ ]  Through data compression
+- [x]  Rollups
+- [ ]  Cloud Storage
+- [x]  Layer2 frameworks
 
     
 
@@ -128,12 +128,12 @@ Zero-knowledge proofs allow the prover to show that a commitment is valid withou
 
 
 
-##### Q4  
+##### How are transactions validated in Validity-proof approach?  
 
-- [ ]  A
-- [x]  B
-- [ ]  C
-- [ ]  D
+- [ ]  By validating the evidence provided during challenge time
+- [ ]  By validating the evidences through proof of stake mechanism.
+- [ ]  By validating the evidences proof of work mechanism.
+- [x]  By validating the evidence provided by the executor alongside the commitment
 
     
 
