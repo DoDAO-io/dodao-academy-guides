@@ -1,6 +1,6 @@
 categories: []
 content: What is POR and how various exchanges can implement it
-created: '2022-11-10T14:31:02.613Z'
+created: '2022-12-05T20:37:50.898Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: onboarding
@@ -9,10 +9,27 @@ name: Proof of Reserves
 publishStatus: Live
 showIncorrectOnCompletion: true
 steps:
-  - content: '# Proof of Reserves        '
+  - content: >-
+      # Proof of Reserves        
+
+
+      StableSwap approaches Constant Product as A0 and Constant Sum as A
+
+      $$ A \cdot n^n \cdot \sum{x_i} +D = A \cdot D \cdot n^n + {
+      \frac{D^{n+1}}{{n}^{n}\cdot \prod{x_i} } } $$
+
+
+      Where:
+
+
+      $$n$$ is the number of tokens
+
+      $$x_i$$ is is balance of token $$i$$
+
+      $$A$$ is the amplification parameter
     name: Introduction
     stepItems: []
     uuid: b4cf1a30-95e2-40a2-978a-79a66c411a60
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
-uuid: b2687340-c5ab-4603-8542-47e4c2dc9691
+uuid: proof-of-reserves-dodao-academy
