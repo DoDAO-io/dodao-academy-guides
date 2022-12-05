@@ -34,12 +34,12 @@ There are two main functions of the smart contract are:
 
 
 
-##### Q  
+##### How did layer 1 benefit from the introduction of layer 2 frameworks?  
 
-- [ ]  A
-- [x]  B
-- [ ]  C
-- [ ]  D
+- [ ]  More security
+- [x]  provide higher scalability
+- [x]  Instant transactions
+- [x]  Charging less gas fee
 
     
 
@@ -70,12 +70,12 @@ Since data resides on-chain and there is consensus around this fact, anyone can 
 
 
 
-##### Q1  
+##### How do roll-ups improve the layer1 scalability?  
 
-- [ ]  A
-- [x]  B
-- [ ]  C
-- [ ]  D
+- [ ]  By paying more to validators
+- [x]  By grouping multiple transactions together.
+- [x]  By executing transactions outside the main ethereum chain, while submitting data to the base chain
+- [ ]  By increasing the number of active validators
 
     
 
@@ -104,12 +104,12 @@ Bridges carryout functions similar to the below:
 
 
 
-##### Q1  
+##### The bridge contract to ensure positions and withdraw of users funds through eventual ordering and execution of transactions is ?  
 
-- [ ]  A
-- [x]  B
-- [ ]  C
-- [ ]  D
+- [ ]  Deposit
+- [x]  Censorship resistance
+- [ ]  Update account balance.
+- [ ]  Withdrawal
 
     
 
@@ -140,12 +140,12 @@ Zero-knowledge proofs allow the prover to show that a commitment is valid withou
 
 
 
-##### Q2  
+##### How are transactions validated in Fraud-proof approach?  
 
-- [ ]  A
-- [x]  B
-- [ ]  C
-- [ ]  D
+- [ ]  By validating the evidences through proof of work mechanism.
+- [x]  By validating the evidence provided during challenge time window.
+- [ ]  By validating the evidence provided by the executor alongside the commitment
+- [ ]  By validating the evidences through proof of stake mechanism.
 
     
 
@@ -175,12 +175,12 @@ Arbitrum's multi-round fraud proof system is a binary search between two parties
 
 
 
-##### Q3  
+##### The list of inclusion proofs in One-round fraud proof for quick and easy fraud detection are?  
 
-- [ ]  A
-- [x]  B
-- [ ]  C
-- [ ]  D
+- [ ]  State transition's pre-state
+- [ ]  The state transition itself
+- [ ]  Executor's asserted post-state
+- [x]  All of the above
 
     
 

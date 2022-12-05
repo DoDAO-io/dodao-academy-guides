@@ -75,17 +75,19 @@ steps:
     stepItems:
       - answerKeys:
           - 9228635b
+          - 09206bad
+          - 0be114b4
         choices:
-          - content: A
+          - content: More security
             key: 1b719307
-          - content: B
+          - content: provide higher scalability
             key: 9228635b
-          - content: C
+          - content: Instant transactions
             key: 09206bad
-          - content: D
+          - content: Charging less gas fee
             key: 0be114b4
-        content: Q
-        type: SingleChoice
+        content: How did layer 1 benefit from the introduction of layer 2 frameworks?
+        type: MultipleChoice
         uuid: 3ad04dfa-fe73-4a56-99c1-ba0b65cb8205
     uuid: 92a00d69-a9ff-436c-99aa-f6a9b7abd50b
   - content: >-
@@ -140,16 +142,17 @@ steps:
     stepItems:
       - answerKeys:
           - 07092eb0
+          - '97301532'
         choices:
-          - content: A
+          - content: By paying more to validators
             key: '05e83682'
-          - content: B
+          - content: By grouping multiple transactions together.
             key: 07092eb0
-          - content: C
+          - content: By executing transactions outside the main ethereum chain, while submitting data to the base chain
             key: '97301532'
-          - content: D
+          - content:  By increasing the number of active validators
             key: d1b708e1
-        content: Q1
+        content: How do roll-ups improve the layer1 scalability?
         type: SingleChoice
         uuid: 248af849-bc63-4f90-bccb-346c4d800bbe
     uuid: b5b08910-ba5e-440c-80de-30552bf4f645
@@ -192,15 +195,15 @@ steps:
       - answerKeys:
           - 96fc53b4
         choices:
-          - content: A
+          - content: Deposit
             key: e14833e1
-          - content: B
+          - content: Censorship resistance
             key: 96fc53b4
-          - content: C
+          - content: Update account balance.
             key: e6908d80
-          - content: D
+          - content: Withdrawal
             key: e5f3ea4c
-        content: Q1
+        content: The bridge contract to ensure positions and withdraw of users funds through eventual ordering and execution of transactions is ?
         type: SingleChoice
         uuid: af0b2a47-8fe5-468e-b7a9-f3a90570320e
     uuid: 5d642a3f-5f46-4690-ab86-1854c75155e4
@@ -247,15 +250,15 @@ steps:
       - answerKeys:
           - 0449fcb9
         choices:
-          - content: A
+          - content: By validating the evidences through proof of work mechanism.
             key: 7bee6fff
-          - content: B
+          - content: By validating the evidence provided during challenge time window.
             key: 0449fcb9
-          - content: C
+          - content: By validating the evidence provided by the executor alongside the commitment
             key: ccc850ac
-          - content: D
+          - content: By validating the evidences through proof of stake mechanism.
             key: cf067c4a
-        content: Q2
+        content:  How are transactions validated in Fraud-proof approach?
         type: SingleChoice
         uuid: 17f2f4e1-21cf-42f2-a9a2-159989e3fbc5
     uuid: f484ce80-234b-4202-8aa9-041caeee003d
@@ -303,17 +306,17 @@ steps:
     name: Evaluation
     stepItems:
       - answerKeys:
-          - c038a5a7
+          - 9b0493fa
         choices:
-          - content: A
+          - content: State transition's pre-state
             key: 1a95824f
-          - content: B
+          - content: The state transition itself
             key: c038a5a7
-          - content: C
+          - content: Executor's asserted post-state
             key: f00d64fb
-          - content: D
+          - content: All of the above
             key: 9b0493fa
-        content: Q3
+        content:  The list of inclusion proofs in One-round fraud proof for quick and easy fraud detection are?
         type: SingleChoice
         uuid: 73ab252e-af32-43ee-9e7b-158a95e20d19
     uuid: f49142fc-eddd-4116-9c25-01f365813d05
