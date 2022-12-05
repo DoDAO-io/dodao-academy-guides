@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "New Guide",
-  "created": "2022-12-05T21:46:05.252Z",
+  "created": "2022-12-05T21:48:54.121Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -12,7 +12,7 @@
   "showIncorrectOnCompletion": true,
   "steps": [
     {
-      "content": "Ethereum is a decentralized platform for building and running decentralized applications (dApps), and uses various token standards to enable different types of tokens and assets to be created and traded on the platform. The main token standards in Ethereum are:\n\n1. **ERC-20** - is the most widely used and well-known token standard in Ethereum, and allows for the creation of tokens that are interchangeable and can be easily transferred and traded on the Ethereum blockchain. ERC-20 tokens are used for a wide range of purposes, including fundraising, payments, rewards, and gaming.\n\n2. **ERC-721** - is a non-fungible token (NFT) standard, which allows for the creation of unique and indivisible tokens that represent collectibles, art, assets, or other non-fungible items. ERC-721 tokens are often used for digital collectibles, art, and gaming, and can be traded and exchanged on the Ethereum blockchain.\n\n3. **ERC-1155** - is a hybrid token standard, which allows for the creation of both fungible and non-fungible tokens in a single smart contract. This standard allows for greater flexibility and efficiency in managing different types of tokens and assets, and can be used for a wide range of applications\n4. **ERC-777**  it adds several new features to ERC20, including the ability to support multiple recipients in a single transaction, the ability to send tokens to smart contracts, and the ability to customize the behavior of tokens",
+      "content": "Ethereum is a decentralized platform for building and running decentralized applications (dApps), and uses various token standards to enable different types of tokens and assets to be created and traded on the platform. The main token standards in Ethereum are:\n\n1. **ERC-20** - is the most widely used and well-known token standard in Ethereum, and allows for the creation of tokens that are interchangeable and can be easily transferred and traded on the Ethereum blockchain. ERC-20 tokens are used for a wide range of purposes, including fundraising, payments, rewards, and gaming.\n\n2. **ERC-721** - is a non-fungible token (NFT) standard, which allows for the creation of unique and indivisible tokens that represent collectibles, art, assets, or other non-fungible items. ERC-721 tokens are often used for digital collectibles, art, and gaming, and can be traded and exchanged on the Ethereum blockchain.\n\n3. **ERC-1155** - is a hybrid token standard, which allows for the creation of both fungible and non-fungible tokens in a single smart contract. This standard allows for greater flexibility and efficiency in managing different types of tokens and assets, and can be used for a wide range of applications\n4. **ERC-777**  it adds several new features to ERC20, including the ability to support multiple recipients in a single transaction, the ability to send tokens to smart contracts, and the ability to customize the behavior of tokens\n\n5. **ERC-1400** -  is focused on enabling the issuance and management of security tokens. Security tokens are digital assets that represent real-world assets such as stocks, bonds, or other securities, and are subject to regulatory oversight",
       "name": "Introduction",
       "stepItems": [],
       "uuid": "83c6b8f3-feaa-43e5-aa1c-e150c85cc504"
@@ -22,6 +22,12 @@
       "name": "ERC-777",
       "stepItems": [],
       "uuid": "32be5757-083f-4c4e-a4c9-f5f82d3c75c7"
+    },
+    {
+      "content": "ERC1400 is a proposed token standard for the Ethereum blockchain that is focused on enabling the issuance and management of security tokens. Security tokens are digital assets that represent real-world assets such as stocks, bonds, or other securities, and are subject to regulatory oversight. ERC1400 is designed to provide a common framework for issuing and managing security tokens on the Ethereum blockchain, making it easier for companies to comply with securities laws and regulations.\n\nERC1400 was first proposed in 2018 by the tokenization platform Polymath, and is currently in the process of being finalized and adopted by the Ethereum community. Some of the key features of ERC1400 include:\n\n1. **Support for multiple token classes**: ERC1400 allows for the creation of multiple token classes, each with its own set of rules and restrictions. This can enable companies to issue different types of securities, such as common stock, preferred stock, and other securities.\n2. **Compliance checks**: ERC1400 includes built-in compliance checks that can verify that transactions are compliant with securities laws and regulations. This can help to ensure that companies issuing security tokens are in compliance with relevant laws and regulations.\n3. **Transfer restrictions**: ERC1400 allows for the implementation of transfer restrictions, such as whitelisting and other rules, to ensure that security tokens are only transferred to approved parties. This can help to prevent unauthorized trading and other potential violations of securities laws.\n\nOverall, ERC1400 is seen as an important step forward in the development of security tokens on the Ethereum blockchain. It is expected to make it easier for companies to issue and manage security tokens in compliance with relevant laws and regulations.",
+      "name": "ERC-1400",
+      "stepItems": [],
+      "uuid": "48bac0da-6ef0-492b-b19c-87ab1b7df1ef"
     }
   ],
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi",
