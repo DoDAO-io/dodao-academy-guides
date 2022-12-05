@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "New Guide",
-  "created": "2022-12-05T21:48:54.121Z",
+  "created": "2022-12-05T23:40:49.827Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -28,6 +28,12 @@
       "name": "ERC-1400",
       "stepItems": [],
       "uuid": "48bac0da-6ef0-492b-b19c-87ab1b7df1ef"
+    },
+    {
+      "content": "ERC721 and ERC1155 are both token standards on the Ethereum blockchain, but they have some key differences in their design and intended use. ERC721 is a standard for non-fungible tokens, which are unique digital assets that cannot be divided or replicated. ERC721 is commonly used for collectible items, such as digital art or gaming assets, and has been popularized by the CryptoKitties game.\n\nIn contrast, ERC1155 is a standard for multi-token contracts, which allow for the creation and management of multiple different token types within a single smart contract. This can be useful for projects that need to manage a large number of different tokens, as it can reduce the number of contracts and transactions required. ERC1155 is often used for applications such as decentralized finance (DeFi) and other projects that need to manage a large number of different tokens.\n\nSome key differences between ERC721 and ERC1155 include:\n1. Fungibility: ERC721 is for non-fungible tokens, while ERC1155 is for both fungible and non-fungible tokens.\n2. Single vs. multiple tokens: ERC721 is for single-token contracts, while ERC1155 is for multi-token contracts.\n3. Use cases: ERC721 is commonly used for collectible items, while ERC1155 is often used for DeFi and other projects that need to manage multiple tokens.\n\nOverall, ERC721 and ERC1155 are both valuable token standards on the Ethereum blockchain, but they have different strengths and intended uses. ERC721 is well-suited for applications that require unique, non-fungible tokens, while ERC1155 is better for projects that need to manage multiple different token types.\n\n\n\n\n",
+      "name": "ERC-721 vs ERC-1155",
+      "stepItems": [],
+      "uuid": "e894c494-fb4c-4df2-9af6-de25cb6ca799"
     }
   ],
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi",
