@@ -1,6 +1,6 @@
 categories: []
 content: New Guide
-created: '2022-11-27T00:13:52.165Z'
+created: '2022-12-05T12:59:55.704Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -9,9 +9,32 @@ name: Ethereum Token Standards
 publishStatus: Draft
 showIncorrectOnCompletion: true
 steps:
-  - content: |-
+  - content: >-
+      Ethereum is a decentralized platform for building and running
+      decentralized applications (dApps), and uses various token standards to
+      enable different types of tokens and assets to be created and traded on
+      the platform. The main token standards in Ethereum are:
 
-      # Coming Soon        
+
+      1. **ERC-20** - is the most widely used and well-known token standard in
+      Ethereum, and allows for the creation of tokens that are interchangeable
+      and can be easily transferred and traded on the Ethereum blockchain.
+      ERC-20 tokens are used for a wide range of purposes, including
+      fundraising, payments, rewards, and gaming.
+
+
+      2. **ERC-721** - is a non-fungible token (NFT) standard, which allows for
+      the creation of unique and indivisible tokens that represent collectibles,
+      art, assets, or other non-fungible items. ERC-721 tokens are often used
+      for digital collectibles, art, and gaming, and can be traded and exchanged
+      on the Ethereum blockchain.
+
+
+      3. **ERC-1155** - is a hybrid token standard, which allows for the
+      creation of both fungible and non-fungible tokens in a single smart
+      contract. This standard allows for greater flexibility and efficiency in
+      managing different types of tokens and assets, and can be used for a wide
+      range of applications
     name: Introduction
     stepItems: []
     uuid: 83c6b8f3-feaa-43e5-aa1c-e150c85cc504
@@ -24,4 +47,4 @@ steps:
     uuid: 32be5757-083f-4c4e-a4c9-f5f82d3c75c7
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
-uuid: 9148960c-9bd8-4027-9aed-da7e72181801
+uuid: ethereum-token-standards-dodao-academy
