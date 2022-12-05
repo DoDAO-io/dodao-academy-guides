@@ -1,6 +1,6 @@
 categories: []
 content: What is POR and how various exchanges can implement it
-created: '2022-12-05T20:41:59.948Z'
+created: '2022-12-05T20:44:19.987Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: onboarding
@@ -10,9 +10,6 @@ publishStatus: Live
 showIncorrectOnCompletion: true
 steps:
   - content: >+
-      # Proof of Reserves        
-
-
       Proof of reserves is a method used by some cryptocurrency exchanges and
       other financial institutions to demonstrate that they have the assets on
       hand to meet their outstanding liabilities. This typically involves
