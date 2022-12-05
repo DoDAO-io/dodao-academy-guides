@@ -1,6 +1,6 @@
 categories: []
 content: New Guide
-created: '2022-12-05T12:59:55.704Z'
+created: '2022-12-05T21:45:05.862Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -38,8 +38,46 @@ steps:
     name: Introduction
     stepItems: []
     uuid: 83c6b8f3-feaa-43e5-aa1c-e150c85cc504
-  - content: |
+  - content: >
+      ERC777 is a proposed Ethereum token standard that is designed to improve
+      upon the existing ERC20 standard. ERC777 adds several new features to
+      ERC20, including the ability to support multiple recipients in a single
+      transaction, the ability to send tokens to smart contracts, and the
+      ability to customize the behavior of tokens. These enhancements are
+      intended to make ERC777 more flexible and useful for a wide range of
+      applications, including decentralized finance (DeFi) and other
+      blockchain-based projects.
+
+
+      ERC777 was first proposed in 2018 by developers Amir Eslampanah and Jordi
+      Baylina. It is currently in the process of being finalized and adopted by
+      the Ethereum community, with several projects already using the standard.
+      Some of the key benefits of ERC777 compared to ERC20 include:
+
+
+      1. Support for multiple recipients: ERC777 allows for tokens to be sent to
+      multiple recipients in a single transaction, which can reduce transaction
+      fees and improve efficiency.
+
+      2. Support for smart contract interactions: ERC777 allows tokens to be
+      sent to smart contracts, which can enable a wide range of DeFi and other
+      applications.
+
+      3. Customizable token behavior: ERC777 allows token issuers to customize
+      the behavior of their tokens, including setting rules for how they can be
+      transferred and other aspects of their functionality.
+
+      4. Improved security: ERC777 includes several security enhancements over
+      ERC20, including the ability to detect and prevent common attacks such as
+      the reentrancy attack.
+
+
+      Overall, ERC777 is seen as a significant improvement over ERC20, and is
+      expected to become a widely used token standard in the Ethereum ecosystem.
+
+
       References
+
 
       https://www.developcoins.com/ethereum-token-development
     name: Introduction
