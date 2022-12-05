@@ -1,6 +1,6 @@
 categories: []
 content: New Guide
-created: '2022-12-05T21:45:05.862Z'
+created: '2022-12-05T21:46:05.252Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -35,6 +35,11 @@ steps:
       contract. This standard allows for greater flexibility and efficiency in
       managing different types of tokens and assets, and can be used for a wide
       range of applications
+
+      4. **ERC-777**  it adds several new features to ERC20, including the
+      ability to support multiple recipients in a single transaction, the
+      ability to send tokens to smart contracts, and the ability to customize
+      the behavior of tokens
     name: Introduction
     stepItems: []
     uuid: 83c6b8f3-feaa-43e5-aa1c-e150c85cc504
@@ -80,7 +85,7 @@ steps:
 
 
       https://www.developcoins.com/ethereum-token-development
-    name: Introduction
+    name: ERC-777
     stepItems: []
     uuid: 32be5757-083f-4c4e-a4c9-f5f82d3c75c7
 thumbnail: >-

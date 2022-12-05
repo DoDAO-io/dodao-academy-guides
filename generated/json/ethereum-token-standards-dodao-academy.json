@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "New Guide",
-  "created": "2022-12-05T21:45:05.862Z",
+  "created": "2022-12-05T21:46:05.252Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -12,14 +12,14 @@
   "showIncorrectOnCompletion": true,
   "steps": [
     {
-      "content": "Ethereum is a decentralized platform for building and running decentralized applications (dApps), and uses various token standards to enable different types of tokens and assets to be created and traded on the platform. The main token standards in Ethereum are:\n\n1. **ERC-20** - is the most widely used and well-known token standard in Ethereum, and allows for the creation of tokens that are interchangeable and can be easily transferred and traded on the Ethereum blockchain. ERC-20 tokens are used for a wide range of purposes, including fundraising, payments, rewards, and gaming.\n\n2. **ERC-721** - is a non-fungible token (NFT) standard, which allows for the creation of unique and indivisible tokens that represent collectibles, art, assets, or other non-fungible items. ERC-721 tokens are often used for digital collectibles, art, and gaming, and can be traded and exchanged on the Ethereum blockchain.\n\n3. **ERC-1155** - is a hybrid token standard, which allows for the creation of both fungible and non-fungible tokens in a single smart contract. This standard allows for greater flexibility and efficiency in managing different types of tokens and assets, and can be used for a wide range of applications",
+      "content": "Ethereum is a decentralized platform for building and running decentralized applications (dApps), and uses various token standards to enable different types of tokens and assets to be created and traded on the platform. The main token standards in Ethereum are:\n\n1. **ERC-20** - is the most widely used and well-known token standard in Ethereum, and allows for the creation of tokens that are interchangeable and can be easily transferred and traded on the Ethereum blockchain. ERC-20 tokens are used for a wide range of purposes, including fundraising, payments, rewards, and gaming.\n\n2. **ERC-721** - is a non-fungible token (NFT) standard, which allows for the creation of unique and indivisible tokens that represent collectibles, art, assets, or other non-fungible items. ERC-721 tokens are often used for digital collectibles, art, and gaming, and can be traded and exchanged on the Ethereum blockchain.\n\n3. **ERC-1155** - is a hybrid token standard, which allows for the creation of both fungible and non-fungible tokens in a single smart contract. This standard allows for greater flexibility and efficiency in managing different types of tokens and assets, and can be used for a wide range of applications\n4. **ERC-777**  it adds several new features to ERC20, including the ability to support multiple recipients in a single transaction, the ability to send tokens to smart contracts, and the ability to customize the behavior of tokens",
       "name": "Introduction",
       "stepItems": [],
       "uuid": "83c6b8f3-feaa-43e5-aa1c-e150c85cc504"
     },
     {
       "content": "ERC777 is a proposed Ethereum token standard that is designed to improve upon the existing ERC20 standard. ERC777 adds several new features to ERC20, including the ability to support multiple recipients in a single transaction, the ability to send tokens to smart contracts, and the ability to customize the behavior of tokens. These enhancements are intended to make ERC777 more flexible and useful for a wide range of applications, including decentralized finance (DeFi) and other blockchain-based projects.\n\nERC777 was first proposed in 2018 by developers Amir Eslampanah and Jordi Baylina. It is currently in the process of being finalized and adopted by the Ethereum community, with several projects already using the standard. Some of the key benefits of ERC777 compared to ERC20 include:\n\n1. Support for multiple recipients: ERC777 allows for tokens to be sent to multiple recipients in a single transaction, which can reduce transaction fees and improve efficiency.\n2. Support for smart contract interactions: ERC777 allows tokens to be sent to smart contracts, which can enable a wide range of DeFi and other applications.\n3. Customizable token behavior: ERC777 allows token issuers to customize the behavior of their tokens, including setting rules for how they can be transferred and other aspects of their functionality.\n4. Improved security: ERC777 includes several security enhancements over ERC20, including the ability to detect and prevent common attacks such as the reentrancy attack.\n\nOverall, ERC777 is seen as a significant improvement over ERC20, and is expected to become a widely used token standard in the Ethereum ecosystem.\n\nReferences\n\nhttps://www.developcoins.com/ethereum-token-development\n",
-      "name": "Introduction",
+      "name": "ERC-777",
       "stepItems": [],
       "uuid": "32be5757-083f-4c4e-a4c9-f5f82d3c75c7"
     }
