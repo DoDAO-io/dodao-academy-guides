@@ -25,53 +25,45 @@
       "stepItems": [
         {
           "answerKeys": [
-            "641451e8"
+            "B"
           ],
           "choices": [
             {
-              "content": "A",
-              "key": "2860447f"
+              "content": "True",
+              "key": "A"
             },
             {
-              "content": "B",
-              "key": "641451e8"
-            },
-            {
-              "content": "C",
-              "key": "de06baed"
-            },
-            {
-              "content": "D",
-              "key": "6d46b546"
+              "content": "False",
+              "key": "B'"
             }
           ],
-          "content": "Question 1",
+          "content": "CBDCs can be converted into physical forms like electronic money.",
           "type": "SingleChoice",
           "uuid": "80b14ea4-2e40-4699-b6d9-d25b11b8274d"
         },
         {
           "answerKeys": [
-            "9dfb80be"
+            "B"
           ],
           "choices": [
             {
-              "content": "A",
-              "key": "ba80c8bf"
+              "content": "2",
+              "key": "A"
             },
             {
-              "content": "B",
-              "key": "54ecac13"
+              "content": "3",
+              "key": "B"
             },
             {
-              "content": "C",
-              "key": "9dfb80be"
+              "content": "4",
+              "key": "C"
             },
             {
-              "content": "D",
-              "key": "141ff8a2"
+              "content": "1",
+              "key": "D"
             }
           ],
-          "content": "Question 2",
+          "content": "Digital currencies exist in how many types?",
           "type": "SingleChoice",
           "uuid": "27278852-92f4-43b3-8935-ddbb800ab705"
         }
@@ -90,53 +82,53 @@
       "stepItems": [
         {
           "answerKeys": [
-            "d859fa40"
+            "D"
           ],
           "choices": [
             {
-              "content": "A",
-              "key": "d859fa40"
+              "content": "Gold",
+              "key": "A"
             },
             {
-              "content": "B",
-              "key": "2cb5852f"
+              "content": "Silver",
+              "key": "B"
             },
             {
-              "content": "C",
-              "key": "f4634e25"
+              "content": "US Dollar",
+              "key": "C"
             },
             {
-              "content": "D",
-              "key": "db3874d0"
+              "content": "Central Bank",
+              "key": "D"
             }
           ],
-          "content": "Q3",
+          "content": "CBDCs are backed by?",
           "type": "SingleChoice",
           "uuid": "b99cd633-ad62-4166-9f87-91a39b080647"
         },
         {
           "answerKeys": [
-            "83f23f33"
+            "C"
           ],
           "choices": [
             {
-              "content": "A",
-              "key": "51f43ba8"
+              "content": "Loss of value of physical money",
+              "key": "A"
             },
             {
-              "content": "B",
-              "key": "250cc973"
+              "content": "Increased forgery",
+              "key": "B"
             },
             {
-              "content": "C",
-              "key": "ef7a73fb"
+              "content": "COVID-19 Pandemic",
+              "key": "C"
             },
             {
-              "content": "D",
-              "key": "83f23f33"
+              "content": "None of the above",
+              "key": "D"
             }
           ],
-          "content": "Q4",
+          "content": "Why there is a sudden increase in the use of digital currency?",
           "type": "SingleChoice",
           "uuid": "adfc7c1d-e2b4-4113-a405-8313fbe93a16"
         }
@@ -155,53 +147,54 @@
       "stepItems": [
         {
           "answerKeys": [
-            "a0d8a00b"
+            "A",
+            "C"
           ],
           "choices": [
             {
-              "content": "A",
-              "key": "94d2069b"
+              "content": "Minimise the cost of cross-border transaction",
+              "key": "A"
             },
             {
-              "content": "B",
-              "key": "8830b843"
+              "content": "Increase in bank-to-bank transactions",
+              "key": "B"
             },
             {
-              "content": "C",
-              "key": "a0d8a00b"
+              "content": "Lower cost of maintenance of the financial system",
+              "key": "C"
             },
             {
-              "content": "D",
-              "key": "941d95aa"
+              "content": "All of the above",
+              "key": "D"
             }
           ],
-          "content": "Q5",
+          "content": "CBDCs are advantageous because",
           "type": "SingleChoice",
           "uuid": "0df0c65a-c528-406c-ab68-5450f89d509a"
         },
         {
           "answerKeys": [
-            "aff31cd8"
+            "C"
           ],
           "choices": [
             {
-              "content": "A",
-              "key": "43b5471c"
+              "content": "Cryptocurrency has high value",
+              "key": "A"
             },
             {
-              "content": "B",
-              "key": "b29c238d"
+              "content": "Cryptocurrency is highly fluctuating",
+              "key": "B"
             },
             {
-              "content": "C",
-              "key": "aff31cd8"
+              "content": "CBDCs are under government control whereas cryptocurrency cannot be regulated",
+              "key": "C"
             },
             {
-              "content": "D",
-              "key": "2bc62be6"
+              "content": "None of the above",
+              "key": "D"
             }
           ],
-          "content": "Q6",
+          "content": "Governments prefer CBDC more than cryptocurrency because",
           "type": "SingleChoice",
           "uuid": "7439337e-c653-482e-8eac-ff02b4d6da6e"
         }
@@ -220,53 +213,55 @@
       "stepItems": [
         {
           "answerKeys": [
-            "e701f73a"
+            "A",
+            "B"
           ],
           "choices": [
             {
-              "content": "A",
-              "key": "589a5e99"
+              "content": "It will help the bank to grant loans",
+              "key": "A"
             },
             {
-              "content": "B",
-              "key": "e701f73a"
+              "content": "Easier interbank transactions",
+              "key": "B"
             },
             {
-              "content": "C",
-              "key": "2f285d68"
+              "content": "Help consumer settle transactions",
+              "key": "C"
             },
             {
-              "content": "D",
-              "key": "e2c8be76"
+              "content": "None of the above",
+              "key": "D"
             }
           ],
-          "content": "Q7",
+          "content": "How are wholesale CBDCs beneficial?",
           "type": "SingleChoice",
           "uuid": "58db9d22-2b79-4ce7-9e07-372e42a8fb8e"
         },
         {
           "answerKeys": [
-            "ca40b15a"
+            "A",
+            "C"
           ],
           "choices": [
             {
-              "content": "A",
-              "key": "bf49aec8"
+              "content": "Token-based retail CBDC",
+              "key": "A"
             },
             {
-              "content": "B",
-              "key": "ca40b15a"
+              "content": "Consumer-based retail CBDC",
+              "key": "B"
             },
             {
-              "content": "C",
-              "key": "c51e25a0"
+              "content": "Account-based retail CBDC",
+              "key": "C"
             },
             {
-              "content": "D",
-              "key": "ae809959"
+              "content": "None of the above",
+              "key": "D"
             }
           ],
-          "content": "Q8",
+          "content": "What are the different types of retail CBDCs?",
           "type": "SingleChoice",
           "uuid": "40d22444-a926-4c35-98da-a236949cd0db"
         }
@@ -278,6 +273,66 @@
       "name": "Challenges with CBDCS",
       "stepItems": [],
       "uuid": "a6f16568-6ce0-4189-8135-b99e69782b03"
+    },
+    {
+      "content": "",
+      "name": "Evaluation",
+      "stepItems": [
+        {
+          "answerKeys": [
+            "C",
+            "D"
+          ],
+          "choices": [
+            {
+              "content": "Not backed by any valuable asset",
+              "key": "A"
+            },
+            {
+              "content": "Increase banking frauds",
+              "key": "B"
+            },
+            {
+              "content": "Technologically demanding",
+              "key": "C"
+            },
+            {
+              "content": "Government Controlled (Centralised)",
+              "key": "D"
+            }
+          ],
+          "content": "What are the most common issues with CBDC?",
+          "type": "SingleChoice",
+          "uuid": "98dd0750-9388-44c6-86f2-64837758777e"
+        },
+        {
+          "answerKeys": [
+            "B"
+          ],
+          "choices": [
+            {
+              "content": "Hacking",
+              "key": "A"
+            },
+            {
+              "content": "Interconversion into CBDC of respective nationalities",
+              "key": "B"
+            },
+            {
+              "content": "Money laundering",
+              "key": "C"
+            },
+            {
+              "content": "Forgery",
+              "key": "D"
+            }
+          ],
+          "content": "What is the issue with cross-border transactions using CBDC?",
+          "type": "SingleChoice",
+          "uuid": "87259fbf-af0b-4f30-b848-668d487d9f53"
+        }
+      ],
+      "uuid": "938a9cb8-9e73-49df-9bf2-22b5766131e1"
     },
     {
       "content": "Many central banks around the globe have CBDC research and projects under progress. They are exploring the usability and viability of a CBDC in their economy and how it will benefit their country’s financial system. As of March 2022, there were nine countries and territories that had launched CBDCs.\n* The Bahamas\n* Antigua and Barbuda\n* St. Kitts and Nevis\n* Monserrat\n* Dominica\n* Saint Lucia\n* St. Vincent and the Grenadines\n* Grenada\n* Nigeria\n\nAs of 2021, only a handful of countries have introduced central bank digital currencies (CBDCs) for general use. These include\n\n1. The Bahamas, which launched the world's first CBDC, the Sand Dollar, in 2020\n2. China, which launched the Digital Yuan in 2020 and is currently conducting pilot tests\n3. Sweden is exploring the potential use of the e-krona as a complement to cash\n4. The United Arab Emirates, which launched the emCash in 2018\n5. Uruguay introduced the e-peso in 2017\n\nIn February 2022, during the budget speech, the Indian Finance Minister announced that it would introduce a digital currency by the end of 2023. In August 2021, Jamaica produced its first batch of CBDC. In 2022, the Bank of Jamaica is anticipated to introduce its CBDC.\n\nIn order to enhance the domestic payments system, boost productivity, and cut expenses, the United States is looking at CBDCs. In March 2022, President Biden issued a directive to federal agencies to assess the infrastructure required to issue a U.S. CBDC. Bank of England (BOE) and Bank of Canada (BOC) are continuing their research for implementing CBDC into their financial systems. ",
@@ -297,53 +352,53 @@
       "stepItems": [
         {
           "answerKeys": [
-            "a5969719"
+            "A"
           ],
           "choices": [
             {
-              "content": "A",
-              "key": "56530001"
+              "content": "Consensus mechanism",
+              "key": "A"
             },
             {
-              "content": "B",
-              "key": "a5969719"
+              "content": "Decentralised",
+              "key": "B"
             },
             {
-              "content": "C",
-              "key": "0a2eed22"
+              "content": "Volatility",
+              "key": "C"
             },
             {
-              "content": "D",
-              "key": "97dc2d8a"
+              "content": "None of the above",
+              "key": "D"
             }
           ],
-          "content": "Q9",
+          "content": "Why cryptocurrency is harder to duplicate compared to CBDC?",
           "type": "SingleChoice",
           "uuid": "758b73e2-c2ee-4812-abb6-afd71a857d47"
         },
         {
           "answerKeys": [
-            "94e1e01d"
+            "B"
           ],
           "choices": [
             {
-              "content": "A",
-              "key": "520b1deb"
+              "content": "Backed by Gold",
+              "key": "A"
             },
             {
-              "content": "B",
-              "key": "4076e0ab"
+              "content": "Backed by fiat currency",
+              "key": "B"
             },
             {
-              "content": "C",
-              "key": "94e1e01d"
+              "content": "Fluctuating value",
+              "key": "C"
             },
             {
-              "content": "D",
-              "key": "ac614478"
+              "content": "All of the above",
+              "key": "D"
             }
           ],
-          "content": "Q10",
+          "content": "Why CBDCs is better for investors than cryptocurrency?",
           "type": "SingleChoice",
           "uuid": "b42f452d-3287-4815-8cf2-81da7b32152f"
         }
