@@ -463,6 +463,7 @@ steps:
     stepItems:
       - answerKeys:
           - A
+          - B
         choices:
           - content: Consensus mechanism
             key: A
@@ -472,7 +473,7 @@ steps:
             key: C
           - content: None of the above
             key: D
-        content: Why cryptocurrency is harder to duplicate compared to CBDC?
+        content: What makes cryto more secure and transparent compared to cbdc
         type: SingleChoice
         uuid: 758b73e2-c2ee-4812-abb6-afd71a857d47
       - answerKeys:
