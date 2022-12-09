@@ -119,7 +119,7 @@ steps:
             key: B
           - content: US Dollar
             key: C
-          - content: Central Bank
+          - content:  Depends on Central Bank of the country
             key: D
         content: CBDCs are backed by?
         type: SingleChoice
@@ -208,7 +208,7 @@ steps:
             key: A
           - content: Cryptocurrency is highly fluctuating
             key: B
-          - content: CBDCs are under government control whereas cryptocurrency cannot be regulated
+          - content: CBDCs are under government control whereas cryptocurrency are mostly global and not under specific country
             key: C
           - content: None of the above
             key: D
@@ -338,7 +338,7 @@ steps:
         choices:
           - content: Hacking 
             key: A
-          - content: Interconversion into CBDC of respective nationalities
+          - content: Interconversion into CBDC into CBDC of that country
             key: B
           - content: Money laundering
             key: C
@@ -486,7 +486,7 @@ steps:
             key: C
           - content: All of the above
             key: D
-        content: Why CBDCs is better for investors than cryptocurrency?
+        content: Why CBDCs are more reliable than cryptocurrency in the current time?
         type: SingleChoice
         uuid: b42f452d-3287-4815-8cf2-81da7b32152f
     uuid: 5f034859-97ac-4a5f-9c72-5f04871e46ee
