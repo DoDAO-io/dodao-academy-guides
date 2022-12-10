@@ -1,6 +1,6 @@
 categories: []
 content: What is POR and how various exchanges can implement it
-created: '2022-12-10T13:22:44.882Z'
+created: '2022-12-10T13:23:02.971Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: onboarding
@@ -67,9 +67,12 @@ steps:
 
       https://portfolio.nansen.ai/dashboard/crypto.com
 
+
       https://proof-of-reserves.trustexplorer.io/clients/ledn.io
 
+
       https://real-time-attest.trustexplorer.io/nexo
+
 
       https://proof-of-reserves.trustexplorer.io/clients/gate.io
 
