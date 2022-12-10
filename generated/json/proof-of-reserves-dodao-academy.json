@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "What is POR and how various exchanges can implement it",
-  "created": "2022-12-10T13:31:15.930Z",
+  "created": "2022-12-10T13:49:20.709Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -18,7 +18,7 @@
       "uuid": "b4cf1a30-95e2-40a2-978a-79a66c411a60"
     },
     {
-      "content": "https://academy.binance.com/en/articles/what-is-proof-of-reserves-and-how-it-works-on-binance\n\nhttps://cointelegraph.com/news/proof-of-reserves-can-reserve-audits-avoid-another-ftx-like-moment\n\nhttps://blockworks.co/news/what-are-proof-of-reserves-and-can-they-build-back-trust\n\nhttps://blog.bitmex.com/proof-of-reserves-liabilities-bitmex-demonstration/\n\nhttps://www.kraken.com/proof-of-reserves\n\nhttps://portfolio.nansen.ai/dashboard/crypto.com\n\nhttps://proof-of-reserves.trustexplorer.io/clients/ledn.io\n\nhttps://real-time-attest.trustexplorer.io/nexo\n\nhttps://proof-of-reserves.trustexplorer.io/clients/gate.io\n\n\nhttps://www.youtube.com/watch?v=Vi5s9Qn7S14&t=4s\n\n\nhttps://chain.link/proof-of-reserve",
+      "content": "https://academy.binance.com/en/articles/what-is-proof-of-reserves-and-how-it-works-on-binance\n\nhttps://cointelegraph.com/news/proof-of-reserves-can-reserve-audits-avoid-another-ftx-like-moment\n\nhttps://blockworks.co/news/what-are-proof-of-reserves-and-can-they-build-back-trust\n\nhttps://blog.bitmex.com/proof-of-reserves-liabilities-bitmex-demonstration/\n\nhttps://www.kraken.com/proof-of-reserves\n\nhttps://portfolio.nansen.ai/dashboard/crypto.com\n\nhttps://proof-of-reserves.trustexplorer.io/clients/ledn.io\n\nhttps://real-time-attest.trustexplorer.io/nexo\n\nhttps://proof-of-reserves.trustexplorer.io/clients/gate.io\n\n\nhttps://www.youtube.com/watch?v=Vi5s9Qn7S14&t=4s\n\nhttps://chain.link/proof-of-reserve\n\nhttps://niccarter.info/proof-of-reserves/",
       "name": "References",
       "stepItems": [],
       "uuid": "e0698fe1-21cc-4a2c-b973-a57425898145"

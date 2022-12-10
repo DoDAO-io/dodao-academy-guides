@@ -1,6 +1,6 @@
 categories: []
 content: What is POR and how various exchanges can implement it
-created: '2022-12-10T13:31:15.930Z'
+created: '2022-12-10T13:49:20.709Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: onboarding
@@ -81,8 +81,10 @@ steps:
       https://www.youtube.com/watch?v=Vi5s9Qn7S14&t=4s
 
 
-
       https://chain.link/proof-of-reserve
+
+
+      https://niccarter.info/proof-of-reserves/
     name: References
     stepItems: []
     uuid: e0698fe1-21cc-4a2c-b973-a57425898145
