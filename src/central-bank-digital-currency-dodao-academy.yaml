@@ -45,32 +45,30 @@ steps:
     name: Evaluation
     stepItems:
       - answerKeys:
-          - '641451e8'
+          - B
         choices:
-          - content: A
-            key: 2860447f
-          - content: B
-            key: '641451e8'
-          - content: C
-            key: de06baed
-          - content: D
-            key: 6d46b546
-        content: Question 1
+          - content: 'True'
+            key: A
+          - content: 'False'
+            key: B'
+        content: CBDCs can be converted into physical forms like electronic money.
         type: SingleChoice
         uuid: 80b14ea4-2e40-4699-b6d9-d25b11b8274d
       - answerKeys:
-          - 9dfb80be
+          - A
+          - B
+          - C
         choices:
-          - content: A
-            key: ba80c8bf
-          - content: B
-            key: 54ecac13
-          - content: C
-            key: 9dfb80be
-          - content: D
-            key: 141ff8a2
-        content: Question 2
-        type: SingleChoice
+          - content: Stablecoins
+            key: A
+          - content: Central bank digital currency
+            key: B
+          - content: Cryptocurrency
+            key: C
+          - content: Smart Contracts
+            key: D
+        content: Identify different types of digital currency from the following.
+        type: MultipleChoice
         uuid: 27278852-92f4-43b3-8935-ddbb800ab705
     uuid: ced3c378-52f2-4cf4-a013-94685e468b3a
   - content: >-
@@ -115,31 +113,31 @@ steps:
     name: Evaluation
     stepItems:
       - answerKeys:
-          - d859fa40
+          - D
         choices:
-          - content: A
-            key: d859fa40
-          - content: B
-            key: 2cb5852f
-          - content: C
-            key: f4634e25
-          - content: D
-            key: db3874d0
-        content: Q3
+          - content: Gold
+            key: A
+          - content: Silver
+            key: B
+          - content: US Dollar
+            key: C
+          - content:  Depends on Central Bank of the country
+            key: D
+        content: CBDCs are backed by?
         type: SingleChoice
         uuid: b99cd633-ad62-4166-9f87-91a39b080647
       - answerKeys:
-          - 83f23f33
+          - C
         choices:
-          - content: A
-            key: 51f43ba8
-          - content: B
-            key: 250cc973
-          - content: C
-            key: ef7a73fb
-          - content: D
-            key: 83f23f33
-        content: Q4
+          - content: Loss of value of physical money
+            key: A
+          - content: Increased forgery
+            key: B
+          - content: COVID-19 Pandemic
+            key: C
+          - content: None of the above
+            key: D
+        content: Why there is a sudden increase in the use of digital currency?
         type: SingleChoice
         uuid: adfc7c1d-e2b4-4113-a405-8313fbe93a16
     uuid: 71898509-b498-4e51-a969-fe9b5e4aadea
@@ -191,31 +189,32 @@ steps:
     name: Evaluation
     stepItems:
       - answerKeys:
-          - a0d8a00b
+          - A
+          - C
         choices:
-          - content: A
-            key: 94d2069b
-          - content: B
-            key: 8830b843
-          - content: C
-            key: a0d8a00b
-          - content: D
-            key: 941d95aa
-        content: Q5
-        type: SingleChoice
+          - content: Minimise the cost of cross-border transaction
+            key: A
+          - content: Increase in bank-to-bank transactions
+            key: B
+          - content: Lower cost of maintenance of the financial system
+            key: C
+          - content: All of the above
+            key: D
+        content: CBDCs are advantageous because 
+        type: MultipleChoice
         uuid: 0df0c65a-c528-406c-ab68-5450f89d509a
       - answerKeys:
-          - aff31cd8
+          - C
         choices:
-          - content: A
-            key: 43b5471c
-          - content: B
-            key: b29c238d
-          - content: C
-            key: aff31cd8
-          - content: D
-            key: 2bc62be6
-        content: Q6
+          - content: Cryptocurrency has high value
+            key: A
+          - content: Cryptocurrency is highly fluctuating
+            key: B
+          - content: CBDCs are under government control whereas cryptocurrency are mostly global and not under specific country
+            key: C
+          - content: None of the above
+            key: D
+        content: Governments prefer CBDC more than cryptocurrency because
         type: SingleChoice
         uuid: 7439337e-c653-482e-8eac-ff02b4d6da6e
     uuid: f467bea0-5e35-4bd0-b4a0-0a8f47813295
@@ -256,32 +255,34 @@ steps:
     name: Evaluation
     stepItems:
       - answerKeys:
-          - e701f73a
+          - A
+          - B
         choices:
-          - content: A
-            key: 589a5e99
-          - content: B
-            key: e701f73a
-          - content: C
-            key: 2f285d68
-          - content: D
-            key: e2c8be76
-        content: Q7
-        type: SingleChoice
+          - content: It will help the bank to grant loans
+            key: A
+          - content: Easier interbank transactions
+            key: B
+          - content: Help consumer settle transactions
+            key: C
+          - content: None of the above
+            key: D
+        content: How are wholesale CBDCs beneficial?
+        type: MultipleChoice
         uuid: 58db9d22-2b79-4ce7-9e07-372e42a8fb8e
       - answerKeys:
-          - ca40b15a
+          - A
+          - C
         choices:
-          - content: A
-            key: bf49aec8
-          - content: B
-            key: ca40b15a
-          - content: C
-            key: c51e25a0
-          - content: D
-            key: ae809959
-        content: Q8
-        type: SingleChoice
+          - content: Token-based retail CBDC
+            key: A
+          - content: Consumer-based retail CBDC
+            key: B
+          - content: Account-based retail CBDC
+            key: C
+          - content: None of the above
+            key: D
+        content: What are the different types of retail CBDCs?
+        type: MultipleChoice
         uuid: 40d22444-a926-4c35-98da-a236949cd0db
     uuid: dc7487cb-1d95-4d86-b018-8ea713f691fb
   - content: >-
@@ -316,6 +317,39 @@ steps:
     name: Challenges with CBDCS
     stepItems: []
     uuid: a6f16568-6ce0-4189-8135-b99e69782b03
+  - content: ''
+    name: Evaluation
+    stepItems:
+      - answerKeys:
+          - C
+          - D
+        choices:
+          - content: Not backed by any valuable asset
+            key: A
+          - content: Increase banking frauds
+            key: B
+          - content: Technologically demanding
+            key: C
+          - content: Government Controlled (Centralised)
+            key: D
+        content: What are the most common issues with CBDC?
+        type: MultipleChoice
+        uuid: 98dd0750-9388-44c6-86f2-64837758777e
+      - answerKeys:
+          - B          
+        choices:
+          - content: Hacking 
+            key: A
+          - content: Interconversion into CBDC into CBDC of that country
+            key: B
+          - content: Money laundering
+            key: C
+          - content: Forgery 
+            key: D
+        content: What is the issue with cross-border transactions using CBDC?
+        type: SingleChoice
+        uuid: 87259fbf-af0b-4f30-b848-668d487d9f53
+    uuid: 938a9cb8-9e73-49df-9bf2-22b5766131e1
   - content: >-
       Many central banks around the globe have CBDC research and projects under
       progress. They are exploring the usability and viability of a CBDC in
@@ -430,31 +464,32 @@ steps:
     name: Evaluation
     stepItems:
       - answerKeys:
-          - a5969719
+          - A
+          - B
         choices:
-          - content: A
-            key: '56530001'
-          - content: B
-            key: a5969719
-          - content: C
-            key: 0a2eed22
-          - content: D
-            key: 97dc2d8a
-        content: Q9
-        type: SingleChoice
+          - content: Consensus mechanism
+            key: A
+          - content: Decentralised
+            key: B
+          - content: Volatility
+            key: C
+          - content: None of the above
+            key: D
+        content: What makes cryto more secure and transparent compared to cbdc
+        type: MultipleChoice
         uuid: 758b73e2-c2ee-4812-abb6-afd71a857d47
       - answerKeys:
-          - 94e1e01d
+          - B
         choices:
-          - content: A
-            key: 520b1deb
-          - content: B
-            key: 4076e0ab
-          - content: C
-            key: 94e1e01d
-          - content: D
-            key: ac614478
-        content: Q10
+          - content: Backed by Gold
+            key: A
+          - content: Backed by fiat currency
+            key: B
+          - content: Fluctuating value
+            key: C
+          - content: All of the above
+            key: D
+        content: Why CBDCs are more reliable than cryptocurrency in the current time?
         type: SingleChoice
         uuid: b42f452d-3287-4815-8cf2-81da7b32152f
     uuid: 5f034859-97ac-4a5f-9c72-5f04871e46ee
