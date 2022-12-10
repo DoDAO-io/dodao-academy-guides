@@ -37,12 +37,12 @@ CBDCs are digital tokens that a country's government backs and their value is de
 
 
 
-##### Digital currencies exist in how many types?  
+##### Identify different types of digital currency from the following.  
 
-- [ ]  2
-- [x]  3
-- [ ]  4
-- [ ]  1
+- [x]  Stablecoins
+- [x]  Central bank digital currency
+- [x]  Cryptocurrency
+- [ ]  Smart Contracts
 
     
 
@@ -77,7 +77,7 @@ CBDC is a legal tender issued by a central bank in digital form. It is the same 
 - [ ]  Gold
 - [ ]  Silver
 - [ ]  US Dollar
-- [x]  Central Bank
+- [x]  Depends on Central Bank of the country
 
 
 
@@ -133,7 +133,7 @@ When CBDCs are compared to cryptocurrencies, the value of cryptocurrencies const
 
 - [ ]  Cryptocurrency has high value
 - [ ]  Cryptocurrency is highly fluctuating
-- [x]  CBDCs are under government control whereas cryptocurrency cannot be regulated
+- [x]  CBDCs are under government control whereas cryptocurrency are mostly global and not under specific country
 - [ ]  None of the above
 
     
@@ -214,7 +214,7 @@ There are several challenges faced by central bank digital currencies (CBDC), in
 ##### What is the issue with cross-border transactions using CBDC?  
 
 - [ ]  Hacking
-- [x]  Interconversion into CBDC of respective nationalities
+- [x]  Interconversion into CBDC into CBDC of that country
 - [ ]  Money laundering
 - [ ]  Forgery
 
@@ -276,10 +276,10 @@ There are several potential benefits of cryptocurrency over central bank digital
 
 
 
-##### Why cryptocurrency is harder to duplicate compared to CBDC?  
+##### What makes cryto more secure and transparent compared to cbdc  
 
 - [x]  Consensus mechanism
-- [ ]  Decentralised
+- [x]  Decentralised
 - [ ]  Volatility
 - [ ]  None of the above
 
@@ -287,7 +287,7 @@ There are several potential benefits of cryptocurrency over central bank digital
 
 
 
-##### Why CBDCs is better for investors than cryptocurrency?  
+##### Why CBDCs are more reliable than cryptocurrency in the current time?  
 
 - [ ]  Backed by Gold
 - [x]  Backed by fiat currency

@@ -55,18 +55,20 @@ steps:
         type: SingleChoice
         uuid: 80b14ea4-2e40-4699-b6d9-d25b11b8274d
       - answerKeys:
+          - A
           - B
+          - C
         choices:
-          - content: '2'
+          - content: Stablecoins
             key: A
-          - content: '3'
+          - content: Central bank digital currency
             key: B
-          - content: '4'
+          - content: Cryptocurrency
             key: C
-          - content: '1'
+          - content: Smart Contracts
             key: D
-        content: Digital currencies exist in how many types?
-        type: SingleChoice
+        content: Identify different types of digital currency from the following.
+        type: MultipleChoice
         uuid: 27278852-92f4-43b3-8935-ddbb800ab705
     uuid: ced3c378-52f2-4cf4-a013-94685e468b3a
   - content: >-
@@ -199,7 +201,7 @@ steps:
           - content: All of the above
             key: D
         content: CBDCs are advantageous because 
-        type: SingleChoice
+        type: MultipleChoice
         uuid: 0df0c65a-c528-406c-ab68-5450f89d509a
       - answerKeys:
           - C
@@ -265,7 +267,7 @@ steps:
           - content: None of the above
             key: D
         content: How are wholesale CBDCs beneficial?
-        type: SingleChoice
+        type: MultipleChoice
         uuid: 58db9d22-2b79-4ce7-9e07-372e42a8fb8e
       - answerKeys:
           - A
@@ -280,7 +282,7 @@ steps:
           - content: None of the above
             key: D
         content: What are the different types of retail CBDCs?
-        type: SingleChoice
+        type: MultipleChoice
         uuid: 40d22444-a926-4c35-98da-a236949cd0db
     uuid: dc7487cb-1d95-4d86-b018-8ea713f691fb
   - content: >-
@@ -331,7 +333,7 @@ steps:
           - content: Government Controlled (Centralised)
             key: D
         content: What are the most common issues with CBDC?
-        type: SingleChoice
+        type: MultipleChoice
         uuid: 98dd0750-9388-44c6-86f2-64837758777e
       - answerKeys:
           - B          
@@ -474,7 +476,7 @@ steps:
           - content: None of the above
             key: D
         content: What makes cryto more secure and transparent compared to cbdc
-        type: SingleChoice
+        type: MultipleChoice
         uuid: 758b73e2-c2ee-4812-abb6-afd71a857d47
       - answerKeys:
           - B
