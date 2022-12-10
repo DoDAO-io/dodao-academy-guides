@@ -1,6 +1,6 @@
 categories: []
 content: What is POR and how various exchanges can implement it
-created: '2022-12-10T13:23:02.971Z'
+created: '2022-12-10T13:31:15.930Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: onboarding
@@ -49,7 +49,7 @@ steps:
     name: Introduction
     stepItems: []
     uuid: b4cf1a30-95e2-40a2-978a-79a66c411a60
-  - content: >+
+  - content: >-
       https://academy.binance.com/en/articles/what-is-proof-of-reserves-and-how-it-works-on-binance
 
 
@@ -80,6 +80,9 @@ steps:
 
       https://www.youtube.com/watch?v=Vi5s9Qn7S14&t=4s
 
+
+
+      https://chain.link/proof-of-reserve
     name: References
     stepItems: []
     uuid: e0698fe1-21cc-4a2c-b973-a57425898145
