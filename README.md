@@ -22,6 +22,7 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
  | 13      | Ethereum Token Standards | New Guide |  [Link](generated/markdown/ethereum-token-standards-dodao-academy.md) |
  | 14      | Optimistic Rollups | What are optimistic rollups and the different proof mechanisms |  [Link](generated/markdown/optimistic-rollups-dodao-academy.md) |
  | 15      | Bridges - Deep Dive | Explains everything about bridges |  [Link](generated/markdown/bridges-deep-dive-dodao-academy.md) |
+ | 16      | Central Bank Digital Currency | What is CBDC and how does it compare with fiat & cryptocurrency |  [Link](generated/markdown/central-bank-digital-currency-dodao-academy.md) |
 
 ---
 ## Footer
