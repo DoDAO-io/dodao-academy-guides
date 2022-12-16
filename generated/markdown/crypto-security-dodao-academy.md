@@ -3,22 +3,20 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
 
 ---
 
-## Yield Bearing Tokens
+## Crypto Security
 
 
 ## Introduction
 
 
-Introduction Comments 
- 
+https://www.youtube.com/watch?v=MJkkce1BpR8        
 
-https://www.youtube.com/watch?v=XDCqMIk7xVA
+    
 
-https://www.xdefi.io/article/yield-bearing-assets
 
-https://thedefiant.io/new-standard-promises-to-clean-up-mess-in-yield-bearing-tokens
+---
+## Introduction Evaluation
 
-https://academy.stakedao.org/what-are-yield-bearing-tokens/
 
 
     

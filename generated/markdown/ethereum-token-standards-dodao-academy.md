@@ -8,127 +8,160 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
 
 ## Introduction
 
-Ethereum is a decentralized platform for building and running decentralized applications (dApps), and uses various token standards to enable different types of tokens and assets to be created and traded on the platform. The main token standards in Ethereum are:
 
-1. **ERC-20** - is the most widely used and well-known token standard in Ethereum, and allows for the creation of tokens that are interchangeable and can be easily transferred and traded on the Ethereum blockchain. ERC-20 tokens are used for a wide range of purposes, including fundraising, payments, rewards, and gaming.
+## Summary
 
-2. **ERC-721** - is a non-fungible token (NFT) standard, which allows for the creation of unique and indivisible tokens that represent collectibles, art, assets, or other non-fungible items. ERC-721 tokens are often used for digital collectibles, art, and gaming, and can be traded and exchanged on the Ethereum blockchain.
-
-3. **ERC-1155** - is a hybrid token standard, which allows for the creation of both fungible and non-fungible tokens in a single smart contract. This standard allows for greater flexibility and efficiency in managing different types of tokens and assets, and can be used for a wide range of applications
-4. **ERC-777**  it adds several new features to ERC20, including the ability to support multiple recipients in a single transaction, the ability to send tokens to smart contracts, and the ability to customize the behavior of tokens
-
-5. **ERC-1400** -  is focused on enabling the issuance and management of security tokens. Security tokens are digital assets that represent real-world assets such as stocks, bonds, or other securities, and are subject to regulatory oversight
-
-    
+On token interfaces, a lot of Ethereum development standards are focused. These standards aid in maintaining the composability of smart contracts, ensuring that, for example, when a new project releases a token, it is still compatible with the decentralized exchanges that already exist.
 
 
----
-## ERC-777
+## ERC Token Standards
 
-ERC777 is a proposed Ethereum token standard that is designed to improve upon the existing ERC20 standard. ERC777 adds several new features to ERC20, including the ability to support multiple recipients in a single transaction, the ability to send tokens to smart contracts, and the ability to customize the behavior of tokens. These enhancements are intended to make ERC777 more flexible and useful for a wide range of applications, including decentralized finance (DeFi) and other blockchain-based projects.
-
-ERC777 was first proposed in 2018 by developers Amir Eslampanah and Jordi Baylina. It is currently in the process of being finalized and adopted by the Ethereum community, with several projects already using the standard. Some of the key benefits of ERC777 compared to ERC20 include:
-
-1. Support for multiple recipients: ERC777 allows for tokens to be sent to multiple recipients in a single transaction, which can reduce transaction fees and improve efficiency.
-2. Support for smart contract interactions: ERC777 allows tokens to be sent to smart contracts, which can enable a wide range of DeFi and other applications.
-3. Customizable token behavior: ERC777 allows token issuers to customize the behavior of their tokens, including setting rules for how they can be transferred and other aspects of their functionality.
-4. Improved security: ERC777 includes several security enhancements over ERC20, including the ability to detect and prevent common attacks such as the reentrancy attack.
-
-Overall, ERC777 is seen as a significant improvement over ERC20, and is expected to become a widely used token standard in the Ethereum ecosystem.
-
-References
-
-https://www.developcoins.com/ethereum-token-development
-
+Ethereum Request for Comments (ERC) is a document that smart contract programmers use to create smart contracts on the Ethereum blockchain platform. These publications specify the requirements that Ethereum-based coins must meet. On token interfaces, a lot of Ethereum development standards are focused. These standards aid in maintaining the composability of smart contracts, ensuring that, for example, when a new project releases a token, it is still compatible with the decentralized exchanges that already exist.
 
     
 
 
 ---
-## ERC-1400
-
-ERC1400 is a proposed token standard for the Ethereum blockchain that is focused on enabling the issuance and management of security tokens. Security tokens are digital assets that represent real-world assets such as stocks, bonds, or other securities, and are subject to regulatory oversight. ERC1400 is designed to provide a common framework for issuing and managing security tokens on the Ethereum blockchain, making it easier for companies to comply with securities laws and regulations.
-
-ERC1400 was first proposed in 2018 by the tokenization platform Polymath, and is currently in the process of being finalized and adopted by the Ethereum community. Some of the key features of ERC1400 include:
-
-1. **Support for multiple token classes**: ERC1400 allows for the creation of multiple token classes, each with its own set of rules and restrictions. This can enable companies to issue different types of securities, such as common stock, preferred stock, and other securities.
-2. **Compliance checks**: ERC1400 includes built-in compliance checks that can verify that transactions are compliant with securities laws and regulations. This can help to ensure that companies issuing security tokens are in compliance with relevant laws and regulations.
-3. **Transfer restrictions**: ERC1400 allows for the implementation of transfer restrictions, such as whitelisting and other rules, to ensure that security tokens are only transferred to approved parties. This can help to prevent unauthorized trading and other potential violations of securities laws.
-
-Overall, ERC1400 is seen as an important step forward in the development of security tokens on the Ethereum blockchain. It is expected to make it easier for companies to issue and manage security tokens in compliance with relevant laws and regulations.
-
-    
-
-
----
-## ERC-721 vs ERC-1155
-
-ERC721 and ERC1155 are both token standards on the Ethereum blockchain, but they have some key differences in their design and intended use. ERC721 is a standard for non-fungible tokens, which are unique digital assets that cannot be divided or replicated. ERC721 is commonly used for collectible items, such as digital art or gaming assets, and has been popularized by the CryptoKitties game.
-
-In contrast, ERC1155 is a standard for multi-token contracts, which allow for the creation and management of multiple different token types within a single smart contract. This can be useful for projects that need to manage a large number of different tokens, as it can reduce the number of contracts and transactions required. ERC1155 is often used for applications such as decentralized finance (DeFi) and other projects that need to manage a large number of different tokens.
-
-Some key differences between ERC721 and ERC1155 include:
-1. Fungibility: ERC721 is for non-fungible tokens, while ERC1155 is for both fungible and non-fungible tokens.
-2. Single vs. multiple tokens: ERC721 is for single-token contracts, while ERC1155 is for multi-token contracts.
-3. Use cases: ERC721 is commonly used for collectible items, while ERC1155 is often used for DeFi and other projects that need to manage multiple tokens.
-
-Overall, ERC721 and ERC1155 are both valuable token standards on the Ethereum blockchain, but they have different strengths and intended uses. ERC721 is well-suited for applications that require unique, non-fungible tokens, while ERC1155 is better for projects that need to manage multiple different token types.
+## Popular Token Standards - Part 1
 
 
 
+## **ERC-20:** 
+The ERC-20 token standard is a guide for developing fungible tokens on the Ethereum network. A token (or a portion of a token) must be fungible in order to be equal to and interchangeable with other tokens.
+
+A coin must support all of the functions and events defined by ERC-20. Remember that this standard also controls smart contracts for newly minted tokens' activities. The bare minimum requirements for features and data in an ERC-20 compatible token are:
+
+### Functions used:
+
+1. `function name() public view returns (string)`
+2. `function symbol() public view returns (string)`
+3. `function decimals() public view returns (uint8)`
+4. `function totalSupply() public view returns (uint256)`
+5. `function balanceOf(address _owner) public view returns (uint256 balance)`
+6. `function transfer(address _to, uint256 _value) public returns (bool success)`
+7. `function transferFrom(address _from, address _to, uint256 _value) public returns (bool success)`
+8. `function approve(address _spender, uint256 _value) public returns (bool success)`
+9. `function allowance(address _owner, address _spender) public view returns (uint256 remaining)`
+
+### Events are:
+1. `event Transfer(address indexed _from, address indexed _to, uint256 _value)`
+2. `event Approval(address indexed _owner, address indexed _spender, uint256 _value)`
+
+## **ERC-721:** 
+ERC-721 is a token standard for non-fungible tokens (NFTs). Non-fungible tokens are a special type of cryptographic token that cannot be mutually interchangeable because of their individual specification. This means that 1 token cannot be exchanged for another due to its unique specifications.
+
+An ERC-721 Non-Fungible Token Contract is one that implements the functions and events listed below. Once it has been deployed, the contract is in charge of managing the tokens that have been produced on Ethereum.
+
+### Functions used:
+
+1. `function balanceOf(address _owner) external view returns (uint256);`
+2. `function ownerOf(uint256 _tokenId) external view returns (address);`
+3. `function safeTransferFrom(address _from, address _to, uint256 _tokenId, bytes data) external payable;`
+4. `function safeTransferFrom(address _from, address _to, uint256 _tokenId) external payable;`
+5. `function transferFrom(address _from, address _to, uint256 _tokenId) external payable;`
+6. `function approve(address _approved, uint256 _tokenId) external payable;`
+7. `function setApprovalForAll(address _operator, bool _approved) external;`
+8. `function getApproved(uint256 _tokenId) external view returns (address);`
+9. `function isApprovedForAll(address _owner, address _operator) external view returns (bool);`
+
+### Events are:
 
 
 
-    
-
-
----
-## ERC-1337
-
-ERC-1337 is a proposed Ethereum token standard that is focused on enabling decentralized applications (dApps) to access and manage their users' data in a secure and decentralized manner. ERC-1337 is intended to provide a common framework for dApps to securely store and access user data, including personal information, preferences, and other data. This can help to ensure that users have control over their own data and can choose how it is used by dApps.
-
-ERC-1337 was first proposed in 2019 by the Ethereum dApp development team DappHub, and is currently in the process of being finalized and adopted by the Ethereum community. Some of the key features of ERC-1337 include:
-
-1. Secure data storage: ERC-1337 allows dApps to store user data securely on the Ethereum blockchain, using cryptographic techniques to ensure data integrity and security.
-2. Data access controls: ERC-1337 includes built-in mechanisms for dApps to request and receive user data in a secure and decentralized manner. This can help to ensure that dApps only access the data that they need, and that users have control over how their data is used.
-3. Data portability: ERC-1337 allows users to transfer their data between dApps in a secure and decentralized manner, enabling them to maintain control over their data and choose which dApps they share it with.
-
-Overall, ERC-1337 is seen as an important step forward in the development of dApps on the Ethereum blockchain. It is expected to enable dApps to access and manage user data in a secure and decentralized manner, while also giving users more control over their own data.
-
-    
-
-
----
-## ERC-223
-
-ERC-223 is a proposed Ethereum token standard that is designed to improve upon the existing ERC20 standard. ERC-223 adds several new features to ERC20, including the ability to prevent the accidental loss of tokens and the ability to support multiple transactions within a single transaction. These enhancements are intended to make ERC-223 more efficient and user-friendly than ERC20.
-
-ERC-223 was first proposed in 2017 by the Ethereum developer Dexaran, and is currently in the process of being finalized and adopted by the Ethereum community. Some of the key benefits of ERC-223 compared to ERC20 include:
-
-1. Prevention of token loss: ERC-223 includes a mechanism to prevent tokens from being accidentally sent to smart contracts that do not support them, which can help to prevent the loss of tokens.
-2. Support for multiple transactions: ERC-223 allows for multiple transactions to be included in a single transaction, which can reduce transaction fees and improve efficiency.
-3. Compatibility with ERC20: ERC-223 is backwards-compatible with ERC20, meaning that it can be used with existing ERC20 contracts and infrastructure without any changes.
-
-Overall, ERC-223 is seen as an improvement over ERC20, and is expected to become a widely used token standard in the Ethereum ecosystem.
+1. `event Transfer(address indexed _from, address indexed _to, uint256 indexed _tokenId);`
+2. `event Approval(address indexed _owner, address indexed _approved, uint256 indexed _tokenId);`
+3. `event ApprovalForAll(address indexed _owner, address indexed _operator, bool _approved);`
 
     
 
 
 ---
-## EIP-5114 - Soulbound Badge
+## Popular Token Standards - Part 2
 
-EIP-5114: Soulbound Badge is a proposed Ethereum Improvement Proposal (EIP) that is focused on enabling the creation and management of unique, non-fungible digital assets on the Ethereum blockchain. EIP-5114: Soulbound Badge proposes a new type of token called a "soulbound badge," which is a unique digital asset that cannot be replicated or divided. This can be useful for applications such as collectible items, gaming assets, and other digital goods that require unique ownership and provenance.
+## **ERC-777:** 
+ERC-777 is an improved version of the ERC-20 token standard. It addresses the limitations of ERC-20 by making it more efficient for smart contracts to send and receive tokens. This is done through a mechanism known as ‘Hooks’. Hooks is a function that combines two messages - sending tokens and notifying a contract - into one. In addition, the ERC-777 also introduces the ability to reject transactions from a blacklisted address.
 
-EIP-5114: Soulbound Badge was first proposed in 2019 by the Ethereum developer Eric Conner, and is currently in the process of being reviewed and discussed by the Ethereum community. Some of the key features of EIP-5114: Soulbound Badge include:
+ A smart contract's code describes a function called hooks. When tokens are sent or received through the contract, hooks are called. This enables a smart contract to respond to tokens coming into or going out of it.
 
-1. Unique digital assets: EIP-5114: Soulbound Badge allows for the creation of unique digital assets that cannot be replicated or divided, providing a strong foundation for applications such as collectibles and gaming assets.
-2. Secure ownership: EIP-5114: Soulbound Badge includes built-in mechanisms to ensure that the ownership of soulbound badges is secure and cannot be transferred or stolen.
-3. Flexible token behavior: EIP-5114: Soulbound Badge allows for the customization of the behavior of soulbound badges, including rules for how they can be transferred and other aspects of their functionality.
-Overall, EIP-5114: Soulbound Badge is seen as a valuable addition to the Ethereum ecosystem, providing a strong foundation for applications that require unique, non-fungible digital assets. If adopted, it could enable the creation of a wide range of new applications and use cases on the Ethereum blockchain.
+## **ERC-1155:** 
+A common interface for token management contracts that handle various token kinds. Any mix of fungible tokens, non-fungible tokens, or other configurations may be used in a single deployed contract (e.g. semi-fungible tokens).
+
+The goal is to develop a smart contract interface that can represent and manage any number of fungible and non-fungible token kinds. The concept is straightforward. The ERC-1155 coin can thus do the same tasks as an ERC-20 and ERC-721 token, and even both simultaneously. The best part is that the ERC-20 and ERC-721 standards have improved functionality, efficiency, and correction of glaring implementation flaws.
+
+## **ERC-4626:** 
+The ERC-4626 standard was created to optimize and unify the technical parameters of yield-bearing vaults. It provides a standard API for tokenized yield-bearing vaults that represent shares of a single underlying ERC-20 token. The optional extension for tokenized vaults utilizing ERC-20 offers basic functionality for depositing, withdrawing tokens, and reading balances.
+
+Lending markets, aggregators, and intrinsically interest-bearing tokens help users find the best yield on their crypto tokens by executing different strategies. However, these strategies are often done with slight variations that can lead to errors or waste of development resources.
+
+ERC-4626 in yield-bearing vaults will lower the integration effort and unlock access to yield in various applications with little specialized effort from developers. This will create more consistent and robust implementation patterns.
 
 
+    
 
 
+---
+## Other for Fungible Tokens
+
+## Other Standards for Fungible Tokens
+
+* **ERC-1400:** The ERC-1404 consensus allows token creators greater control over token circulation and user visibility. The token differs from the typical ERC-20 standard frequently applied to altcoins by having the ability to identify holders of the token and freeze supply. 
+* **ERC-223:** Token contracts and contracts working with specific tokens can implement standard functions described in ERC-223 to prevent unintentional token sends to contracts and make token transactions behave like ether transactions.
+* **ERC-667:** The ERC-677 standard aims to provide additional functionality without overriding the existing ERC-20 standard. This standard adds a new function, transferAndCall(), which is unlike the ERC-223 standard, which overrides the existing transfer() function.
+* **ERC-1203:** The Standard interface for a token contract with multiple token classes is also ERC-20 compatible, which makes it an ideal solution for those looking to use a variety of tokens within their application or system.
+
+    
+
+
+---
+## Other for Non-Fungible Tokens
+
+## Other Standards for Non-Fungible Tokens
+* **EIP-5114**: Soulbound Badge was first proposed in 2019 by the Ethereum
+  developer Eric Conner, and is currently in the process of being reviewed
+  and discussed by the Ethereum community. Some of the key features of
+  EIP-5114: Soulbound Badge include:
+  
+    1. Unique digital assets: EIP-5114: Soulbound Badge allows for the
+    creation of unique digital assets that cannot be replicated or divided,
+    providing a strong foundation for applications such as collectibles and
+    gaming assets.
+    
+    2. Secure ownership: EIP-5114: Soulbound Badge includes built-in
+    mechanisms to ensure that the ownership of soulbound badges is secure and
+    cannot be transferred or stolen.
+    
+    3. Flexible token behavior: EIP-5114: Soulbound Badge allows for the
+    customization of the behavior of soulbound badges, including rules for how
+    they can be transferred and other aspects of their functionality.
+    Overall, EIP-5114: Soulbound Badge is seen as a valuable addition to the
+    Ethereum ecosystem, providing a strong foundation for applications that
+    require unique, non-fungible digital assets. If adopted, it could enable
+    the creation of a wide range of new applications and use cases on the
+    Ethereum blockchain.
+
+* **ERC-809:** The standard for renting out your NFTs, is by creating an API to allow any “rival” NFT to be rented. An NFT is considered rival if being in possession of the NFT simultaneously prevents consumption/access to other individuals. ERC-864
+* **ERC-1190:** The ERC-1190 token will allow the creators of unique digital objects, such as a work of art or an object in a game, to benefit from the use of those objects over time. This means that even if the object is not used for a long period of time, the creator will still receive compensation for its use.
+* **ERC-1238:** ERC-1238 is the standard for Non-transferable tokens that represent "badges". A badge is a token that, once given, cannot be changed. Over time, badges can accrue and be put at risk. In a nutshell, badges are declarations about a public key; they might be qualitative or quantitative (e.g., reputation, experience) (badges, titles).
+* **ERC-994:** Delegated Non-Fungible Tokens, or DNFTs, are a proposed extension of the ERC721 standard that aims to provide a way to register land and physical property on the Ethereum blockchain. NFTs are arranged in a federated, tree-like format (similar to DNS), allowing NFTs to delegate and sub-contract other NFTs within a certain geographic area.
+* **ERC-998:** The standard extension for a non-fungible token is to own other non-fungible ERC-721 or standard fungible ERC-20 tokens. This means that the entire hierarchy of items is transferred when the token composition is transferred.
+
+    
+
+
+---
+## More Standards
+
+
+## Standards for Transferring tokens
+* **ERC-965: **The aim of this proposal is to allow for pre-signed messages that would enable third parties to execute a token transfer without the original sender needing to do an on-chain transaction. The sender would need to sign a message and the third party would call sendByCheque() with the signature. This would save the sender time and effort in having to do an on-chain transaction.
+* **ERC-865: **This proposal outlines a standard function that a token contract can implement to allow a user to delegate the transfer of tokens to a third party. The third party would be responsible for paying the gas fees associated with the transfer, and would also take a small fee in tokens as compensation.
+* **ERC-995:** The ERC223 standard provides an augmented token transfer functionality that goes beyond the legacy ERC20 functionality. It allows you to execute calls on transfers and approvals both before and after tokens are transferred, regardless of whether the receiving address is a contract or not. 
+
+## Standards for multiple token
+* **ERC-1178:** The ERC1178 contract allows for multiple types of collectibles to be defined, which means that any number of a given type of collectible can be transferred at once. This is particularly useful for less expensive collectibles that might not have much value individually but could be quite valuable when bought in bulk.
+
+## Some other Standards 
+* **ERC-981: **The purpose of this proposal is to introduce a new Ethereum Interface that would allow asset owners to issue tokens in a marketplace. This would be done by dividing the asset into divisible units, which in turn would increase the fungibility of that asset. Doing this would create more opportunities for those who own a finite quantity of an asset to trade it.
 
     
 

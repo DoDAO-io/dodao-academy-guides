@@ -25,6 +25,37 @@ Overall, the goal of proof of reserves is to provide assurance to clients, regul
 
 
 ---
+## References
+
+https://academy.binance.com/en/articles/what-is-proof-of-reserves-and-how-it-works-on-binance
+
+https://cointelegraph.com/news/proof-of-reserves-can-reserve-audits-avoid-another-ftx-like-moment
+
+https://blockworks.co/news/what-are-proof-of-reserves-and-can-they-build-back-trust
+
+https://blog.bitmex.com/proof-of-reserves-liabilities-bitmex-demonstration/
+
+https://www.kraken.com/proof-of-reserves
+
+https://portfolio.nansen.ai/dashboard/crypto.com
+
+https://proof-of-reserves.trustexplorer.io/clients/ledn.io
+
+https://real-time-attest.trustexplorer.io/nexo
+
+https://proof-of-reserves.trustexplorer.io/clients/gate.io
+
+
+https://www.youtube.com/watch?v=Vi5s9Qn7S14&t=4s
+
+https://chain.link/proof-of-reserve
+
+https://niccarter.info/proof-of-reserves/
+
+    
+
+
+---
 ## Footer
 This is the course header. This will be added on top of every page. Go to [DoDAO.academy](https://www.dodao.academy) to know more.
     
