@@ -1,6 +1,6 @@
 categories: []
 content: Explains all the Tokens Standards that are famous in Ethereum
-created: '2022-12-16T19:10:24.314Z'
+created: '2022-12-16T19:19:40.428Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -35,6 +35,24 @@ steps:
     name: Introduction
     stepItems: []
     uuid: 83c6b8f3-feaa-43e5-aa1c-e150c85cc504
+  - content: ''
+    name: Evaluation
+    stepItems:
+      - answerKeys:
+          - 9e9f13c9
+        choices:
+          - content: A
+            key: f376fdc0
+          - content: B
+            key: 9e9f13c9
+          - content: C
+            key: acad8cb6
+          - content: D
+            key: b06f2b43
+        content: Q1
+        type: SingleChoice
+        uuid: 1f7f9673-e17e-43d3-8957-1b7de30f01ea
+    uuid: 1291e94c-f61f-4704-b3c6-43baedb05e7f
   - content: >-
 
 
