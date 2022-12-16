@@ -1,6 +1,6 @@
 categories: []
 content: New Guide
-created: '2022-12-16T18:55:38.761Z'
+created: '2022-12-16T18:56:00.874Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -142,7 +142,7 @@ steps:
 
       3. `event ApprovalForAll(address indexed _owner, address indexed
       _operator, bool _approved);`
-    name: Popular Token Standards
+    name: Popular Token Standards - Part 1
     stepItems: []
     uuid: 32be5757-083f-4c4e-a4c9-f5f82d3c75c7
   - content: >-
