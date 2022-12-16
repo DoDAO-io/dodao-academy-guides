@@ -1,6 +1,6 @@
 categories: []
-content: New Guide
-created: '2022-12-16T19:04:27.697Z'
+content: Explains all the Tokens Standards that are famous in Ethereum
+created: '2022-12-16T19:10:24.314Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -247,7 +247,7 @@ steps:
           require unique, non-fungible digital assets. If adopted, it could enable
           the creation of a wide range of new applications and use cases on the
           Ethereum blockchain.
-      
+
       * **ERC-809:** The standard for renting out your NFTs, is by creating an
       API to allow any “rival” NFT to be rented. An NFT is considered rival if
       being in possession of the NFT simultaneously prevents consumption/access
