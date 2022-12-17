@@ -104,7 +104,7 @@ Bridges carryout functions similar to the below:
 
 
 
-##### The bridge contract to ensure positions and withdraw of users funds through eventual ordering and execution of transactions is ?  
+##### If an users can unwind their positions and withdraw their funds is ensured by ?  
 
 - [ ]  Deposit
 - [x]  Censorship resistance
@@ -175,12 +175,12 @@ Arbitrum's multi-round fraud proof system is a binary search between two parties
 
 
 
-##### The list of inclusion proofs in One-round fraud proof for quick and easy fraud detection are?  
+##### One-round fraud detection is made made by ?  
 
-- [ ]  State transition's pre-state
-- [ ]  The state transition itself
-- [ ]  Executor's asserted post-state
-- [x]  All of the above
+- [ ]  Sequencers
+- [ ]  Executors
+- [ ]  Validators
+- [x]  challengers
 
     
 

@@ -203,7 +203,7 @@ steps:
             key: e6908d80
           - content: Withdrawal
             key: e5f3ea4c
-        content: The bridge contract to ensure positions and withdraw of users funds through eventual ordering and execution of transactions is ?
+        content:  If an users can unwind their positions and withdraw their funds is ensured by ?
         type: SingleChoice
         uuid: af0b2a47-8fe5-468e-b7a9-f3a90570320e
     uuid: 5d642a3f-5f46-4690-ab86-1854c75155e4
@@ -308,18 +308,18 @@ steps:
       - answerKeys:
           - 9b0493fa
         choices:
-          - content: State transition's pre-state
+          - content: Sequencers
             key: 1a95824f
-          - content: The state transition itself
+          - content: Executors
             key: c038a5a7
-          - content: Executor's asserted post-state
+          - content: Validators
             key: f00d64fb
-          - content: All of the above
+          - content: challengers
             key: 9b0493fa
-        content:  The list of inclusion proofs in One-round fraud proof for quick and easy fraud detection are?
+        content: One-round fraud detection is made made by ?
         type: SingleChoice
         uuid: 73ab252e-af32-43ee-9e7b-158a95e20d19
     uuid: f49142fc-eddd-4116-9c25-01f365813d05
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
-uuid: optimistic-rollups-dodao-academy
+uuid: optimistic-rollups-dodao-academy 
