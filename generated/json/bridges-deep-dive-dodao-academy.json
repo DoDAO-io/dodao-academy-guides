@@ -25,8 +25,7 @@
       "stepItems": [
         {
           "answerKeys": [
-            "b0297a96",
-            "ba9ff91b"
+            "b0297a96"
           ],
           "choices": [
             {
@@ -42,12 +41,12 @@
               "key": "2dcb49e7"
             },
             {
-              "content": "To enable interoperability",
+              "content": "To help in increasing transactions per second",
               "key": "ba9ff91b"
             }
           ],
           "content": "what are the usecases of Bridge?",
-          "type": "MultipleChoice",
+          "type": "SingleChoice",
           "uuid": "97c7063c-69cd-4e08-9313-67c34c153fa0"
         }
       ],
@@ -107,8 +106,8 @@
       "stepItems": [
         {
           "answerKeys": [
-            "c54afe66",
-            "5c636f64"
+            "947f6527",
+            "c54afe66"
           ],
           "choices": [
             {

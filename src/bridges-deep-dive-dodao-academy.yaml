@@ -56,7 +56,7 @@ steps:
     stepItems:
       - answerKeys:
           - b0297a96
-          - ba9ff91b
+          
         choices:
           - content: To solve the security issue of rollups
             key: eb9a4375
@@ -64,10 +64,10 @@ steps:
             key: b0297a96
           - content: To help quickly validate transactions
             key: 2dcb49e7
-          - content: To enable interoperability
+          - content: To help in increasing transactions per second
             key: ba9ff91b
         content: what are the usecases of Bridge?
-        type: MultipleChoice
+        type: SingleChoice
         uuid: 97c7063c-69cd-4e08-9313-67c34c153fa0
     uuid: f925c0be-43da-48a3-959e-40373f859e89
   - content: >-
@@ -142,8 +142,8 @@ steps:
     name: Evaluation
     stepItems:
       - answerKeys:
+          - 947f6527
           - c54afe66
-          - 5c636f64
         choices:
           - content: Through data compression
             key: 947f6527

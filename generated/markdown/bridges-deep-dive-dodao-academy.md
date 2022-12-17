@@ -36,7 +36,7 @@ Trust assumptions for bridge contracts can be classified into three types:
 - [ ]  To solve the security issue of rollups
 - [x]  To transfer tokens between different layers
 - [ ]  To help quickly validate transactions
-- [x]  To enable interoperability
+- [ ]  To help in increasing transactions per second
 
     
 
@@ -95,10 +95,10 @@ Now, the executor can periodically assert a cryptographic commitment to the brid
 
 ##### The most popular way of solving the data availability problem is through?  
 
-- [ ]  Through data compression
+- [x]  Through data compression
 - [x]  Rollups
 - [ ]  Cloud Storage
-- [x]  Layer2 frameworks
+- [ ]  Layer2 frameworks
 
     
 
