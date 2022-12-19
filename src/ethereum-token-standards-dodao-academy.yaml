@@ -154,11 +154,11 @@ steps:
         choices:
           - content: it is the name of a token
             key: A
-          - content: use to create smart contracts on the Ethereum blockchain platform
+          - content: to ensure smart contracts are compatible in the whole ecosystem
             key: B
           - content: for categorizing tokens
             key: C
-          - content: to ensure new projects are compatible with decentralised exchanges
+          - content: to ensure smart contracts are compatible in the whole ecosystem
             key: D
         content: Why are ERC Token Standards used?
         type: MultipleChoice
@@ -234,15 +234,15 @@ steps:
       - answerKeys:
           - A
         choices:
-          - content: when tokens are sent or received through the contract
+          - content: Through hooks, a contract can get tokens and be notified in a single transaction
             key: A
-          - content: when tokens are made
+          - content: They are used to create a token
             key: B
-          - content: to specify the total supply of tokens
+          - content: They are used to specify the total supply of tokens
             key: C
-          - content: to specify the owner of the token
+          - content: They are used to specify the owner of the token
             key: D
-        content: When is the Hook function called?
+        content: What is the use of 'Hooks' in ERC-777?
         type: SingleChoice
         uuid: 8e396496-3591-4aa1-9425-586e05ab08a2
       - answerKeys:
@@ -252,7 +252,7 @@ steps:
             key: A
           - content: it prevents fund loss
             key: B
-          - content: fungible tokens, non-fungible tokens can be used in a single deployed contract
+          - content: both fungible tokens and non-fungible tokens can be created from a single deployed contract
             key: C
           - content: ERC-1155 makes token transfer easy
             key: D
@@ -414,7 +414,7 @@ steps:
             key: C
           - content: to specify the owner of the token
             key: D
-        content: ERC-1404 enables creator
+        content: What feature of ERC-1404 gives more control to the creator as compared to ERC-20?
         type: SingleChoice
         uuid: ba8051eb-8e5a-448d-8d59-4984dd166e8f
       - answerKeys:
