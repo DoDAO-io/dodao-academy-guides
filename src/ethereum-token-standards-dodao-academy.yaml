@@ -158,7 +158,7 @@ steps:
             key: B
           - content: for categorizing tokens
             key: C
-          - content: to ensure new projects are compatible with decentralised exchanges
+          - content: to ensure smart contracts are compatible in the whole ecosystem
             key: D
         content: Why are ERC Token Standards used?
         type: MultipleChoice
