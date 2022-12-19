@@ -252,7 +252,7 @@ steps:
             key: A
           - content: it prevents fund loss
             key: B
-          - content: fungible tokens, non-fungible tokens can be used in a single deployed contract
+          - content: both fungible tokens and non-fungible tokens can be created from a single deployed contract
             key: C
           - content: ERC-1155 makes token transfer easy
             key: D
