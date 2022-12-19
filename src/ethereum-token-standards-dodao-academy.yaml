@@ -154,7 +154,7 @@ steps:
         choices:
           - content: it is the name of a token
             key: A
-          - content: use to create smart contracts on the Ethereum blockchain platform
+          - content: Used to make sure smart contracts adhere to standard interfaces in Ethereum blockchain platform
             key: B
           - content: for categorizing tokens
             key: C
