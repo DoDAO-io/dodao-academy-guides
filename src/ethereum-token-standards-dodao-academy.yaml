@@ -35,7 +35,6 @@ steps:
     name: Introduction
     stepItems: []
     uuid: 83c6b8f3-feaa-43e5-aa1c-e150c85cc504
-  - content: ''
   - content: >-
 
 
@@ -146,7 +145,7 @@ steps:
     name: Popular Token Standards - Part 1
     stepItems: []
     uuid: 32be5757-083f-4c4e-a4c9-f5f82d3c75c7
-     name: Evaluation
+  - name: Evaluation
     stepItems:
       - answerKeys:
           - B
@@ -229,7 +228,7 @@ steps:
     name: Popular Token Standards - Part 2
     stepItems: []
     uuid: 48bac0da-6ef0-492b-b19c-87ab1b7df1ef
-         name: Evaluation
+  - name: Evaluation
     stepItems:
       - answerKeys:
           - A
@@ -401,7 +400,7 @@ steps:
     name: More Standards
     stepItems: []
     uuid: 4f81d68b-bf4b-432b-b9fe-06107921708a
-    name: Evaluation
+  - name: Evaluation
     stepItems:
       - answerKeys:
           - B

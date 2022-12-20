@@ -18,7 +18,7 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
  | 9      | Proof of Reserves | What is POR and how various exchanges can implement it |  [Link](generated/markdown/proof-of-reserves-dodao-academy.md) |
  | 10      | Keeping your Crypto Safe | How to keep your Crypto Safe |  [Link](generated/markdown/keeping-your-crypto-safe-dodao-academy.md) |
  | 11      | Custodian vs Non Cust. Wallet | Educates about the difference and talks about pros and cons |  [Link](generated/markdown/custodian-vs-non-cust-wallet-dodao-academy.md) |
- | 12      | Ethereum Token Standards | New Guide |  [Link](generated/markdown/ethereum-token-standards-dodao-academy.md) |
+ | 12      | Ethereum Token Standards | Explains all the Tokens Standards that are famous in Ethereum |  [Link](generated/markdown/ethereum-token-standards-dodao-academy.md) |
  | 13      | Optimistic Rollups | What are optimistic rollups and the different proof mechanisms |  [Link](generated/markdown/optimistic-rollups-dodao-academy.md) |
  | 14      | Bridges - Deep Dive | Explains everything about bridges |  [Link](generated/markdown/bridges-deep-dive-dodao-academy.md) |
  | 15      | Central Bank Digital Currency | What is CBDC and how does it compare with fiat & cryptocurrency |  [Link](generated/markdown/central-bank-digital-currency-dodao-academy.md) |

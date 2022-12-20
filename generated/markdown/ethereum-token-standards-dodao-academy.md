@@ -76,6 +76,34 @@ An ERC-721 Non-Fungible Token Contract is one that implements the functions and 
 
 
 ---
+## Evaluation
+
+undefined
+
+
+
+##### Why are ERC Token Standards used?  
+
+- [ ]  it is the name of a token
+- [x]  use to create smart contracts on the Ethereum blockchain platform
+- [ ]  for categorizing tokens
+- [x]  to ensure smart contracts are compatible in the whole ecosystem
+
+
+
+
+
+##### Which of the following statement is incorrect?  
+
+- [ ]  ERC-20 token standard is used developing fungible tokens on the Ethereum network
+- [ ]  functions and events are requirements to make ERC-20 and ERC-721 tokens
+- [x]  Non-Fungible tokens are mutually interchangeable
+- [ ]  ERC-721 is a token standard for non-fungible tokens
+
+    
+
+
+---
 ## Popular Token Standards - Part 2
 
 ## **ERC-777:** 
@@ -100,11 +128,50 @@ ERC-4626 in yield-bearing vaults will lower the integration effort and unlock ac
 
 
 ---
+## Evaluation
+
+undefined
+
+
+
+##### What is the use of 'Hooks' in ERC-777?  
+
+- [x]  Through hooks, a contract can get tokens and be notified in a single transaction
+- [ ]  They are used to create a token
+- [ ]  They are used to specify the total supply of tokens
+- [ ]  They are used to specify the owner of the token
+
+
+
+
+
+##### How is ERC-1155 different from ERC-20 and ERC-721?  
+
+- [ ]  ERC-1155 is a standard for NFTs only
+- [ ]  it prevents fund loss
+- [x]  both fungible tokens and non-fungible tokens can be created from a single deployed contract
+- [ ]  ERC-1155 makes token transfer easy
+
+
+
+
+
+##### What statements are correct regarding ERC-4626?  
+
+- [x]  It optimises and unifies technical parameter of yield bearing vaults
+- [ ]  It is used for renting out your NFTs
+- [x]  It will reduce integration efforts for developers
+- [ ]  It is used in transferring fungible tokens
+
+    
+
+
+---
 ## Other for Fungible Tokens
 
 ## Other Standards for Fungible Tokens
 
-* **ERC-1400:** The ERC-1404 consensus allows token creators greater control over token circulation and user visibility. The token differs from the typical ERC-20 standard frequently applied to altcoins by having the ability to identify holders of the token and freeze supply. 
+* **ERC-1404:** The ERC-1404 consensus allows token creators greater control over token circulation and user visibility. The token differs from the typical ERC-20 standard frequently applied to altcoins by having the ability to identify holders of the token and freeze supply. 
 * **ERC-223:** Token contracts and contracts working with specific tokens can implement standard functions described in ERC-223 to prevent unintentional token sends to contracts and make token transactions behave like ether transactions.
 * **ERC-667:** The ERC-677 standard aims to provide additional functionality without overriding the existing ERC-20 standard. This standard adds a new function, transferAndCall(), which is unlike the ERC-223 standard, which overrides the existing transfer() function.
 * **ERC-1203:** The Standard interface for a token contract with multiple token classes is also ERC-20 compatible, which makes it an ideal solution for those looking to use a variety of tokens within their application or system.
@@ -162,6 +229,45 @@ ERC-4626 in yield-bearing vaults will lower the integration effort and unlock ac
 
 ## Some other Standards 
 * **ERC-981: **The purpose of this proposal is to introduce a new Ethereum Interface that would allow asset owners to issue tokens in a marketplace. This would be done by dividing the asset into divisible units, which in turn would increase the fungibility of that asset. Doing this would create more opportunities for those who own a finite quantity of an asset to trade it.
+
+    
+
+
+---
+## Evaluation
+
+undefined
+
+
+
+##### What feature of ERC-1404 gives more control to the creator as compared to ERC-20?  
+
+- [ ]  to prevent unintentional token sends to contracts
+- [x]  greater control over token circulation
+- [ ]  to specify the total supply of tokens
+- [ ]  to specify the owner of the token
+
+
+
+
+
+##### How does ERC-1190 help creators?  
+
+- [ ]  Allows for the creation of unique digital assets that cannot be replicated
+- [x]  Creators can earn benefits every time rights of thier object is used
+- [ ]  Aims to provide a way to register land and physical property on the Ethereum blockchain
+- [ ]  It helps to rent NFTs
+
+
+
+
+
+##### How are tokens transferred via ERC-965?  
+
+- [ ]  via on chain transaction
+- [ ]  by calling sendByCheque() method
+- [ ]  sending the tokens to a third party
+- [x]  both A and B
 
     
 
