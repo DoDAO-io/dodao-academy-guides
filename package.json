@@ -15,6 +15,6 @@
   },
   "homepage": "https://github.com/DoDAO-io/dodao-academy-guides#readme",
   "dependencies": {
-    "dodao-guides-processor": "0.1.9"
+    "dodao-guides-processor": "^0.1.9"
   }
 }

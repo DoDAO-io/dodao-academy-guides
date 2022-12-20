@@ -35,24 +35,6 @@ steps:
     name: Introduction
     stepItems: []
     uuid: 83c6b8f3-feaa-43e5-aa1c-e150c85cc504
-  - content: ''
-    name: Evaluation
-    stepItems:
-      - answerKeys:
-          - 9e9f13c9
-        choices:
-          - content: A
-            key: f376fdc0
-          - content: B
-            key: 9e9f13c9
-          - content: C
-            key: acad8cb6
-          - content: D
-            key: b06f2b43
-        content: Q1
-        type: SingleChoice
-        uuid: 1f7f9673-e17e-43d3-8957-1b7de30f01ea
-    uuid: 1291e94c-f61f-4704-b3c6-43baedb05e7f
   - content: >-
 
 
@@ -163,6 +145,38 @@ steps:
     name: Popular Token Standards - Part 1
     stepItems: []
     uuid: 32be5757-083f-4c4e-a4c9-f5f82d3c75c7
+  - name: Evaluation
+    stepItems:
+      - answerKeys:
+          - B
+          - D
+        choices:
+          - content: it is the name of a token
+            key: A
+          - content: use to create smart contracts on the Ethereum blockchain platform
+            key: B
+          - content: for categorizing tokens
+            key: C
+          - content: to ensure smart contracts are compatible in the whole ecosystem
+            key: D
+        content: Why are ERC Token Standards used?
+        type: MultipleChoice
+        uuid: 1f7f9673-e17e-43d3-8957-1b7de30f01ea
+      - answerKeys:
+          - C
+        choices:
+          - content: ERC-20 token standard is used developing fungible tokens on the Ethereum network
+            key: A
+          - content: functions and events are requirements to make ERC-20 and ERC-721 tokens 
+            key: B
+          - content: Non-Fungible tokens are mutually interchangeable
+            key: C
+          - content: ERC-721 is a token standard for non-fungible tokens
+            key: D
+        content: Which of the following statement is incorrect?
+        type: SingleChoice
+        uuid: ec9d362b-32f6-4bb6-94c2-8be0282a155f
+    uuid: 1291e94c-f61f-4704-b3c6-43baedb05e7f
   - content: >
       ## **ERC-777:** 
 
@@ -214,11 +228,57 @@ steps:
     name: Popular Token Standards - Part 2
     stepItems: []
     uuid: 48bac0da-6ef0-492b-b19c-87ab1b7df1ef
+  - name: Evaluation
+    stepItems:
+      - answerKeys:
+          - A
+        choices:
+          - content: Through hooks, a contract can get tokens and be notified in a single transaction
+            key: A
+          - content: They are used to create a token
+            key: B
+          - content: They are used to specify the total supply of tokens
+            key: C
+          - content: They are used to specify the owner of the token
+            key: D
+        content: What is the use of 'Hooks' in ERC-777?
+        type: SingleChoice
+        uuid: 8e396496-3591-4aa1-9425-586e05ab08a2
+      - answerKeys:
+          - C
+        choices:
+          - content: ERC-1155 is a standard for NFTs only
+            key: A
+          - content: it prevents fund loss
+            key: B
+          - content: both fungible tokens and non-fungible tokens can be created from a single deployed contract
+            key: C
+          - content: ERC-1155 makes token transfer easy
+            key: D
+        content: How is ERC-1155 different from ERC-20 and ERC-721?
+        type: SingleChoice
+        uuid: a559a517-8523-4485-89b8-697a8b5844d2
+      - answerKeys:
+          - A
+          - C
+        choices:
+          - content: It optimises and unifies technical parameter of yield bearing vaults
+            key: A
+          - content: It is used for renting out your NFTs 
+            key: B
+          - content: It will reduce integration efforts for developers
+            key: C
+          - content: It is used in transferring fungible tokens
+            key: D
+        content: What statements are correct regarding ERC-4626?
+        type: MultipleChoice
+        uuid: 03a1a680-5097-428a-9746-d8f2e6b7d0a8
+    uuid: 720088dd-33a1-40db-9a5a-33fb97c1dbb9
   - content: >-
       ## Other Standards for Fungible Tokens
 
 
-      * **ERC-1400:** The ERC-1404 consensus allows token creators greater
+      * **ERC-1404:** The ERC-1404 consensus allows token creators greater
       control over token circulation and user visibility. The token differs from
       the typical ERC-20 standard frequently applied to altcoins by having the
       ability to identify holders of the token and freeze supply. 
@@ -340,6 +400,51 @@ steps:
     name: More Standards
     stepItems: []
     uuid: 4f81d68b-bf4b-432b-b9fe-06107921708a
+  - name: Evaluation
+    stepItems:
+      - answerKeys:
+          - B
+        choices:
+          - content:  to prevent unintentional token sends to contracts
+            key: A
+          - content: greater control over token circulation
+            key: B
+          - content: to specify the total supply of tokens
+            key: C
+          - content: to specify the owner of the token
+            key: D
+        content: What feature of ERC-1404 gives more control to the creator as compared to ERC-20?
+        type: SingleChoice
+        uuid: ba8051eb-8e5a-448d-8d59-4984dd166e8f
+      - answerKeys:
+          - B
+        choices:
+          - content: Allows for the creation of unique digital assets that cannot be replicated
+            key: A
+          - content: Creators can earn benefits every time rights of thier object is used
+            key: B
+          - content: Aims to provide a way to register land and physical property on the Ethereum blockchain
+            key: C
+          - content: It helps to rent NFTs
+            key: D
+        content: How does ERC-1190 help creators?
+        type: SingleChoice
+        uuid: 14781765-41aa-4fe2-9cb8-3f982ea109c7
+      - answerKeys:
+          - D
+        choices:
+          - content: via on chain transaction
+            key: A
+          - content: by calling sendByCheque() method
+            key: B
+          - content: sending the tokens to a third party
+            key: C
+          - content: both A and B
+            key: D
+        content: How are tokens transferred via ERC-965?
+        type: SingleChoice
+        uuid: e1b25c6f-cc99-489e-b9aa-4b367f91e914
+    uuid: 12d8801c-0a89-4a79-8bba-edfd97b5d5b9
 thumbnail: >-
   https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
 uuid: ethereum-token-standards-dodao-academy
