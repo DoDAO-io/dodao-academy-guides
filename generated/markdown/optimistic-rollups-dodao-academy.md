@@ -104,7 +104,7 @@ Bridges carryout functions similar to the below:
 
 
 
-##### If an users can unwind their positions and withdraw their funds, is ensured by ?  
+##### If an users can unwind their positions and withdraw their funds is ensured by ?  
 
 - [ ]  Deposit
 - [x]  Censorship resistance

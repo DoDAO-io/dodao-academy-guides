@@ -203,7 +203,7 @@ steps:
             key: e6908d80
           - content: Withdrawal
             key: e5f3ea4c
-        content:  If an users can unwind their positions and withdraw their funds, is ensured by ?
+        content:  If an users can unwind their positions and withdraw their funds is ensured by ?
         type: SingleChoice
         uuid: af0b2a47-8fe5-468e-b7a9-f3a90570320e
     uuid: 5d642a3f-5f46-4690-ab86-1854c75155e4
