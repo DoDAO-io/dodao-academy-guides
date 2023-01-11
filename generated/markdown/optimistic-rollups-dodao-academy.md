@@ -34,7 +34,7 @@ There are two main functions of the smart contract are:
 
 
 
-##### How did layer 1 benefit from the introduction of layer 2 frameworks?  
+##### How do we benefit from the introduction of layer 2 frameworks?  
 
 - [ ]  More security
 - [x]  provide higher scalability
@@ -104,7 +104,7 @@ Bridges carryout functions similar to the below:
 
 
 
-##### If an users can unwind their positions and withdraw their funds is ensured by ?  
+##### If an users can unwind their positions and withdraw their funds, is ensured by ?  
 
 - [ ]  Deposit
 - [x]  Censorship resistance
