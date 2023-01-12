@@ -1,6 +1,6 @@
 categories: []
 content: New Guide
-created: '2022-12-12T15:41:51.450Z'
+created: '2023-01-12T13:41:34.226Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -19,6 +19,5 @@ steps:
     name: Introduction Evaluation
     stepItems: []
     uuid: 6713570e-b132-406e-a2bb-01693de069f3
-thumbnail: >-
-  https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
-uuid: a063124d-6131-40da-8ec6-fb97a3982f83
+thumbnail: https://d31h13bdjwgzxs.cloudfront.net/academy/dodao/guides/crypto_security.png
+uuid: crypto-security-dodao-academy
