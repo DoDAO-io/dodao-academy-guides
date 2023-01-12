@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Explains all the Tokens Standards that are famous in Ethereum",
-  "created": "2022-12-16T19:19:40.428Z",
+  "created": "2023-01-12T14:30:14.937Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -24,8 +24,8 @@
       "uuid": "32be5757-083f-4c4e-a4c9-f5f82d3c75c7"
     },
     {
-      "name": "Evaluation",
       "content": "",
+      "name": "Evaluation",
       "stepItems": [
         {
           "answerKeys": [
@@ -90,8 +90,8 @@
       "uuid": "48bac0da-6ef0-492b-b19c-87ab1b7df1ef"
     },
     {
-      "name": "Evaluation",
       "content": "",
+      "name": "Evaluation",
       "stepItems": [
         {
           "answerKeys": [
@@ -194,8 +194,8 @@
       "uuid": "4f81d68b-bf4b-432b-b9fe-06107921708a"
     },
     {
-      "name": "Evaluation",
       "content": "",
+      "name": "Evaluation",
       "stepItems": [
         {
           "answerKeys": [
@@ -279,6 +279,6 @@
       "uuid": "12d8801c-0a89-4a79-8bba-edfd97b5d5b9"
     }
   ],
-  "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi",
+  "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/academy/dodao/guides/ethereum_token_standards.png",
   "uuid": "ethereum-token-standards-dodao-academy"
 }
