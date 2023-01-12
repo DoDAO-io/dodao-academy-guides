@@ -78,7 +78,7 @@ An ERC-721 Non-Fungible Token Contract is one that implements the functions and 
 ---
 ## Evaluation
 
-undefined
+
 
 
 
@@ -130,7 +130,7 @@ ERC-4626 in yield-bearing vaults will lower the integration effort and unlock ac
 ---
 ## Evaluation
 
-undefined
+
 
 
 
@@ -236,7 +236,7 @@ undefined
 ---
 ## Evaluation
 
-undefined
+
 
 
 

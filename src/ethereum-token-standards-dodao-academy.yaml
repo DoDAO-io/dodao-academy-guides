@@ -146,6 +146,7 @@ steps:
     stepItems: []
     uuid: 32be5757-083f-4c4e-a4c9-f5f82d3c75c7
   - name: Evaluation
+    content: ""
     stepItems:
       - answerKeys:
           - B
@@ -229,6 +230,7 @@ steps:
     stepItems: []
     uuid: 48bac0da-6ef0-492b-b19c-87ab1b7df1ef
   - name: Evaluation
+    content: ""
     stepItems:
       - answerKeys:
           - A
@@ -401,6 +403,7 @@ steps:
     stepItems: []
     uuid: 4f81d68b-bf4b-432b-b9fe-06107921708a
   - name: Evaluation
+    content: ""
     stepItems:
       - answerKeys:
           - B
