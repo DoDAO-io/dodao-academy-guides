@@ -1,6 +1,6 @@
 categories: []
 content: What is POR and how various exchanges can implement it
-created: '2022-12-10T13:49:20.709Z'
+created: '2023-01-12T13:38:55.009Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: onboarding
@@ -89,5 +89,5 @@ steps:
     stepItems: []
     uuid: e0698fe1-21cc-4a2c-b973-a57425898145
 thumbnail: >-
-  https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
+  https://d31h13bdjwgzxs.cloudfront.net/academy/dodao/guides/proof_of_reserves.png
 uuid: proof-of-reserves-dodao-academy
