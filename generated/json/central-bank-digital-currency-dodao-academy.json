@@ -3,7 +3,7 @@
     "general"
   ],
   "content": "What is CBDC and how does it compare with fiat & cryptocurrency",
-  "created": "2022-12-06T17:19:36.005Z",
+  "created": "2023-01-12T14:14:01.071Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -428,6 +428,6 @@
       "uuid": "250ee4da-f888-4432-9622-1fd94f32140f"
     }
   ],
-  "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi",
+  "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/academy/dodao/guides/central_bank_digital_currency.png",
   "uuid": "central-bank-digital-currency-dodao-academy"
 }

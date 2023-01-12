@@ -1,7 +1,7 @@
 categories:
   - general
 content: What is CBDC and how does it compare with fiat & cryptocurrency
-created: '2022-12-06T17:19:36.005Z'
+created: '2023-01-12T14:14:01.071Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -121,7 +121,7 @@ steps:
             key: B
           - content: US Dollar
             key: C
-          - content:  Depends on Central Bank of the country
+          - content: Depends on Central Bank of the country
             key: D
         content: CBDCs are backed by?
         type: SingleChoice
@@ -200,7 +200,7 @@ steps:
             key: C
           - content: All of the above
             key: D
-        content: CBDCs are advantageous because 
+        content: CBDCs are advantageous because
         type: MultipleChoice
         uuid: 0df0c65a-c528-406c-ab68-5450f89d509a
       - answerKeys:
@@ -210,7 +210,9 @@ steps:
             key: A
           - content: Cryptocurrency is highly fluctuating
             key: B
-          - content: CBDCs are under government control whereas cryptocurrency are mostly global and not under specific country
+          - content: >-
+              CBDCs are under government control whereas cryptocurrency are
+              mostly global and not under specific country
             key: C
           - content: None of the above
             key: D
@@ -336,15 +338,15 @@ steps:
         type: MultipleChoice
         uuid: 98dd0750-9388-44c6-86f2-64837758777e
       - answerKeys:
-          - B          
+          - B
         choices:
-          - content: Hacking 
+          - content: Hacking
             key: A
           - content: Interconversion into CBDC into CBDC of that country
             key: B
           - content: Money laundering
             key: C
-          - content: Forgery 
+          - content: Forgery
             key: D
         content: What is the issue with cross-border transactions using CBDC?
         type: SingleChoice
@@ -519,5 +521,5 @@ steps:
         uuid: cb2c4365-cfaa-4b37-91b6-5557c0c1ea5f
     uuid: 250ee4da-f888-4432-9622-1fd94f32140f
 thumbnail: >-
-  https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
+  https://d31h13bdjwgzxs.cloudfront.net/academy/dodao/guides/central_bank_digital_currency.png
 uuid: central-bank-digital-currency-dodao-academy
