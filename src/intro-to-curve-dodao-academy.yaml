@@ -1,7 +1,7 @@
 categories:
   - general
 content: Talks about veCRV, gauged pools, rewards and bribes
-created: '2022-12-23T12:05:53.905Z'
+created: '2023-01-13T19:04:28.413Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -85,18 +85,20 @@ steps:
   - content: ''
     name: Evaluation
     stepItems:
-      - choices:
+      - answerKeys:
+          - B
+        choices:
           - content: Through bribes
             key: A
           - content: By creating pools of similarly behaving assets
             key: B
-          - content: By Automated Market Maker (AMM)
+          - content: By using gauges for its pools
             key: C
           - content: By creating tripool
             key: D
-        answerKeys:
-          - B
-        content: How does curve finance overcome the problem of slippage that occurs due to volatality, while order being executed ?
+        content: >-
+          How does curve finance overcome the problem of slippage that occurs
+          due to volatality, while order being executed ?
         type: SingleChoice
         uuid: 72c81038-e7bc-414f-97c9-bc586b20dfb7
       - answerKeys:
@@ -185,7 +187,7 @@ steps:
       - answerKeys:
           - 31cbd68f
         choices:
-          - content: To earn new tokens for veCRV votes in bribing
+          - content: To earn upto 2.5x boosted rewards
             key: ad0cd11f
           - content: To get voting power in gauge weight
             key: c38ae3e6
@@ -196,22 +198,6 @@ steps:
         content: 'Advantages of owning veCRV:'
         type: SingleChoice
         uuid: 6f7478f3-c3d7-43fc-98f6-61a661c87f31
-      - answerKeys:
-          - '016e3941'
-          - 4eb52fb4
-          - 057f3dd6
-        choices:
-          - content: They get more governance power over other
-            key: 057f3dd6
-          - content: They get 0.1 USDC for every dollar locked
-            key: 4d7c14bc
-          - content: 'Earn a boost of up to 2.5 times '
-            key: '016e3941'
-          - content: They earn a cut of trading fees
-            key: 4eb52fb4
-        content:  What rewards does curve finance offers to liquidity provider?
-        type: MultipleChoice
-        uuid: bd40ea8c-4f77-4a15-98b5-0b17f98aa4f6
     uuid: 90b8b356-55a2-4767-96fe-743cc86995a5
   - content: >
       ## Liquidity Gauge
@@ -280,7 +266,6 @@ steps:
     name: Evaluation
     stepItems:
       - answerKeys:
-          - ef3ef46e
           - 3862dce1
           - '91374831'
         choices:
@@ -290,7 +275,7 @@ steps:
             key: c2ebbc60
           - content: Gauge weight
             key: 3862dce1
-          - content: veCRV votes
+          - content: ETH amount
             key: ef3ef46e
         content: On what basis are newly minted CRV distributed to various gauges
         type: MultipleChoice
@@ -300,7 +285,7 @@ steps:
         choices:
           - content: You get additional veCRV
             key: 5a79c680
-          - content:   You are rewarded with different tokens
+          - content: You are rewarded with different tokens
             key: a2e59bb3
           - content: You get more boost in your rewards
             key: 47b3410d
@@ -351,16 +336,19 @@ steps:
     stepItems:
       - answerKeys:
           - 59fc15ea
-          - cc268588
           - 075edcf0
         choices:
-          - content: Complicated steps involved,which makes staking difficult for new user
+          - content: >-
+              Complicated steps involved, which makes staking difficult for new
+              user
             key: 59fc15ea
-          - content: Gauge votes are influenced by bribes
+          - content: Gas fees are 20 times higher as compared to other AMMs
             key: cc268588
           - content: Uncontrollable slippage
             key: ec62345e
-          - content: veCRV tokens don't remain liquid as they are locked for a time period
+          - content: >-
+              veCRV tokens don't remain liquid as they are locked for a time
+              period
             key: 075edcf0
         content: 'Pain points in curve finance:'
         type: MultipleChoice
@@ -373,11 +361,11 @@ steps:
         choices:
           - content: Extra benefits for staking  LP tokens
             key: 4338d473
-          - content: No complicated steps involved, that makes staking easier
+          - content: No complicated steps involved and that makes staking easier
             key: 93a09a97
           - content: Automatically get boosted rewards
             key: 321fbe71
-          - content: 'Keep your locked CRV tokens unlocked through the cvxCRV tokens'
+          - content: Keep your locked CRV tokens unlocked through the cvxCRV tokens
             key: 9b2e12b4
         content: Advantage of investing in convex finance over curve finance
         type: MultipleChoice
