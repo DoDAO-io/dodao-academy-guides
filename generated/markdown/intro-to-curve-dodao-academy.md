@@ -41,12 +41,12 @@ Liquidity providers are people who deposit tokens in liquidity pools. Liquidity 
 
 
 
-##### How does curve finance overcome the problem of slippage  
+##### How does curve finance overcome the problem of slippage that occurs due to volatality, while order being executed ?  
 
 - [ ]  Through bribes
-- [ ]  By creating pools of similarly behaving assets
-- [x]  By Automated Market Maker (AMM)
-- [ ]  By creating tripool 
+- [x]  By creating pools of similarly behaving assets
+- [ ]  By Automated Market Maker (AMM)
+- [ ]  By creating tripool
 
 
 
@@ -57,7 +57,7 @@ Liquidity providers are people who deposit tokens in liquidity pools. Liquidity 
 - [ ]  By veCRV voting
 - [x]  Through AMM alorithm
 - [x]  Through buy and sell pressure
-- [ ]  By creating pools
+- [ ]  Through gauge weight of that particular pool of token.
 
     
 
@@ -96,21 +96,21 @@ Half of all trading fees go straight to the pockets of veCRV holders. This was s
 
 ##### Advantages of owning veCRV:  
 
-- [x]  To earn rewards through bribing
-- [x]  To get voting power in gauge weight
-- [x]  Participate in Curve DAO governance
-- [x]  Gain more rewards by investing veCRV in Convex Finance
+- [ ]  To earn new tokens for veCRV votes in bribing
+- [ ]  To get voting power in gauge weight
+- [ ]  Participate in Curve DAO governance
+- [x]  All of the above
 
 
 
 
 
-##### What rewards does curve finance offers?  
+##### What rewards does curve finance offers to liquidity provider?  
 
-- [x]  You are given veCRV for locking CRV token
-- [ ]  You can withdraw staked CRV any time
+- [x]  They get more governance power over other
+- [ ]  They get 0.1 USDC for every dollar locked
 - [x]  Earn a boost of up to 2.5 times 
-- [x]  Voting power to participate in the DAO voting
+- [x]  They earn a cut of trading fees
 
     
 
@@ -150,23 +150,23 @@ In August 2021, Andre Cronje, the founder of Yearn Finance, released a tool for 
 
 
 
-##### On what basis are newly minted veCRV distributed to various gauges  
+##### On what basis are newly minted CRV distributed to various gauges  
 
 - [x]  Current Inflation rate
 - [ ]  Randomly
 - [x]  Gauge weight
-- [x]  VeCRV votes
+- [x]  veCRV votes
 
 
 
 
 
-##### what do people participating in Bribes get ?  
+##### Benifits of participating in bribes ?  
 
-- [ ]  They get additional veCRV
-- [x]  They are given different token
-- [ ]  They are get more boost in their rewards
-- [ ]  Rewarded with CRV token
+- [ ]  You get additional veCRV
+- [x]  You are rewarded with different tokens
+- [ ]  You get more boost in your rewards
+- [ ]  You are rewarded with additional CRV tokens
 
     
 
@@ -194,12 +194,12 @@ Convex Finance is a protocol built on top of Curve Finance in order to make yiel
 
 
 
-##### Loopholes in curve finance:  
+##### Pain points in curve finance:  
 
-- [x]  Non user friendly interface
+- [x]  Complicated steps involved,which makes staking difficult for new user
 - [x]  Gauge votes are influenced by bribes
 - [ ]  Uncontrollable slippage
-- [x]  veCRV tokens cannot be moved to different wallets
+- [x]  veCRV tokens don't remain liquid as they are locked for a time period
 
 
 
@@ -207,10 +207,10 @@ Convex Finance is a protocol built on top of Curve Finance in order to make yiel
 
 ##### Advantage of investing in convex finance over curve finance  
 
-- [x]  Extra benefits for st aking LP tokens
-- [x]  User friendly interface
+- [x]  Extra benefits for staking  LP tokens
+- [x]  No complicated steps involved, that makes staking easier
 - [x]  Automatically get boosted rewards
-- [x]   Keep your locked CRV tokens unlocked through the cvxCRV tokens
+- [x]  Keep your locked CRV tokens unlocked through the cvxCRV tokens
 
     
 

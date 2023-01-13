@@ -24,28 +24,28 @@
       "name": "Evaluation",
       "stepItems": [
         {
-          "answerKeys": [
-            "c3022c38"
-          ],
           "choices": [
             {
               "content": "Through bribes",
-              "key": "d057203a"
+              "key": "A"
             },
             {
               "content": "By creating pools of similarly behaving assets",
-              "key": "56617246"
+              "key": "B"
             },
             {
               "content": "By Automated Market Maker (AMM)",
-              "key": "c3022c38"
+              "key": "C"
             },
             {
-              "content": "By creating tripool ",
-              "key": "9f74db07"
+              "content": "By creating tripool",
+              "key": "D"
             }
           ],
-          "content": "How does curve finance overcome the problem of slippage",
+          "answerKeys": [
+            "B"
+          ],
+          "content": "How does curve finance overcome the problem of slippage that occurs due to volatality, while order being executed ?",
           "type": "SingleChoice",
           "uuid": "72c81038-e7bc-414f-97c9-bc586b20dfb7"
         },
@@ -68,7 +68,7 @@
               "key": "273e81a1"
             },
             {
-              "content": "By creating pools",
+              "content": "Through gauge weight of that particular pool of token.",
               "key": "f3e5a954"
             }
           ],
@@ -91,14 +91,11 @@
       "stepItems": [
         {
           "answerKeys": [
-            "ad0cd11f",
-            "c38ae3e6",
-            "52c4c10a",
             "31cbd68f"
           ],
           "choices": [
             {
-              "content": "To earn rewards through bribing",
+              "content": "To earn new tokens for veCRV votes in bribing",
               "key": "ad0cd11f"
             },
             {
@@ -110,12 +107,12 @@
               "key": "52c4c10a"
             },
             {
-              "content": "Gain more rewards by investing veCRV in Convex Finance",
+              "content": "All of the above",
               "key": "31cbd68f"
             }
           ],
           "content": "Advantages of owning veCRV:",
-          "type": "MultipleChoice",
+          "type": "SingleChoice",
           "uuid": "6f7478f3-c3d7-43fc-98f6-61a661c87f31"
         },
         {
@@ -126,11 +123,11 @@
           ],
           "choices": [
             {
-              "content": "You are given veCRV for locking CRV token",
+              "content": "They get more governance power over other",
               "key": "057f3dd6"
             },
             {
-              "content": "You can withdraw staked CRV any time",
+              "content": "They get 0.1 USDC for every dollar locked",
               "key": "4d7c14bc"
             },
             {
@@ -138,11 +135,11 @@
               "key": "016e3941"
             },
             {
-              "content": "Voting power to participate in the DAO voting",
+              "content": "They earn a cut of trading fees",
               "key": "4eb52fb4"
             }
           ],
-          "content": "What rewards does curve finance offers?",
+          "content": "What rewards does curve finance offers to liquidity provider?",
           "type": "MultipleChoice",
           "uuid": "bd40ea8c-4f77-4a15-98b5-0b17f98aa4f6"
         }
@@ -179,11 +176,11 @@
               "key": "3862dce1"
             },
             {
-              "content": "VeCRV votes",
+              "content": "veCRV votes",
               "key": "ef3ef46e"
             }
           ],
-          "content": "On what basis are newly minted veCRV distributed to various gauges",
+          "content": "On what basis are newly minted CRV distributed to various gauges",
           "type": "MultipleChoice",
           "uuid": "02502c1d-f77b-43c3-bfd8-5b89d0d03ef9"
         },
@@ -193,23 +190,23 @@
           ],
           "choices": [
             {
-              "content": "They get additional veCRV",
+              "content": "You get additional veCRV",
               "key": "5a79c680"
             },
             {
-              "content": "They are given different token",
+              "content": "You are rewarded with different tokens",
               "key": "a2e59bb3"
             },
             {
-              "content": "They are get more boost in their rewards",
+              "content": "You get more boost in your rewards",
               "key": "47b3410d"
             },
             {
-              "content": "Rewarded with CRV token",
+              "content": "You are rewarded with additional CRV tokens",
               "key": "3c0b0d84"
             }
           ],
-          "content": "what do people participating in Bribes get ?",
+          "content": "Benifits of participating in bribes ?",
           "type": "SingleChoice",
           "uuid": "ae8e1fcf-54c1-4a78-a627-9d25dd6a099d"
         }
@@ -234,7 +231,7 @@
           ],
           "choices": [
             {
-              "content": "Non user friendly interface",
+              "content": "Complicated steps involved,which makes staking difficult for new user",
               "key": "59fc15ea"
             },
             {
@@ -246,11 +243,11 @@
               "key": "ec62345e"
             },
             {
-              "content": "veCRV tokens cannot be moved to different wallets",
+              "content": "veCRV tokens don't remain liquid as they are locked for a time period",
               "key": "075edcf0"
             }
           ],
-          "content": "Loopholes in curve finance:",
+          "content": "Pain points in curve finance:",
           "type": "MultipleChoice",
           "uuid": "f4564d07-9c25-4104-b205-911e082e7612"
         },
@@ -263,11 +260,11 @@
           ],
           "choices": [
             {
-              "content": "Extra benefits for st aking LP tokens",
+              "content": "Extra benefits for staking  LP tokens",
               "key": "4338d473"
             },
             {
-              "content": "User friendly interface",
+              "content": "No complicated steps involved, that makes staking easier",
               "key": "93a09a97"
             },
             {
@@ -275,7 +272,7 @@
               "key": "321fbe71"
             },
             {
-              "content": " Keep your locked CRV tokens unlocked through the cvxCRV tokens",
+              "content": "Keep your locked CRV tokens unlocked through the cvxCRV tokens",
               "key": "9b2e12b4"
             }
           ],
