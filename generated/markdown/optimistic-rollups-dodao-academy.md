@@ -34,12 +34,12 @@ There are two main functions of the smart contract are:
 
 
 
-##### Q  
+##### How do we benefit from the introduction of layer 2 frameworks?  
 
-- [ ]  A
-- [x]  B
-- [ ]  C
-- [ ]  D
+- [ ]  More security
+- [x]  provide higher scalability
+- [x]  Instant transactions
+- [x]  Charging less gas fee
 
     
 
@@ -70,12 +70,12 @@ Since data resides on-chain and there is consensus around this fact, anyone can 
 
 
 
-##### Q1  
+##### How do roll-ups improve the layer1 scalability?  
 
-- [ ]  A
-- [x]  B
-- [ ]  C
-- [ ]  D
+- [ ]  By paying more to validators
+- [x]  By grouping multiple transactions together.
+- [x]  By executing transactions outside the main ethereum chain, while submitting data to the base chain
+- [ ]  By increasing the number of active validators
 
     
 
@@ -104,12 +104,12 @@ Bridges carryout functions similar to the below:
 
 
 
-##### Q1  
+##### If an users can unwind their positions and withdraw their funds is ensured by ?  
 
-- [ ]  A
-- [x]  B
-- [ ]  C
-- [ ]  D
+- [ ]  Deposit
+- [x]  Censorship resistance
+- [ ]  Update account balance.
+- [ ]  Withdrawal
 
     
 
@@ -140,12 +140,12 @@ Zero-knowledge proofs allow the prover to show that a commitment is valid withou
 
 
 
-##### Q2  
+##### How are transactions validated in Fraud-proof approach?  
 
-- [ ]  A
-- [x]  B
-- [ ]  C
-- [ ]  D
+- [ ]  By validating the evidences through proof of work mechanism.
+- [x]  By validating the evidence provided during challenge time window.
+- [ ]  By validating the evidence provided by the executor alongside the commitment
+- [ ]  By validating the evidences through proof of stake mechanism.
 
     
 
@@ -175,12 +175,12 @@ Arbitrum's multi-round fraud proof system is a binary search between two parties
 
 
 
-##### Q3  
+##### One-round fraud detection is made made by ?  
 
-- [ ]  A
-- [x]  B
-- [ ]  C
-- [ ]  D
+- [ ]  Sequencers
+- [ ]  Executors
+- [ ]  Validators
+- [x]  challengers
 
     
 

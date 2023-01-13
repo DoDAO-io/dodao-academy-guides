@@ -29,23 +29,23 @@
           ],
           "choices": [
             {
-              "content": "A",
+              "content": "To solve the security issue of rollups",
               "key": "eb9a4375"
             },
             {
-              "content": "B",
+              "content": "To transfer tokens between different layers",
               "key": "b0297a96"
             },
             {
-              "content": "C",
+              "content": "To help quickly validate transactions",
               "key": "2dcb49e7"
             },
             {
-              "content": "D",
+              "content": "To help in increasing transactions per second",
               "key": "ba9ff91b"
             }
           ],
-          "content": "Q1",
+          "content": "what are the usecases of Bridge?",
           "type": "SingleChoice",
           "uuid": "97c7063c-69cd-4e08-9313-67c34c153fa0"
         }
@@ -64,28 +64,31 @@
       "stepItems": [
         {
           "answerKeys": [
-            "6db3906f"
+            "f85a6ecc",
+            "6db3906f",
+            "3975ac56",
+            "bdf62e57"
           ],
           "choices": [
             {
-              "content": "A",
+              "content": "Sequencers",
               "key": "f85a6ecc"
             },
             {
-              "content": "B",
+              "content": "Challengers",
               "key": "6db3906f"
             },
             {
-              "content": "C",
+              "content": "Executors",
               "key": "3975ac56"
             },
             {
-              "content": "D",
+              "content": "Validators",
               "key": "bdf62e57"
             }
           ],
-          "content": "Q1",
-          "type": "SingleChoice",
+          "content": "What type of workers are involved in assessing the security of a validating bridge?",
+          "type": "MultipleChoice",
           "uuid": "3ac7e1ca-385a-45d1-8d54-d9e89189c3b4"
         }
       ],
@@ -103,28 +106,29 @@
       "stepItems": [
         {
           "answerKeys": [
+            "947f6527",
             "c54afe66"
           ],
           "choices": [
             {
-              "content": "A",
+              "content": "Through data compression",
               "key": "947f6527"
             },
             {
-              "content": "B",
+              "content": "Rollups",
               "key": "c54afe66"
             },
             {
-              "content": "C",
+              "content": "Cloud Storage",
               "key": "4e3318b7"
             },
             {
-              "content": "D",
+              "content": "Layer2 frameworks",
               "key": "5c636f64"
             }
           ],
-          "content": "Q2",
-          "type": "SingleChoice",
+          "content": "The most popular way of solving the data availability problem is through?",
+          "type": "MultipleChoice",
           "uuid": "662ba9f3-7d7a-445d-9015-a6231c29d679"
         }
       ],
@@ -142,27 +146,27 @@
       "stepItems": [
         {
           "answerKeys": [
-            "09d88b26"
+            "976138da"
           ],
           "choices": [
             {
-              "content": "A",
+              "content": "By validating the evidence provided during challenge time",
               "key": "ee945a4e"
             },
             {
-              "content": "B",
+              "content": "By validating the evidences through proof of stake mechanism.",
               "key": "09d88b26"
             },
             {
-              "content": "C",
+              "content": "By validating the evidences proof of work mechanism.",
               "key": "f4cce586"
             },
             {
-              "content": "D",
+              "content": "By validating the evidence provided by the executor alongside the commitment",
               "key": "976138da"
             }
           ],
-          "content": "Q4",
+          "content": "How are transactions validated in Validity-proof approach?",
           "type": "SingleChoice",
           "uuid": "fcc42d32-84ef-4718-82c4-7a2d6c720f9b"
         }
