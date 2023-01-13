@@ -3,7 +3,7 @@
     "engineering"
   ],
   "content": "What are optimistic rollups and the different proof mechanisms",
-  "created": "2022-11-30T15:16:56.623Z",
+  "created": "2023-01-12T14:15:17.935Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -213,6 +213,6 @@
       "uuid": "f49142fc-eddd-4116-9c25-01f365813d05"
     }
   ],
-  "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi",
+  "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/academy/dodao/guides/optimistic_rollups.png",
   "uuid": "optimistic-rollups-dodao-academy"
 }

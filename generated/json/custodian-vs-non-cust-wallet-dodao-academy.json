@@ -3,7 +3,7 @@
     "general"
   ],
   "content": "Educates about the difference and talks about pros and cons",
-  "created": "2022-11-21T20:17:16.346Z",
+  "created": "2023-01-12T13:40:13.248Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -330,6 +330,6 @@
       "uuid": "74bef816-2f4b-4a4b-b4e4-8bd740967e97"
     }
   ],
-  "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi",
+  "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/academy/dodao/guides/custodian_vs_non_custodian_Wallet.png",
   "uuid": "custodian-vs-non-cust-wallet-dodao-academy"
 }

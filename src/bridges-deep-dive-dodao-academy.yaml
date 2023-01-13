@@ -1,7 +1,7 @@
 categories:
   - engineering
 content: Explains everything about bridges
-created: '2022-11-30T00:44:26.875Z'
+created: '2023-01-12T14:14:43.680Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -56,7 +56,7 @@ steps:
     stepItems:
       - answerKeys:
           - b0297a96
-          
+
         choices:
           - content: To solve the security issue of rollups
             key: eb9a4375
@@ -211,6 +211,5 @@ steps:
         type: SingleChoice
         uuid: fcc42d32-84ef-4718-82c4-7a2d6c720f9b
     uuid: 1a86bcf6-c15f-4e03-a97e-d705c6787c0a
-thumbnail: >-
-  https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
-uuid: 92a3b9a9-b10c-4388-b750-8fcbc8624488
+thumbnail: https://d31h13bdjwgzxs.cloudfront.net/academy/dodao/guides/crypto_bridges.png
+uuid: bridges-deep-dive-dodao-academy
