@@ -1,7 +1,7 @@
 categories:
   - engineering
 content: Explains everything about bridges
-created: '2023-01-12T14:14:43.680Z'
+created: '2023-01-13T18:45:51.686Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -56,7 +56,6 @@ steps:
     stepItems:
       - answerKeys:
           - b0297a96
-
         choices:
           - content: To solve the security issue of rollups
             key: eb9a4375
@@ -94,7 +93,6 @@ steps:
           - f85a6ecc
           - 6db3906f
           - 3975ac56
-          - bdf62e57
         choices:
           - content: Sequencers
             key: f85a6ecc
@@ -102,9 +100,11 @@ steps:
             key: 6db3906f
           - content: Executors
             key: 3975ac56
-          - content: Validators
+          - content: Token Allocators
             key: bdf62e57
-        content:  What type of workers are involved in assessing the security of a validating bridge?
+        content: >-
+          What type of workers are involved in assessing the security of a
+          validating bridge?
         type: MultipleChoice
         uuid: 3ac7e1ca-385a-45d1-8d54-d9e89189c3b4
     uuid: 9ae970b0-55f8-4ba1-8cab-4f41f381267a
@@ -147,13 +147,15 @@ steps:
         choices:
           - content: Through data compression
             key: 947f6527
-          - content: Rollups
+          - content: Rollups of data
             key: c54afe66
           - content: Cloud Storage
             key: 4e3318b7
-          - content: Layer2 frameworks
+          - content: Better hardware
             key: 5c636f64
-        content: The most popular way of solving the data availability problem is through?
+        content: >-
+          The most popular way of solving the data availability problem is
+          through?
         type: MultipleChoice
         uuid: 662ba9f3-7d7a-445d-9015-a6231c29d679
     uuid: ab06d3dc-38bc-40be-9201-76ebd7b4a7c6
@@ -201,11 +203,13 @@ steps:
         choices:
           - content: By validating the evidence provided during challenge time
             key: ee945a4e
-          - content:  By validating the evidences through proof of stake mechanism.
+          - content: By validating the evidences through proof of stake mechanism.
             key: 09d88b26
-          - content: By validating the evidences proof of work mechanism.
+          - content: No validation is needed
             key: f4cce586
-          - content:  By validating the evidence provided by the executor alongside the commitment
+          - content: >-
+              By validating the evidence provided by the executor alongside the
+              commitment
             key: 976138da
         content: How are transactions validated in Validity-proof approach?
         type: SingleChoice

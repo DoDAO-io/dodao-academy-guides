@@ -3,7 +3,7 @@
     "engineering"
   ],
   "content": "Explains everything about bridges",
-  "created": "2023-01-12T14:14:43.680Z",
+  "created": "2023-01-13T18:45:51.686Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -66,8 +66,7 @@
           "answerKeys": [
             "f85a6ecc",
             "6db3906f",
-            "3975ac56",
-            "bdf62e57"
+            "3975ac56"
           ],
           "choices": [
             {
@@ -83,7 +82,7 @@
               "key": "3975ac56"
             },
             {
-              "content": "Validators",
+              "content": "Token Allocators",
               "key": "bdf62e57"
             }
           ],
@@ -115,7 +114,7 @@
               "key": "947f6527"
             },
             {
-              "content": "Rollups",
+              "content": "Rollups of data",
               "key": "c54afe66"
             },
             {
@@ -123,7 +122,7 @@
               "key": "4e3318b7"
             },
             {
-              "content": "Layer2 frameworks",
+              "content": "Better hardware",
               "key": "5c636f64"
             }
           ],
@@ -158,7 +157,7 @@
               "key": "09d88b26"
             },
             {
-              "content": "By validating the evidences proof of work mechanism.",
+              "content": "No validation is needed",
               "key": "f4cce586"
             },
             {
