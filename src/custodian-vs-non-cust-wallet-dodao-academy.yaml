@@ -1,0 +1,830 @@
+categories:
+  - general
+content: Educates about the difference and talks about pros and cons
+created: '2023-01-12T13:40:13.248Z'
+guideIntegrations:
+  discordRoleIds: []
+guideType: onboarding
+key: custodian-vs-non-cust-wallet-dodao-academy
+name: Custodian vs Non Cust. Wallet
+publishStatus: Live
+showIncorrectOnCompletion: true
+steps:
+  - content: >-
+      To get started with financial transactions, one needs to have a bank
+      account. Similarly, to get started with cryptocurrency, one needs to have
+      a crypto wallet.
+
+
+
+      ## Crypto Wallets
+
+
+      A crypto wallet is made up of two parts - the public key and the private
+      key. The public key is like your account number at a bank, and is used by
+      other crypto users to send funds into your account. The private key is
+      like your netbanking PIN, and is necessary to send funds out of your
+      account. If someone gets hold of your private keys, they can move funds
+      from your address to anywhere else. So, it's really important to store
+      your private keys safely!
+
+
+      For non-technical users, this may sound daunting and even for tech-savvy
+      users, the idea of losing a private key is scary. We're all used to using
+      an email/username password for our accounts and it's okay to forget those
+      occasionally. If we lose every detail of our bank account, we can usually
+      go to a physical bank branch and have someone help us reset our access.
+      But this type of setup isn't possible with blockchain/cryptocurrency, and
+      that's what keeps a lot of users away.
+
+
+      There are many websites that allow you to easily buy cryptocurrency, and
+      many of these use the traditional email/password approach. But since
+      blockchain technology doesn't allow for this, how are these sites able to
+      provide such an easy way to access and buy crypto? Are there any risks
+      from using these websites? We will answer all of these questions in this
+      guide/article.
+
+
+      As mentioned earlier, the gateway to accessing the financial world is a
+      bank account. In the same way, the gateway to accessing the crypto world
+      is a wallet. Crypto wallets can be divided into two categories: 
+
+
+      1. Custodial Wallets - Custodial wallets are a type of cryptocurrency
+      wallet where the private keys are held by a third party. This third party
+      can be an exchange, a custodian, or another type of organization.
+      Custodial wallets are often seen as an easy way for new users to get
+      started with cryptocurrency, but there are several risks that come with
+      using this type of wallet. We will be looking at these risks in detail in
+      the next section
+
+      2. Non-Custodial Wallets - With this type of wallet, you are in control of
+      the tokens or cryptocurrency you purchase. This approach appears to be
+      more promising, but also has many complexities that come with it.
+
+
+      In this article, we will outline the advantages and disadvantages of
+      custodial and non-custodial wallets without attempting to compare them
+      with one another.
+    name: Crypto wallets
+    stepItems: []
+    uuid: 4642a24e-1fbe-4c26-896d-a055087fdb08
+  - content: ''
+    name: Evaluation
+    stepItems:
+      - answerKeys:
+          - B
+        choices:
+          - content: The custody of public keys
+            key: A
+          - content: The custody of private keys
+            key: B
+          - content: The customer service
+            key: C
+          - content: The number of users
+            key: D
+        content: >-
+          What is the key differentiating factor between custodial and
+          non-custodial wallets?
+        type: SingleChoice
+        uuid: c53e1473-ac12-4224-b59d-d2e485f2aa1d
+      - answerKeys:
+          - C
+        choices:
+          - content: Valid till date
+            key: A
+          - content: Account number in banking
+            key: B
+          - content: Account pin/password in banking
+            key: C
+          - content: It is not comparable to any of these
+            key: D
+        content: Private key in crypto wallets is comparable to?
+        type: SingleChoice
+        uuid: 0a3238fc-0d77-4f7d-8d21-c0cc3d681d5e
+    uuid: ff07c12f-adad-4431-9ced-951acad63b87
+  - content: >-
+      ## Custodial Wallets
+
+      If you're just getting started with cryptocurrency, you might be already
+      using a custodian wallet. With this type of wallet, your private keys are
+      held by a centralized organization - usually an exchange. These exchanges
+      allow you to convert fiat currency to cryptocurrency (and vice versa).
+
+
+      Many people worry that if they don't hold onto their private keys,
+      somebody else might cheat them. And they're right to be worried - we've
+      seen countless examples of billions of dollars being lost by customers
+      because of the poor business decisions of centralized
+      organizations/exchanges.
+
+
+      Not all centralized crypto organizations are created equal - much like
+      banks. Most banks are regulated and individuals' money is insured by the
+      government in most cases. However, many centralized crypto organizations
+      are not regulated and have been known to make bad business decisions that
+      result in customers losing their funds. Some crypto exchanges are
+      regulated and audited by the government, though. Coinbase is one such
+      exchange that is both regulated and audited by the government.
+
+
+      Since many cryptocurrency exchanges are not regulated, meaning they don't
+      have to hold customers' funds in a 1:1 ratio. This means they can use
+      customer crypto to buy other assets and engage in high-risk bets. If these
+      bets pay off, the customer is happy and the exchange makes a lot of money.
+      But when these highly leveraged bets go against the exchanges and cause
+      billions of dollars in losses, the exchanges become insolvent and are
+      unable to return users' funds.
+
+
+      When using a custodian wallet from an exchange, make sure to take the
+      following into consideration:
+
+
+      1.  The security standards of the exchange. Your funds are only as safe as
+      the exchange is, so make sure it follows high security standards.
+      Unfortunately, many exchanges have been hacked in the past and lost
+      millions of dollars.
+
+      2. That your funds are backed 1:1. Take a look at the wallet addresses of
+      the exchange and make sure there is the same amount of cryptocurrency
+      present as the exchange claims.
+
+      3. Diversify your account holdings among multiple exchanges. This way, if
+      one exchange goes under, you won't lose all your funds.
+
+
+      Beware of keeping your cryptocurrency on exchanges or with third-party
+      custodians. Many companies in the past have gone bankrupt after making
+      risky bets with their customers' funds, including FTX, BlockFi, Celsius,
+      and Voyager.
+
+
+      There is a saying in the cryptocurrency world: "Not your keys, not your
+      coins." This means that if you don't own the private keys to your
+      cryptocurrency, you don't really own it. Therefore, it's important to
+      store your crypto in a safe place where only you have access to it.
+
+
+      Custodian wallets have certain advantages, such as:
+
+
+      1. They're beginner-friendly, and users can stick to their old way of
+      using email/password to login.
+
+      2. They offer an easy way to exchange fiat currency for cryptocurrency,
+      and vice versa.
+
+      3. They have customer service departments that you can call if you
+      experience any technical issues.
+
+      4. They're easy to reset or gain access to if you forget your password.
+
+
+      We've mentioned all the risks and also the benefits of these exchanges. We
+      hope you'll be able to make an educated decision now about whether or not
+      you need to use a custodian wallet.
+    name: Custodial Wallets
+    stepItems: []
+    uuid: 58dd8e44-0ba1-4ede-8666-c62f4a142a62
+  - content: ''
+    name: Evaluation
+    stepItems:
+      - answerKeys:
+          - B
+          - C
+          - D
+        choices:
+          - content: Your funds could get converted into another currency unannounced
+            key: A
+          - content: >-
+              As many of the exchanges are not regulated, the funds might not be
+              backed in a 1:1 ratio and are possible to be misused by the
+              exchange
+            key: B
+          - content: >-
+              They usually don't give the proofs of their reserves, i.e. all the
+              assets held by them in custody
+            key: C
+          - content: >-
+              The security of your funds is as safe as the security of the
+              exchange
+            key: D
+        content: Why is it risky to use a custodial wallet?
+        type: MultipleChoice
+        uuid: 5cd3998f-ee0d-422a-b84c-b567abee859e
+      - answerKeys:
+          - B
+        choices:
+          - content: Very safe
+            key: A
+          - content: Beginner friendly and very less to no fees on exchanges
+            key: B
+          - content: Well regulated and trustworthy
+            key: C
+          - content: Provides the ability to seemlessly interact with Dapps
+            key: D
+        content: What is the best advantage of custodial wallets?
+        type: SingleChoice
+        uuid: a3ac43df-1711-45c0-801c-6d46e8275185
+    uuid: 0e277d18-3e45-4d07-b902-b68e987ad28f
+  - content: >-
+      ## Non Custodial Wallets
+
+      Non-custodial wallets have a big advantage over custodial wallets - with
+      non-custodial wallets, the private key is with the user and no one else.
+      The user retains complete control over their wallet at all times. This
+      limits the potential for misuse/control of your private keys, and in
+      extension, your funds by some third party entity. 
+
+
+      This improves safety since you are no longer counting on the third party
+      having good security measures in order to protect your funds. This also
+      means that no central entity can control who you can and cannot transfer
+      assets to.
+
+
+      In 2022, many exchanges went bankrupt, causing customers to lose their
+      funds. However, users who had their crypto in non-custodial wallets were
+      safe.
+
+
+      Although non-custodial wallets have many benefits, there are also some
+      drawbacks that users should be aware of:
+
+
+      1.  If you lose your private key, you lose your funds. This has happened
+      to many individuals and once the private key is lost, there is no way of
+      retrieving your funds.
+
+      2. The user can write their private keys on a piece of paper, but the
+      issue is that it is easily destructible, easy to lose, and can be read by
+      anyone.
+
+      3. Many non-custodial wallets are susceptible to hacks.
+
+      4.  Many non-custodial wallets store private keys on your personal laptop
+      or mobile device. If a hacker were to gain access to your laptop or phone,
+      they would also have access to your sensitive private keys.
+
+      5. Inheritance can be a difficult process with non-custodial wallets. If
+      most of your life savings are stored in a non-custodial wallet, how can
+      you be sure that your loved ones will be able to inherit your funds after
+      you pass away?
+
+
+      Non custodial wallets also come in multiple flavours
+
+
+
+      1. Hot Storage – Private key is held online
+
+      2. Cold Storage – Private key is held offline
+
+      3. Hardware Wallet – Private key is held offline on a physical device
+
+
+      There are currently two types of accounts in Ethereum:
+
+
+      1. Externally owned accounts (EOAs) - these are controlled by private keys
+
+      2. Smart contract accounts - these are controlled by code
+
+
+      So far we have only discussed EOAs, which can hold funds. However, it is
+      also possible for smart contracts to hold and send funds. This is the
+      beauty of Ethereum - something that is not possible in the current
+      financial world.
+
+
+      We can create smart programs which act as user accounts, otherwise known
+      as smart contracts. These smart contracts can have different logic and
+      conditions based on the user's needs. For example, we can have logic to
+      limit the amount of withdrawals, or time-based limitations, or any other
+      complex logic.
+
+
+      Smart contract wallets, or "smart wallets", are simply smart contracts
+      that behave like a wallet. This means they provide users with an interface
+      to manage their funds, sign in with web3, and interact with dapps. Unlike
+      private key wallets, smart wallets come with an initial cost to create, as
+      a smart contract needs to be deployed on-chain.
+
+
+      Multi-signature smart contract wallets are becoming increasingly popular
+      as they require the signature from M-of-N keys to execute a transaction.
+      This adds a layer of security and also protects the user in case they
+      loose their private keys.This is quite reassuring for users. 
+
+
+      In addition, there are now a few non-custodial wallets that hide the
+      complexity of dealing with a private key away from the user. These wallets
+      still use the public/private key pair, but the details of how the private
+      key is stored and retrieved are abstracted away from the users. Some of
+      these wallets are Argent, ZenGo, Ambire, and Web3Auth.
+
+
+      There is another type of cryptographic wallet called a Multi-Party
+      Computation (MPC) enabled wallet. With this type of wallet, the shares or
+      parts of the private key are distributed to a group of people. In order
+      for a transaction to be signed, M-of-N users need to sign it with their
+      own share of the private key. This is quite different from a Smart
+      Contract wallet, but it has some of the same advantages.
+    name: Non Custodial Wallets
+    stepItems: []
+    uuid: 48d8f905-34fd-447e-9131-6c3549fcf281
+  - content: ''
+    name: Evaluation
+    stepItems:
+      - answerKeys:
+          - A
+          - B
+        choices:
+          - content: There is the possibility of the private key getting stolen or lost
+            key: A
+          - content: >-
+              Inheritance of funds is tricky, given that all access to the funds
+              lies with the holder of the private keys
+            key: B
+          - content: >-
+              The private key is held by a third party, which could be
+              troublesome
+            key: C
+          - content: Funds are not secure compared to a custodial wallet
+            key: D
+        content: What could be some drawbacks of holding your own private keys?
+        type: MultipleChoice
+        uuid: ac0a9b9a-5af6-4071-bb1d-74fcc2bd6984
+      - answerKeys:
+          - B
+          - C
+        choices:
+          - content: IOA (Internally Owned Account)
+            key: A
+          - content: EOA (Externally Owned Account)
+            key: B
+          - content: Smart contract account
+            key: C
+          - content: Hardware account
+            key: D
+        content: What are two types of accounts available in Ethereum?
+        type: MultipleChoice
+        uuid: 763e6ac7-29e4-41e5-8507-02bfdb61a211
+      - answerKeys:
+          - A
+          - D
+        choices:
+          - content: >-
+              Custom logic for spending and ability to set limitations on
+              spending based on complex logic
+            key: A
+          - content: Smart contract wallets provide a safe way of storing private keys
+            key: B
+          - content: It is free to deploy and use
+            key: C
+          - content: >-
+              Multi-sig contracts which need the signature of more than one user
+              (M-of-N) can be deployed, improving the security aspect of the
+              wallet
+            key: D
+        content: What are the advantages of smart contract wallets?
+        type: MultipleChoice
+        uuid: 14955b87-ef2c-4bcf-9cfd-4730f76b5d42
+      - answerKeys:
+          - C
+        choices:
+          - content: >-
+              Multi-Party Computation wallets are cold wallets stored in a
+              user's pc, capable of complex computations
+            key: A
+          - content: It is an alias of multiple signature wallet
+            key: B
+          - content: >-
+              The private key is split into parts, each user has to sign the
+              transaction with their respective part of the private key to
+              authorize a transaction
+            key: C
+          - content: >-
+              Multi-Party Computation wallets are hot wallets stored in a user's
+              pc, capable of complex computations
+            key: D
+        content: Which of these is true about Multi-Party Computation wallets?
+        type: SingleChoice
+        uuid: 61896398-9d4d-44bc-8deb-08cc087eddb4
+    uuid: c4ab0bba-ba4d-436e-a034-3232e8cf6daa
+  - content: |-
+      # Custodial vs Non-Custodial Wallets
+
+      <table>
+        <tr>
+         <td>
+         </td>
+         <td>Non-Custodial wallets
+         </td>
+         <td>Custodial wallets
+         </td>
+        </tr>
+        <tr>
+         <td>Custody of funds
+         </td>
+         <td>The private keys are with the user
+         </td>
+         <td>The private keys are with a third-party
+         </td>
+        </tr>
+        <tr>
+         <td>Responsibility of funds
+         </td>
+         <td>The user is responsible for the safety of their funds
+         </td>
+         <td>The third-part and the user are responsible for the safety of the user’s funds
+         </td>
+        </tr>
+        <tr>
+         <td>Account recovery options
+         </td>
+         <td>If lost, private keys cannot be recovered
+         </td>
+         <td>In case the account credentials are lost, they can be recovered
+         </td>
+        </tr>
+        <tr>
+         <td>User friendliness
+         </td>
+         <td>Better suited for experienced users, developers and people with a little more technical knowledge
+         </td>
+         <td>More user friendly as it typically uses email/password to login
+         </td>
+        </tr>
+        <tr>
+         <td>Transaction fees
+         </td>
+         <td>Transaction on blockchains (for example, ethereum) costs the user gas fees
+         </td>
+         <td>Transaction within the ecosystem (for example, binance) is free
+         </td>
+        </tr>
+        <tr>
+         <td>Flexibility of usage
+      <p>
+       
+         </td>
+         <td>Allows the user to interact with Dapps on blockchains like ethereum
+         </td>
+         <td>The user cannot interact with Dapps using their wallet
+         </td>
+        </tr>
+        <tr>
+         <td>Account creation
+         </td>
+         <td>Fast account creating process
+         </td>
+         <td>Time consuming KYC and AML procedures during account creation 
+         </td>
+        </tr>
+      </table>
+    name: Custodial vs Non-Custodial
+    stepItems: []
+    uuid: a1366141-af9b-4244-9906-9a9ec299c7f4
+  - content: ''
+    name: Evaluation
+    stepItems:
+      - answerKeys:
+          - A
+        choices:
+          - content: 'False'
+            key: A
+          - content: 'True'
+            key: B
+        content: KYC verification is needed in non-custodial wallets
+        type: SingleChoice
+        uuid: 8a897002-07af-45b0-872c-6c691ab8c01e
+      - answerKeys:
+          - A
+          - C
+        choices:
+          - content: >-
+              All private keys are stored in one place and hence are more
+              susceptible to being hacked
+            key: A
+          - content: The private keys of an account could be changed
+            key: B
+          - content: >-
+              User could lose their assets in case company makes bad business
+              decisions
+            key: C
+          - content: No issues, they have very high security
+            key: D
+        content: What are the main security risks in custodial wallets?
+        type: MultipleChoice
+        uuid: 2ea27c9d-f87b-4448-b14b-a7c496475508
+    uuid: ff60ca24-a125-49af-b4a9-d64ccefc6327
+  - content: >
+      With over 150 wallets
+      ([https://explorer.walletconnect.com/?type=wallet](https://explorer.walletconnect.com/?type=wallet))
+      currently available on the market, it can be difficult to decide which one
+      is best for you. That's why we've created a comparison of some of the most
+      popular wallets, to help you make an informed decision about which one
+      will work best for you and your needs. 
+
+
+      Please keep in mind that this is just a general overview of a few wallets
+      and that you should always do your own research before selecting one.
+
+
+
+
+
+      <table>
+        <tr>
+         <td>
+         </td>
+         <td>Ease of use
+         </td>
+         <td>Security
+         </td>
+         <td>Special features
+         </td>
+        </tr>
+        <tr>
+         <td>Coinbase
+         </td>
+         <td>Very beginner friendly, works out of the box
+      <p>
+
+      Deposit, withdraw and exchange functions are available built-in
+         </td>
+         <td>Offers 2 Factor authentication 
+      <p>
+
+      Does not support multi signature wallets
+
+      <p>
+
+      Supports hardware wallets
+         </td>
+         <td>Integrated with ENS protocol, allowing users to have human readable addresses
+         </td>
+        </tr>
+        <tr>
+         <td>Metamask
+         </td>
+         <td>Easy to set-up and use
+      <p>
+       \
+      Well documented and lots of tutorials available on the internet
+
+      <p>
+
+      Most preferred wallet to buy and sell NFTs in marketplaces like OpenSea
+         </td>
+         <td>Does not support 2 Factor Authentication
+      <p>
+
+      Supports multi signature wallets
+
+      <p>
+
+      Good support for hardware wallets
+         </td>
+         <td>Developer oriented features like mock transactions, connect to testnet etc.
+      <p>
+
+      Custom gas fee can be set
+
+      <p>
+
+      High level of security, built on the ethereum network
+         </td>
+        </tr>
+        <tr>
+         <td>Exodus 
+         </td>
+         <td>Excellent UI/UX (or) graphic design
+      <p>
+
+      Ease of buying, selling and inbuilt exchange 
+         </td>
+         <td>Does not support multi signature wallets and 2 Factor authentication
+      <p>
+
+      Supports hardware wallets
+         </td>
+         <td>Staking feature in partnership with Everstake
+      <p>
+
+      In-built decentralized exchange 
+         </td>
+        </tr>
+        <tr>
+         <td>Argent 
+         </td>
+         <td>Easy to use mobile app
+         </td>
+         <td>Supports 2 factor authentication, multi signature wallet and hardware wallets
+      <p>
+
+      Prompts the user when funds are being sent to an unknown (not whitelisted)
+      app or address
+         </td>
+         <td>Can set daily transaction limit
+      <p>
+
+      The “guardian” concept:
+
+      <p>
+
+      No seed phrases/ recovery phrases, instead user must be authenticated by
+      their “guardians” who must authenticate the user to be able to recover the
+      wallet
+
+      <p>
+
+      Guardians also receive prompts when funds from the user’s wallet are being
+      moved to an unknown address
+         </td>
+        </tr>
+        <tr>
+         <td>Zerion
+         </td>
+         <td>Available across most platforms (Mobile, web app)
+      <p>
+
+      Plethora of DeFi functionality built-in, making it easy to access but not
+      beginner friendly
+         </td>
+         <td>Supports hardware wallets and 2 factor authentication
+         </td>
+         <td>Lets user connect their non-zerion wallets and manage their portfolios with Zerion
+      <p>
+
+      Zerion allows users to follow other addresses, ENS handles and NFT
+      collections and keep track of NFT drops etc.,
+
+      <p>
+
+      Zerion hosts built-in exchange, token deposit, loans etc., essentially
+      allowing the user to do DeFi operations via the wallet itself
+
+      <p>
+       
+         </td>
+        </tr>
+        <tr>
+         <td>ZenGo
+         </td>
+         <td>Simple and straightforward UI
+         </td>
+         <td>Offers 3 Factor security (email, recovery file and face scan)
+      <p>
+
+      Not compatible with hardware wallets
+         </td>
+         <td>Provides ability to recover wallet using face-id
+      <p>
+
+      Provides user with the ability to buy crypto and earn interest on crypto
+      holdings
+         </td>
+        </tr>
+        <tr>
+         <td>Coinomi
+         </td>
+         <td>Very user friendly UI
+         </td>
+         <td>Compatible with hardware wallets 
+      <p>
+
+      Does not support 2 factor authentication
+         </td>
+         <td>No fees on incoming and outgoing transactions
+      <p>
+
+      Has built-in exchange though the fees are a little high
+
+      <p>
+
+      Ability to sweep other wallets to collect hard forked coins from it
+
+      <p>
+
+      Ability to customize fees paid on transactions
+
+      <p>
+
+      Supports ERC20 tokens (example, NFTs)
+         </td>
+        </tr>
+        <tr>
+         <td>Ambire wallet
+         </td>
+         <td>Good user interface, easy to understand and navigate
+         </td>
+         <td>It is not compatible with hardware wallets 
+         </td>
+         <td>Transaction bundle allows users to bundle a lot of transactions and execute them all at once
+      <p>
+
+      Every account is a smart contract
+
+      <p>
+
+      Register and recover account using email address and password 
+
+      <p>
+
+      Automatic gas management makes sure that the user does not incur errors in
+      custom gas prices
+
+      <p>
+
+      Eliminates ERC20 approvals, coupled with transaction bundling provides low
+      transaction fees
+
+      <p>
+
+      Swapping with Sushiswap
+         </td>
+        </tr>
+        <tr>
+         <td>Trust Wallet
+         </td>
+         <td>Simple, To-the-point UI
+         </td>
+         <td>Incompatible with hardware wallets
+      <p>
+
+      2 Factor authentication is possible
+         </td>
+         <td>Wallet can be locked with biometrics
+      <p>
+
+      Easy to stake and earn interest on holdings 
+         </td>
+        </tr>
+        <tr>
+         <td>Unstoppable wallet
+         </td>
+         <td>Easy to use, clean UI
+         </td>
+         <td>Compatible with hardware wallet
+      <p>
+
+      2 Factor authentication is not possible
+         </td>
+         <td>Allows user to monitor balances, transaction history etc in real time
+      <p>
+
+      FaceId, touchId and pins can be used to safeguard the wallet 
+
+      <p>
+
+      Supports both ETH and BTC 
+
+      <p>
+
+      Provides the ability to set custom transaction fees
+
+      <p>
+
+      Ability to send bitcoin that cannot be spent until a certain date
+
+      <p>
+
+      Exceptionally high anonymity
+         </td>
+        </tr>
+        <tr>
+         <td>Gnosis Safe
+         </td>
+         <td>Ethereum wallet allowing interaction with DApps, still has UI/UX hurdles but it is on the right path
+         </td>
+         <td>Multi-sig functionality available
+      <p>
+
+      2 factor authentication is available 
+
+      <p>
+
+      Compatible with hardware wallets
+         </td>
+         <td>It is smart contract based wallet
+      <p>
+
+      Multi-sig wallet functionality is available
+
+      <p>
+
+      Gnosis Safe also allows you to use any wallet of your choice to sign
+      transactions
+         </td>
+        </tr>
+      </table>
+    name: Comparing Non-Custodial Wallets
+    stepItems: []
+    uuid: 74bef816-2f4b-4a4b-b4e4-8bd740967e97
+thumbnail: >-
+  https://d31h13bdjwgzxs.cloudfront.net/academy/dodao/guides/custodian_vs_non_custodian_Wallet.png
+uuid: custodian-vs-non-cust-wallet-dodao-academy

@@ -1,0 +1,210 @@
+categories:
+  - engineering
+content: Explains everything about bridges
+created: '2023-01-12T14:14:43.680Z'
+guideIntegrations:
+  discordRoleIds: []
+guideType: course
+key: bridges-deep-dive-dodao-academy
+name: Bridges - Deep Dive
+publishStatus: Live
+showIncorrectOnCompletion: true
+steps:
+  - content: >-
+      Bridges are responsible for holding assets on a layer-1 blockchain while
+      those same assets are released on another service. This defines who has
+      custody of the funds and the conditions that must be met before the assets
+      can be unlocked. The withdrawal request destroys coins on the off-chain
+      system and updates the bridge contract about the user’s entitlement to
+      withdraw their coins back to the Layer 1 blockchain. This allows users to
+      move their coins back and forth between the two systems without having to
+      worry about losing any of their value.
+
+
+      Bridges carryout functions similar to the below:
+
+      1. Deposit. A user can deposit funds into the bridge, and then
+      corresponding assets are set up on the other system.
+
+      2. Update account balance. The bridge is told about new account balances,
+      which can help the withdrawal process.
+
+      3. Withdrawal. A user can withdraw their assets from the bridge according
+      to their balance on the other system, and the tokens issued on the other
+      system are destroyed.
+
+      4. Censorship resistance. The bridge contract can enforce the eventual
+      ordering and execution of transactions to ensure users can always unwind
+      their positions and withdraw their funds.
+
+
+      Trust assumptions for bridge contracts can be classified into three types:
+
+      1. Single organisation. One party has the authority to update the user’s
+      balance in the bridge contract. For example, a cryptocurrency exchange.
+
+      2. Multi-organisation. A set of independent parties (K of N) can notify
+      the bridge about a user’s new balance. 
+
+      3. Crypto-economic. A dynamic set of parties, appointed by their weight in
+      assets, can notify the bridge about a user’s new balance.
+    name: What is a bridge
+    stepItems: []
+    uuid: fe782628-70a1-4349-ac5e-c04710a80bbf
+  - content: ''
+    name: Evaluation
+    stepItems:
+      - answerKeys:
+          - b0297a96
+        choices:
+          - content: A
+            key: eb9a4375
+          - content: B
+            key: b0297a96
+          - content: C
+            key: 2dcb49e7
+          - content: D
+            key: ba9ff91b
+        content: Q1
+        type: SingleChoice
+        uuid: 97c7063c-69cd-4e08-9313-67c34c153fa0
+    uuid: f925c0be-43da-48a3-959e-40373f859e89
+  - content: >-
+      There are three types of workers involved in assessing the security of a
+      validating bridge: 
+
+      1. Sequencers - who propose an ordered list of transactions to the bridge
+      contract. They offer information about the pending state of the off-chain
+      system's database (including account balances, smart contract state,
+      etc). 
+
+      2. Executors - who propose the final execution result for a batch of
+      transactions by posting state commitments to the bridge contract. 
+
+      3. Challengers/Validators - who validate commitments proposed by the
+      executors.
+    name: Workers
+    stepItems: []
+    uuid: 03c7d103-3602-478e-816d-07e26c6110bd
+  - content: ''
+    name: Evaluation
+    stepItems:
+      - answerKeys:
+          - 6db3906f
+        choices:
+          - content: A
+            key: f85a6ecc
+          - content: B
+            key: 6db3906f
+          - content: C
+            key: 3975ac56
+          - content: D
+            key: bdf62e57
+        content: Q1
+        type: SingleChoice
+        uuid: 3ac7e1ca-385a-45d1-8d54-d9e89189c3b4
+    uuid: 9ae970b0-55f8-4ba1-8cab-4f41f381267a
+  - content: >-
+      Following are the security goals considered while designing a bridge
+
+
+      1. Data availability: How can the bridge be sure that all data for the
+      other blockchain network is publicly available, so that users can
+      independently recompute the layer-2 database?
+
+      2. State transition integrity: How can the bridge be sure that all state
+      transitions for the layer-2 network are well-formed and valid?
+
+      3. Withdrawal integrity: How can the bridge guarantee that all honest
+      users' funds can be withdrawn if the layer-2 network is compromised?
+
+      4. Protocol liveness: How can the bridge guarantee that transactions can
+      still be executed if the layer-2 protocol is stalled or offline?
+
+
+      The most popular way of solving the data availability problem is called a
+      rollup. In a rollup, all data is posted to the Layer-1 blockchain. This is
+      because “computation is expensive but data is cheap on Ethereum”.
+
+
+      Now, the executor can periodically assert a cryptographic commitment to
+      the bridge contract about the off-chain database's new state. This
+      commitment is only finalized when the bridge contract is convinced that it
+      is valid.
+    name: Bridge Contract Security Goals
+    stepItems: []
+    uuid: 975fd1a3-6330-4316-9971-20f8e2d06f2b
+  - content: ''
+    name: Evaluation
+    stepItems:
+      - answerKeys:
+          - c54afe66
+        choices:
+          - content: A
+            key: 947f6527
+          - content: B
+            key: c54afe66
+          - content: C
+            key: 4e3318b7
+          - content: D
+            key: 5c636f64
+        content: Q2
+        type: SingleChoice
+        uuid: 662ba9f3-7d7a-445d-9015-a6231c29d679
+    uuid: ab06d3dc-38bc-40be-9201-76ebd7b4a7c6
+  - content: >-
+      The validating bridge contract is tasked with protecting the integrity of
+      the database and ensuring that proposed state updates are eventually
+      applied to the database. This ensures that the database remains live and
+      accessible to all users.
+
+
+      There are two ways in which the commitments can be verified:
+
+
+      ### Fraud-proof approach(Optimistic) 
+
+      Challengers are responsible for validating commitments posted to the
+      bridge contract. There is a challenge time window to provide time for a
+      challenger to send indisputable evidence (proof of fraud) about the
+      commitment’s validity. If there is no evidence of fraud by the time the
+      challenge expires, then the commitment is accepted as valid.
+
+
+      ### Validity-proof approach (Zero-knowledge)
+
+      The executor must present evidence alongside the commitment to prove that
+      all state transitions are valid. There is no challenge period and the
+      bridge contract can accept the commitment immediately.
+
+
+      Zero-knowledge proofs allow the prover to show that a commitment is valid
+      without revealing any information about the inputs. This proof can be
+      verified quickly and easily, making it a valuable tool for ensuring
+      computational integrity. However, the downside of zero-knowledge proofs is
+      that they can be computationally intensive for the prover, especially for
+      generic computations. Engineers are actively working to improve this
+      technology so that it is more efficient and easier to use.
+    name: Validators
+    stepItems: []
+    uuid: 609050bf-f6a1-4789-8e06-0232e9ca8fad
+  - content: ''
+    name: Evaluation
+    stepItems:
+      - answerKeys:
+          - 09d88b26
+        choices:
+          - content: A
+            key: ee945a4e
+          - content: B
+            key: 09d88b26
+          - content: C
+            key: f4cce586
+          - content: D
+            key: 976138da
+        content: Q4
+        type: SingleChoice
+        uuid: fcc42d32-84ef-4718-82c4-7a2d6c720f9b
+    uuid: 1a86bcf6-c15f-4e03-a97e-d705c6787c0a
+thumbnail: https://d31h13bdjwgzxs.cloudfront.net/academy/dodao/guides/crypto_bridges.png
+uuid: bridges-deep-dive-dodao-academy

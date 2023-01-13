@@ -6,7 +6,7 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
 ## Intro to Options
 
 
-## Intro to Options and Its Use Cases
+## Options Intro & Use Cases
 
 ### What are options ?
 A derivative, or contract, is an option that grants the buyer the right , but not the obligation, to purchase or sell the underlying asset by a particular date (expiration date) at a particular price (strike price). Options can be classified in two types which are Call and Put Options.
@@ -354,6 +354,23 @@ A put buyer is the one who buys a put option to have the right to sell. This buy
 - [x]  Pays the premium
 - [ ]  Receives the premium
 - [ ]  No premium transaction takes place
+
+    
+
+
+---
+## Your Info
+
+
+
+
+
+| Label | Type | Required |
+| ----------- | ----------- | ---- |
+| You Name        | PublicShortInput   |  true    |
+
+
+
 
     
 

@@ -1,15 +1,18 @@
 categories: []
 content: New Guide
-created: '2022-10-31T08:29:19.754Z'
+created: '2022-11-09T12:52:52.422Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
 key: gauges-and-bribes-in-crv-and-bal-dodao-academy
-name: Gauges System(CRV and BAL)
+name: Gauges System(CRV & BAL)
 publishStatus: Live
 showIncorrectOnCompletion: true
 steps:
   - content: |-
+      # Coming soon
+
+      # References
       veBAL — How to Increase your Benefits
        - https://medium.com/balancer-protocol/vebal-how-to-increase-your-benefits-b51daf6458a8
 
@@ -18,30 +21,53 @@ steps:
     name: Introduction
     stepItems: []
     uuid: 0b3b70bc-add9-411d-9f84-66e9970c7a9f
-  - content: ''
-    name: Introduction Evaluation
-    stepItems:
-      - label: Full Name
-        required: false
-        type: PublicShortInput
-        uuid: 2d093de7-708c-4f6c-ba05-058bcf0c9e03
-      - answerKeys:
-          - dog_or_cat
-          - only_dog
-          - only_cat
-        choices:
-          - content: Dog And Cat
-            key: dog_and_cat
-          - content: Dog Or Cat
-            key: dog_or_cat
-          - content: Only Dog
-            key: only_dog
-          - content: Only Cat
-            key: only_cat
-        content: Dog or a Cat, Do or a Cat, Dog or a Cat
-        type: MultipleChoice
-        uuid: 34387b05-2664-4e61-a591-8d4aca4cde72
-    uuid: 88b58694-3b03-42fa-b061-3e3e7a873c4c
-thumbnail: >-
-  https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
+  - content: >+
+      ### Gauges
+
+
+      All liquidity mining BAL minted is distributed through the gauge system.
+      Gauges allow LPs (liquidity providers) to stake their BPT (Balancer Pool
+      Token) and periodically claim BAL from liquidity mining.
+
+
+      The amount received by each LP depends on:
+
+      1) How much the pool they are providing liquidity to receives
+
+      2) What share of the pool’s liquidity they have
+
+      3) The boost applied to their LP share based on how much veBAL they hold
+
+      Each pool receives a share of the total BAL minted every week. That share
+      is defined by how much veBAL voted for that pool.
+
+
+      ### Gauge Types
+
+      There are different gauge types that are used in the ve system, each type
+      gets a fixed percentage of the BAL supply minted weekly. Within each gauge
+      type there can be many gauges that share the amount of BAL sent to that
+      gauge type. The following gauge types and weights are proposed:
+
+
+      1) Liquidity Mining committee: 10% (14,500 BAL)
+
+      2) veBAL: 10% (14,500 BAL)
+
+      3) Ethereum mainnet pools: 56% (81,200 BAL)
+
+      4) Polygon pools: 17% (24,650 BAL)
+
+      5) Arbitrum pools: 7% (10,150 BAL)
+
+
+      New gauge types can be added and the weights/percentages of all gauge
+      types can be changed by governance. These changes are however not expected
+      to happen frequently.
+
+
+    name: Gauge System In Balancer
+    stepItems: []
+    uuid: b6a7a1ec-009e-4b67-a71a-7019f34e0d58
+thumbnail: https://d31h13bdjwgzxs.cloudfront.net/academy/dodao/guides/gauges.png
 uuid: gauges-and-bribes-in-crv-and-bal-dodao-academy

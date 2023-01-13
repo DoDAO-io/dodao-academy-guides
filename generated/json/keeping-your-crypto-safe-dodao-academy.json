@@ -1,0 +1,29 @@
+{
+  "categories": [],
+  "content": "How to keep your Crypto Safe",
+  "created": "2023-01-12T13:39:40.452Z",
+  "guideIntegrations": {
+    "discordRoleIds": []
+  },
+  "guideType": "onboarding",
+  "key": "keeping-your-crypto-safe-dodao-academy",
+  "name": "Keeping your Crypto Safe",
+  "publishStatus": "Live",
+  "showIncorrectOnCompletion": true,
+  "steps": [
+    {
+      "content": "# Coming soon        ",
+      "name": "Introduction",
+      "stepItems": [],
+      "uuid": "1c0f894a-99e6-4a0e-9b35-ca8df5a89326"
+    },
+    {
+      "content": "https://www.youtube.com/watch?v=0J6YOKhpDWg\n\nhttps://www.binance.com/en/blog/from-cz/keep-your-crypto-safu-czs-tips-421499824684900429?s=09\n",
+      "name": "References",
+      "stepItems": [],
+      "uuid": "88373467-04f1-4cb4-ad57-19167af45f3c"
+    }
+  ],
+  "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/academy/dodao/guides/keeping_crypto_safe.png",
+  "uuid": "keeping-your-crypto-safe-dodao-academy"
+}

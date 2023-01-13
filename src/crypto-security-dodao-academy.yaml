@@ -1,0 +1,23 @@
+categories: []
+content: New Guide
+created: '2023-01-12T13:41:34.226Z'
+guideIntegrations:
+  discordRoleIds: []
+guideType: course
+key: crypto-security-dodao-academy
+name: Crypto Security
+publishStatus: Draft
+showIncorrectOnCompletion: true
+steps:
+  - content: |-
+
+      https://www.youtube.com/watch?v=MJkkce1BpR8        
+    name: Introduction
+    stepItems: []
+    uuid: 246fcd55-1c2e-40bb-b586-087136176cd6
+  - content: ''
+    name: Introduction Evaluation
+    stepItems: []
+    uuid: 6713570e-b132-406e-a2bb-01693de069f3
+thumbnail: https://d31h13bdjwgzxs.cloudfront.net/academy/dodao/guides/crypto_security.png
+uuid: crypto-security-dodao-academy

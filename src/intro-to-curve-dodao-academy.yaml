@@ -1,7 +1,7 @@
 categories:
   - general
 content: Talks about veCRV, gauged pools, rewards and bribes
-created: '2022-10-29T08:30:58.533Z'
+created: '2022-12-23T12:05:53.905Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -51,7 +51,7 @@ steps:
       **Lending pools**: these pools pair two or more wrapped tokens (e.g.,
       cDAI) against each other, while the underlying is lent out on some other
       protocol.
-      
+
 
       **Metapools**: these pools pair a stablecoin against the LP token from
       another pool.
@@ -63,7 +63,7 @@ steps:
       liquidity gauge to receive CRV token rewards. If the LP token is supported
       by a metapool, it can be deposited into the metapool in exchange for the
       metapool's LP token.
-      
+
           
 
       ## Liquidity Providers
@@ -85,17 +85,17 @@ steps:
   - content: ''
     name: Evaluation
     stepItems:
-      - answerKeys:
-          - 56617246
-        choices:
+      - choices:
           - content: Through bribes
-            key: d057203a
+            key: A
           - content: By creating pools of similarly behaving assets
-            key: '56617246'
+            key: B
           - content: By Automated Market Maker (AMM)
-            key: c3022c38
-          - content: 'By creating tripool '
-            key: 9f74db07
+            key: C
+          - content: By creating tripool
+            key: D
+        answerKeys:
+          - B
         content: How does curve finance overcome the problem of slippage that occurs due to volatality, while order being executed ?
         type: SingleChoice
         uuid: 72c81038-e7bc-414f-97c9-bc586b20dfb7
@@ -109,31 +109,74 @@ steps:
             key: 2089a196
           - content: Through buy and sell pressure
             key: 273e81a1
-          - content: Through gauge weight of that particular pool of token. 
+          - content: Through gauge weight of that particular pool of token.
             key: f3e5a954
         content: How is the price of token in liquidity pool decided?
         type: MultipleChoice
         uuid: 4e67b685-5729-4e4e-8975-720c4cf07af3
     uuid: ae4046d6-414c-43dc-98b1-964e38389c0a
-  - content: |
+  - content: >
       ## veCRV
-      In order to participate in Curve DAO governance, you must have a certain amount of CRV (veCRV) locked up in your account. veCRV is a non-standard ERC20 implementation, used by the Aragon DAO to calculate each account’s voting power.
 
-      Since veCRV can't be transferred, the only way to obtain it is by locking up CRV. The maximum lock time is four years. For example, if you lock up one CRV for four years, you'll have an initial balance of one veCRV.
+      In order to participate in Curve DAO governance, you must have a certain
+      amount of CRV (veCRV) locked up in your account. veCRV is a non-standard
+      ERC20 implementation, used by the Aragon DAO to calculate each account’s
+      voting power.
 
-      However, as time goes on and the CRV unlock date gets closer, your veCRV balance will decay linearly. For example, a balance of 4000 CRV locked for one year provides the same amount of veCRV as 2000 CRV locked for two years, or 1000 CRV locked for four years
 
-      veCRV tokens give you the opportunity to increase your rewards for offering liquidity on Curve. veCRV tokens allow you to earn up to 2.5x more on the liquidity you provide on Curve.
-      
+      Since veCRV can't be transferred, the only way to obtain it is by locking
+      up CRV. The maximum lock time is four years. For example, if you lock up
+      one CRV for four years, you'll have an initial balance of one veCRV.
+
+
+      However, as time goes on and the CRV unlock date gets closer, your veCRV
+      balance will decay linearly. For example, a balance of 4000 CRV locked for
+      one year provides the same amount of veCRV as 2000 CRV locked for two
+      years, or 1000 CRV locked for four years
+
+
+      veCRV tokens give you the opportunity to increase your rewards for
+      offering liquidity on Curve. veCRV tokens allow you to earn up to 2.5x
+      more on the liquidity you provide on Curve.
+
+
       ## Rewards
-      Curve's most valuable accomplishment is that it gives people an incentive to contribute liquidity and earn rewards over their idle assets. One of the major incentives of CRV is the ability to boost the rewards on provided liquidity. Vote locking CRV allows you to acquire voting power to participate in the DAO voting and earn a boost of up to 2.5x on the liquidity you are providing on Curve. The goal is to incentivize users to participate in governance by rewarding them with a bigger share of the CRV inflation.This is a great way to increase your earnings and get more involved in the community.
 
-      When users lock their CRV tokens into the Curve DAO, they receive veCRV. The ratio of CRV to veCRV is not 1:1 and depends on how long the user locks their CRV tokens. If a user locks their CRV tokens for four years, they get the same amount of veCRV as the number of CRV tokens locked. If they lock for less than four years, then the number of veCRV tokens they get decreases linearly. So a user who locks their CRV tokens for two years would get half the amount of veCRV as the number of CRV tokens locked. The more veCRV a user has, the more boost they are eligible for.
+      Curve's most valuable accomplishment is that it gives people an incentive
+      to contribute liquidity and earn rewards over their idle assets. One of
+      the major incentives of CRV is the ability to boost the rewards on
+      provided liquidity. Vote locking CRV allows you to acquire voting power to
+      participate in the DAO voting and earn a boost of up to 2.5x on the
+      liquidity you are providing on Curve. The goal is to incentivize users to
+      participate in governance by rewarding them with a bigger share of the CRV
+      inflation.This is a great way to increase your earnings and get more
+      involved in the community.
 
-      The Curve DAO system is designed to keep the community engaged and informed on critical decisions, while also providing incentives for doing so. Locking your CRV into the Curve DAO is a great way to get more veCRV, boost your CRV rewards, and get trading fees..
 
-      Half of all trading fees go straight to the pockets of veCRV holders. This was set up in order to keep the interests of liquidity providers and governance participants (veCRV holders) aligned. The collected trading fees are used to buy 3CRV (the LP token for 3Pool) and distribute it among veCRV holders. This currently adds up to more than $15 million in trading fees per year. veCRV stands for vote escrowed $CRV, which is when $CRV votes are locked in the Curve DAO.
-    name: 'veCRV & Rewards'
+      When users lock their CRV tokens into the Curve DAO, they receive veCRV.
+      The ratio of CRV to veCRV is not 1:1 and depends on how long the user
+      locks their CRV tokens. If a user locks their CRV tokens for four years,
+      they get the same amount of veCRV as the number of CRV tokens locked. If
+      they lock for less than four years, then the number of veCRV tokens they
+      get decreases linearly. So a user who locks their CRV tokens for two years
+      would get half the amount of veCRV as the number of CRV tokens locked. The
+      more veCRV a user has, the more boost they are eligible for.
+
+
+      The Curve DAO system is designed to keep the community engaged and
+      informed on critical decisions, while also providing incentives for doing
+      so. Locking your CRV into the Curve DAO is a great way to get more veCRV,
+      boost your CRV rewards, and get trading fees..
+
+
+      Half of all trading fees go straight to the pockets of veCRV holders. This
+      was set up in order to keep the interests of liquidity providers and
+      governance participants (veCRV holders) aligned. The collected trading
+      fees are used to buy 3CRV (the LP token for 3Pool) and distribute it among
+      veCRV holders. This currently adds up to more than $15 million in trading
+      fees per year. veCRV stands for vote escrowed $CRV, which is when $CRV
+      votes are locked in the Curve DAO.
+    name: veCRV & Rewards
     stepItems: []
     uuid: b74ebe60-cad9-4b99-a18e-744699815df5
   - content: ''
@@ -148,7 +191,7 @@ steps:
             key: c38ae3e6
           - content: Participate in Curve DAO governance
             key: 52c4c10a
-          - content:All of the above
+          - content: All of the above
             key: 31cbd68f
         content: 'Advantages of owning veCRV:'
         type: SingleChoice
@@ -166,7 +209,7 @@ steps:
             key: '016e3941'
           - content: They earn a cut of trading fees
             key: 4eb52fb4
-        content:  What rewards does curve finance offers to liquidity provider? 
+        content:  What rewards does curve finance offers to liquidity provider?
         type: MultipleChoice
         uuid: bd40ea8c-4f77-4a15-98b5-0b17f98aa4f6
     uuid: 90b8b356-55a2-4767-96fe-743cc86995a5
@@ -263,7 +306,7 @@ steps:
             key: 47b3410d
           - content: You are rewarded with additional CRV tokens
             key: 3c0b0d84
-        content: Benifits of participating in bribes ? 
+        content: Benifits of participating in bribes ?
         type: SingleChoice
         uuid: ae8e1fcf-54c1-4a78-a627-9d25dd6a099d
     uuid: c3a84331-a4c9-4d86-a8ba-a472cae19be5
@@ -340,6 +383,5 @@ steps:
         type: MultipleChoice
         uuid: a2d5adc9-bd32-4ba7-9451-531ac7a442f5
     uuid: d0992c2c-f31c-4624-b94f-b6866efc65b5
-thumbnail: >-
-  https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
-uuid: intro-to-curve-dodao-academy 
+thumbnail: https://d31h13bdjwgzxs.cloudfront.net/academy/dodao/guides/curve.png
+uuid: intro-to-curve-dodao-academy
