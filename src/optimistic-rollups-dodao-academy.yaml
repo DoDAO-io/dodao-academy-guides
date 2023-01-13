@@ -1,7 +1,7 @@
 categories:
   - engineering
 content: What are optimistic rollups and the different proof mechanisms
-created: '2023-01-12T14:15:17.935Z'
+created: '2023-01-13T18:02:08.594Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -80,11 +80,11 @@ steps:
         choices:
           - content: More security
             key: 1b719307
-          - content: provide higher scalability
+          - content: Higher scalability
             key: 9228635b
           - content: Instant transactions
             key: 09206bad
-          - content: Charging less gas fee
+          - content: Less gas fee
             key: 0be114b4
         content: How do we benefit from the introduction of layer 2 frameworks?
         type: MultipleChoice
@@ -142,15 +142,16 @@ steps:
     stepItems:
       - answerKeys:
           - 07092eb0
-          - '97301532'
         choices:
           - content: By paying more to validators
             key: '05e83682'
           - content: By grouping multiple transactions together.
             key: 07092eb0
-          - content: By executing transactions outside the main ethereum chain, while submitting data to the base chain
+          - content: >-
+              By executing transactions outside the main ethereum chain, while
+              submitting data to the base chain
             key: '97301532'
-          - content:  By increasing the number of active validators
+          - content: By increasing the number of active validators
             key: d1b708e1
         content: How do roll-ups improve the layer1 scalability?
         type: SingleChoice
@@ -203,7 +204,9 @@ steps:
             key: e6908d80
           - content: Withdrawal
             key: e5f3ea4c
-        content:  If an users can unwind their positions and withdraw their funds is ensured by ?
+        content: >-
+          If an users can unwind their positions and withdraw their funds is
+          ensured by ?
         type: SingleChoice
         uuid: af0b2a47-8fe5-468e-b7a9-f3a90570320e
     uuid: 5d642a3f-5f46-4690-ab86-1854c75155e4
@@ -254,11 +257,13 @@ steps:
             key: 7bee6fff
           - content: By validating the evidence provided during challenge time window.
             key: 0449fcb9
-          - content: By validating the evidence provided by the executor alongside the commitment
+          - content: >-
+              By validating the evidence provided by the executor alongside the
+              commitment
             key: ccc850ac
           - content: By validating the evidences through proof of stake mechanism.
             key: cf067c4a
-        content:  How are transactions validated in Fraud-proof approach?
+        content: How are transactions validated in Fraud-proof approach?
         type: SingleChoice
         uuid: 17f2f4e1-21cf-42f2-a9a2-159989e3fbc5
     uuid: f484ce80-234b-4202-8aa9-041caeee003d

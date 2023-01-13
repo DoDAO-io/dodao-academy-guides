@@ -3,7 +3,7 @@
     "engineering"
   ],
   "content": "What are optimistic rollups and the different proof mechanisms",
-  "created": "2023-01-12T14:15:17.935Z",
+  "created": "2023-01-13T18:02:08.594Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -36,7 +36,7 @@
               "key": "1b719307"
             },
             {
-              "content": "provide higher scalability",
+              "content": "Higher scalability",
               "key": "9228635b"
             },
             {
@@ -44,7 +44,7 @@
               "key": "09206bad"
             },
             {
-              "content": "Charging less gas fee",
+              "content": "Less gas fee",
               "key": "0be114b4"
             }
           ],
@@ -67,8 +67,7 @@
       "stepItems": [
         {
           "answerKeys": [
-            "07092eb0",
-            "97301532"
+            "07092eb0"
           ],
           "choices": [
             {
