@@ -67,28 +67,29 @@
       "stepItems": [
         {
           "answerKeys": [
-            "07092eb0"
+            "B",
+            "C"
           ],
           "choices": [
             {
               "content": "By paying more to validators",
-              "key": "05e83682"
+              "key": "A"
             },
             {
               "content": "By grouping multiple transactions together.",
-              "key": "07092eb0"
+              "key": "B"
             },
             {
               "content": "By executing transactions outside the main ethereum chain, while submitting data to the base chain",
-              "key": "97301532"
+              "key": "C"
             },
             {
-              "content": "By increasing the number of active validators",
-              "key": "d1b708e1"
+              "content": "By updating the way how Layer 1 works",
+              "key": "D"
             }
           ],
           "content": "How do roll-ups improve the layer1 scalability?",
-          "type": "SingleChoice",
+          "type": "MultipleChoice",
           "uuid": "248af849-bc63-4f90-bccb-346c4d800bbe"
         }
       ],
@@ -106,7 +107,7 @@
       "stepItems": [
         {
           "answerKeys": [
-            "96fc53b4"
+            "e5f3ea4c"
           ],
           "choices": [
             {
@@ -122,11 +123,11 @@
               "key": "e6908d80"
             },
             {
-              "content": "Withdrawal",
+              "content": "Zero Transaction fees",
               "key": "e5f3ea4c"
             }
           ],
-          "content": "If an users can unwind their positions and withdraw their funds is ensured by ?",
+          "content": "Which of these is not a property of Layer 2 bridges in Ethereum?",
           "type": "SingleChoice",
           "uuid": "af0b2a47-8fe5-468e-b7a9-f3a90570320e"
         }
@@ -153,7 +154,7 @@
               "key": "7bee6fff"
             },
             {
-              "content": "By validating the evidence provided during challenge time window.",
+              "content": "By keeping challenge time window to provide time for a challenger to send indisputable evidence",
               "key": "0449fcb9"
             },
             {
@@ -184,27 +185,27 @@
       "stepItems": [
         {
           "answerKeys": [
-            "9b0493fa"
+            "A"
           ],
           "choices": [
             {
-              "content": "Sequencers",
-              "key": "1a95824f"
+              "content": "Availibility of list of intermediary state transitions for the commitment",
+              "key": "A"
             },
             {
-              "content": "Executors",
-              "key": "c038a5a7"
+              "content": "Faster hardware",
+              "key": "B"
             },
             {
-              "content": "Validators",
-              "key": "f00d64fb"
+              "content": "Partial list of state transitions",
+              "key": "C"
             },
             {
-              "content": "challengers",
-              "key": "9b0493fa"
+              "content": "Presenting evidence alongside the commitment as part of the rollup data",
+              "key": "D"
             }
           ],
-          "content": "One-round fraud detection is made made by ?",
+          "content": "Which of these following properties enable One-round fraud detection?",
           "type": "SingleChoice",
           "uuid": "73ab252e-af32-43ee-9e7b-158a95e20d19"
         }

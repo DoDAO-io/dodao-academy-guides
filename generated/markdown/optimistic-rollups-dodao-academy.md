@@ -37,9 +37,9 @@ There are two main functions of the smart contract are:
 ##### How do we benefit from the introduction of layer 2 frameworks?  
 
 - [ ]  More security
-- [x]  provide higher scalability
+- [x]  Higher scalability
 - [x]  Instant transactions
-- [x]  Charging less gas fee
+- [x]  Less gas fee
 
     
 
@@ -75,7 +75,7 @@ Since data resides on-chain and there is consensus around this fact, anyone can 
 - [ ]  By paying more to validators
 - [x]  By grouping multiple transactions together.
 - [x]  By executing transactions outside the main ethereum chain, while submitting data to the base chain
-- [ ]  By increasing the number of active validators
+- [ ]  By updating the way how Layer 1 works
 
     
 
@@ -104,12 +104,12 @@ Bridges carryout functions similar to the below:
 
 
 
-##### If an users can unwind their positions and withdraw their funds is ensured by ?  
+##### Which of these is not a property of Layer 2 bridges in Ethereum?  
 
 - [ ]  Deposit
-- [x]  Censorship resistance
+- [ ]  Censorship resistance
 - [ ]  Update account balance.
-- [ ]  Withdrawal
+- [x]  Zero Transaction fees
 
     
 
@@ -143,7 +143,7 @@ Zero-knowledge proofs allow the prover to show that a commitment is valid withou
 ##### How are transactions validated in Fraud-proof approach?  
 
 - [ ]  By validating the evidences through proof of work mechanism.
-- [x]  By validating the evidence provided during challenge time window.
+- [x]  By keeping challenge time window to provide time for a challenger to send indisputable evidence
 - [ ]  By validating the evidence provided by the executor alongside the commitment
 - [ ]  By validating the evidences through proof of stake mechanism.
 
@@ -175,12 +175,12 @@ Arbitrum's multi-round fraud proof system is a binary search between two parties
 
 
 
-##### One-round fraud detection is made made by ?  
+##### Which of these following properties enable One-round fraud detection?  
 
-- [ ]  Sequencers
-- [ ]  Executors
-- [ ]  Validators
-- [x]  challengers
+- [x]  Availibility of list of intermediary state transitions for the commitment
+- [ ]  Faster hardware
+- [ ]  Partial list of state transitions
+- [ ]  Presenting evidence alongside the commitment as part of the rollup data
 
     
 
