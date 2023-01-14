@@ -1,7 +1,7 @@
 categories:
   - general
 content: Talks about veCRV, gauged pools, rewards and bribes
-created: '2023-01-14T18:28:40.671Z'
+created: '2023-01-14T18:28:49.227Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -12,7 +12,7 @@ showIncorrectOnCompletion: true
 steps:
   - content: >-
 
-      ## Curve Intro 1
+      ## Curve Intro
 
       Curve is a popular decentralized automated market maker focused on
       stablecoin swaps that helps you efficiently invest and exchange tokens
