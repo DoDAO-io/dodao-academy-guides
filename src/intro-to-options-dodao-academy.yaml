@@ -1,7 +1,7 @@
 categories:
   - introduction
 content: This guides explains the basics of Options
-created: '2023-01-22T22:16:57.271Z'
+created: '2023-01-22T22:17:49.440Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: onboarding
@@ -516,7 +516,7 @@ steps:
       A put buyer is the one who buys a put option to have the right to sell.
       This buyer pays a premium to the put seller during the buying of the
       contract. He/She buys a put option due to the bearish behaviour i.e.
-      he/she predicts that the market wil fall in the upcoming times. For a put
+      he/she predicts that the market will fall in the upcoming times. For a put
       buyer the profits are unlimited because the rates may fall more than the
       exercise price but on the other hand the losses are limited to the premium
       he/she paid to the put seller for placing the contract. A put buyer has
@@ -556,10 +556,6 @@ steps:
         type: SingleChoice
         uuid: 1fd93a69-81c7-4b9a-be26-624423643c6d
     uuid: 547af8f3-d25e-4be0-93c5-5a4d7751118b
-  - content: ''
-    name: Trading Options- Buyer Side
-    stepItems: []
-    uuid: aadeb797-fe33-4281-a99f-e5b6998c7aea
   - content: ''
     name: Evaluation
     stepItems:
