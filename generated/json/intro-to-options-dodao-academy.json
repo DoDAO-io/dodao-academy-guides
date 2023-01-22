@@ -3,7 +3,7 @@
     "introduction"
   ],
   "content": "This guides explains the basics of Options",
-  "created": "2023-01-22T22:17:49.440Z",
+  "created": "2023-01-22T23:11:15.105Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -524,10 +524,6 @@
           "required": true,
           "type": "PublicShortInput",
           "uuid": "e413d4f8-c404-4dc9-89a9-e9a41d6f85af"
-        },
-        {
-          "type": "UserDiscordConnect",
-          "uuid": "9d328894-0b1a-4d95-9a9f-9c5f3a2a9e31"
         }
       ],
       "uuid": "f2fdaa84-ff60-44f9-aff0-b98bed33c6cc"
