@@ -1,7 +1,7 @@
 categories:
   - introduction
 content: This guides explains the basics of Options
-created: '2023-01-22T12:30:31.620Z'
+created: '2023-01-22T13:04:20.088Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: onboarding
@@ -216,6 +216,24 @@ steps:
       commissions or transaction costs, giving him a net dollar return of $495,
       or 10% on his initial investment.
 
+      ```
+
+      Using Stocks
+
+      Total Amount to Invest         -   $5000
+
+      Current Stock Price              -     $165
+
+      Number of shares bought   -       30
+
+      New Price after a month      -    $181.50
+
+      Profit                                        -     (181.5 - 165) * 30 =
+      $495
+
+      ROI                                            -   $495/$5000 = ~10%
+
+      ```
 
       Same example with Options
 
