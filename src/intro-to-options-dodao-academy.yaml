@@ -1,7 +1,7 @@
 categories:
   - introduction
 content: This guides explains the basics of Options
-created: '2023-01-22T12:30:00.094Z'
+created: '2023-01-22T12:30:31.620Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: onboarding
@@ -139,9 +139,9 @@ steps:
 
 
       10. `Moneyness of options` :
-            a. In the Money : Trader will be profited by exercising the option.
-            b. At the Money : Trader has no-loss,no-profit if he/she exercises the option.
-            c. Out the Money : Trader is not benefitted by exercsing the option.
+            - In the Money : Trader will be profited by exercising the option.
+            - At the Money : Trader has no-loss,no-profit if he/she exercises the option.
+            - Out the Money : Trader is not benefitted by exercsing the option.
           
     name: Important Terms
     stepItems: []
