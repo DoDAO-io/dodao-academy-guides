@@ -1,7 +1,7 @@
 categories:
   - introduction
 content: This guides explains the basics of Options
-created: '2023-01-22T13:07:03.917Z'
+created: '2023-01-22T13:13:08.982Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: onboarding
@@ -217,7 +217,7 @@ steps:
       or 10% on his initial investment.
 
 
-      Using Stocks
+      **Using Stocks**
 
       |   |   |
 
@@ -234,7 +234,7 @@ steps:
       | Profit                                        |     (181.5 - 165) * 30 =
       $495 |
 
-      | ROI                                            |  $495/$5000 = ~10% |
+      | ROI                                            |  $495/$4,950 = ~10% |
 
 
       Same example with Options
@@ -248,7 +248,31 @@ steps:
       for each share (for a $181.50 to $165 strike), or $14,850 for 900 shares,
       if the stock price rises 10% to $181.50 at expiration. When compared to
       trading the underlying asset directly, this represents a far higher return
-      of $9,990 in net dollars, or 200%, on the capital invested.
+      of $9,850 in net dollars, or 200%, on the capital invested.
+
+
+      **Using Options**
+
+      |   |   |
+
+      |---|---|
+
+      | Total Amount to Invest       |  $5000 |
+
+      | Current Stock Price             |    $165 |
+
+      | Price per stock   |       $5.5 |
+
+      | Number of contracts bought   |       9 (9* 100 shares equivalent)|
+
+      | New Price after a month      |    $181.50 |
+
+      | Profit                                        |     (181.5 - 165) * 900
+      = $14850 |
+
+      | ROI                                            |  $9850/$5000 = ~200% |
+
+
 
 
       ### Risk/ Reward Analysis
