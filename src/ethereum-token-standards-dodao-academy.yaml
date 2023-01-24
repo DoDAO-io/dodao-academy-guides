@@ -1,12 +1,12 @@
 categories: []
 content: Explains all the Tokens Standards that are famous in Ethereum
-created: '2023-01-12T14:30:14.937Z'
+created: '2023-01-24T20:06:29.542Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
 key: ethereum-token-standards-dodao-academy
 name: Ethereum Token Standards
-publishStatus: Draft
+publishStatus: Live
 showIncorrectOnCompletion: true
 steps:
   - content: >-
