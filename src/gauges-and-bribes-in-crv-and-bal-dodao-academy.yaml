@@ -1,12 +1,12 @@
 categories: []
 content: New Guide
-created: '2022-11-09T12:52:52.422Z'
+created: '2023-01-24T19:32:31.766Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
 key: gauges-and-bribes-in-crv-and-bal-dodao-academy
 name: Gauges System(CRV & BAL)
-publishStatus: Live
+publishStatus: Draft
 showIncorrectOnCompletion: true
 steps:
   - content: |-
