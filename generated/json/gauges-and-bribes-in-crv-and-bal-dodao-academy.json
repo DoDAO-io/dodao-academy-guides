@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "New Guide",
-  "created": "2023-01-24T19:32:31.766Z",
+  "created": "2023-01-26T21:04:07.814Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -12,7 +12,7 @@
   "showIncorrectOnCompletion": true,
   "steps": [
     {
-      "content": "# Coming soon\n\n# References\nveBAL — How to Increase your Benefits\n - https://medium.com/balancer-protocol/vebal-how-to-increase-your-benefits-b51daf6458a8\n\nveBAL Pt.2 — Bribing and BIP19’s Free Bribes\n - https://medium.com/balancer-protocol/vebal-pt-2-bribing-and-bip19s-free-bribes-b2f8334eba14        ",
+      "content": "# Coming soon\n\n# References\nveBAL — How to Increase your Benefits\n- https://medium.com/balancer-protocol/vebal-how-to-increase-your-benefits-b51daf6458a8\n\nveBAL Pt.2 — Bribing and BIP19’s Free Bribes\n- https://medium.com/balancer-protocol/vebal-pt-2-bribing-and-bip19s-free-bribes-b2f8334eba14\n- https://medium.com/balancer-protocol/vebal-how-to-increase-your-benefits-b51daf6458a8 ",
       "name": "Introduction",
       "stepItems": [],
       "uuid": "0b3b70bc-add9-411d-9f84-66e9970c7a9f"
