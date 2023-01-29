@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Short selling & Put options are bearish ways of speculation",
-  "created": "2023-01-29T23:48:47.748Z",
+  "created": "2023-01-29T23:55:00.813Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -36,8 +36,8 @@
       "uuid": "cca9b0a6-dce2-454e-8367-27519b6dae9e"
     },
     {
-      "content": "df",
-      "name": "Step 6",
+      "content": "| Short Selling | Put Option |\n|--------------|------------|\n| Risk is unlimited | Risk is limited and max upto the premium amount |\n| User might need a margin account as they are borrowing the asset to be sold | No margin account is needed|",
+      "name": "Short Vs Put",
       "stepItems": [],
       "uuid": "152483c0-1174-4d82-ac85-c36db5a4a33e"
     },
