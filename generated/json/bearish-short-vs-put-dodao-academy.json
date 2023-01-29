@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Short selling & Put options are bearish ways of speculation",
-  "created": "2023-01-29T18:05:33.672Z",
+  "created": "2023-01-29T18:32:28.500Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -12,16 +12,9 @@
   "showIncorrectOnCompletion": true,
   "steps": [
     {
-      "content": "\nIntroduction Comments \n        ",
+      "content": "## Overview\nShort selling and put options are basically bearish strategies used to speculate on the possible decline of the underlying security or index. These strategies are also useful for hedging the downside risk of a portfolio or specific stocks. Although these two investment methods have common characteristics, there are also differences that investors should understand.\n\n## Short Selling\nShort selling is the sale of securities that the seller does not own, but has borrowed, in the market and buys them back later, which can result in significant losses if the market rises. \n\n\n## Put Option\nPurchasing a put option gives the purchaser the right to sell the underlying asset at the price specified in the option with the maximum loss being the premium paid for the option.",
       "name": "Introduction",
-      "stepItems": [
-        {
-          "label": "Full Name",
-          "required": false,
-          "type": "PublicShortInput",
-          "uuid": "f4c63072-15f5-4258-a916-3cc37bf86346"
-        }
-      ],
+      "stepItems": [],
       "uuid": "81c87ab5-011e-46e3-8c2f-4e5ead0c5c3d"
     },
     {
