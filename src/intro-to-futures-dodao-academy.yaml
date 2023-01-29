@@ -1,7 +1,7 @@
 categories:
   - overview
 content: Explains what is a Future Contract and how is it traded
-created: '2022-10-13T12:27:41.301Z'
+created: '2023-01-29T17:36:52.005Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -82,11 +82,8 @@ steps:
   - content: ''
     name: Evaluation
     stepItems:
-      - uuid: c50383b0-fce2-4193-83be-b8b5a3a6bcc7
-        content: Futures market has shown a rapid growth in recent times because-
-        answerKeys:
+      - answerKeys:
           - D
-        type: SingleChoice
         choices:
           - content: They are standardised
             key: A
@@ -96,13 +93,13 @@ steps:
             key: C
           - content: All of the above
             key: D
-      - uuid: e14bb764-3a7d-4c1b-ad7d-3b7d4e0a3434
-        content: Traders who have bought futures contract and thus agreed to _____ (receive products) the bonds are addresed to have _____ position
-        answerKeys:
-          - D
+        content: Futures market has shown a rapid growth in recent times because-
         type: SingleChoice
+        uuid: c50383b0-fce2-4193-83be-b8b5a3a6bcc7
+      - answerKeys:
+          - D
         choices:
-          - content: Sell , short 
+          - content: Sell , short
             key: A
           - content: Buy , short
             key: B
@@ -110,6 +107,11 @@ steps:
             key: C
           - content: Buy , long
             key: D
+        content: >-
+          Traders who have bought futures contract and thus agreed to _____
+          (receive products) the bonds are addresed to have _____ position
+        type: SingleChoice
+        uuid: e14bb764-3a7d-4c1b-ad7d-3b7d4e0a3434
     uuid: bdb0b227-51d2-46c1-8b45-dfcb492bfaf1
   - content: >
       ## Explain the various details under the futures contract
@@ -121,7 +123,8 @@ steps:
 
       1. The unit of measurement.
 
-      2. How the trade will be settled – through physical delivery or cash settlement
+      2. How the trade will be settled – through physical delivery or cash
+      settlement
 
       3. The number of goods to be delivered or covered under the contract. 
 
@@ -130,13 +133,12 @@ steps:
       5. The currency in which the futures contract is quoted.
 
       6. Grade and quality standards, when appropriate.
-      
 
-      Futures contracts are traded on an exchange. In DeFi, most popular
-      derivatives exchange is FTX. In the above capture we can se ETH-1230
-      December futures being traded on the platform. The blue line represents
-      (Index Price) the average of ETH prices across major exchanges and the
-      candlesticks below represents the Mark price. In the right panel
+
+      Futures contracts are traded on an exchange. In the above capture we can
+      se ETH-1230 December futures being traded on the platform. The blue line
+      represents (Index Price) the average of ETH prices across major exchanges
+      and the candlesticks below represents the Mark price. In the right panel
       parameters such as minimum order size, expiration date and volume traded
       in last 24 hours have also been mentioned.
 
@@ -156,11 +158,8 @@ steps:
   - content: ''
     name: Evaluation
     stepItems:
-      - uuid: 117b55ab-1610-4d5d-93e6-575feb972bf9
-        content: The number of futures contracts outstanding?
-        answerKeys:
+      - answerKeys:
           - B
-        type: SingleChoice
         choices:
           - content: Liquidity
             key: A
@@ -170,11 +169,11 @@ steps:
             key: C
           - content: Volume
             key: D
-      - uuid: 8a107d21-d5c1-4822-8e01-c13f40e2d2be
-        content: What aspect of futures contracts was not intended to promote liquidity?
-        answerKeys:
-          - B
+        content: The number of futures contracts outstanding?
         type: SingleChoice
+        uuid: 117b55ab-1610-4d5d-93e6-575feb972bf9
+      - answerKeys:
+          - B
         choices:
           - content: Standardized contracts
             key: A
@@ -184,6 +183,11 @@ steps:
             key: C
           - content: Not tied to one specific type of bond
             key: D
+        content: >-
+          What aspect of futures contracts was not intended to promote
+          liquidity?
+        type: SingleChoice
+        uuid: 8a107d21-d5c1-4822-8e01-c13f40e2d2be
     uuid: d27e471e-5ea9-4624-918b-857001b0b145
   - content: >
       Futures can be used to hedge against price fluctuations in the underlying
@@ -201,7 +205,9 @@ steps:
       Now suppose three months pass and the delivery time arrives and the spot
       price of maize is $900 / ton i.e. the prices fell. In this scenario, the
       farmer benefited because he had already hedged his position through the
-      futures contract at $1000 / ton of maize. In this case, the mill owner is at a loss because he agreed to the fixed price of $1000/ton when the current market price is $900/ton.
+      futures contract at $1000 / ton of maize. In this case, the mill owner is
+      at a loss because he agreed to the fixed price of $1000/ton when the
+      current market price is $900/ton.
 
 
       Whereas if the sport price of maise is $1200 / ton i.e. the prices of
@@ -220,11 +226,8 @@ steps:
   - content: ''
     name: Evaluation
     stepItems:
-      - uuid: 6c20cb83-cbb7-4598-8cf3-00ea6b9fe2a1
-        content: What is the reason to hedge a portfolio? 
-        answerKeys:
+      - answerKeys:
           - A
-        type: SingleChoice
         choices:
           - content: To limit exposure to risk
             key: A
@@ -234,11 +237,11 @@ steps:
             key: C
           - content: All of the above
             key: D
-      - uuid: 94bb9bbf-cb17-4155-81a7-04f6782252fb
-        content: Hedging risk in long position can be made by?
-        answerKeys:
-          - B
+        content: What is the reason to hedge a portfolio?
         type: SingleChoice
+        uuid: 6c20cb83-cbb7-4598-8cf3-00ea6b9fe2a1
+      - answerKeys:
+          - B
         choices:
           - content: Taking another long position
             key: A
@@ -248,6 +251,9 @@ steps:
             key: C
           - content: None of the above
             key: D
+        content: Hedging risk in long position can be made by?
+        type: SingleChoice
+        uuid: 94bb9bbf-cb17-4155-81a7-04f6782252fb
     uuid: f7c028fd-648d-4de5-a230-f885ecdb84a1
   - content: >
       A trader can make predictions (speculate) about the course of a
@@ -291,11 +297,8 @@ steps:
   - content: ''
     name: Evaluation
     stepItems:
-      - uuid: 049f6280-0721-494c-a2cb-a55aeed94081
-        content: Removing riskless profit opportunities in futures market is known as-
-        answerKeys:
+      - answerKeys:
           - C
-        type: SingleChoice
         choices:
           - content: Hedging
             key: A
@@ -305,18 +308,21 @@ steps:
             key: C
           - content: None of the above
             key: D
-      - uuid: 10f5e7f9-26ed-493a-96de-56b3903e2315
-        content: Hedgers are ....... and Speculators are .......?
-        answerKeys:
-          - A
+        content: Removing riskless profit opportunities in futures market is known as-
         type: SingleChoice
+        uuid: 049f6280-0721-494c-a2cb-a55aeed94081
+      - answerKeys:
+          - A
         choices:
           - content: Risk Averse, Risk Lovers
             key: A
           - content: Risk Lovers, Risk Averse
             key: B
           - content: Both are Risk Mitigators
-            key: C          
+            key: C
+        content: Hedgers are ....... and Speculators are .......?
+        type: SingleChoice
+        uuid: 10f5e7f9-26ed-493a-96de-56b3903e2315
     uuid: 11e8da38-a1b8-42c2-a3f1-ec00ef81aa2c
   - content: >-
       ## Explain buyer and seller in case of a long contract
@@ -356,11 +362,8 @@ steps:
   - content: ''
     name: Evaluation
     stepItems:
-      - uuid: 922e6623-a99a-4f25-bc3d-e2494992c4d5
-        content: If you buy a long contract at $100,000 (lot size - 1000) for 110  and the price on expiration day is 106  -
-        answerKeys:
+      - answerKeys:
           - B
-        type: SingleChoice
         choices:
           - content: Your profit is $4000.
             key: A
@@ -370,11 +373,13 @@ steps:
             key: C
           - content: Your loss is $6000
             key: D
-      - uuid: c7fa4359-9dcf-44d1-864b-701de00413bd
-        content: If you buy a long contract at $100,000 (lot size - 1000) for 110  and the price on expiration day is 115  -
-        answerKeys:
-          - A
+        content: >-
+          If you buy a long contract at $100,000 (lot size - 1000) for 110  and
+          the price on expiration day is 106  -
         type: SingleChoice
+        uuid: 922e6623-a99a-4f25-bc3d-e2494992c4d5
+      - answerKeys:
+          - A
         choices:
           - content: Your profit is $5000.
             key: A
@@ -384,6 +389,11 @@ steps:
             key: C
           - content: Your loss is $15,000
             key: D
+        content: >-
+          If you buy a long contract at $100,000 (lot size - 1000) for 110  and
+          the price on expiration day is 115  -
+        type: SingleChoice
+        uuid: c7fa4359-9dcf-44d1-864b-701de00413bd
     uuid: a95da396-f7fe-4e98-9883-1a594bbe4c64
   - content: >-
       ## Explain buyer and seller in case of a short contract
@@ -424,11 +434,8 @@ steps:
   - content: ''
     name: Evaluation
     stepItems:
-      - uuid: 17d6c5f8-c6c4-45fb-86ec-1178c4f9d332
-        content: If you buy a short contract at $100,000 (lot size - 1000) for 110  and the price on expiration      day is 106  -
-        answerKeys:
+      - answerKeys:
           - A
-        type: SingleChoice
         choices:
           - content: Your profit is $4000.
             key: A
@@ -438,11 +445,13 @@ steps:
             key: C
           - content: Your loss is $6000
             key: D
-      - uuid: 0fd2b89b-aba0-4d3f-bfbf-5a35899de67c
-        content: If you buy a short contract at $100,000 (lot size - 1000) for 110  and the price on expiration      day is 115  -
-        answerKeys:
-          - C
+        content: >-
+          If you buy a short contract at $100,000 (lot size - 1000) for 110  and
+          the price on expiration      day is 106  -
         type: SingleChoice
+        uuid: 17d6c5f8-c6c4-45fb-86ec-1178c4f9d332
+      - answerKeys:
+          - C
         choices:
           - content: Your profit is $5000
             key: A
@@ -452,6 +461,11 @@ steps:
             key: C
           - content: Your loss is $15,000
             key: D
+        content: >-
+          If you buy a short contract at $100,000 (lot size - 1000) for 110  and
+          the price on expiration      day is 115  -
+        type: SingleChoice
+        uuid: 0fd2b89b-aba0-4d3f-bfbf-5a35899de67c
     uuid: 05780715-c35e-48eb-ae5a-535393f0596d
   - content: >-
       * In futures, the buyer is obligated to honour the contract and in
@@ -467,5 +481,6 @@ steps:
     name: Futures vs Options
     stepItems: []
     uuid: 7d98487d-70e6-42f6-90a9-ad1b57b7ddaa
-thumbnail: https://d31h13bdjwgzxs.cloudfront.net/academy/dodao/guides/intro_to_futures.png
+thumbnail: >-
+  https://d31h13bdjwgzxs.cloudfront.net/academy/dodao/guides/intro_to_futures.png
 uuid: intro-to-futures-dodao-academy

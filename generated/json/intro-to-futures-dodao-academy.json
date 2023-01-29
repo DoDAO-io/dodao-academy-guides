@@ -3,7 +3,7 @@
     "overview"
   ],
   "content": "Explains what is a Future Contract and how is it traded",
-  "created": "2022-10-13T12:27:41.301Z",
+  "created": "2023-01-29T17:36:52.005Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -24,12 +24,9 @@
       "name": "Evaluation",
       "stepItems": [
         {
-          "uuid": "c50383b0-fce2-4193-83be-b8b5a3a6bcc7",
-          "content": "Futures market has shown a rapid growth in recent times because-",
           "answerKeys": [
             "D"
           ],
-          "type": "SingleChoice",
           "choices": [
             {
               "content": "They are standardised",
@@ -47,15 +44,15 @@
               "content": "All of the above",
               "key": "D"
             }
-          ]
+          ],
+          "content": "Futures market has shown a rapid growth in recent times because-",
+          "type": "SingleChoice",
+          "uuid": "c50383b0-fce2-4193-83be-b8b5a3a6bcc7"
         },
         {
-          "uuid": "e14bb764-3a7d-4c1b-ad7d-3b7d4e0a3434",
-          "content": "Traders who have bought futures contract and thus agreed to _____ (receive products) the bonds are addresed to have _____ position",
           "answerKeys": [
             "D"
           ],
-          "type": "SingleChoice",
           "choices": [
             {
               "content": "Sell , short",
@@ -73,13 +70,16 @@
               "content": "Buy , long",
               "key": "D"
             }
-          ]
+          ],
+          "content": "Traders who have bought futures contract and thus agreed to _____ (receive products) the bonds are addresed to have _____ position",
+          "type": "SingleChoice",
+          "uuid": "e14bb764-3a7d-4c1b-ad7d-3b7d4e0a3434"
         }
       ],
       "uuid": "bdb0b227-51d2-46c1-8b45-dfcb492bfaf1"
     },
     {
-      "content": "## Explain the various details under the futures contract\n\nFutures contracts can be bought and sold over exchanges. These contracts are standardized. Each futures contract consists of various parameters known as contract parameters. These are:\n1. The unit of measurement.\n2. How the trade will be settled – through physical delivery or cash settlement\n3. The number of goods to be delivered or covered under the contract. \n4. The currency unit in which the contract is denominated\n5. The currency in which the futures contract is quoted.\n6. Grade and quality standards, when appropriate.\n\nFutures contracts are traded on an exchange. In DeFi, most popular derivatives exchange is FTX. In the above capture we can se ETH-1230 December futures being traded on the platform. The blue line represents (Index Price) the average of ETH prices across major exchanges and the candlesticks below represents the Mark price. In the right panel parameters such as minimum order size, expiration date and volume traded in last 24 hours have also been mentioned.\n\n## Explain who creates these contracts\nFutures contracts are created and regulated by exchanges. These exchanges are responsible for the standardization of various parameters in these contracts. The Commodity Futures Trading Commission oversees futures markets (CFTC). In order to protect the integrity of futures market pricing, including prohibiting fraudulent activity and abusive trading methods, the CFTC is a government organization that was established by Congress in 1974.\n",
+      "content": "## Explain the various details under the futures contract\n\nFutures contracts can be bought and sold over exchanges. These contracts are standardized. Each futures contract consists of various parameters known as contract parameters. These are:\n1. The unit of measurement.\n2. How the trade will be settled – through physical delivery or cash settlement\n3. The number of goods to be delivered or covered under the contract. \n4. The currency unit in which the contract is denominated\n5. The currency in which the futures contract is quoted.\n6. Grade and quality standards, when appropriate.\n\nFutures contracts are traded on an exchange. In the above capture we can se ETH-1230 December futures being traded on the platform. The blue line represents (Index Price) the average of ETH prices across major exchanges and the candlesticks below represents the Mark price. In the right panel parameters such as minimum order size, expiration date and volume traded in last 24 hours have also been mentioned.\n\n## Explain who creates these contracts\nFutures contracts are created and regulated by exchanges. These exchanges are responsible for the standardization of various parameters in these contracts. The Commodity Futures Trading Commission oversees futures markets (CFTC). In order to protect the integrity of futures market pricing, including prohibiting fraudulent activity and abusive trading methods, the CFTC is a government organization that was established by Congress in 1974.\n",
       "name": " Understanding a Future Contract",
       "stepItems": [],
       "uuid": "151f2e40-acaf-4262-9f51-0f60751dc44f"
@@ -89,12 +89,9 @@
       "name": "Evaluation",
       "stepItems": [
         {
-          "uuid": "117b55ab-1610-4d5d-93e6-575feb972bf9",
-          "content": "The number of futures contracts outstanding?",
           "answerKeys": [
             "B"
           ],
-          "type": "SingleChoice",
           "choices": [
             {
               "content": "Liquidity",
@@ -112,15 +109,15 @@
               "content": "Volume",
               "key": "D"
             }
-          ]
+          ],
+          "content": "The number of futures contracts outstanding?",
+          "type": "SingleChoice",
+          "uuid": "117b55ab-1610-4d5d-93e6-575feb972bf9"
         },
         {
-          "uuid": "8a107d21-d5c1-4822-8e01-c13f40e2d2be",
-          "content": "What aspect of futures contracts was not intended to promote liquidity?",
           "answerKeys": [
             "B"
           ],
-          "type": "SingleChoice",
           "choices": [
             {
               "content": "Standardized contracts",
@@ -138,7 +135,10 @@
               "content": "Not tied to one specific type of bond",
               "key": "D"
             }
-          ]
+          ],
+          "content": "What aspect of futures contracts was not intended to promote liquidity?",
+          "type": "SingleChoice",
+          "uuid": "8a107d21-d5c1-4822-8e01-c13f40e2d2be"
         }
       ],
       "uuid": "d27e471e-5ea9-4624-918b-857001b0b145"
@@ -154,12 +154,9 @@
       "name": "Evaluation",
       "stepItems": [
         {
-          "uuid": "6c20cb83-cbb7-4598-8cf3-00ea6b9fe2a1",
-          "content": "What is the reason to hedge a portfolio?",
           "answerKeys": [
             "A"
           ],
-          "type": "SingleChoice",
           "choices": [
             {
               "content": "To limit exposure to risk",
@@ -177,15 +174,15 @@
               "content": "All of the above",
               "key": "D"
             }
-          ]
+          ],
+          "content": "What is the reason to hedge a portfolio?",
+          "type": "SingleChoice",
+          "uuid": "6c20cb83-cbb7-4598-8cf3-00ea6b9fe2a1"
         },
         {
-          "uuid": "94bb9bbf-cb17-4155-81a7-04f6782252fb",
-          "content": "Hedging risk in long position can be made by?",
           "answerKeys": [
             "B"
           ],
-          "type": "SingleChoice",
           "choices": [
             {
               "content": "Taking another long position",
@@ -203,7 +200,10 @@
               "content": "None of the above",
               "key": "D"
             }
-          ]
+          ],
+          "content": "Hedging risk in long position can be made by?",
+          "type": "SingleChoice",
+          "uuid": "94bb9bbf-cb17-4155-81a7-04f6782252fb"
         }
       ],
       "uuid": "f7c028fd-648d-4de5-a230-f885ecdb84a1"
@@ -219,12 +219,9 @@
       "name": "Evaluation",
       "stepItems": [
         {
-          "uuid": "049f6280-0721-494c-a2cb-a55aeed94081",
-          "content": "Removing riskless profit opportunities in futures market is known as-",
           "answerKeys": [
             "C"
           ],
-          "type": "SingleChoice",
           "choices": [
             {
               "content": "Hedging",
@@ -242,15 +239,15 @@
               "content": "None of the above",
               "key": "D"
             }
-          ]
+          ],
+          "content": "Removing riskless profit opportunities in futures market is known as-",
+          "type": "SingleChoice",
+          "uuid": "049f6280-0721-494c-a2cb-a55aeed94081"
         },
         {
-          "uuid": "10f5e7f9-26ed-493a-96de-56b3903e2315",
-          "content": "Hedgers are ....... and Speculators are .......?",
           "answerKeys": [
             "A"
           ],
-          "type": "SingleChoice",
           "choices": [
             {
               "content": "Risk Averse, Risk Lovers",
@@ -264,7 +261,10 @@
               "content": "Both are Risk Mitigators",
               "key": "C"
             }
-          ]
+          ],
+          "content": "Hedgers are ....... and Speculators are .......?",
+          "type": "SingleChoice",
+          "uuid": "10f5e7f9-26ed-493a-96de-56b3903e2315"
         }
       ],
       "uuid": "11e8da38-a1b8-42c2-a3f1-ec00ef81aa2c"
@@ -280,12 +280,9 @@
       "name": "Evaluation",
       "stepItems": [
         {
-          "uuid": "922e6623-a99a-4f25-bc3d-e2494992c4d5",
-          "content": "If you buy a long contract at $100,000 (lot size - 1000) for 110  and the price on expiration day is 106  -",
           "answerKeys": [
             "B"
           ],
-          "type": "SingleChoice",
           "choices": [
             {
               "content": "Your profit is $4000.",
@@ -303,15 +300,15 @@
               "content": "Your loss is $6000",
               "key": "D"
             }
-          ]
+          ],
+          "content": "If you buy a long contract at $100,000 (lot size - 1000) for 110  and the price on expiration day is 106  -",
+          "type": "SingleChoice",
+          "uuid": "922e6623-a99a-4f25-bc3d-e2494992c4d5"
         },
         {
-          "uuid": "c7fa4359-9dcf-44d1-864b-701de00413bd",
-          "content": "If you buy a long contract at $100,000 (lot size - 1000) for 110  and the price on expiration day is 115  -",
           "answerKeys": [
             "A"
           ],
-          "type": "SingleChoice",
           "choices": [
             {
               "content": "Your profit is $5000.",
@@ -329,7 +326,10 @@
               "content": "Your loss is $15,000",
               "key": "D"
             }
-          ]
+          ],
+          "content": "If you buy a long contract at $100,000 (lot size - 1000) for 110  and the price on expiration day is 115  -",
+          "type": "SingleChoice",
+          "uuid": "c7fa4359-9dcf-44d1-864b-701de00413bd"
         }
       ],
       "uuid": "a95da396-f7fe-4e98-9883-1a594bbe4c64"
@@ -345,12 +345,9 @@
       "name": "Evaluation",
       "stepItems": [
         {
-          "uuid": "17d6c5f8-c6c4-45fb-86ec-1178c4f9d332",
-          "content": "If you buy a short contract at $100,000 (lot size - 1000) for 110  and the price on expiration      day is 106  -",
           "answerKeys": [
             "A"
           ],
-          "type": "SingleChoice",
           "choices": [
             {
               "content": "Your profit is $4000.",
@@ -368,15 +365,15 @@
               "content": "Your loss is $6000",
               "key": "D"
             }
-          ]
+          ],
+          "content": "If you buy a short contract at $100,000 (lot size - 1000) for 110  and the price on expiration      day is 106  -",
+          "type": "SingleChoice",
+          "uuid": "17d6c5f8-c6c4-45fb-86ec-1178c4f9d332"
         },
         {
-          "uuid": "0fd2b89b-aba0-4d3f-bfbf-5a35899de67c",
-          "content": "If you buy a short contract at $100,000 (lot size - 1000) for 110  and the price on expiration      day is 115  -",
           "answerKeys": [
             "C"
           ],
-          "type": "SingleChoice",
           "choices": [
             {
               "content": "Your profit is $5000",
@@ -394,7 +391,10 @@
               "content": "Your loss is $15,000",
               "key": "D"
             }
-          ]
+          ],
+          "content": "If you buy a short contract at $100,000 (lot size - 1000) for 110  and the price on expiration      day is 115  -",
+          "type": "SingleChoice",
+          "uuid": "0fd2b89b-aba0-4d3f-bfbf-5a35899de67c"
         }
       ],
       "uuid": "05780715-c35e-48eb-ae5a-535393f0596d"
