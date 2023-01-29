@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Short selling & Put options are bearish ways of speculation",
-  "created": "2023-01-29T18:04:54.581Z",
+  "created": "2023-01-29T18:05:33.672Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -27,42 +27,7 @@
     {
       "content": "",
       "name": "Introduction Evaluation",
-      "stepItems": [
-        {
-          "label": "Full Name",
-          "required": false,
-          "type": "PublicShortInput",
-          "uuid": "65786fd9-c1c9-4ca9-9073-9fb1fec29315"
-        },
-        {
-          "answerKeys": [
-            "dog_or_cat",
-            "only_dog",
-            "only_cat"
-          ],
-          "choices": [
-            {
-              "content": "Dog And Cat",
-              "key": "dog_and_cat"
-            },
-            {
-              "content": "Dog Or Cat",
-              "key": "dog_or_cat"
-            },
-            {
-              "content": "Only Dog",
-              "key": "only_dog"
-            },
-            {
-              "content": "Only Cat",
-              "key": "only_cat"
-            }
-          ],
-          "content": "Dog or a Cat, Do or a Cat, Dog or a Cat",
-          "type": "MultipleChoice",
-          "uuid": "32f9b4cb-1d32-48d4-bb06-25000d3423c1"
-        }
-      ],
+      "stepItems": [],
       "uuid": "36150ca7-e52c-495d-ad2f-0c4735284a85"
     }
   ],
