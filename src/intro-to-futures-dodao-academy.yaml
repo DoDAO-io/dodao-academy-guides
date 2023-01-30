@@ -1,7 +1,7 @@
 categories:
   - overview
 content: Explains what is a Future Contract and how is it traded
-created: '2023-01-30T00:39:53.111Z'
+created: '2023-01-30T00:45:01.889Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -64,8 +64,9 @@ steps:
       4. **Long Position**: Traders are said to obtain a long position when they
       buy a stock or own particular ones.
 
-      5. **Short Position**: Traders are said to obtain a short position when
-      they sell a stock or do not own them.
+      5. **Short Position**: Short selling is the sale of securities that the
+      seller does not own, but has borrowed, in the market and buys them back
+      later, which can result in significant losses if the market rises.
 
       6. **Bid**: The price at which the buyer is ready to buy an asset.
 
