@@ -1,6 +1,6 @@
 categories: []
 content: Short selling & Put options are bearish ways of speculation
-created: '2023-01-30T00:00:14.276Z'
+created: '2023-01-30T00:01:13.440Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: onboarding
@@ -57,7 +57,13 @@ steps:
     name: Put Option
     stepItems: []
     uuid: cca9b0a6-dce2-454e-8367-27519b6dae9e
-  - content: >-
+  - content: >
+      ![](https://www.investopedia.com/thmb/teXPISmk0EZ5-jUxc3RC5wU6kiY=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/ShortSellingvs.PutOptions-eff3cf41a5f549978c295eef47fbc2bd.png)
+
+      `Source:
+      https://www.investopedia.com/articles/trading/092613/difference-between-short-selling-and-put-options.asp`
+
+
       | Short Selling | Put Option |
 
       |--------------|------------|
@@ -68,8 +74,6 @@ steps:
 
       | User might need a margin account as they are borrowing the asset to be
       sold | No margin account is needed|
-
-      | 
     name: Short Vs Put
     stepItems: []
     uuid: 152483c0-1174-4d82-ac85-c36db5a4a33e

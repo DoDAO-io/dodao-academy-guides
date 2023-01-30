@@ -1,7 +1,7 @@
 {
   "categories": [],
   "content": "Short selling & Put options are bearish ways of speculation",
-  "created": "2023-01-30T00:00:14.276Z",
+  "created": "2023-01-30T00:01:13.440Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
@@ -36,7 +36,7 @@
       "uuid": "cca9b0a6-dce2-454e-8367-27519b6dae9e"
     },
     {
-      "content": "| Short Selling | Put Option |\n|--------------|------------|\n| The risk is theoretically unlimited as the stock's value can climb infinitely. | With a put, the most that you can lose is the premium that you have paid for buying the option |\n| User might need a margin account as they are borrowing the asset to be sold | No margin account is needed|\n| ",
+      "content": "![](https://www.investopedia.com/thmb/teXPISmk0EZ5-jUxc3RC5wU6kiY=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/ShortSellingvs.PutOptions-eff3cf41a5f549978c295eef47fbc2bd.png)\n`Source: https://www.investopedia.com/articles/trading/092613/difference-between-short-selling-and-put-options.asp`\n\n| Short Selling | Put Option |\n|--------------|------------|\n| The risk is theoretically unlimited as the stock's value can climb infinitely. | With a put, the most that you can lose is the premium that you have paid for buying the option |\n| User might need a margin account as they are borrowing the asset to be sold | No margin account is needed|\n",
       "name": "Short Vs Put",
       "stepItems": [],
       "uuid": "152483c0-1174-4d82-ac85-c36db5a4a33e"
