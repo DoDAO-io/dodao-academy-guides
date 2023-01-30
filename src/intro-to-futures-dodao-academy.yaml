@@ -1,7 +1,7 @@
 categories:
   - overview
 content: Explains what is a Future Contract and how is it traded
-created: '2023-01-29T17:36:52.005Z'
+created: '2023-01-30T00:39:53.111Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: course
@@ -133,6 +133,10 @@ steps:
       5. The currency in which the futures contract is quoted.
 
       6. Grade and quality standards, when appropriate.
+
+
+      ![](https://raw.githubusercontent.com/DoDAO-io/dodao-academy-guides/main/images/guides/futures/Futures.png)
+
 
 
       Futures contracts are traded on an exchange. In the above capture we can
