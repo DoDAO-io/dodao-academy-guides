@@ -1,6 +1,6 @@
 categories: []
 content: Short selling & Put options are bearish ways of speculation
-created: '2023-01-29T23:55:00.813Z'
+created: '2023-01-30T00:00:14.276Z'
 guideIntegrations:
   discordRoleIds: []
 guideType: onboarding
@@ -62,10 +62,14 @@ steps:
 
       |--------------|------------|
 
-      | Risk is unlimited | Risk is limited and max upto the premium amount |
+      | The risk is theoretically unlimited as the stock's value can climb
+      infinitely. | With a put, the most that you can lose is the premium that
+      you have paid for buying the option |
 
       | User might need a margin account as they are borrowing the asset to be
       sold | No margin account is needed|
+
+      | 
     name: Short Vs Put
     stepItems: []
     uuid: 152483c0-1174-4d82-ac85-c36db5a4a33e
