@@ -1,0 +1,36 @@
+categories: []
+content: New Guide
+created: '2023-02-08T22:50:27.752Z'
+guideIntegrations:
+  discordRoleIds: []
+guideType: course
+key: concentrated-liquidity-dodao-academy
+name: Concentrated Liquidity
+publishStatus: Draft
+showIncorrectOnCompletion: true
+steps:
+  - content: >
+      # References
+
+      - https://blog.hubbleprotocol.io/what-is-clmm/
+
+      - https://uniswapv3book.com/docs/introduction/uniswap-v3/
+
+      - https://uniswap.org/whitepaper-v3.pdf
+
+      - https://arxiv.org/pdf/2110.01368.pdf
+
+      - https://arxiv.org/pdf/2106.12033.pdf
+
+      - https://bowtiedisland.com/concentrated-liquidity-uniswap-v3-overview/
+
+      - https://levelup.gitconnected.com/whats-new-in-uniswap-v3-a04a8f2673bb
+
+      -
+      https://blog.nftx.io/creating-concentrated-liquidity-positions-on-nftx-with-univ3/
+    name: Introduction
+    stepItems: []
+    uuid: 0fce2d20-2bd5-4eb3-87aa-5546e11cdc87
+thumbnail: >-
+  https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
+uuid: 89279810-a117-4dc1-932c-734cc3ac75af
