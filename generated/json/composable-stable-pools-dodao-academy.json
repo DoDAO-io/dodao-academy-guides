@@ -3,13 +3,13 @@
     "engineering"
   ],
   "content": "What are Composable Stable Pool and why do we need them?",
-  "created": "2023-03-14T18:12:17.426Z",
+  "created": "2023-04-05T18:56:05.808Z",
   "guideIntegrations": {
     "discordRoleIds": []
   },
   "guideType": "onboarding",
   "key": "composable-stable-pools-dodao-academy",
-  "name": "Composable Guides Repo",
+  "name": "Composable Guides Rep1",
   "publishStatus": "Draft",
   "showIncorrectOnCompletion": true,
   "steps": [
@@ -268,5 +268,5 @@
     }
   ],
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/academy/balancer/balancer_stable_coins.png",
-  "uuid": "composable-stable-pools-balancer"
+  "uuid": "composable-stable-pools-dodao-academy"
 }
