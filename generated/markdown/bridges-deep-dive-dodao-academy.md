@@ -64,7 +64,7 @@ There are three types of workers involved in assessing the security of a validat
 - [x]  Sequencers
 - [x]  Challengers
 - [x]  Executors
-- [x]  Validators
+- [ ]  Token Allocators
 
     
 
@@ -96,9 +96,9 @@ Now, the executor can periodically assert a cryptographic commitment to the brid
 ##### The most popular way of solving the data availability problem is through?  
 
 - [x]  Through data compression
-- [x]  Rollups
+- [x]  Rollups of data
 - [ ]  Cloud Storage
-- [ ]  Layer2 frameworks
+- [ ]  Better hardware
 
     
 
@@ -132,7 +132,7 @@ Zero-knowledge proofs allow the prover to show that a commitment is valid withou
 
 - [ ]  By validating the evidence provided during challenge time
 - [ ]  By validating the evidences through proof of stake mechanism.
-- [ ]  By validating the evidences proof of work mechanism.
+- [ ]  No validation is needed
 - [x]  By validating the evidence provided by the executor alongside the commitment
 
     

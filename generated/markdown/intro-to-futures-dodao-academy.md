@@ -28,7 +28,7 @@ The term futures is used to signify a large class of assets that they represent.
 2. **Futures price**: Futures price is the price of a futures contract at which the buyer and seller have agreed upon the sale and delivery of an asset at a later time. It is equal to the price of the underlying asset.
 3. **Spot Price**: The current price or the market price of an asset is known as the spot price.
 4. **Long Position**: Traders are said to obtain a long position when they buy a stock or own particular ones.
-5. **Short Position**: Traders are said to obtain a short position when they sell a stock or do not own them.
+5. **Short Position**: Short selling is the sale of securities that the seller does not own, but has borrowed, in the market and buys them back later, which can result in significant losses if the market rises.
 6. **Bid**: The price at which the buyer is ready to buy an asset.
 7. **Ask**: The price at which the seller is ready to sell an asset.
 8. **Points (Future value)**: A point in futures trading represents the smallest whole number price increment in the value of a futures contract.
@@ -78,7 +78,10 @@ Futures contracts can be bought and sold over exchanges. These contracts are sta
 5. The currency in which the futures contract is quoted.
 6. Grade and quality standards, when appropriate.
 
-Futures contracts are traded on an exchange. In DeFi, most popular derivatives exchange is FTX. In the above capture we can se ETH-1230 December futures being traded on the platform. The blue line represents (Index Price) the average of ETH prices across major exchanges and the candlesticks below represents the Mark price. In the right panel parameters such as minimum order size, expiration date and volume traded in last 24 hours have also been mentioned.
+![](https://raw.githubusercontent.com/DoDAO-io/dodao-academy-guides/main/images/guides/futures/Futures.png)
+
+
+Futures contracts are traded on an exchange. In the above capture we can se ETH-1230 December futures being traded on the platform. The blue line represents (Index Price) the average of ETH prices across major exchanges and the candlesticks below represents the Mark price. In the right panel parameters such as minimum order size, expiration date and volume traded in last 24 hours have also been mentioned.
 
 ## Explain who creates these contracts
 Futures contracts are created and regulated by exchanges. These exchanges are responsible for the standardization of various parameters in these contracts. The Commodity Futures Trading Commission oversees futures markets (CFTC). In order to protect the integrity of futures market pricing, including prohibiting fraudulent activity and abusive trading methods, the CFTC is a government organization that was established by Congress in 1974.

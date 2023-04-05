@@ -95,9 +95,9 @@ Options being as derivative are mostly used for hedging and speculations. It is 
 9. `Option Expiration Date`: American Options can be exercised any time before their expiration whereas European options can be only exercised upon expiration date.
 
 10. `Moneyness of options` :
-      a) In the Money : Trader will be profited by exercising the option.
-      b) At the Money : Trader has no-loss,no-profit if he/she exercises the option.
-      c) Out the Money : Trader is not benefitted by exercsing the option.
+      - In the Money : Trader will be profited by exercising the option.
+      - At the Money : Trader has no-loss,no-profit if he/she exercises the option.
+      - Out the Money : Trader is not benefitted by exercsing the option.
     
 
 
@@ -133,7 +133,7 @@ Options being as derivative are mostly used for hedging and speculations. It is 
 
 
 ---
-## Trading Options- Call Options
+## Call Options
 
 Option contracts are prepared by option writer known as granter or seller. An option writer is the one who sells an option and receives premium from the buyer in exchange, by opening a position. Options are of two types - “calls” and “puts”. With a “call” option the buyer gets the right to buy the underlying asset whereas from the “put” option the buyer gets the right to sell the underlying asset at a pre-decided price and on or before a pre-decided date.
 
@@ -147,8 +147,32 @@ Example
 When using stocks(without options)
 Consider a trader who wishes to put $5,000 into Apple (AAPL), which is now trading at about $165 per share. He/She can spend this money on 30 shares for a total of $4,950. So let's say that during the course of the following month, the stock's price rises by 10% to $181.50. The trader's portfolio will increase to $5,445 after deducting any brokerage commissions or transaction costs, giving him a net dollar return of $495, or 10% on his initial investment.
 
+**Using Stocks**
+|   |   |
+|---|---|
+| Total Amount to Invest       |  $5000 |
+| Current Stock Price             |    $165 |
+| Number of shares bought   |       30 |
+| New Price after a month      |    $181.50 |
+| Profit                                        |     (181.5 - 165) * 30 = $495 |
+| ROI                                            |  $495/$4,950 = ~10% |
+
 Same example with Options
-Consider a trader who paid $5.50 per share, or $550 per contract, to purchase a call option on the stock with a strike price of $165 that expires in about a month. The trader can purchase nine options for $4,950 using their allotted investment budget. The trader is actually executing a deal on 900 shares because the option contract controls 100 shares. The option is said to be expire “In the money (ITM)” and be worth of $16.50 for each share (for a $181.50 to $165 strike), or $14,850 for 900 shares, if the stock price rises 10% to $181.50 at expiration. When compared to trading the underlying asset directly, this represents a far higher return of $9,990 in net dollars, or 200%, on the capital invested.
+Consider a trader who paid $5.50 per share, or $550 per contract, to purchase a call option on the stock with a strike price of $165 that expires in about a month. The trader can purchase nine options for $4,950 using their allotted investment budget. The trader is actually executing a deal on 900 shares because the option contract controls 100 shares. The option is said to be expire “In the money (ITM)” and be worth of $16.50 for each share (for a $181.50 to $165 strike), or $14,850 for 900 shares, if the stock price rises 10% to $181.50 at expiration. When compared to trading the underlying asset directly, this represents a far higher return of $9,850 in net dollars, or 200%, on the capital invested.
+
+**Using Options**
+|   |   |
+|---|---|
+| Total Amount to Invest       |  $5000 |
+| Current Stock Price             |    $165 |
+| Price per stock   |       $5.5 |
+| Number of shares in one contract   |       100 |
+| Number of contracts bought   |       9 (9 * 100 shares equivalent)|
+| New Price after a month      |    $181.50 |
+| Profit                                        |     (181.5 - 165) * 900 = $14850 |
+| ROI                                            |  $9850/$5000 = ~200% |
+
+
 
 ### Risk/ Reward Analysis
 In the view of a long call or call buying the trader has his/her losses limited only to the premium paid to the call seller. Whereas considering the profits , which can be unlimited because the underlying asset can rise upto any extent.      
@@ -209,9 +233,9 @@ In the view of a long call or call buying the trader has his/her losses limited 
 
 
 ---
-## Trading Options- Put Options
+## Put Option
 
-### Buying Puts
+### Put Option
 A put option gives the buyer the right to sell an underlying asset at a set price. This strategy is adopted by a trader who is bearish in nature and want to take less risk compared to short-selling.
 
 Consider the scenario where you believe that a stock's price will drop from $60 to $50 or lower as a result of poor earnings, but you don't want to take the chance of selling the stock short in case you are mistaken. Instead, you can pay a $2.00 premium to purchase the $50 put. The maximum you will lose is the $2.00 premium if the price does not drop below $50 instead climbs instead.
@@ -277,14 +301,25 @@ A long put's potential loss is capped at the premium for the options because the
 
 
 ---
-## Trading Options- Seller Side
+## Trading Option Contracts
 
+Options contracts can be bought at any stock exchange. After the initial purchase, they can be traded like any other stock. The value of the contract will change based on market conditions and time.
+
+## Selling Options Contract
 ### Call Seller
 A call seller is a person who executes the selling of a call option. This seller gets the premium paid by the call buyer during the betting on the contract. Call Seller receives this premium which is a fraction of the total lot size of the contract known as the token amount. The view of a call seller towards the market is not bullish i.e. they predict that the market stay stagnant or go bearish which means falls down the current level. For a call seller the profits are limited to the premium amount they received whereas the losses they might suffer are unlimited if the market rises above the exercise price. Moreover, they are obligated to sell the derivative in case the call buyer is willing to execute the option.
 
 ### Put Seller
 A put seller is an individual who executes the buying of a put option. This seller , similar to previous , gets the premium by the put buyer during the betting of the contract. The view of a put seller towards the market is not bearish i.e. he/she wants that the market stays stagnant or go bullish which means rises above the current level. For a put seller the profits are limited to the premium amount they received from put buyer and the losses can maximise as the market prices soar above the exercise price. A put seller is obligated to buy when the put buyer wants to sell the derivative.
+ 
+## Buy Options Contracts   
+###  Call Buyer
+A call buyer is a person who executes the buying of a call option. This buyer has to pay the premium during the buying of a call contract.The motive behind buying a call option is that the buyer is bullish in nature i.e. he/she predicts that the market will rise in the upcoming time and his portfolio will gain profits. For a call buyer the profits are unlimited if the market keeps on rising above the exercise price whereas the losses only include the premium amount he paid to the call seller. A call buyer has the right to execute the buying but he/she is not obligated to do so.
+
+### Put Buyer
+A put buyer is the one who buys a put option to have the right to sell. This buyer pays a premium to the put seller during the buying of the contract. He/She buys a put option due to the bearish behaviour i.e. he/she predicts that the market will fall in the upcoming times. For a put buyer the profits are unlimited because the rates may fall more than the exercise price but on the other hand the losses are limited to the premium he/she paid to the put seller for placing the contract. A put buyer has the right to sell the option but he/she is not obligated to do so.
     
+
 
 
     
@@ -313,20 +348,6 @@ A put seller is an individual who executes the buying of a put option. This sell
 - [ ]  Pays the premium
 - [x]  Receives the premium
 - [ ]  No premium transaction takes place
-
-    
-
-
----
-## Trading Options- Buyer Side
-
-### Call Buyer
-A call buyer is a person who executes the buying of a call option. This buyer has to pay the premium during the buying of a call contract.The motive behind buying a call option is that the buyer is bullish in nature i.e. he/she predicts that the market will rise in the upcoming time and his portfolio will gain profits. For a call buyer the profits are unlimited if the market keeps on rising above the exercise price whereas the losses only include the premium amount he paid to the call seller. A call buyer has the right to execute the buying but he/she is not obligated to do so.
-
-### Put Buyer
-A put buyer is the one who buys a put option to have the right to sell. This buyer pays a premium to the put seller during the buying of the contract. He/She buys a put option due to the bearish behaviour i.e. he/she predicts that the market wil fall in the upcoming times. For a put buyer the profits are unlimited because the rates may fall more than the exercise price but on the other hand the losses are limited to the premium he/she paid to the put seller for placing the contract. A put buyer has the right to sell the option but he/she is not obligated to do so.
-    
-
 
     
 
@@ -368,8 +389,6 @@ A put buyer is the one who buys a put option to have the right to sell. This buy
 | Label | Type | Required |
 | ----------- | ----------- | ---- |
 | You Name        | PublicShortInput   |  true    |
-
-
 
 
     

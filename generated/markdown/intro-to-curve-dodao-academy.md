@@ -45,7 +45,7 @@ Liquidity providers are people who deposit tokens in liquidity pools. Liquidity 
 
 - [ ]  Through bribes
 - [x]  By creating pools of similarly behaving assets
-- [ ]  By Automated Market Maker (AMM)
+- [ ]  By using gauges for its pools
 - [ ]  By creating tripool
 
 
@@ -96,21 +96,10 @@ Half of all trading fees go straight to the pockets of veCRV holders. This was s
 
 ##### Advantages of owning veCRV:  
 
-- [ ]  To earn new tokens for veCRV votes in bribing
+- [ ]  To earn upto 2.5x boosted rewards
 - [ ]  To get voting power in gauge weight
 - [ ]  Participate in Curve DAO governance
 - [x]  All of the above
-
-
-
-
-
-##### What rewards does curve finance offers to liquidity provider?  
-
-- [x]  They get more governance power over other
-- [ ]  They get 0.1 USDC for every dollar locked
-- [x]  Earn a boost of up to 2.5 times 
-- [x]  They earn a cut of trading fees
 
     
 
@@ -155,7 +144,7 @@ In August 2021, Andre Cronje, the founder of Yearn Finance, released a tool for 
 - [x]  Current Inflation rate
 - [ ]  Randomly
 - [x]  Gauge weight
-- [x]  veCRV votes
+- [ ]  ETH amount
 
 
 
@@ -196,8 +185,8 @@ Convex Finance is a protocol built on top of Curve Finance in order to make yiel
 
 ##### Pain points in curve finance:  
 
-- [x]  Complicated steps involved,which makes staking difficult for new user
-- [x]  Gauge votes are influenced by bribes
+- [x]  Complicated steps involved, which makes staking difficult for new user
+- [ ]  Gas fees are 20 times higher as compared to other AMMs
 - [ ]  Uncontrollable slippage
 - [x]  veCRV tokens don't remain liquid as they are locked for a time period
 
@@ -208,7 +197,7 @@ Convex Finance is a protocol built on top of Curve Finance in order to make yiel
 ##### Advantage of investing in convex finance over curve finance  
 
 - [x]  Extra benefits for staking  LP tokens
-- [x]  No complicated steps involved, that makes staking easier
+- [x]  No complicated steps involved and that makes staking easier
 - [x]  Automatically get boosted rewards
 - [x]  Keep your locked CRV tokens unlocked through the cvxCRV tokens
 

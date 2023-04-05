@@ -23,6 +23,9 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
  | 14      | Bridges - Deep Dive | Explains everything about bridges |  [Link](generated/markdown/bridges-deep-dive-dodao-academy.md) |
  | 15      | Central Bank Digital Currency | What is CBDC and how does it compare with fiat & cryptocurrency |  [Link](generated/markdown/central-bank-digital-currency-dodao-academy.md) |
  | 16      | Crypto Security | New Guide |  [Link](generated/markdown/crypto-security-dodao-academy.md) |
+ | 17      | Bearish - Short vs Put | Short selling & Put options are bearish ways of speculation |  [Link](generated/markdown/bearish-short-vs-put-dodao-academy.md) |
+ | 18      | Concentrated Liquidity | New Guide |  [Link](generated/markdown/concentrated-liquidity-dodao-academy.md) |
+ | 19      | Composable Guides Repo | What are Composable Stable Pool and why do we need them? |  [Link](generated/markdown/composable-stable-pools-dodao-academy.md) |
 
 ---
 ## Footer

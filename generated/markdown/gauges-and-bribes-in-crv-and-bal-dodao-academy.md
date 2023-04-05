@@ -12,10 +12,11 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
 
 # References
 veBAL — How to Increase your Benefits
- - https://medium.com/balancer-protocol/vebal-how-to-increase-your-benefits-b51daf6458a8
+- https://medium.com/balancer-protocol/vebal-how-to-increase-your-benefits-b51daf6458a8
 
 veBAL Pt.2 — Bribing and BIP19’s Free Bribes
- - https://medium.com/balancer-protocol/vebal-pt-2-bribing-and-bip19s-free-bribes-b2f8334eba14        
+- https://medium.com/balancer-protocol/vebal-pt-2-bribing-and-bip19s-free-bribes-b2f8334eba14
+- https://medium.com/balancer-protocol/vebal-how-to-increase-your-benefits-b51daf6458a8 
 
     
 
